@@ -8,7 +8,9 @@ import { LinkContainer } from 'react-router-bootstrap';
 import RightNav from './RightNav'
 import ScrollButton from './ScrollButton'
 import Topics from '../page/Topics'
-import SiginIn from '../page/SiginIn'
+import SignIn from '../page/SignIn'
+import Signup from '../page/Signup'
+import TopicEdit from '../page/TopicEdit'
 
 export default class App extends React.Component {
 
@@ -76,6 +78,7 @@ export default class App extends React.Component {
                         <LinkContainer to="/siginin">
                             <NavItem eventKey={3.0}>注册</NavItem>
                         </LinkContainer>
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
@@ -83,11 +86,13 @@ export default class App extends React.Component {
             <Row className="show-grid">
                 <Col sm={9} md={9}>
                     <div style={{background:'red'}} style={{marginTop:20}}>
-                        <Route exact path="/" component={SiginIn}/>
+                        <Route exact path="/" component={TopicEdit}/>
                         <Route path="/home" component={Home}/>
                         <Route path="/about" component={About}/>
                         <Route path="/topics" component={Topics}/>
-                        <Route path="/siginin" component={SiginIn}/>
+                        <Route path="/siginin" component={SignIn}/>
+                        <Route path="/topicedit" component={TopicEdit}/>
+
                     </div>
                 </Col>
                 <Col sm={3} md={3}>

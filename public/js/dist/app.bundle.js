@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 228);
+/******/ 	return __webpack_require__(__webpack_require__.s = 231);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -287,7 +287,7 @@ exports.default = function (instance, Constructor) {
 
 exports.__esModule = true;
 
-var _typeof2 = __webpack_require__(121);
+var _typeof2 = __webpack_require__(124);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -318,7 +318,7 @@ var _create = __webpack_require__(400);
 
 var _create2 = _interopRequireDefault(_create);
 
-var _typeof2 = __webpack_require__(121);
+var _typeof2 = __webpack_require__(124);
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -368,11 +368,11 @@ if (process.env.NODE_ENV !== 'production') {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(145)(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(148)(isValidElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(328)();
+  module.exports = __webpack_require__(331)();
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
@@ -386,7 +386,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 exports.__esModule = true;
 
-var _assign = __webpack_require__(181);
+var _assign = __webpack_require__(184);
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -497,7 +497,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (immutable) */ __webpack_exports__["splitBsPropsAndOmit"] = splitBsPropsAndOmit;
 /* harmony export (immutable) */ __webpack_exports__["addStyle"] = addStyle;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_curry", function() { return _curry; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_entries__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_entries__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_entries___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_entries__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
@@ -963,7 +963,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _createChainableTypeChecker = __webpack_require__(128);
+var _createChainableTypeChecker = __webpack_require__(131);
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
@@ -1104,7 +1104,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 var _prodInvariant = __webpack_require__(12);
 
 var DOMProperty = __webpack_require__(32);
-var ReactDOMComponentFlags = __webpack_require__(147);
+var ReactDOMComponentFlags = __webpack_require__(150);
 
 var invariant = __webpack_require__(10);
 
@@ -1478,7 +1478,7 @@ module.exports = invariant;
 "use strict";
 
 
-module.exports = __webpack_require__(242);
+module.exports = __webpack_require__(245);
 
 
 /***/ }),
@@ -2124,7 +2124,7 @@ module.exports = emptyFunction;
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactDebugTool = __webpack_require__(252);
+  var ReactDebugTool = __webpack_require__(255);
   debugTool = ReactDebugTool;
 }
 
@@ -2185,11 +2185,11 @@ module.exports = ReactCurrentOwner;
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(15);
 
-var CallbackQueue = __webpack_require__(151);
+var CallbackQueue = __webpack_require__(154);
 var PooledClass = __webpack_require__(37);
-var ReactFeatureFlags = __webpack_require__(152);
+var ReactFeatureFlags = __webpack_require__(155);
 var ReactReconciler = __webpack_require__(43);
-var Transaction = __webpack_require__(69);
+var Transaction = __webpack_require__(73);
 
 var invariant = __webpack_require__(10);
 
@@ -2434,8 +2434,8 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 /* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var store = __webpack_require__(117)('wks');
-var uid = __webpack_require__(75);
+var store = __webpack_require__(120)('wks');
+var uid = __webpack_require__(79);
 var Symbol = __webpack_require__(34).Symbol;
 var USE_SYMBOL = typeof Symbol == 'function';
 
@@ -3076,8 +3076,8 @@ module.exports = DOMProperty;
 
 var global = __webpack_require__(34);
 var core = __webpack_require__(28);
-var ctx = __webpack_require__(111);
-var hide = __webpack_require__(45);
+var ctx = __webpack_require__(114);
+var hide = __webpack_require__(46);
 var PROTOTYPE = 'prototype';
 
 var $export = function (type, name, source) {
@@ -3184,10 +3184,10 @@ var _assign = __webpack_require__(15);
 var ReactCurrentOwner = __webpack_require__(26);
 
 var warning = __webpack_require__(11);
-var canDefineProperty = __webpack_require__(66);
+var canDefineProperty = __webpack_require__(70);
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
-var REACT_ELEMENT_TYPE = __webpack_require__(141);
+var REACT_ELEMENT_TYPE = __webpack_require__(144);
 
 var RESERVED_PROPS = {
   key: true,
@@ -3631,12 +3631,12 @@ module.exports = PooledClass;
 /* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var anObject = __webpack_require__(46);
-var IE8_DOM_DEFINE = __webpack_require__(182);
-var toPrimitive = __webpack_require__(112);
+var anObject = __webpack_require__(47);
+var IE8_DOM_DEFINE = __webpack_require__(185);
+var toPrimitive = __webpack_require__(115);
 var dP = Object.defineProperty;
 
-exports.f = __webpack_require__(47) ? Object.defineProperty : function defineProperty(O, P, Attributes) {
+exports.f = __webpack_require__(48) ? Object.defineProperty : function defineProperty(O, P, Attributes) {
   anObject(O);
   P = toPrimitive(P, true);
   anObject(Attributes);
@@ -3664,8 +3664,8 @@ module.exports = function (it, key) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
-var IObject = __webpack_require__(185);
-var defined = __webpack_require__(114);
+var IObject = __webpack_require__(188);
+var defined = __webpack_require__(117);
 module.exports = function (it) {
   return IObject(defined(it));
 };
@@ -3690,24 +3690,24 @@ module.exports = function (it) {
 
 var _assign = __webpack_require__(15);
 
-var ReactBaseClasses = __webpack_require__(139);
-var ReactChildren = __webpack_require__(229);
-var ReactDOMFactories = __webpack_require__(233);
+var ReactBaseClasses = __webpack_require__(142);
+var ReactChildren = __webpack_require__(232);
+var ReactDOMFactories = __webpack_require__(236);
 var ReactElement = __webpack_require__(36);
-var ReactPropTypes = __webpack_require__(237);
-var ReactVersion = __webpack_require__(239);
+var ReactPropTypes = __webpack_require__(240);
+var ReactVersion = __webpack_require__(242);
 
-var createReactClass = __webpack_require__(240);
-var onlyChild = __webpack_require__(241);
+var createReactClass = __webpack_require__(243);
+var onlyChild = __webpack_require__(244);
 
 var createElement = ReactElement.createElement;
 var createFactory = ReactElement.createFactory;
 var cloneElement = ReactElement.cloneElement;
 
 if (process.env.NODE_ENV !== 'production') {
-  var lowPriorityWarning = __webpack_require__(84);
-  var canDefineProperty = __webpack_require__(66);
-  var ReactElementValidator = __webpack_require__(143);
+  var lowPriorityWarning = __webpack_require__(88);
+  var canDefineProperty = __webpack_require__(70);
+  var ReactElementValidator = __webpack_require__(146);
   var didWarnPropTypesDeprecated = false;
   createElement = ReactElementValidator.createElement;
   createFactory = ReactElementValidator.createFactory;
@@ -3870,7 +3870,7 @@ module.exports = reactProdInvariant;
 
 
 
-var ReactRef = __webpack_require__(250);
+var ReactRef = __webpack_require__(253);
 var ReactInstrumentation = __webpack_require__(25);
 
 var warning = __webpack_require__(11);
@@ -4042,11 +4042,11 @@ module.exports = ReactReconciler;
 
 
 
-var DOMNamespaces = __webpack_require__(92);
-var setInnerHTML = __webpack_require__(71);
+var DOMNamespaces = __webpack_require__(96);
+var setInnerHTML = __webpack_require__(75);
 
-var createMicrosoftUnsafeLocalFunction = __webpack_require__(93);
-var setTextContent = __webpack_require__(156);
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(97);
+var setTextContent = __webpack_require__(159);
 
 var ELEMENT_NODE_TYPE = 1;
 var DOCUMENT_FRAGMENT_NODE_TYPE = 11;
@@ -4150,11 +4150,70 @@ module.exports = DOMLazyTree;
 
 /***/ }),
 /* 45 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(330);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(333);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(178);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(335);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(338);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(341);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(343);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(179);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(108);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(349);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(351);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(353);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(354);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP = __webpack_require__(38);
-var createDesc = __webpack_require__(59);
-module.exports = __webpack_require__(47) ? function (object, key, value) {
+var createDesc = __webpack_require__(63);
+module.exports = __webpack_require__(48) ? function (object, key, value) {
   return dP.f(object, key, createDesc(1, value));
 } : function (object, key, value) {
   object[key] = value;
@@ -4163,10 +4222,10 @@ module.exports = __webpack_require__(47) ? function (object, key, value) {
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(57);
+var isObject = __webpack_require__(61);
 module.exports = function (it) {
   if (!isObject(it)) throw TypeError(it + ' is not an object!');
   return it;
@@ -4174,23 +4233,23 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Thank's IE8 for his funny defineProperty
-module.exports = !__webpack_require__(58)(function () {
+module.exports = !__webpack_require__(62)(function () {
   return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
 });
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(406), __esModule: true };
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4206,7 +4265,7 @@ function ownerDocument(node) {
 module.exports = exports["default"];
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4246,7 +4305,7 @@ function fallback(context, node) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4262,11 +4321,11 @@ module.exports = exports['default'];
 
 
 
-var EventPluginHub = __webpack_require__(52);
-var EventPluginUtils = __webpack_require__(86);
+var EventPluginHub = __webpack_require__(53);
+var EventPluginUtils = __webpack_require__(90);
 
-var accumulateInto = __webpack_require__(148);
-var forEachAccumulated = __webpack_require__(149);
+var accumulateInto = __webpack_require__(151);
+var forEachAccumulated = __webpack_require__(152);
 var warning = __webpack_require__(11);
 
 var getListener = EventPluginHub.getListener;
@@ -4386,7 +4445,7 @@ module.exports = EventPropagators;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4404,12 +4463,12 @@ module.exports = EventPropagators;
 
 var _prodInvariant = __webpack_require__(12);
 
-var EventPluginRegistry = __webpack_require__(68);
-var EventPluginUtils = __webpack_require__(86);
-var ReactErrorUtils = __webpack_require__(87);
+var EventPluginRegistry = __webpack_require__(72);
+var EventPluginUtils = __webpack_require__(90);
+var ReactErrorUtils = __webpack_require__(91);
 
-var accumulateInto = __webpack_require__(148);
-var forEachAccumulated = __webpack_require__(149);
+var accumulateInto = __webpack_require__(151);
+var forEachAccumulated = __webpack_require__(152);
 var invariant = __webpack_require__(10);
 
 /**
@@ -4666,7 +4725,7 @@ module.exports = EventPluginHub;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4684,7 +4743,7 @@ module.exports = EventPluginHub;
 
 var SyntheticEvent = __webpack_require__(31);
 
-var getEventTarget = __webpack_require__(88);
+var getEventTarget = __webpack_require__(92);
 
 /**
  * @interface UIEvent
@@ -4730,7 +4789,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 module.exports = SyntheticUIEvent;
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4781,7 +4840,7 @@ var ReactInstanceMap = {
 module.exports = ReactInstanceMap;
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4848,7 +4907,7 @@ var createPath = exports.createPath = function createPath(location) {
 };
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4919,7 +4978,761 @@ var createPath = function createPath(location) {
 };
 
 /***/ }),
-/* 57 */
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/*
+ * Copyright (c) 2014, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * TodoStore
+ */
+
+var AppDispatcher = __webpack_require__(182);
+var EventEmitter = __webpack_require__(365).EventEmitter;
+var UserConstants = __webpack_require__(183);
+var assign = __webpack_require__(15);
+
+var CHANGE_EVENT = 'change';
+var NOTIFY_EVENT = 'notify';
+var LOGIN_EVENT = 'login';
+var CONFIG_EVENT = 'config';
+
+var _User = {
+  isLogin: localStorage.isLogin,
+  isRem: localStorage.isRem == undefined ? true : localStorage.isRem,
+  name: localStorage.name,
+  role: localStorage.role,
+  tkacc: localStorage.tkacc,
+  tkpid: localStorage.tkpid
+};
+
+var _notify = {
+  level: 'info',
+  msg: 'default'
+};
+
+var _UsrConfig = {};
+
+/**
+ * Update a TODO item.
+ * @param {object} updates An object literal containing only the data to be
+ *     updated.
+ */
+function updateLogin(updates) {
+  _User = assign({}, _User, updates);
+}
+
+function updateNotify(updates) {
+  _notify = assign({}, _notify, updates);
+}
+
+function logout(msg) {
+  localStorage.isLogin = false;
+  localStorage.isRem = false;
+  localStorage.name = null;
+  localStorage.role = null;
+  localStorage.tkacc = null;
+  localStorage.tkpid = null;
+  updateLogin({
+    isLogin: false,
+    isRem: false,
+    name: null,
+    tkacc: null,
+    tkpid: null
+  });
+  updateNotify({
+    msg: msg
+  });
+}
+
+function updateConfig(updates) {
+  _UsrConfig = assign({}, _UsrConfig, updates);
+}
+
+var UserStore = assign({}, EventEmitter.prototype, {
+
+  /**
+   * Get the entire collection of TODOs.
+   * @return {object}
+   */
+  isLogin: function isLogin() {
+    return _User.isLogin;
+  },
+
+  isRem: function isRem() {
+    return _User.isRem;
+  },
+
+  getTkAcc: function getTkAcc() {
+    return _User.tkacc;
+  },
+
+  getTkPid: function getTkPid() {
+    return _User.tkpid;
+  },
+
+  getUser: function getUser() {
+    return _User;
+  },
+
+  getMsg: function getMsg() {
+    return _notify;
+  },
+
+  getConfig: function getConfig() {
+    return _UsrConfig;
+  },
+
+  /**
+   * change
+   */
+  emitChange: function emitChange() {
+    this.emit(CHANGE_EVENT);
+  },
+
+  addChangeListener: function addChangeListener(callback) {
+    this.on(CHANGE_EVENT, callback);
+  },
+
+  removeChangeListener: function removeChangeListener(callback) {
+    this.removeListener(CHANGE_EVENT, callback);
+  },
+
+  /**
+   * notify
+   */
+  emitNotify: function emitNotify() {
+    this.emit(NOTIFY_EVENT);
+  },
+  addNotifyListener: function addNotifyListener(callback) {
+    this.on(NOTIFY_EVENT, callback);
+  },
+
+  removeNotifyListener: function removeNotifyListener(callback) {
+    this.removeListener(NOTIFY_EVENT, callback);
+  },
+
+  /**
+   * login
+   */
+  emitLogin: function emitLogin() {
+    this.emit(LOGIN_EVENT);
+  },
+
+  addLoginListener: function addLoginListener(callback) {
+    this.on(LOGIN_EVENT, callback);
+  },
+
+  removeLoginListener: function removeLoginListener(callback) {
+    this.removeListener(LOGIN_EVENT, callback);
+  },
+
+  /**
+   * config
+   */
+  emitConfig: function emitConfig() {
+    this.emit(CONFIG_EVENT);
+  },
+  addConfigListener: function addConfigListener(callback) {
+    this.on(CONFIG_EVENT, callback);
+  },
+  removeConfigListener: function removeConfigListener(callback) {
+    // this.removeListener(CONFIG_EVENT, callback);
+    this.removeAllListeners(CONFIG_EVENT);
+  }
+
+});
+
+// Register callback to handle all updates
+AppDispatcher.register(function (action) {
+  switch (action.actionType) {
+    case UserConstants.LOGIN_VERIFY:
+      updateLogin({
+        isLogin: true
+      });
+      UserStore.emitChange();
+      break;
+    case UserConstants.LOGIN_VERIFY:
+      updateLogin({
+        isLogin: true
+      });
+      UserStore.emitChange();
+      break;
+    case UserConstants.NOTIFY:
+      updateNotify({
+        'msg': action.msg
+      });
+      UserStore.emitNotify();
+      break;
+    case UserConstants.LOGIN_IN:
+      var isRem = true; //action.isRem;
+      localStorage.isLogin = action.isSus;
+      if (action.isSus) {
+        localStorage.isRem = isRem;
+        localStorage.name = action.name;
+        localStorage.role = action.role;
+        localStorage.tkacc = action.tkacc;
+        localStorage.tkpid = action.tkpid;
+        updateLogin({
+          isLogin: action.isSus,
+          name: action.name,
+          role: action.role,
+          tkacc: action.tkacc,
+          tkpid: action.tkpid
+        });
+        UserStore.emitChange();
+        UserStore.emitLogin();
+      } else {
+        updateNotify({
+          isLogin: action.isSus,
+          msg: action.errmsg
+        });
+        UserStore.emitLogin();
+        UserStore.emitNotify();
+      }
+      break;
+    case UserConstants.LOGIN_OUT:
+      logout('登出成功');
+      UserStore.emitChange();
+      UserStore.emitNotify();
+      break;
+    case UserConstants.LOGIN_INVAILD:
+      logout('请重新登陆');
+      UserStore.emitChange();
+      UserStore.emitNotify();
+      break;
+
+    case UserConstants.CONFIG_CHANGE:
+      var config = action.config;
+      updateConfig(config);
+      UserStore.emitConfig();
+      break;
+
+    default:
+    // no op
+  }
+});
+
+module.exports = UserStore;
+
+/***/ }),
+/* 59 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _AppDispatcher = __webpack_require__(182);
+
+var _AppDispatcher2 = _interopRequireDefault(_AppDispatcher);
+
+var _UserConstants = __webpack_require__(183);
+
+var _UserConstants2 = _interopRequireDefault(_UserConstants);
+
+var _jquery = __webpack_require__(367);
+
+var _jquery2 = _interopRequireDefault(_jquery);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// var  host='http://127.0.0.1:8080'
+var host = 'http://tk1.owngiftc.com'; /*
+                                       * Copyright (c) 2014-2015, Facebook, Inc.
+                                       * All rights reserved.
+                                       *
+                                       * This source code is licensed under the BSD-style license found in the
+                                       * LICENSE file in the root directory of this source tree. An additional grant
+                                       * of patent rights can be found in the PATENTS file in the same directory.
+                                       *
+                                       * TodoActions
+                                       */
+
+var UserActions = {
+
+  notify: function notify(msg) {
+    _AppDispatcher2.default.dispatch({
+      actionType: _UserConstants2.default.NOTIFY,
+      msg: msg
+    });
+  },
+
+  isVerify: function isVerify() {
+    this.ajaxPost("/tkacc/verify", null, function (itemData, status, xhr) {
+      _AppDispatcher2.default.dispatch({
+        actionType: _UserConstants2.default.LOGIN_VERIFY,
+        isSus: true
+      });
+    });
+  },
+
+  logout: function logout() {
+    this.ajaxPost("/user/logout", null);
+    _AppDispatcher2.default.dispatch({
+      actionType: _UserConstants2.default.LOGIN_OUT,
+      isSus: true
+    });
+  },
+
+  loginInvaild: function loginInvaild() {
+    _AppDispatcher2.default.dispatch({
+      actionType: _UserConstants2.default.LOGIN_INVAILD
+    });
+  },
+
+  changePwd: function changePwd(prepwd, curpwd) {
+    if (prepwd && curpwd) {
+      this.ajaxPost("/user/changepwd", JSON.stringify({ pre: prepwd, cur: curpwd }), function (itemData, status, xhr) {
+        if (itemData['result'] == 0) {
+          this.notify('修改密码成功, 请重新登陆');
+          _AppDispatcher2.default.dispatch({
+            actionType: _UserConstants2.default.LOGIN_OUT,
+            isSus: true
+          });
+        } else {
+          this.notify('修改密码失败 错误' + itemData['message']);
+        }
+      }.bind(this), function (xhr, status, err) {
+        this.notify('修改密码失败 错误' + err.message);
+      }.bind(this));
+    } else {
+      this.notify('参数不正确');
+    }
+  },
+
+  ajaxPost: function ajaxPost(url, data, funcSus, funcError) {
+    return _jquery2.default.ajax({
+      type: "POST",
+      url: url,
+      data: data,
+      contentType: "application/json; charset=utf-8",
+      dataType: "json",
+      success: function (itemData, status, xhr) {
+        if (itemData.error) {
+          if (funcError) funcError(xhr, status, itemData.error);
+        } else {
+          if (funcSus) funcSus(itemData.result, status, xhr);
+        }
+      }.bind(this),
+      error: function (xhr, status, err) {
+        if (xhr.status == 401) {
+          this.loginInvaild();
+        } else {
+          this.notify('Error status =' + status);
+          if (funcError) {
+            funcError(xhr, status, err);
+          }
+        }
+      }.bind(this)
+    });
+  },
+
+  ajaxGet: function ajaxGet(url, funcSus, funcError) {
+    return _jquery2.default.ajax({
+      type: "GET",
+      url: url,
+      contentType: "application/json; charset=utf-8",
+      dataType: "json",
+      success: function (itemData, status, xhr) {
+        if (itemData['result'] == 0) {
+          if (funcSus) funcSus(itemData, status, xhr);
+        } else {
+          if (funcError) funcError(xhr, status, itemData['message']);
+        }
+      }.bind(this),
+      error: function (xhr, status, err) {
+        if (xhr.status == 401) {
+          this.loginInvaild();
+        } else {
+          if (funcError) {
+            funcError(xhr, status, err);
+          } else {
+            // this.notify('Error Message='+err.message);
+          }
+        }
+      }.bind(this)
+    });
+  },
+
+  ajaxGetOri: function ajaxGetOri(url, funcSus, funcError) {
+    return _jquery2.default.ajax({
+      type: "GET",
+      url: url,
+      contentType: "application/json; charset=utf-8",
+      dataType: "json",
+      success: function (itemData, status, xhr) {
+        funcSus(itemData, status, xhr);
+      }.bind(this),
+      error: function (xhr, status, err) {
+        if (funcError) {
+          funcError(xhr, status, err);
+        } else {
+          // this.notify('Error Message='+err.message);
+        }
+      }.bind(this)
+    });
+  },
+
+  jsoupPost: function jsoupPost(url, data, funcSus, funcError) {
+    return _jquery2.default.ajax({
+      url: host + url,
+      type: 'POST',
+      dataType: 'json',
+      crossDomain: true,
+      data: data,
+      success: function (itemData, status, xhr) {
+        funcSus(itemData, status, xhr);
+      }.bind(this),
+      error: function (xhr, status, err) {
+        if (funcError) {
+          funcError(xhr, status, err);
+        } else {
+          // this.notify('Error Message='+err.message);
+        }
+      }.bind(this)
+    });
+  },
+  jsoupGet: function jsoupGet(url, funcSus, funcError) {
+    return _jquery2.default.ajax({
+      url: host + url,
+      type: 'GET',
+      dataType: 'json',
+      crossDomain: true,
+      success: function (itemData, status, xhr) {
+        funcSus(itemData, status, xhr);
+      }.bind(this),
+      error: function (xhr, status, err) {
+        if (funcError) {
+          funcError(xhr, status, err);
+        } else {
+          // this.notify('Error Message='+err.message);
+        }
+      }.bind(this)
+    });
+  },
+
+  queryConfig: function queryConfig() {
+    this.ajaxGet("/userconfig/getConfig", function (itemData, status, xhr) {
+      _AppDispatcher2.default.dispatch({
+        actionType: _UserConstants2.default.CONFIG_CHANGE,
+        config: itemData['data']
+      });
+    }.bind(this));
+  },
+  updateConfig: function updateConfig(template) {
+    this.ajaxPost("/userconfig/updateConfig", JSON.stringify({ template: template }), function (itemData, status, xhr) {
+      this.notify("更新成功");
+      _AppDispatcher2.default.dispatch({
+        actionType: _UserConstants2.default.CONFIG_CHANGE,
+        config: itemData['data']
+      });
+    }.bind(this));
+  }
+};
+
+module.exports = UserActions;
+
+/***/ }),
+/* 60 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Accordion__ = __webpack_require__(368);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Accordion", function() { return __WEBPACK_IMPORTED_MODULE_0__Accordion__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Alert__ = __webpack_require__(405);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Alert", function() { return __WEBPACK_IMPORTED_MODULE_1__Alert__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Badge__ = __webpack_require__(408);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Badge", function() { return __WEBPACK_IMPORTED_MODULE_2__Badge__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Breadcrumb__ = __webpack_require__(409);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Breadcrumb", function() { return __WEBPACK_IMPORTED_MODULE_3__Breadcrumb__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BreadcrumbItem__ = __webpack_require__(198);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BreadcrumbItem", function() { return __WEBPACK_IMPORTED_MODULE_4__BreadcrumbItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Button__ = __webpack_require__(67);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return __WEBPACK_IMPORTED_MODULE_5__Button__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ButtonGroup__ = __webpack_require__(132);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonGroup", function() { return __WEBPACK_IMPORTED_MODULE_6__ButtonGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ButtonToolbar__ = __webpack_require__(410);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonToolbar", function() { return __WEBPACK_IMPORTED_MODULE_7__ButtonToolbar__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Carousel__ = __webpack_require__(411);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Carousel", function() { return __WEBPACK_IMPORTED_MODULE_8__Carousel__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CarouselItem__ = __webpack_require__(199);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CarouselItem", function() { return __WEBPACK_IMPORTED_MODULE_9__CarouselItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Checkbox__ = __webpack_require__(414);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Checkbox", function() { return __WEBPACK_IMPORTED_MODULE_10__Checkbox__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Clearfix__ = __webpack_require__(415);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Clearfix", function() { return __WEBPACK_IMPORTED_MODULE_11__Clearfix__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__CloseButton__ = __webpack_require__(130);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CloseButton", function() { return __WEBPACK_IMPORTED_MODULE_12__CloseButton__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ControlLabel__ = __webpack_require__(416);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ControlLabel", function() { return __WEBPACK_IMPORTED_MODULE_13__ControlLabel__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__Col__ = __webpack_require__(417);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Col", function() { return __WEBPACK_IMPORTED_MODULE_14__Col__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Collapse__ = __webpack_require__(134);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Collapse", function() { return __WEBPACK_IMPORTED_MODULE_15__Collapse__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__Dropdown__ = __webpack_require__(83);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Dropdown", function() { return __WEBPACK_IMPORTED_MODULE_16__Dropdown__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__DropdownButton__ = __webpack_require__(437);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "DropdownButton", function() { return __WEBPACK_IMPORTED_MODULE_17__DropdownButton__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__Fade__ = __webpack_require__(86);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Fade", function() { return __WEBPACK_IMPORTED_MODULE_18__Fade__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__Form__ = __webpack_require__(438);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Form", function() { return __WEBPACK_IMPORTED_MODULE_19__Form__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__FormControl__ = __webpack_require__(439);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FormControl", function() { return __WEBPACK_IMPORTED_MODULE_20__FormControl__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__FormGroup__ = __webpack_require__(442);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FormGroup", function() { return __WEBPACK_IMPORTED_MODULE_21__FormGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__Glyphicon__ = __webpack_require__(133);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Glyphicon", function() { return __WEBPACK_IMPORTED_MODULE_22__Glyphicon__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__Grid__ = __webpack_require__(208);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return __WEBPACK_IMPORTED_MODULE_23__Grid__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__HelpBlock__ = __webpack_require__(443);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HelpBlock", function() { return __WEBPACK_IMPORTED_MODULE_24__HelpBlock__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__Image__ = __webpack_require__(444);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Image", function() { return __WEBPACK_IMPORTED_MODULE_25__Image__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__InputGroup__ = __webpack_require__(445);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "InputGroup", function() { return __WEBPACK_IMPORTED_MODULE_26__InputGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__Jumbotron__ = __webpack_require__(448);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Jumbotron", function() { return __WEBPACK_IMPORTED_MODULE_27__Jumbotron__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__Label__ = __webpack_require__(449);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Label", function() { return __WEBPACK_IMPORTED_MODULE_28__Label__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ListGroup__ = __webpack_require__(450);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ListGroup", function() { return __WEBPACK_IMPORTED_MODULE_29__ListGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ListGroupItem__ = __webpack_require__(209);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ListGroupItem", function() { return __WEBPACK_IMPORTED_MODULE_30__ListGroupItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__Media__ = __webpack_require__(137);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Media", function() { return __WEBPACK_IMPORTED_MODULE_31__Media__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__MenuItem__ = __webpack_require__(457);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MenuItem", function() { return __WEBPACK_IMPORTED_MODULE_32__MenuItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__Modal__ = __webpack_require__(458);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Modal", function() { return __WEBPACK_IMPORTED_MODULE_33__Modal__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ModalBody__ = __webpack_require__(216);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalBody", function() { return __WEBPACK_IMPORTED_MODULE_34__ModalBody__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ModalFooter__ = __webpack_require__(217);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalFooter", function() { return __WEBPACK_IMPORTED_MODULE_35__ModalFooter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__ModalHeader__ = __webpack_require__(218);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalHeader", function() { return __WEBPACK_IMPORTED_MODULE_36__ModalHeader__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__ModalTitle__ = __webpack_require__(219);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalTitle", function() { return __WEBPACK_IMPORTED_MODULE_37__ModalTitle__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__Nav__ = __webpack_require__(220);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Nav", function() { return __WEBPACK_IMPORTED_MODULE_38__Nav__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__Navbar__ = __webpack_require__(471);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Navbar", function() { return __WEBPACK_IMPORTED_MODULE_39__Navbar__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__NavbarBrand__ = __webpack_require__(221);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavbarBrand", function() { return __WEBPACK_IMPORTED_MODULE_40__NavbarBrand__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__NavDropdown__ = __webpack_require__(475);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavDropdown", function() { return __WEBPACK_IMPORTED_MODULE_41__NavDropdown__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__NavItem__ = __webpack_require__(222);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavItem", function() { return __WEBPACK_IMPORTED_MODULE_42__NavItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__Overlay__ = __webpack_require__(223);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Overlay", function() { return __WEBPACK_IMPORTED_MODULE_43__Overlay__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__OverlayTrigger__ = __webpack_require__(482);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "OverlayTrigger", function() { return __WEBPACK_IMPORTED_MODULE_44__OverlayTrigger__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__PageHeader__ = __webpack_require__(483);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PageHeader", function() { return __WEBPACK_IMPORTED_MODULE_45__PageHeader__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__PageItem__ = __webpack_require__(484);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PageItem", function() { return __WEBPACK_IMPORTED_MODULE_46__PageItem__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__Pager__ = __webpack_require__(486);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Pager", function() { return __WEBPACK_IMPORTED_MODULE_47__Pager__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__Pagination__ = __webpack_require__(487);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Pagination", function() { return __WEBPACK_IMPORTED_MODULE_48__Pagination__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__PaginationButton__ = __webpack_require__(227);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PaginationButton", function() { return __WEBPACK_IMPORTED_MODULE_49__PaginationButton__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__Panel__ = __webpack_require__(488);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Panel", function() { return __WEBPACK_IMPORTED_MODULE_50__Panel__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__PanelGroup__ = __webpack_require__(195);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PanelGroup", function() { return __WEBPACK_IMPORTED_MODULE_51__PanelGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__Popover__ = __webpack_require__(489);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Popover", function() { return __WEBPACK_IMPORTED_MODULE_52__Popover__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__ProgressBar__ = __webpack_require__(490);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ProgressBar", function() { return __WEBPACK_IMPORTED_MODULE_53__ProgressBar__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__Radio__ = __webpack_require__(491);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Radio", function() { return __WEBPACK_IMPORTED_MODULE_54__Radio__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__ResponsiveEmbed__ = __webpack_require__(492);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ResponsiveEmbed", function() { return __WEBPACK_IMPORTED_MODULE_55__ResponsiveEmbed__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__Row__ = __webpack_require__(493);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Row", function() { return __WEBPACK_IMPORTED_MODULE_56__Row__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__SafeAnchor__ = __webpack_require__(30);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SafeAnchor", function() { return __WEBPACK_IMPORTED_MODULE_57__SafeAnchor__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__SplitButton__ = __webpack_require__(494);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SplitButton", function() { return __WEBPACK_IMPORTED_MODULE_58__SplitButton__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__Tab__ = __webpack_require__(496);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tab", function() { return __WEBPACK_IMPORTED_MODULE_59__Tab__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__TabContainer__ = __webpack_require__(140);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabContainer", function() { return __WEBPACK_IMPORTED_MODULE_60__TabContainer__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__TabContent__ = __webpack_require__(141);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabContent", function() { return __WEBPACK_IMPORTED_MODULE_61__TabContent__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__Table__ = __webpack_require__(497);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Table", function() { return __WEBPACK_IMPORTED_MODULE_62__Table__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__TabPane__ = __webpack_require__(228);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabPane", function() { return __WEBPACK_IMPORTED_MODULE_63__TabPane__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__Tabs__ = __webpack_require__(498);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tabs", function() { return __WEBPACK_IMPORTED_MODULE_64__Tabs__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__Thumbnail__ = __webpack_require__(499);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Thumbnail", function() { return __WEBPACK_IMPORTED_MODULE_65__Thumbnail__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__ToggleButton__ = __webpack_require__(229);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ToggleButton", function() { return __WEBPACK_IMPORTED_MODULE_66__ToggleButton__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__ToggleButtonGroup__ = __webpack_require__(500);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ToggleButtonGroup", function() { return __WEBPACK_IMPORTED_MODULE_67__ToggleButtonGroup__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__Tooltip__ = __webpack_require__(501);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tooltip", function() { return __WEBPACK_IMPORTED_MODULE_68__Tooltip__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__Well__ = __webpack_require__(502);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Well", function() { return __WEBPACK_IMPORTED_MODULE_69__Well__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__utils__ = __webpack_require__(503);
+/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "utils", function() { return __WEBPACK_IMPORTED_MODULE_70__utils__; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 61 */
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -4928,7 +5741,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 58 */
+/* 62 */
 /***/ (function(module, exports) {
 
 module.exports = function (exec) {
@@ -4941,7 +5754,7 @@ module.exports = function (exec) {
 
 
 /***/ }),
-/* 59 */
+/* 63 */
 /***/ (function(module, exports) {
 
 module.exports = function (bitmap, value) {
@@ -4955,12 +5768,12 @@ module.exports = function (bitmap, value) {
 
 
 /***/ }),
-/* 60 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(184);
-var enumBugKeys = __webpack_require__(118);
+var $keys = __webpack_require__(187);
+var enumBugKeys = __webpack_require__(121);
 
 module.exports = Object.keys || function keys(O) {
   return $keys(O, enumBugKeys);
@@ -4968,25 +5781,25 @@ module.exports = Object.keys || function keys(O) {
 
 
 /***/ }),
-/* 61 */
+/* 65 */
 /***/ (function(module, exports) {
 
 exports.f = {}.propertyIsEnumerable;
 
 
 /***/ }),
-/* 62 */
+/* 66 */
 /***/ (function(module, exports) {
 
 module.exports = {};
 
 
 /***/ }),
-/* 63 */
+/* 67 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__);
@@ -5106,7 +5919,7 @@ Button.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__["bsClass"]('btn', __WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__["bsSizes"]([__WEBPACK_IMPORTED_MODULE_11__utils_StyleConfig__["c" /* Size */].LARGE, __WEBPACK_IMPORTED_MODULE_11__utils_StyleConfig__["c" /* Size */].SMALL, __WEBPACK_IMPORTED_MODULE_11__utils_StyleConfig__["c" /* Size */].XSMALL], __WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__["bsStyles"]([].concat(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default.a(__WEBPACK_IMPORTED_MODULE_11__utils_StyleConfig__["d" /* State */]), [__WEBPACK_IMPORTED_MODULE_11__utils_StyleConfig__["e" /* Style */].DEFAULT, __WEBPACK_IMPORTED_MODULE_11__utils_StyleConfig__["e" /* Style */].PRIMARY, __WEBPACK_IMPORTED_MODULE_11__utils_StyleConfig__["e" /* Style */].LINK]), __WEBPACK_IMPORTED_MODULE_11__utils_StyleConfig__["e" /* Style */].DEFAULT, Button))));
 
 /***/ }),
-/* 64 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5143,7 +5956,7 @@ exports.default = (0, _createUncontrollable2.default)(mixin, set);
 module.exports = exports['default'];
 
 /***/ }),
-/* 65 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5161,7 +5974,7 @@ var _reactDom = __webpack_require__(21);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _ownerDocument = __webpack_require__(49);
+var _ownerDocument = __webpack_require__(50);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -5170,7 +5983,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 module.exports = exports['default'];
 
 /***/ }),
-/* 66 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5202,7 +6015,7 @@ module.exports = canDefineProperty;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 67 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5228,7 +6041,7 @@ module.exports = emptyObject;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 68 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5487,7 +6300,7 @@ module.exports = EventPluginRegistry;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 69 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5721,7 +6534,7 @@ module.exports = TransactionImpl;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 70 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5737,10 +6550,10 @@ module.exports = TransactionImpl;
 
 
 
-var SyntheticUIEvent = __webpack_require__(53);
-var ViewportMetrics = __webpack_require__(155);
+var SyntheticUIEvent = __webpack_require__(54);
+var ViewportMetrics = __webpack_require__(158);
 
-var getEventModifierState = __webpack_require__(90);
+var getEventModifierState = __webpack_require__(94);
 
 /**
  * @interface MouseEvent
@@ -5798,7 +6611,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 module.exports = SyntheticMouseEvent;
 
 /***/ }),
-/* 71 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5815,12 +6628,12 @@ module.exports = SyntheticMouseEvent;
 
 
 var ExecutionEnvironment = __webpack_require__(18);
-var DOMNamespaces = __webpack_require__(92);
+var DOMNamespaces = __webpack_require__(96);
 
 var WHITESPACE_TEST = /^[ \r\n\t\f]/;
 var NONVISIBLE_TEST = /<(!--|link|noscript|meta|script|style)[ \r\n\t\f\/>]/;
 
-var createMicrosoftUnsafeLocalFunction = __webpack_require__(93);
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(97);
 
 // SVG temp container for IE lacking innerHTML
 var reusableSVGContainer;
@@ -5901,7 +6714,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = setInnerHTML;
 
 /***/ }),
-/* 72 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6028,7 +6841,7 @@ function escapeTextContentForBrowser(text) {
 module.exports = escapeTextContentForBrowser;
 
 /***/ }),
-/* 73 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6046,12 +6859,12 @@ module.exports = escapeTextContentForBrowser;
 
 var _assign = __webpack_require__(15);
 
-var EventPluginRegistry = __webpack_require__(68);
-var ReactEventEmitterMixin = __webpack_require__(276);
-var ViewportMetrics = __webpack_require__(155);
+var EventPluginRegistry = __webpack_require__(72);
+var ReactEventEmitterMixin = __webpack_require__(279);
+var ViewportMetrics = __webpack_require__(158);
 
-var getVendorPrefixedEventName = __webpack_require__(277);
-var isEventSupported = __webpack_require__(89);
+var getVendorPrefixedEventName = __webpack_require__(280);
+var isEventSupported = __webpack_require__(93);
 
 /**
  * Summary of `ReactBrowserEventEmitter` event handling:
@@ -6357,15 +7170,15 @@ var ReactBrowserEventEmitter = _assign({}, ReactEventEmitterMixin, {
 module.exports = ReactBrowserEventEmitter;
 
 /***/ }),
-/* 74 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return createLocation; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return locationsAreEqual; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_resolve_pathname__ = __webpack_require__(172);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_value_equal__ = __webpack_require__(173);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__PathUtils__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_resolve_pathname__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_value_equal__ = __webpack_require__(176);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__PathUtils__ = __webpack_require__(57);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
@@ -6433,7 +7246,7 @@ var locationsAreEqual = function locationsAreEqual(a, b) {
 };
 
 /***/ }),
-/* 75 */
+/* 79 */
 /***/ (function(module, exports) {
 
 var id = 0;
@@ -6444,7 +7257,7 @@ module.exports = function (key) {
 
 
 /***/ }),
-/* 76 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6455,7 +7268,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = all;
 
-var _createChainableTypeChecker = __webpack_require__(128);
+var _createChainableTypeChecker = __webpack_require__(131);
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
@@ -6492,7 +7305,7 @@ function all() {
 module.exports = exports['default'];
 
 /***/ }),
-/* 77 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6503,7 +7316,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = style;
 
-var _camelizeStyle = __webpack_require__(198);
+var _camelizeStyle = __webpack_require__(201);
 
 var _camelizeStyle2 = _interopRequireDefault(_camelizeStyle);
 
@@ -6519,7 +7332,7 @@ var _removeStyle = __webpack_require__(422);
 
 var _removeStyle2 = _interopRequireDefault(_removeStyle);
 
-var _properties = __webpack_require__(199);
+var _properties = __webpack_require__(202);
 
 var _isTransform = __webpack_require__(423);
 
@@ -6560,7 +7373,7 @@ function style(node, property, value) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 78 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6597,7 +7410,7 @@ exports.default = on;
 module.exports = exports['default'];
 
 /***/ }),
-/* 79 */
+/* 83 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6613,11 +7426,11 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_activeElement__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_activeElement__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_activeElement___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_dom_helpers_activeElement__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_query_contains__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_query_contains__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_query_contains___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_dom_helpers_query_contains__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_keycode__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_keycode__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_keycode___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_keycode__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react__);
@@ -6625,19 +7438,19 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_dom__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_prop_types_extra_lib_all__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_prop_types_extra_lib_all__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_prop_types_extra_lib_all___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_prop_types_extra_lib_all__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_prop_types_extra_lib_elementType__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_prop_types_extra_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_prop_types_extra_lib_elementType__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_prop_types_extra_lib_isRequiredForA11y__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_prop_types_extra_lib_isRequiredForA11y__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_prop_types_extra_lib_isRequiredForA11y___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_prop_types_extra_lib_isRequiredForA11y__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_uncontrollable__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_uncontrollable__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_uncontrollable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_warning__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ButtonGroup__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ButtonGroup__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__DropdownMenu__ = __webpack_require__(426);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__DropdownToggle__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__DropdownToggle__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__utils_createChainedFunction__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__utils_PropTypes__ = __webpack_require__(436);
@@ -6993,7 +7806,7 @@ UncontrolledDropdown.Menu = __WEBPACK_IMPORTED_MODULE_18__DropdownMenu__["a" /* 
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-/* 80 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7022,12 +7835,12 @@ function isRequiredForA11y(validator) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 81 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = splitComponentProps;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_entries__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_entries__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_entries___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_entries__);
 
 function splitComponentProps(props, Component) {
@@ -7051,7 +7864,7 @@ function splitComponentProps(props, Component) {
 }
 
 /***/ }),
-/* 82 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7069,7 +7882,7 @@ function splitComponentProps(props, Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Transition__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Transition__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Transition___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_overlays_lib_Transition__);
 
 
@@ -7169,7 +7982,7 @@ Fade.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (Fade);
 
 /***/ }),
-/* 83 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7185,7 +7998,7 @@ function getWindow(node) {
 module.exports = exports["default"];
 
 /***/ }),
-/* 84 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7256,7 +8069,7 @@ module.exports = lowPriorityWarning;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 85 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7277,7 +8090,7 @@ module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
-/* 86 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7295,7 +8108,7 @@ module.exports = ReactPropTypesSecret;
 
 var _prodInvariant = __webpack_require__(12);
 
-var ReactErrorUtils = __webpack_require__(87);
+var ReactErrorUtils = __webpack_require__(91);
 
 var invariant = __webpack_require__(10);
 var warning = __webpack_require__(11);
@@ -7509,7 +8322,7 @@ module.exports = EventPluginUtils;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 87 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7591,7 +8404,7 @@ module.exports = ReactErrorUtils;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 88 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7631,7 +8444,7 @@ function getEventTarget(nativeEvent) {
 module.exports = getEventTarget;
 
 /***/ }),
-/* 89 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7696,7 +8509,7 @@ function isEventSupported(eventNameSuffix, capture) {
 module.exports = isEventSupported;
 
 /***/ }),
-/* 90 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7744,7 +8557,7 @@ function getEventModifierState(nativeEvent) {
 module.exports = getEventModifierState;
 
 /***/ }),
-/* 91 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7761,13 +8574,13 @@ module.exports = getEventModifierState;
 
 
 var DOMLazyTree = __webpack_require__(44);
-var Danger = __webpack_require__(261);
+var Danger = __webpack_require__(264);
 var ReactDOMComponentTree = __webpack_require__(16);
 var ReactInstrumentation = __webpack_require__(25);
 
-var createMicrosoftUnsafeLocalFunction = __webpack_require__(93);
-var setInnerHTML = __webpack_require__(71);
-var setTextContent = __webpack_require__(156);
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(97);
+var setInnerHTML = __webpack_require__(75);
+var setTextContent = __webpack_require__(159);
 
 function getNodeAfter(parentNode, node) {
   // Special case for text components, which return [open, close] comments
@@ -7976,7 +8789,7 @@ module.exports = DOMChildrenOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 92 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8001,7 +8814,7 @@ var DOMNamespaces = {
 module.exports = DOMNamespaces;
 
 /***/ }),
-/* 93 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8038,7 +8851,7 @@ var createMicrosoftUnsafeLocalFunction = function (func) {
 module.exports = createMicrosoftUnsafeLocalFunction;
 
 /***/ }),
-/* 94 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8056,8 +8869,8 @@ module.exports = createMicrosoftUnsafeLocalFunction;
 
 var _prodInvariant = __webpack_require__(12);
 
-var ReactPropTypesSecret = __webpack_require__(160);
-var propTypesFactory = __webpack_require__(144);
+var ReactPropTypesSecret = __webpack_require__(163);
+var propTypesFactory = __webpack_require__(147);
 
 var React = __webpack_require__(41);
 var PropTypes = propTypesFactory(React.isValidElement);
@@ -8182,7 +8995,7 @@ module.exports = LinkedValueUtils;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 95 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8232,7 +9045,7 @@ module.exports = ReactComponentEnvironment;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 96 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8305,7 +9118,7 @@ function shallowEqual(objA, objB) {
 module.exports = shallowEqual;
 
 /***/ }),
-/* 97 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8352,7 +9165,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 module.exports = shouldUpdateReactComponent;
 
 /***/ }),
-/* 98 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8416,7 +9229,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 99 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8435,7 +9248,7 @@ module.exports = KeyEscapeUtils;
 var _prodInvariant = __webpack_require__(12);
 
 var ReactCurrentOwner = __webpack_require__(26);
-var ReactInstanceMap = __webpack_require__(54);
+var ReactInstanceMap = __webpack_require__(55);
 var ReactInstrumentation = __webpack_require__(25);
 var ReactUpdates = __webpack_require__(27);
 
@@ -8656,7 +9469,7 @@ module.exports = ReactUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 100 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9033,7 +9846,7 @@ module.exports = validateDOMNesting;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 101 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9088,66 +9901,7 @@ function getEventCharCode(nativeEvent) {
 module.exports = getEventCharCode;
 
 /***/ }),
-/* 102 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(327);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(330);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(175);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(332);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(335);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(338);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(340);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(176);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(105);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(346);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(348);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(350);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(351);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-/* 103 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9158,15 +9912,15 @@ exports.locationsAreEqual = exports.createLocation = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _resolvePathname = __webpack_require__(172);
+var _resolvePathname = __webpack_require__(175);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(173);
+var _valueEqual = __webpack_require__(176);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
-var _PathUtils = __webpack_require__(55);
+var _PathUtils = __webpack_require__(56);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -9231,7 +9985,7 @@ var locationsAreEqual = exports.locationsAreEqual = function locationsAreEqual(a
 };
 
 /***/ }),
-/* 104 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9322,18 +10076,18 @@ var createTransitionManager = function createTransitionManager() {
 exports.default = createTransitionManager;
 
 /***/ }),
-/* 105 */
+/* 108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Router__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Router__ = __webpack_require__(109);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Router__["a" /* default */]);
 
 /***/ }),
-/* 106 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9452,11 +10206,11 @@ Router.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Router);
 
 /***/ }),
-/* 107 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp__ = __webpack_require__(339);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_path_to_regexp__);
 
 
@@ -9529,7 +10283,7 @@ var matchPath = function matchPath(pathname) {
 /* harmony default export */ __webpack_exports__["a"] = (matchPath);
 
 /***/ }),
-/* 108 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9614,7 +10368,7 @@ var createTransitionManager = function createTransitionManager() {
 /* harmony default export */ __webpack_exports__["a"] = (createTransitionManager);
 
 /***/ }),
-/* 109 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9631,7 +10385,7 @@ var createTransitionManager = function createTransitionManager() {
 
 
 var React = __webpack_require__(0);
-var factory = __webpack_require__(146);
+var factory = __webpack_require__(149);
 
 if (typeof React === 'undefined') {
   throw Error(
@@ -9651,7 +10405,7 @@ module.exports = factory(
 
 
 /***/ }),
-/* 110 */
+/* 113 */
 /***/ (function(module, exports) {
 
 var CONSTANTS = {
@@ -9691,7 +10445,7 @@ module.exports = CONSTANTS;
 
 
 /***/ }),
-/* 111 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
@@ -9717,11 +10471,11 @@ module.exports = function (fn, that, length) {
 
 
 /***/ }),
-/* 112 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.1 ToPrimitive(input [, PreferredType])
-var isObject = __webpack_require__(57);
+var isObject = __webpack_require__(61);
 // instead of the ES6 spec version, we didn't implement @@toPrimitive case
 // and the second argument - flag - preferred type is a string
 module.exports = function (it, S) {
@@ -9735,7 +10489,7 @@ module.exports = function (it, S) {
 
 
 /***/ }),
-/* 113 */
+/* 116 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -9746,7 +10500,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 114 */
+/* 117 */
 /***/ (function(module, exports) {
 
 // 7.2.1 RequireObjectCoercible(argument)
@@ -9757,7 +10511,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 115 */
+/* 118 */
 /***/ (function(module, exports) {
 
 // 7.1.4 ToInteger
@@ -9769,18 +10523,18 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 116 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var shared = __webpack_require__(117)('keys');
-var uid = __webpack_require__(75);
+var shared = __webpack_require__(120)('keys');
+var uid = __webpack_require__(79);
 module.exports = function (key) {
   return shared[key] || (shared[key] = uid(key));
 };
 
 
 /***/ }),
-/* 117 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(34);
@@ -9792,7 +10546,7 @@ module.exports = function (key) {
 
 
 /***/ }),
-/* 118 */
+/* 121 */
 /***/ (function(module, exports) {
 
 // IE 8- don't enum bug keys
@@ -9802,25 +10556,25 @@ module.exports = (
 
 
 /***/ }),
-/* 119 */
+/* 122 */
 /***/ (function(module, exports) {
 
 exports.f = Object.getOwnPropertySymbols;
 
 
 /***/ }),
-/* 120 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.13 ToObject(argument)
-var defined = __webpack_require__(114);
+var defined = __webpack_require__(117);
 module.exports = function (it) {
   return Object(defined(it));
 };
 
 
 /***/ }),
-/* 121 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9847,28 +10601,28 @@ exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.d
 };
 
 /***/ }),
-/* 122 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = true;
 
 
 /***/ }),
-/* 123 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-var anObject = __webpack_require__(46);
+var anObject = __webpack_require__(47);
 var dPs = __webpack_require__(379);
-var enumBugKeys = __webpack_require__(118);
-var IE_PROTO = __webpack_require__(116)('IE_PROTO');
+var enumBugKeys = __webpack_require__(121);
+var IE_PROTO = __webpack_require__(119)('IE_PROTO');
 var Empty = function () { /* empty */ };
 var PROTOTYPE = 'prototype';
 
 // Create object with fake `null` prototype: use iframe Object with cleared prototype
 var createDict = function () {
   // Thrash, waste and sodomy: IE GC bug
-  var iframe = __webpack_require__(183)('iframe');
+  var iframe = __webpack_require__(186)('iframe');
   var i = enumBugKeys.length;
   var lt = '<';
   var gt = '>';
@@ -9901,7 +10655,7 @@ module.exports = Object.create || function create(O, Properties) {
 
 
 /***/ }),
-/* 124 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var def = __webpack_require__(38).f;
@@ -9914,20 +10668,20 @@ module.exports = function (it, tag, stat) {
 
 
 /***/ }),
-/* 125 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports.f = __webpack_require__(29);
 
 
 /***/ }),
-/* 126 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(34);
 var core = __webpack_require__(28);
-var LIBRARY = __webpack_require__(122);
-var wksExt = __webpack_require__(125);
+var LIBRARY = __webpack_require__(125);
+var wksExt = __webpack_require__(128);
 var defineProperty = __webpack_require__(38).f;
 module.exports = function (name) {
   var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
@@ -9936,7 +10690,7 @@ module.exports = function (name) {
 
 
 /***/ }),
-/* 127 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10008,7 +10762,7 @@ CloseButton.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (CloseButton);
 
 /***/ }),
-/* 128 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10057,7 +10811,7 @@ function createChainableTypeChecker(validate) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 129 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10077,9 +10831,9 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_all__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_all__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_all___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_all__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Button__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Button__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__ = __webpack_require__(9);
 
 
@@ -10154,7 +10908,7 @@ ButtonGroup.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__["bsClass"]('btn-group', ButtonGroup));
 
 /***/ }),
-/* 130 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10229,7 +10983,7 @@ Glyphicon.propTypes = propTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"]('glyphicon', Glyphicon));
 
 /***/ }),
-/* 131 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10245,15 +10999,15 @@ Glyphicon.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_style__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_style__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_dom_helpers_style__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_overlays_lib_Transition__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_overlays_lib_Transition__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_overlays_lib_Transition___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react_overlays_lib_Transition__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_capitalize__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_capitalize__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_createChainedFunction__ = __webpack_require__(17);
 
 
@@ -10482,7 +11236,7 @@ Collapse.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (Collapse);
 
 /***/ }),
-/* 132 */
+/* 135 */
 /***/ (function(module, exports) {
 
 // Source: http://jsfiddle.net/vWx8V/
@@ -10634,7 +11388,7 @@ for (var alias in aliases) {
 
 
 /***/ }),
-/* 133 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10665,7 +11419,7 @@ exports.default = off;
 module.exports = exports['default'];
 
 /***/ }),
-/* 134 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10759,7 +11513,7 @@ Media.ListItem = __WEBPACK_IMPORTED_MODULE_12__MediaListItem__["a" /* default */
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_14__utils_bootstrapUtils__["bsClass"]('media', Media));
 
 /***/ }),
-/* 135 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10773,7 +11527,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _createChainableTypeChecker = __webpack_require__(208);
+var _createChainableTypeChecker = __webpack_require__(211);
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
@@ -10797,7 +11551,7 @@ function validate(props, propName, componentName, location, propFullName) {
 exports.default = (0, _createChainableTypeChecker2.default)(validate);
 
 /***/ }),
-/* 136 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10821,7 +11575,7 @@ function getContainer(container, defaultContainer) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 137 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10837,7 +11591,7 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_uncontrollable__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_uncontrollable__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_uncontrollable__);
 
 
@@ -10969,7 +11723,7 @@ TabContainer.childContextTypes = childContextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_6_uncontrollable___default.a(TabContainer, { activeKey: 'onSelect' }));
 
 /***/ }),
-/* 138 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11179,7 +11933,7 @@ TabContent.childContextTypes = childContextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsClass"]('tab', TabContent));
 
 /***/ }),
-/* 139 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11198,12 +11952,12 @@ TabContent.childContextTypes = childContextTypes;
 var _prodInvariant = __webpack_require__(42),
     _assign = __webpack_require__(15);
 
-var ReactNoopUpdateQueue = __webpack_require__(140);
+var ReactNoopUpdateQueue = __webpack_require__(143);
 
-var canDefineProperty = __webpack_require__(66);
-var emptyObject = __webpack_require__(67);
+var canDefineProperty = __webpack_require__(70);
+var emptyObject = __webpack_require__(71);
 var invariant = __webpack_require__(10);
-var lowPriorityWarning = __webpack_require__(84);
+var lowPriorityWarning = __webpack_require__(88);
 
 /**
  * Base class helpers for the updating state of a component.
@@ -11328,7 +12082,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 140 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11429,7 +12183,7 @@ module.exports = ReactNoopUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 141 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11454,7 +12208,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 142 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11500,7 +12254,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 143 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11527,12 +12281,12 @@ var ReactCurrentOwner = __webpack_require__(26);
 var ReactComponentTreeHook = __webpack_require__(23);
 var ReactElement = __webpack_require__(36);
 
-var checkReactTypeSpec = __webpack_require__(234);
+var checkReactTypeSpec = __webpack_require__(237);
 
-var canDefineProperty = __webpack_require__(66);
-var getIteratorFn = __webpack_require__(142);
+var canDefineProperty = __webpack_require__(70);
+var getIteratorFn = __webpack_require__(145);
 var warning = __webpack_require__(11);
-var lowPriorityWarning = __webpack_require__(84);
+var lowPriorityWarning = __webpack_require__(88);
 
 function getDeclarationErrorAddendum() {
   if (ReactCurrentOwner.current) {
@@ -11761,7 +12515,7 @@ module.exports = ReactElementValidator;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 144 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11780,7 +12534,7 @@ module.exports = ReactElementValidator;
 // Therefore we re-export development-only version with all the PropTypes checks here.
 // However if one is migrating to the `prop-types` npm library, they will go through the
 // `index.js` entry point, and it will branch depending on the environment.
-var factory = __webpack_require__(145);
+var factory = __webpack_require__(148);
 module.exports = function(isValidElement) {
   // It is still allowed in 15.5.
   var throwOnDirectAccess = false;
@@ -11789,7 +12543,7 @@ module.exports = function(isValidElement) {
 
 
 /***/ }),
-/* 145 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11808,8 +12562,8 @@ var emptyFunction = __webpack_require__(24);
 var invariant = __webpack_require__(10);
 var warning = __webpack_require__(11);
 
-var ReactPropTypesSecret = __webpack_require__(85);
-var checkPropTypes = __webpack_require__(238);
+var ReactPropTypesSecret = __webpack_require__(89);
+var checkPropTypes = __webpack_require__(241);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -12309,7 +13063,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 146 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12327,7 +13081,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 var _assign = __webpack_require__(15);
 
-var emptyObject = __webpack_require__(67);
+var emptyObject = __webpack_require__(71);
 var _invariant = __webpack_require__(10);
 
 if (process.env.NODE_ENV !== 'production') {
@@ -13189,7 +13943,7 @@ module.exports = factory;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 147 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13212,7 +13966,7 @@ var ReactDOMComponentFlags = {
 module.exports = ReactDOMComponentFlags;
 
 /***/ }),
-/* 148 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13276,7 +14030,7 @@ module.exports = accumulateInto;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 149 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13312,7 +14066,7 @@ function forEachAccumulated(arr, cb, scope) {
 module.exports = forEachAccumulated;
 
 /***/ }),
-/* 150 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13350,7 +14104,7 @@ function getTextContentAccessor() {
 module.exports = getTextContentAccessor;
 
 /***/ }),
-/* 151 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13475,7 +14229,7 @@ module.exports = PooledClass.addPoolingTo(CallbackQueue);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 152 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13502,7 +14256,7 @@ var ReactFeatureFlags = {
 module.exports = ReactFeatureFlags;
 
 /***/ }),
-/* 153 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13630,7 +14384,7 @@ var inputValueTracking = {
 module.exports = inputValueTracking;
 
 /***/ }),
-/* 154 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13686,7 +14440,7 @@ function isTextInputElement(elem) {
 module.exports = isTextInputElement;
 
 /***/ }),
-/* 155 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13716,7 +14470,7 @@ var ViewportMetrics = {
 module.exports = ViewportMetrics;
 
 /***/ }),
-/* 156 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13733,8 +14487,8 @@ module.exports = ViewportMetrics;
 
 
 var ExecutionEnvironment = __webpack_require__(18);
-var escapeTextContentForBrowser = __webpack_require__(72);
-var setInnerHTML = __webpack_require__(71);
+var escapeTextContentForBrowser = __webpack_require__(76);
+var setInnerHTML = __webpack_require__(75);
 
 /**
  * Set the textContent property of a node, ensuring that whitespace is preserved
@@ -13773,7 +14527,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = setTextContent;
 
 /***/ }),
-/* 157 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13805,7 +14559,7 @@ function focusNode(node) {
 module.exports = focusNode;
 
 /***/ }),
-/* 158 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13964,7 +14718,7 @@ var CSSProperty = {
 module.exports = CSSProperty;
 
 /***/ }),
-/* 159 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13984,7 +14738,7 @@ var DOMProperty = __webpack_require__(32);
 var ReactDOMComponentTree = __webpack_require__(16);
 var ReactInstrumentation = __webpack_require__(25);
 
-var quoteAttributeValueForBrowser = __webpack_require__(275);
+var quoteAttributeValueForBrowser = __webpack_require__(278);
 var warning = __webpack_require__(11);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -14205,7 +14959,7 @@ module.exports = DOMPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 160 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14227,7 +14981,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 161 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14245,7 +14999,7 @@ module.exports = ReactPropTypesSecret;
 
 var _assign = __webpack_require__(15);
 
-var LinkedValueUtils = __webpack_require__(94);
+var LinkedValueUtils = __webpack_require__(98);
 var ReactDOMComponentTree = __webpack_require__(16);
 var ReactUpdates = __webpack_require__(27);
 
@@ -14433,7 +15187,7 @@ module.exports = ReactDOMSelect;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 162 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14452,11 +15206,11 @@ module.exports = ReactDOMSelect;
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(15);
 
-var ReactCompositeComponent = __webpack_require__(283);
-var ReactEmptyComponent = __webpack_require__(164);
-var ReactHostComponent = __webpack_require__(165);
+var ReactCompositeComponent = __webpack_require__(286);
+var ReactEmptyComponent = __webpack_require__(167);
+var ReactHostComponent = __webpack_require__(168);
 
-var getNextDebugID = __webpack_require__(286);
+var getNextDebugID = __webpack_require__(289);
 var invariant = __webpack_require__(10);
 var warning = __webpack_require__(11);
 
@@ -14568,7 +15322,7 @@ module.exports = instantiateReactComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 163 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14614,7 +15368,7 @@ module.exports = ReactNodeTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 164 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14649,7 +15403,7 @@ ReactEmptyComponent.injection = ReactEmptyComponentInjection;
 module.exports = ReactEmptyComponent;
 
 /***/ }),
-/* 165 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14723,7 +15477,7 @@ module.exports = ReactHostComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 166 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14742,11 +15496,11 @@ module.exports = ReactHostComponent;
 var _prodInvariant = __webpack_require__(12);
 
 var ReactCurrentOwner = __webpack_require__(26);
-var REACT_ELEMENT_TYPE = __webpack_require__(287);
+var REACT_ELEMENT_TYPE = __webpack_require__(290);
 
-var getIteratorFn = __webpack_require__(288);
+var getIteratorFn = __webpack_require__(291);
 var invariant = __webpack_require__(10);
-var KeyEscapeUtils = __webpack_require__(98);
+var KeyEscapeUtils = __webpack_require__(102);
 var warning = __webpack_require__(11);
 
 var SEPARATOR = '.';
@@ -14905,7 +15659,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 167 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14988,7 +15742,7 @@ module.exports = EventListener;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 168 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15004,11 +15758,11 @@ module.exports = EventListener;
 
 
 
-var ReactDOMSelection = __webpack_require__(300);
+var ReactDOMSelection = __webpack_require__(303);
 
-var containsNode = __webpack_require__(302);
-var focusNode = __webpack_require__(157);
-var getActiveElement = __webpack_require__(169);
+var containsNode = __webpack_require__(305);
+var focusNode = __webpack_require__(160);
+var getActiveElement = __webpack_require__(172);
 
 function isInDocument(node) {
   return containsNode(document.documentElement, node);
@@ -15116,7 +15870,7 @@ var ReactInputSelection = {
 module.exports = ReactInputSelection;
 
 /***/ }),
-/* 169 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15160,7 +15914,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 module.exports = getActiveElement;
 
 /***/ }),
-/* 170 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15181,24 +15935,24 @@ var _prodInvariant = __webpack_require__(12);
 var DOMLazyTree = __webpack_require__(44);
 var DOMProperty = __webpack_require__(32);
 var React = __webpack_require__(41);
-var ReactBrowserEventEmitter = __webpack_require__(73);
+var ReactBrowserEventEmitter = __webpack_require__(77);
 var ReactCurrentOwner = __webpack_require__(26);
 var ReactDOMComponentTree = __webpack_require__(16);
-var ReactDOMContainerInfo = __webpack_require__(317);
-var ReactDOMFeatureFlags = __webpack_require__(318);
-var ReactFeatureFlags = __webpack_require__(152);
-var ReactInstanceMap = __webpack_require__(54);
+var ReactDOMContainerInfo = __webpack_require__(320);
+var ReactDOMFeatureFlags = __webpack_require__(321);
+var ReactFeatureFlags = __webpack_require__(155);
+var ReactInstanceMap = __webpack_require__(55);
 var ReactInstrumentation = __webpack_require__(25);
-var ReactMarkupChecksum = __webpack_require__(319);
+var ReactMarkupChecksum = __webpack_require__(322);
 var ReactReconciler = __webpack_require__(43);
-var ReactUpdateQueue = __webpack_require__(99);
+var ReactUpdateQueue = __webpack_require__(103);
 var ReactUpdates = __webpack_require__(27);
 
-var emptyObject = __webpack_require__(67);
-var instantiateReactComponent = __webpack_require__(162);
+var emptyObject = __webpack_require__(71);
+var instantiateReactComponent = __webpack_require__(165);
 var invariant = __webpack_require__(10);
-var setInnerHTML = __webpack_require__(71);
-var shouldUpdateReactComponent = __webpack_require__(97);
+var setInnerHTML = __webpack_require__(75);
+var shouldUpdateReactComponent = __webpack_require__(101);
 var warning = __webpack_require__(11);
 
 var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
@@ -15704,7 +16458,7 @@ module.exports = ReactMount;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 171 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15720,7 +16474,7 @@ module.exports = ReactMount;
 
 
 
-var ReactNodeTypes = __webpack_require__(163);
+var ReactNodeTypes = __webpack_require__(166);
 
 function getHostComponentFromComposite(inst) {
   var type;
@@ -15739,7 +16493,7 @@ function getHostComponentFromComposite(inst) {
 module.exports = getHostComponentFromComposite;
 
 /***/ }),
-/* 172 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15816,7 +16570,7 @@ function resolvePathname(to) {
 /* harmony default export */ __webpack_exports__["default"] = (resolvePathname);
 
 /***/ }),
-/* 173 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15861,7 +16615,7 @@ function valueEqual(a, b) {
 /* harmony default export */ __webpack_exports__["default"] = (valueEqual);
 
 /***/ }),
-/* 174 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15922,7 +16676,7 @@ var isExtraneousPopstateEvent = exports.isExtraneousPopstateEvent = function isE
 };
 
 /***/ }),
-/* 175 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16032,18 +16786,18 @@ Link.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Link);
 
 /***/ }),
-/* 176 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Route__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Route__ = __webpack_require__(180);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Route__["a" /* default */]);
 
 /***/ }),
-/* 177 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16055,7 +16809,7 @@ Link.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(110);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -16192,7 +16946,7 @@ Route.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Route);
 
 /***/ }),
-/* 178 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16258,7 +17012,7 @@ var isExtraneousPopstateEvent = function isExtraneousPopstateEvent(event) {
 };
 
 /***/ }),
-/* 179 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16277,12 +17031,12 @@ var isExtraneousPopstateEvent = function isExtraneousPopstateEvent(event) {
  * A singleton that operates as the central hub for application updates.
  */
 
-var Dispatcher = __webpack_require__(361).Dispatcher;
+var Dispatcher = __webpack_require__(363).Dispatcher;
 
 module.exports = new Dispatcher();
 
 /***/ }),
-/* 180 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16299,7 +17053,7 @@ module.exports = new Dispatcher();
  * TodoConstants
  */
 
-var keyMirror = __webpack_require__(364);
+var keyMirror = __webpack_require__(366);
 
 module.exports = keyMirror({
   LOGIN_VERIFY: null,
@@ -16314,25 +17068,25 @@ module.exports = keyMirror({
 });
 
 /***/ }),
-/* 181 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(369), __esModule: true };
 
 /***/ }),
-/* 182 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = !__webpack_require__(47) && !__webpack_require__(58)(function () {
-  return Object.defineProperty(__webpack_require__(183)('div'), 'a', { get: function () { return 7; } }).a != 7;
+module.exports = !__webpack_require__(48) && !__webpack_require__(62)(function () {
+  return Object.defineProperty(__webpack_require__(186)('div'), 'a', { get: function () { return 7; } }).a != 7;
 });
 
 
 /***/ }),
-/* 183 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(57);
+var isObject = __webpack_require__(61);
 var document = __webpack_require__(34).document;
 // typeof document.createElement is 'object' in old IE
 var is = isObject(document) && isObject(document.createElement);
@@ -16342,13 +17096,13 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 184 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var has = __webpack_require__(39);
 var toIObject = __webpack_require__(40);
 var arrayIndexOf = __webpack_require__(373)(false);
-var IE_PROTO = __webpack_require__(116)('IE_PROTO');
+var IE_PROTO = __webpack_require__(119)('IE_PROTO');
 
 module.exports = function (object, names) {
   var O = toIObject(object);
@@ -16365,11 +17119,11 @@ module.exports = function (object, names) {
 
 
 /***/ }),
-/* 185 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
-var cof = __webpack_require__(113);
+var cof = __webpack_require__(116);
 // eslint-disable-next-line no-prototype-builtins
 module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
   return cof(it) == 'String' ? it.split('') : Object(it);
@@ -16377,11 +17131,11 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 
 
 /***/ }),
-/* 186 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.15 ToLength
-var toInteger = __webpack_require__(115);
+var toInteger = __webpack_require__(118);
 var min = Math.min;
 module.exports = function (it) {
   return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
@@ -16389,7 +17143,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 187 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16397,7 +17151,7 @@ module.exports = function (it) {
 var $at = __webpack_require__(377)(true);
 
 // 21.1.3.27 String.prototype[@@iterator]()
-__webpack_require__(188)(String, 'String', function (iterated) {
+__webpack_require__(191)(String, 'String', function (iterated) {
   this._t = String(iterated); // target
   this._i = 0;                // next index
 // 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -16413,19 +17167,19 @@ __webpack_require__(188)(String, 'String', function (iterated) {
 
 
 /***/ }),
-/* 188 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var LIBRARY = __webpack_require__(122);
+var LIBRARY = __webpack_require__(125);
 var $export = __webpack_require__(33);
-var redefine = __webpack_require__(189);
-var hide = __webpack_require__(45);
+var redefine = __webpack_require__(192);
+var hide = __webpack_require__(46);
 var has = __webpack_require__(39);
-var Iterators = __webpack_require__(62);
+var Iterators = __webpack_require__(66);
 var $iterCreate = __webpack_require__(378);
-var setToStringTag = __webpack_require__(124);
+var setToStringTag = __webpack_require__(127);
 var getPrototypeOf = __webpack_require__(381);
 var ITERATOR = __webpack_require__(29)('iterator');
 var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
@@ -16490,19 +17244,19 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 
 /***/ }),
-/* 189 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(45);
+module.exports = __webpack_require__(46);
 
 
 /***/ }),
-/* 190 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-var $keys = __webpack_require__(184);
-var hiddenKeys = __webpack_require__(118).concat('length', 'prototype');
+var $keys = __webpack_require__(187);
+var hiddenKeys = __webpack_require__(121).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
   return $keys(O, hiddenKeys);
@@ -16510,18 +17264,18 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 
 /***/ }),
-/* 191 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var pIE = __webpack_require__(61);
-var createDesc = __webpack_require__(59);
+var pIE = __webpack_require__(65);
+var createDesc = __webpack_require__(63);
 var toIObject = __webpack_require__(40);
-var toPrimitive = __webpack_require__(112);
+var toPrimitive = __webpack_require__(115);
 var has = __webpack_require__(39);
-var IE8_DOM_DEFINE = __webpack_require__(182);
+var IE8_DOM_DEFINE = __webpack_require__(185);
 var gOPD = Object.getOwnPropertyDescriptor;
 
-exports.f = __webpack_require__(47) ? gOPD : function getOwnPropertyDescriptor(O, P) {
+exports.f = __webpack_require__(48) ? gOPD : function getOwnPropertyDescriptor(O, P) {
   O = toIObject(O);
   P = toPrimitive(P, true);
   if (IE8_DOM_DEFINE) try {
@@ -16532,13 +17286,13 @@ exports.f = __webpack_require__(47) ? gOPD : function getOwnPropertyDescriptor(O
 
 
 /***/ }),
-/* 192 */
+/* 195 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign__ = __webpack_require__(184);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_core_js_object_assign__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_objectWithoutProperties__);
@@ -16671,18 +17425,18 @@ PanelGroup.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsClass"]('panel-group', PanelGroup));
 
 /***/ }),
-/* 193 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = { "default": __webpack_require__(403), __esModule: true };
 
 /***/ }),
-/* 194 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var getKeys = __webpack_require__(60);
+var getKeys = __webpack_require__(64);
 var toIObject = __webpack_require__(40);
-var isEnum = __webpack_require__(61).f;
+var isEnum = __webpack_require__(65).f;
 module.exports = function (isEntries) {
   return function (it) {
     var O = toIObject(it);
@@ -16699,7 +17453,7 @@ module.exports = function (isEntries) {
 
 
 /***/ }),
-/* 195 */
+/* 198 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16793,7 +17547,7 @@ BreadcrumbItem.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (BreadcrumbItem);
 
 /***/ }),
-/* 196 */
+/* 199 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16949,7 +17703,7 @@ CarouselItem.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (CarouselItem);
 
 /***/ }),
-/* 197 */
+/* 200 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -16959,7 +17713,7 @@ function capitalize(string) {
 }
 
 /***/ }),
-/* 198 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16987,7 +17741,7 @@ function camelizeStyleName(string) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 199 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17103,7 +17857,7 @@ function getTransitionProperties() {
 }
 
 /***/ }),
-/* 200 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17122,11 +17876,11 @@ var _classnames = __webpack_require__(8);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _on = __webpack_require__(78);
+var _on = __webpack_require__(82);
 
 var _on2 = _interopRequireDefault(_on);
 
-var _properties = __webpack_require__(199);
+var _properties = __webpack_require__(202);
 
 var _properties2 = _interopRequireDefault(_properties);
 
@@ -17458,7 +18212,7 @@ Transition.defaultProps = {
 exports.default = Transition;
 
 /***/ }),
-/* 201 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17469,7 +18223,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = activeElement;
 
-var _ownerDocument = __webpack_require__(49);
+var _ownerDocument = __webpack_require__(50);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -17485,7 +18239,7 @@ function activeElement() {
 module.exports = exports['default'];
 
 /***/ }),
-/* 202 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17497,7 +18251,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _contains = __webpack_require__(50);
+var _contains = __webpack_require__(51);
 
 var _contains2 = _interopRequireDefault(_contains);
 
@@ -17513,11 +18267,11 @@ var _reactDom = __webpack_require__(21);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _addEventListener = __webpack_require__(203);
+var _addEventListener = __webpack_require__(206);
 
 var _addEventListener2 = _interopRequireDefault(_addEventListener);
 
-var _ownerDocument = __webpack_require__(65);
+var _ownerDocument = __webpack_require__(69);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -17665,7 +18419,7 @@ exports.default = RootCloseWrapper;
 module.exports = exports['default'];
 
 /***/ }),
-/* 203 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17685,11 +18439,11 @@ exports.default = function (node, event, handler, capture) {
   };
 };
 
-var _on = __webpack_require__(78);
+var _on = __webpack_require__(82);
 
 var _on2 = _interopRequireDefault(_on);
 
-var _off = __webpack_require__(133);
+var _off = __webpack_require__(136);
 
 var _off2 = _interopRequireDefault(_off);
 
@@ -17698,7 +18452,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 module.exports = exports['default'];
 
 /***/ }),
-/* 204 */
+/* 207 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17718,7 +18472,7 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_classnames__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Button__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Button__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__SafeAnchor__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__ = __webpack_require__(9);
 
@@ -17799,7 +18553,7 @@ DropdownToggle.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__["bsClass"]('dropdown-toggle', DropdownToggle));
 
 /***/ }),
-/* 205 */
+/* 208 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -17888,11 +18642,11 @@ Grid.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsClass"]('container', Grid));
 
 /***/ }),
-/* 206 */
+/* 209 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
@@ -18026,7 +18780,7 @@ ListGroupItem.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsClass"]('list-group-item', __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__["bsStyles"](__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default.a(__WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__["d" /* State */]), ListGroupItem)));
 
 /***/ }),
-/* 207 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18067,7 +18821,7 @@ var size = void 0;
 module.exports = exports['default'];
 
 /***/ }),
-/* 208 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18113,7 +18867,7 @@ function createChainableTypeChecker(validate) {
 }
 
 /***/ }),
-/* 209 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18127,7 +18881,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _createChainableTypeChecker = __webpack_require__(208);
+var _createChainableTypeChecker = __webpack_require__(211);
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
@@ -18151,7 +18905,7 @@ function elementType(props, propName, componentName, location, propFullName) {
 exports.default = (0, _createChainableTypeChecker2.default)(elementType);
 
 /***/ }),
-/* 210 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18175,15 +18929,15 @@ var _reactDom = __webpack_require__(21);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _componentOrElement = __webpack_require__(135);
+var _componentOrElement = __webpack_require__(138);
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
 
-var _ownerDocument = __webpack_require__(65);
+var _ownerDocument = __webpack_require__(69);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
-var _getContainer = __webpack_require__(136);
+var _getContainer = __webpack_require__(139);
 
 var _getContainer2 = _interopRequireDefault(_getContainer);
 
@@ -18308,7 +19062,7 @@ exports.default = Portal;
 module.exports = exports['default'];
 
 /***/ }),
-/* 211 */
+/* 214 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18324,7 +19078,7 @@ function hasClass(element, className) {
 module.exports = exports["default"];
 
 /***/ }),
-/* 212 */
+/* 215 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18335,11 +19089,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = isOverflowing;
 
-var _isWindow = __webpack_require__(83);
+var _isWindow = __webpack_require__(87);
 
 var _isWindow2 = _interopRequireDefault(_isWindow);
 
-var _ownerDocument = __webpack_require__(49);
+var _ownerDocument = __webpack_require__(50);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -18371,7 +19125,7 @@ function isOverflowing(container) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 213 */
+/* 216 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18446,7 +19200,7 @@ ModalBody.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"]('modal-body', ModalBody));
 
 /***/ }),
-/* 214 */
+/* 217 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18521,7 +19275,7 @@ ModalFooter.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"]('modal-footer', ModalFooter));
 
 /***/ }),
-/* 215 */
+/* 218 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18543,7 +19297,7 @@ ModalFooter.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_createChainedFunction__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__CloseButton__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__CloseButton__ = __webpack_require__(130);
 
 
 
@@ -18640,7 +19394,7 @@ ModalHeader.contextTypes = contextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"]('modal-header', ModalHeader));
 
 /***/ }),
-/* 216 */
+/* 219 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18715,7 +19469,7 @@ ModalTitle.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__["bsClass"]('modal-title', ModalTitle));
 
 /***/ }),
-/* 217 */
+/* 220 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18731,7 +19485,7 @@ ModalTitle.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_keycode__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_keycode__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_keycode___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_keycode__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
@@ -18739,7 +19493,7 @@ ModalTitle.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_dom__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_prop_types_extra_lib_all__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_prop_types_extra_lib_all__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_prop_types_extra_lib_all___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_prop_types_extra_lib_all__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_warning__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_warning__);
@@ -19103,7 +19857,7 @@ Nav.contextTypes = contextTypes;
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-/* 218 */
+/* 221 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19181,7 +19935,7 @@ NavbarBrand.contextTypes = contextTypes;
 /* harmony default export */ __webpack_exports__["a"] = (NavbarBrand);
 
 /***/ }),
-/* 219 */
+/* 222 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19299,7 +20053,7 @@ NavItem.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (NavItem);
 
 /***/ }),
-/* 220 */
+/* 223 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19323,7 +20077,7 @@ NavItem.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_overlays_lib_Overlay___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react_overlays_lib_Overlay__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_prop_types_extra_lib_elementType__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_prop_types_extra_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_prop_types_extra_lib_elementType__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Fade__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Fade__ = __webpack_require__(86);
 
 
 
@@ -19446,7 +20200,7 @@ Overlay.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (Overlay);
 
 /***/ }),
-/* 221 */
+/* 224 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19457,15 +20211,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = offset;
 
-var _contains = __webpack_require__(50);
+var _contains = __webpack_require__(51);
 
 var _contains2 = _interopRequireDefault(_contains);
 
-var _isWindow = __webpack_require__(83);
+var _isWindow = __webpack_require__(87);
 
 var _isWindow2 = _interopRequireDefault(_isWindow);
 
-var _ownerDocument = __webpack_require__(49);
+var _ownerDocument = __webpack_require__(50);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -19497,7 +20251,7 @@ function offset(node) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 222 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19508,7 +20262,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = scrollTop;
 
-var _isWindow = __webpack_require__(83);
+var _isWindow = __webpack_require__(87);
 
 var _isWindow2 = _interopRequireDefault(_isWindow);
 
@@ -19524,7 +20278,7 @@ function scrollTop(node, val) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 223 */
+/* 226 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19640,7 +20394,7 @@ PagerItem.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (PagerItem);
 
 /***/ }),
-/* 224 */
+/* 227 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19764,7 +20518,7 @@ PaginationButton.defaultProps = defaultProps;
 /* harmony default export */ __webpack_exports__["a"] = (PaginationButton);
 
 /***/ }),
-/* 225 */
+/* 228 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19790,7 +20544,7 @@ PaginationButton.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_createChainedFunction__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Fade__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Fade__ = __webpack_require__(86);
 
 
 
@@ -20074,7 +20828,7 @@ TabPane.childContextTypes = childContextTypes;
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(1)))
 
 /***/ }),
-/* 226 */
+/* 229 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20092,7 +20846,7 @@ TabPane.childContextTypes = childContextTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Button__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Button__ = __webpack_require__(67);
 
 
 
@@ -20184,7 +20938,7 @@ ToggleButton.propTypes = propTypes;
 /* harmony default export */ __webpack_exports__["a"] = (ToggleButton);
 
 /***/ }),
-/* 227 */
+/* 230 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20204,7 +20958,7 @@ var _propTypes = __webpack_require__(5);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactRouterDom = __webpack_require__(102);
+var _reactRouterDom = __webpack_require__(45);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20342,7 +21096,7 @@ exports.default = LinkContainer;
 module.exports = exports['default'];
 
 /***/ }),
-/* 228 */
+/* 231 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20356,9 +21110,9 @@ var _reactDom = __webpack_require__(21);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _reactRouterDom = __webpack_require__(102);
+var _reactRouterDom = __webpack_require__(45);
 
-var _App = __webpack_require__(354);
+var _App = __webpack_require__(357);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -20494,7 +21248,7 @@ var Topic = function Topic(_ref2) {
 _reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.querySelector('#root'));
 
 /***/ }),
-/* 229 */
+/* 232 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20510,11 +21264,11 @@ _reactDom2.default.render(_react2.default.createElement(_App2.default, null), do
 
 
 
-var PooledClass = __webpack_require__(230);
+var PooledClass = __webpack_require__(233);
 var ReactElement = __webpack_require__(36);
 
 var emptyFunction = __webpack_require__(24);
-var traverseAllChildren = __webpack_require__(231);
+var traverseAllChildren = __webpack_require__(234);
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -20690,7 +21444,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 /***/ }),
-/* 230 */
+/* 233 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20808,7 +21562,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 231 */
+/* 234 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20827,11 +21581,11 @@ module.exports = PooledClass;
 var _prodInvariant = __webpack_require__(42);
 
 var ReactCurrentOwner = __webpack_require__(26);
-var REACT_ELEMENT_TYPE = __webpack_require__(141);
+var REACT_ELEMENT_TYPE = __webpack_require__(144);
 
-var getIteratorFn = __webpack_require__(142);
+var getIteratorFn = __webpack_require__(145);
 var invariant = __webpack_require__(10);
-var KeyEscapeUtils = __webpack_require__(232);
+var KeyEscapeUtils = __webpack_require__(235);
 var warning = __webpack_require__(11);
 
 var SEPARATOR = '.';
@@ -20990,7 +21744,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 232 */
+/* 235 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21054,7 +21808,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 233 */
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21079,7 +21833,7 @@ var ReactElement = __webpack_require__(36);
  */
 var createDOMFactory = ReactElement.createFactory;
 if (process.env.NODE_ENV !== 'production') {
-  var ReactElementValidator = __webpack_require__(143);
+  var ReactElementValidator = __webpack_require__(146);
   createDOMFactory = ReactElementValidator.createFactory;
 }
 
@@ -21229,7 +21983,7 @@ module.exports = ReactDOMFactories;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 234 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21247,8 +22001,8 @@ module.exports = ReactDOMFactories;
 
 var _prodInvariant = __webpack_require__(42);
 
-var ReactPropTypeLocationNames = __webpack_require__(235);
-var ReactPropTypesSecret = __webpack_require__(236);
+var ReactPropTypeLocationNames = __webpack_require__(238);
+var ReactPropTypesSecret = __webpack_require__(239);
 
 var invariant = __webpack_require__(10);
 var warning = __webpack_require__(11);
@@ -21322,7 +22076,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 235 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21353,7 +22107,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 236 */
+/* 239 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21375,7 +22129,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 237 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21394,12 +22148,12 @@ module.exports = ReactPropTypesSecret;
 var _require = __webpack_require__(36),
     isValidElement = _require.isValidElement;
 
-var factory = __webpack_require__(144);
+var factory = __webpack_require__(147);
 
 module.exports = factory(isValidElement);
 
 /***/ }),
-/* 238 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21417,7 +22171,7 @@ module.exports = factory(isValidElement);
 if (process.env.NODE_ENV !== 'production') {
   var invariant = __webpack_require__(10);
   var warning = __webpack_require__(11);
-  var ReactPropTypesSecret = __webpack_require__(85);
+  var ReactPropTypesSecret = __webpack_require__(89);
   var loggedTypeFailures = {};
 }
 
@@ -21468,7 +22222,7 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 239 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21487,7 +22241,7 @@ module.exports = checkPropTypes;
 module.exports = '15.6.1';
 
 /***/ }),
-/* 240 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21503,19 +22257,19 @@ module.exports = '15.6.1';
 
 
 
-var _require = __webpack_require__(139),
+var _require = __webpack_require__(142),
     Component = _require.Component;
 
 var _require2 = __webpack_require__(36),
     isValidElement = _require2.isValidElement;
 
-var ReactNoopUpdateQueue = __webpack_require__(140);
-var factory = __webpack_require__(146);
+var ReactNoopUpdateQueue = __webpack_require__(143);
+var factory = __webpack_require__(149);
 
 module.exports = factory(Component, isValidElement, ReactNoopUpdateQueue);
 
 /***/ }),
-/* 241 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21559,7 +22313,7 @@ module.exports = onlyChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 242 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21578,15 +22332,15 @@ module.exports = onlyChild;
 
 
 var ReactDOMComponentTree = __webpack_require__(16);
-var ReactDefaultInjection = __webpack_require__(243);
-var ReactMount = __webpack_require__(170);
+var ReactDefaultInjection = __webpack_require__(246);
+var ReactMount = __webpack_require__(173);
 var ReactReconciler = __webpack_require__(43);
 var ReactUpdates = __webpack_require__(27);
-var ReactVersion = __webpack_require__(321);
+var ReactVersion = __webpack_require__(324);
 
-var findDOMNode = __webpack_require__(322);
-var getHostComponentFromComposite = __webpack_require__(171);
-var renderSubtreeIntoContainer = __webpack_require__(323);
+var findDOMNode = __webpack_require__(325);
+var getHostComponentFromComposite = __webpack_require__(174);
+var renderSubtreeIntoContainer = __webpack_require__(326);
 var warning = __webpack_require__(11);
 
 ReactDefaultInjection.inject();
@@ -21663,9 +22417,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 if (process.env.NODE_ENV !== 'production') {
   var ReactInstrumentation = __webpack_require__(25);
-  var ReactDOMUnknownPropertyHook = __webpack_require__(324);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(325);
-  var ReactDOMInvalidARIAHook = __webpack_require__(326);
+  var ReactDOMUnknownPropertyHook = __webpack_require__(327);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(328);
+  var ReactDOMInvalidARIAHook = __webpack_require__(329);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -21676,7 +22430,7 @@ module.exports = ReactDOM;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 243 */
+/* 246 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21692,25 +22446,25 @@ module.exports = ReactDOM;
 
 
 
-var ARIADOMPropertyConfig = __webpack_require__(244);
-var BeforeInputEventPlugin = __webpack_require__(245);
-var ChangeEventPlugin = __webpack_require__(249);
-var DefaultEventPluginOrder = __webpack_require__(257);
-var EnterLeaveEventPlugin = __webpack_require__(258);
-var HTMLDOMPropertyConfig = __webpack_require__(259);
-var ReactComponentBrowserEnvironment = __webpack_require__(260);
-var ReactDOMComponent = __webpack_require__(266);
+var ARIADOMPropertyConfig = __webpack_require__(247);
+var BeforeInputEventPlugin = __webpack_require__(248);
+var ChangeEventPlugin = __webpack_require__(252);
+var DefaultEventPluginOrder = __webpack_require__(260);
+var EnterLeaveEventPlugin = __webpack_require__(261);
+var HTMLDOMPropertyConfig = __webpack_require__(262);
+var ReactComponentBrowserEnvironment = __webpack_require__(263);
+var ReactDOMComponent = __webpack_require__(269);
 var ReactDOMComponentTree = __webpack_require__(16);
-var ReactDOMEmptyComponent = __webpack_require__(292);
-var ReactDOMTreeTraversal = __webpack_require__(293);
-var ReactDOMTextComponent = __webpack_require__(294);
-var ReactDefaultBatchingStrategy = __webpack_require__(295);
-var ReactEventListener = __webpack_require__(296);
-var ReactInjection = __webpack_require__(298);
-var ReactReconcileTransaction = __webpack_require__(299);
-var SVGDOMPropertyConfig = __webpack_require__(305);
-var SelectEventPlugin = __webpack_require__(306);
-var SimpleEventPlugin = __webpack_require__(307);
+var ReactDOMEmptyComponent = __webpack_require__(295);
+var ReactDOMTreeTraversal = __webpack_require__(296);
+var ReactDOMTextComponent = __webpack_require__(297);
+var ReactDefaultBatchingStrategy = __webpack_require__(298);
+var ReactEventListener = __webpack_require__(299);
+var ReactInjection = __webpack_require__(301);
+var ReactReconcileTransaction = __webpack_require__(302);
+var SVGDOMPropertyConfig = __webpack_require__(308);
+var SelectEventPlugin = __webpack_require__(309);
+var SimpleEventPlugin = __webpack_require__(310);
 
 var alreadyInjected = false;
 
@@ -21767,7 +22521,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 244 */
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21846,7 +22600,7 @@ var ARIADOMPropertyConfig = {
 module.exports = ARIADOMPropertyConfig;
 
 /***/ }),
-/* 245 */
+/* 248 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21862,11 +22616,11 @@ module.exports = ARIADOMPropertyConfig;
 
 
 
-var EventPropagators = __webpack_require__(51);
+var EventPropagators = __webpack_require__(52);
 var ExecutionEnvironment = __webpack_require__(18);
-var FallbackCompositionState = __webpack_require__(246);
-var SyntheticCompositionEvent = __webpack_require__(247);
-var SyntheticInputEvent = __webpack_require__(248);
+var FallbackCompositionState = __webpack_require__(249);
+var SyntheticCompositionEvent = __webpack_require__(250);
+var SyntheticInputEvent = __webpack_require__(251);
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -22235,7 +22989,7 @@ var BeforeInputEventPlugin = {
 module.exports = BeforeInputEventPlugin;
 
 /***/ }),
-/* 246 */
+/* 249 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22255,7 +23009,7 @@ var _assign = __webpack_require__(15);
 
 var PooledClass = __webpack_require__(37);
 
-var getTextContentAccessor = __webpack_require__(150);
+var getTextContentAccessor = __webpack_require__(153);
 
 /**
  * This helper class stores information about text content of a target node,
@@ -22335,7 +23089,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 module.exports = FallbackCompositionState;
 
 /***/ }),
-/* 247 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22376,7 +23130,7 @@ SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface
 module.exports = SyntheticCompositionEvent;
 
 /***/ }),
-/* 248 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22418,7 +23172,7 @@ SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 module.exports = SyntheticInputEvent;
 
 /***/ }),
-/* 249 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22434,17 +23188,17 @@ module.exports = SyntheticInputEvent;
 
 
 
-var EventPluginHub = __webpack_require__(52);
-var EventPropagators = __webpack_require__(51);
+var EventPluginHub = __webpack_require__(53);
+var EventPropagators = __webpack_require__(52);
 var ExecutionEnvironment = __webpack_require__(18);
 var ReactDOMComponentTree = __webpack_require__(16);
 var ReactUpdates = __webpack_require__(27);
 var SyntheticEvent = __webpack_require__(31);
 
-var inputValueTracking = __webpack_require__(153);
-var getEventTarget = __webpack_require__(88);
-var isEventSupported = __webpack_require__(89);
-var isTextInputElement = __webpack_require__(154);
+var inputValueTracking = __webpack_require__(156);
+var getEventTarget = __webpack_require__(92);
+var isEventSupported = __webpack_require__(93);
+var isTextInputElement = __webpack_require__(157);
 
 var eventTypes = {
   change: {
@@ -22735,7 +23489,7 @@ var ChangeEventPlugin = {
 module.exports = ChangeEventPlugin;
 
 /***/ }),
-/* 250 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22752,7 +23506,7 @@ module.exports = ChangeEventPlugin;
 
 
 
-var ReactOwner = __webpack_require__(251);
+var ReactOwner = __webpack_require__(254);
 
 var ReactRef = {};
 
@@ -22829,7 +23583,7 @@ ReactRef.detachRefs = function (instance, element) {
 module.exports = ReactRef;
 
 /***/ }),
-/* 251 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22928,7 +23682,7 @@ module.exports = ReactOwner;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 252 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22945,12 +23699,12 @@ module.exports = ReactOwner;
 
 
 
-var ReactInvalidSetStateWarningHook = __webpack_require__(253);
-var ReactHostOperationHistoryHook = __webpack_require__(254);
+var ReactInvalidSetStateWarningHook = __webpack_require__(256);
+var ReactHostOperationHistoryHook = __webpack_require__(257);
 var ReactComponentTreeHook = __webpack_require__(23);
 var ExecutionEnvironment = __webpack_require__(18);
 
-var performanceNow = __webpack_require__(255);
+var performanceNow = __webpack_require__(258);
 var warning = __webpack_require__(11);
 
 var hooks = [];
@@ -23295,7 +24049,7 @@ module.exports = ReactDebugTool;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 253 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23338,7 +24092,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 254 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23377,7 +24131,7 @@ var ReactHostOperationHistoryHook = {
 module.exports = ReactHostOperationHistoryHook;
 
 /***/ }),
-/* 255 */
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23394,7 +24148,7 @@ module.exports = ReactHostOperationHistoryHook;
  * @typechecks
  */
 
-var performance = __webpack_require__(256);
+var performance = __webpack_require__(259);
 
 var performanceNow;
 
@@ -23416,7 +24170,7 @@ if (performance.now) {
 module.exports = performanceNow;
 
 /***/ }),
-/* 256 */
+/* 259 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23444,7 +24198,7 @@ if (ExecutionEnvironment.canUseDOM) {
 module.exports = performance || {};
 
 /***/ }),
-/* 257 */
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23475,7 +24229,7 @@ var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'Tap
 module.exports = DefaultEventPluginOrder;
 
 /***/ }),
-/* 258 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23491,9 +24245,9 @@ module.exports = DefaultEventPluginOrder;
 
 
 
-var EventPropagators = __webpack_require__(51);
+var EventPropagators = __webpack_require__(52);
 var ReactDOMComponentTree = __webpack_require__(16);
-var SyntheticMouseEvent = __webpack_require__(70);
+var SyntheticMouseEvent = __webpack_require__(74);
 
 var eventTypes = {
   mouseEnter: {
@@ -23578,7 +24332,7 @@ var EnterLeaveEventPlugin = {
 module.exports = EnterLeaveEventPlugin;
 
 /***/ }),
-/* 259 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23819,7 +24573,7 @@ var HTMLDOMPropertyConfig = {
 module.exports = HTMLDOMPropertyConfig;
 
 /***/ }),
-/* 260 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23835,8 +24589,8 @@ module.exports = HTMLDOMPropertyConfig;
 
 
 
-var DOMChildrenOperations = __webpack_require__(91);
-var ReactDOMIDOperations = __webpack_require__(265);
+var DOMChildrenOperations = __webpack_require__(95);
+var ReactDOMIDOperations = __webpack_require__(268);
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -23852,7 +24606,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 /***/ }),
-/* 261 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23873,7 +24627,7 @@ var _prodInvariant = __webpack_require__(12);
 var DOMLazyTree = __webpack_require__(44);
 var ExecutionEnvironment = __webpack_require__(18);
 
-var createNodesFromMarkup = __webpack_require__(262);
+var createNodesFromMarkup = __webpack_require__(265);
 var emptyFunction = __webpack_require__(24);
 var invariant = __webpack_require__(10);
 
@@ -23904,7 +24658,7 @@ module.exports = Danger;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 262 */
+/* 265 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23925,8 +24679,8 @@ module.exports = Danger;
 
 var ExecutionEnvironment = __webpack_require__(18);
 
-var createArrayFromMixed = __webpack_require__(263);
-var getMarkupWrap = __webpack_require__(264);
+var createArrayFromMixed = __webpack_require__(266);
+var getMarkupWrap = __webpack_require__(267);
 var invariant = __webpack_require__(10);
 
 /**
@@ -23994,7 +24748,7 @@ module.exports = createNodesFromMarkup;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 263 */
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24127,7 +24881,7 @@ module.exports = createArrayFromMixed;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 264 */
+/* 267 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24228,7 +24982,7 @@ module.exports = getMarkupWrap;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 265 */
+/* 268 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24244,7 +24998,7 @@ module.exports = getMarkupWrap;
 
 
 
-var DOMChildrenOperations = __webpack_require__(91);
+var DOMChildrenOperations = __webpack_require__(95);
 var ReactDOMComponentTree = __webpack_require__(16);
 
 /**
@@ -24266,7 +25020,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 /***/ }),
-/* 266 */
+/* 269 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24287,32 +25041,32 @@ module.exports = ReactDOMIDOperations;
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(15);
 
-var AutoFocusUtils = __webpack_require__(267);
-var CSSPropertyOperations = __webpack_require__(268);
+var AutoFocusUtils = __webpack_require__(270);
+var CSSPropertyOperations = __webpack_require__(271);
 var DOMLazyTree = __webpack_require__(44);
-var DOMNamespaces = __webpack_require__(92);
+var DOMNamespaces = __webpack_require__(96);
 var DOMProperty = __webpack_require__(32);
-var DOMPropertyOperations = __webpack_require__(159);
-var EventPluginHub = __webpack_require__(52);
-var EventPluginRegistry = __webpack_require__(68);
-var ReactBrowserEventEmitter = __webpack_require__(73);
-var ReactDOMComponentFlags = __webpack_require__(147);
+var DOMPropertyOperations = __webpack_require__(162);
+var EventPluginHub = __webpack_require__(53);
+var EventPluginRegistry = __webpack_require__(72);
+var ReactBrowserEventEmitter = __webpack_require__(77);
+var ReactDOMComponentFlags = __webpack_require__(150);
 var ReactDOMComponentTree = __webpack_require__(16);
-var ReactDOMInput = __webpack_require__(278);
-var ReactDOMOption = __webpack_require__(279);
-var ReactDOMSelect = __webpack_require__(161);
-var ReactDOMTextarea = __webpack_require__(280);
+var ReactDOMInput = __webpack_require__(281);
+var ReactDOMOption = __webpack_require__(282);
+var ReactDOMSelect = __webpack_require__(164);
+var ReactDOMTextarea = __webpack_require__(283);
 var ReactInstrumentation = __webpack_require__(25);
-var ReactMultiChild = __webpack_require__(281);
-var ReactServerRenderingTransaction = __webpack_require__(290);
+var ReactMultiChild = __webpack_require__(284);
+var ReactServerRenderingTransaction = __webpack_require__(293);
 
 var emptyFunction = __webpack_require__(24);
-var escapeTextContentForBrowser = __webpack_require__(72);
+var escapeTextContentForBrowser = __webpack_require__(76);
 var invariant = __webpack_require__(10);
-var isEventSupported = __webpack_require__(89);
-var shallowEqual = __webpack_require__(96);
-var inputValueTracking = __webpack_require__(153);
-var validateDOMNesting = __webpack_require__(100);
+var isEventSupported = __webpack_require__(93);
+var shallowEqual = __webpack_require__(100);
+var inputValueTracking = __webpack_require__(156);
+var validateDOMNesting = __webpack_require__(104);
 var warning = __webpack_require__(11);
 
 var Flags = ReactDOMComponentFlags;
@@ -25282,7 +26036,7 @@ module.exports = ReactDOMComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 267 */
+/* 270 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25300,7 +26054,7 @@ module.exports = ReactDOMComponent;
 
 var ReactDOMComponentTree = __webpack_require__(16);
 
-var focusNode = __webpack_require__(157);
+var focusNode = __webpack_require__(160);
 
 var AutoFocusUtils = {
   focusDOMComponent: function () {
@@ -25311,7 +26065,7 @@ var AutoFocusUtils = {
 module.exports = AutoFocusUtils;
 
 /***/ }),
-/* 268 */
+/* 271 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25327,14 +26081,14 @@ module.exports = AutoFocusUtils;
 
 
 
-var CSSProperty = __webpack_require__(158);
+var CSSProperty = __webpack_require__(161);
 var ExecutionEnvironment = __webpack_require__(18);
 var ReactInstrumentation = __webpack_require__(25);
 
-var camelizeStyleName = __webpack_require__(269);
-var dangerousStyleValue = __webpack_require__(271);
-var hyphenateStyleName = __webpack_require__(272);
-var memoizeStringOnly = __webpack_require__(274);
+var camelizeStyleName = __webpack_require__(272);
+var dangerousStyleValue = __webpack_require__(274);
+var hyphenateStyleName = __webpack_require__(275);
+var memoizeStringOnly = __webpack_require__(277);
 var warning = __webpack_require__(11);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -25532,7 +26286,7 @@ module.exports = CSSPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 269 */
+/* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25549,7 +26303,7 @@ module.exports = CSSPropertyOperations;
 
 
 
-var camelize = __webpack_require__(270);
+var camelize = __webpack_require__(273);
 
 var msPattern = /^-ms-/;
 
@@ -25577,7 +26331,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 270 */
+/* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25614,7 +26368,7 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-/* 271 */
+/* 274 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25630,7 +26384,7 @@ module.exports = camelize;
 
 
 
-var CSSProperty = __webpack_require__(158);
+var CSSProperty = __webpack_require__(161);
 var warning = __webpack_require__(11);
 
 var isUnitlessNumber = CSSProperty.isUnitlessNumber;
@@ -25699,7 +26453,7 @@ module.exports = dangerousStyleValue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 272 */
+/* 275 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25716,7 +26470,7 @@ module.exports = dangerousStyleValue;
 
 
 
-var hyphenate = __webpack_require__(273);
+var hyphenate = __webpack_require__(276);
 
 var msPattern = /^ms-/;
 
@@ -25743,7 +26497,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 273 */
+/* 276 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25781,7 +26535,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 274 */
+/* 277 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25816,7 +26570,7 @@ function memoizeStringOnly(callback) {
 module.exports = memoizeStringOnly;
 
 /***/ }),
-/* 275 */
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25832,7 +26586,7 @@ module.exports = memoizeStringOnly;
 
 
 
-var escapeTextContentForBrowser = __webpack_require__(72);
+var escapeTextContentForBrowser = __webpack_require__(76);
 
 /**
  * Escapes attribute value to prevent scripting attacks.
@@ -25847,7 +26601,7 @@ function quoteAttributeValueForBrowser(value) {
 module.exports = quoteAttributeValueForBrowser;
 
 /***/ }),
-/* 276 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25863,7 +26617,7 @@ module.exports = quoteAttributeValueForBrowser;
 
 
 
-var EventPluginHub = __webpack_require__(52);
+var EventPluginHub = __webpack_require__(53);
 
 function runEventQueueInBatch(events) {
   EventPluginHub.enqueueEvents(events);
@@ -25884,7 +26638,7 @@ var ReactEventEmitterMixin = {
 module.exports = ReactEventEmitterMixin;
 
 /***/ }),
-/* 277 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25990,7 +26744,7 @@ function getVendorPrefixedEventName(eventName) {
 module.exports = getVendorPrefixedEventName;
 
 /***/ }),
-/* 278 */
+/* 281 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26009,8 +26763,8 @@ module.exports = getVendorPrefixedEventName;
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(15);
 
-var DOMPropertyOperations = __webpack_require__(159);
-var LinkedValueUtils = __webpack_require__(94);
+var DOMPropertyOperations = __webpack_require__(162);
+var LinkedValueUtils = __webpack_require__(98);
 var ReactDOMComponentTree = __webpack_require__(16);
 var ReactUpdates = __webpack_require__(27);
 
@@ -26283,7 +27037,7 @@ module.exports = ReactDOMInput;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 279 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26303,7 +27057,7 @@ var _assign = __webpack_require__(15);
 
 var React = __webpack_require__(41);
 var ReactDOMComponentTree = __webpack_require__(16);
-var ReactDOMSelect = __webpack_require__(161);
+var ReactDOMSelect = __webpack_require__(164);
 
 var warning = __webpack_require__(11);
 var didWarnInvalidOptionChildren = false;
@@ -26411,7 +27165,7 @@ module.exports = ReactDOMOption;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 280 */
+/* 283 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26430,7 +27184,7 @@ module.exports = ReactDOMOption;
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(15);
 
-var LinkedValueUtils = __webpack_require__(94);
+var LinkedValueUtils = __webpack_require__(98);
 var ReactDOMComponentTree = __webpack_require__(16);
 var ReactUpdates = __webpack_require__(27);
 
@@ -26577,7 +27331,7 @@ module.exports = ReactDOMTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 281 */
+/* 284 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26595,16 +27349,16 @@ module.exports = ReactDOMTextarea;
 
 var _prodInvariant = __webpack_require__(12);
 
-var ReactComponentEnvironment = __webpack_require__(95);
-var ReactInstanceMap = __webpack_require__(54);
+var ReactComponentEnvironment = __webpack_require__(99);
+var ReactInstanceMap = __webpack_require__(55);
 var ReactInstrumentation = __webpack_require__(25);
 
 var ReactCurrentOwner = __webpack_require__(26);
 var ReactReconciler = __webpack_require__(43);
-var ReactChildReconciler = __webpack_require__(282);
+var ReactChildReconciler = __webpack_require__(285);
 
 var emptyFunction = __webpack_require__(24);
-var flattenChildren = __webpack_require__(289);
+var flattenChildren = __webpack_require__(292);
 var invariant = __webpack_require__(10);
 
 /**
@@ -27029,7 +27783,7 @@ module.exports = ReactMultiChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 282 */
+/* 285 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27047,10 +27801,10 @@ module.exports = ReactMultiChild;
 
 var ReactReconciler = __webpack_require__(43);
 
-var instantiateReactComponent = __webpack_require__(162);
-var KeyEscapeUtils = __webpack_require__(98);
-var shouldUpdateReactComponent = __webpack_require__(97);
-var traverseAllChildren = __webpack_require__(166);
+var instantiateReactComponent = __webpack_require__(165);
+var KeyEscapeUtils = __webpack_require__(102);
+var shouldUpdateReactComponent = __webpack_require__(101);
+var traverseAllChildren = __webpack_require__(169);
 var warning = __webpack_require__(11);
 
 var ReactComponentTreeHook;
@@ -27188,7 +27942,7 @@ module.exports = ReactChildReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 283 */
+/* 286 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27208,22 +27962,22 @@ var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(15);
 
 var React = __webpack_require__(41);
-var ReactComponentEnvironment = __webpack_require__(95);
+var ReactComponentEnvironment = __webpack_require__(99);
 var ReactCurrentOwner = __webpack_require__(26);
-var ReactErrorUtils = __webpack_require__(87);
-var ReactInstanceMap = __webpack_require__(54);
+var ReactErrorUtils = __webpack_require__(91);
+var ReactInstanceMap = __webpack_require__(55);
 var ReactInstrumentation = __webpack_require__(25);
-var ReactNodeTypes = __webpack_require__(163);
+var ReactNodeTypes = __webpack_require__(166);
 var ReactReconciler = __webpack_require__(43);
 
 if (process.env.NODE_ENV !== 'production') {
-  var checkReactTypeSpec = __webpack_require__(284);
+  var checkReactTypeSpec = __webpack_require__(287);
 }
 
-var emptyObject = __webpack_require__(67);
+var emptyObject = __webpack_require__(71);
 var invariant = __webpack_require__(10);
-var shallowEqual = __webpack_require__(96);
-var shouldUpdateReactComponent = __webpack_require__(97);
+var shallowEqual = __webpack_require__(100);
+var shouldUpdateReactComponent = __webpack_require__(101);
 var warning = __webpack_require__(11);
 
 var CompositeTypes = {
@@ -28094,7 +28848,7 @@ module.exports = ReactCompositeComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 284 */
+/* 287 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28112,8 +28866,8 @@ module.exports = ReactCompositeComponent;
 
 var _prodInvariant = __webpack_require__(12);
 
-var ReactPropTypeLocationNames = __webpack_require__(285);
-var ReactPropTypesSecret = __webpack_require__(160);
+var ReactPropTypeLocationNames = __webpack_require__(288);
+var ReactPropTypesSecret = __webpack_require__(163);
 
 var invariant = __webpack_require__(10);
 var warning = __webpack_require__(11);
@@ -28187,7 +28941,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 285 */
+/* 288 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28218,7 +28972,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 286 */
+/* 289 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28244,7 +28998,7 @@ function getNextDebugID() {
 module.exports = getNextDebugID;
 
 /***/ }),
-/* 287 */
+/* 290 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28269,7 +29023,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 288 */
+/* 291 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28315,7 +29069,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 289 */
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28332,8 +29086,8 @@ module.exports = getIteratorFn;
 
 
 
-var KeyEscapeUtils = __webpack_require__(98);
-var traverseAllChildren = __webpack_require__(166);
+var KeyEscapeUtils = __webpack_require__(102);
+var traverseAllChildren = __webpack_require__(169);
 var warning = __webpack_require__(11);
 
 var ReactComponentTreeHook;
@@ -28397,7 +29151,7 @@ module.exports = flattenChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 290 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28416,9 +29170,9 @@ module.exports = flattenChildren;
 var _assign = __webpack_require__(15);
 
 var PooledClass = __webpack_require__(37);
-var Transaction = __webpack_require__(69);
+var Transaction = __webpack_require__(73);
 var ReactInstrumentation = __webpack_require__(25);
-var ReactServerUpdateQueue = __webpack_require__(291);
+var ReactServerUpdateQueue = __webpack_require__(294);
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -28493,7 +29247,7 @@ module.exports = ReactServerRenderingTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 291 */
+/* 294 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28512,7 +29266,7 @@ module.exports = ReactServerRenderingTransaction;
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var ReactUpdateQueue = __webpack_require__(99);
+var ReactUpdateQueue = __webpack_require__(103);
 
 var warning = __webpack_require__(11);
 
@@ -28638,7 +29392,7 @@ module.exports = ReactServerUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 292 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28703,7 +29457,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 module.exports = ReactDOMEmptyComponent;
 
 /***/ }),
-/* 293 */
+/* 296 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28845,7 +29599,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 294 */
+/* 297 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28864,13 +29618,13 @@ module.exports = {
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(15);
 
-var DOMChildrenOperations = __webpack_require__(91);
+var DOMChildrenOperations = __webpack_require__(95);
 var DOMLazyTree = __webpack_require__(44);
 var ReactDOMComponentTree = __webpack_require__(16);
 
-var escapeTextContentForBrowser = __webpack_require__(72);
+var escapeTextContentForBrowser = __webpack_require__(76);
 var invariant = __webpack_require__(10);
-var validateDOMNesting = __webpack_require__(100);
+var validateDOMNesting = __webpack_require__(104);
 
 /**
  * Text nodes violate a couple assumptions that React makes about components:
@@ -29013,7 +29767,7 @@ module.exports = ReactDOMTextComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 295 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29032,7 +29786,7 @@ module.exports = ReactDOMTextComponent;
 var _assign = __webpack_require__(15);
 
 var ReactUpdates = __webpack_require__(27);
-var Transaction = __webpack_require__(69);
+var Transaction = __webpack_require__(73);
 
 var emptyFunction = __webpack_require__(24);
 
@@ -29086,7 +29840,7 @@ var ReactDefaultBatchingStrategy = {
 module.exports = ReactDefaultBatchingStrategy;
 
 /***/ }),
-/* 296 */
+/* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29104,14 +29858,14 @@ module.exports = ReactDefaultBatchingStrategy;
 
 var _assign = __webpack_require__(15);
 
-var EventListener = __webpack_require__(167);
+var EventListener = __webpack_require__(170);
 var ExecutionEnvironment = __webpack_require__(18);
 var PooledClass = __webpack_require__(37);
 var ReactDOMComponentTree = __webpack_require__(16);
 var ReactUpdates = __webpack_require__(27);
 
-var getEventTarget = __webpack_require__(88);
-var getUnboundedScrollPosition = __webpack_require__(297);
+var getEventTarget = __webpack_require__(92);
+var getUnboundedScrollPosition = __webpack_require__(300);
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -29246,7 +30000,7 @@ var ReactEventListener = {
 module.exports = ReactEventListener;
 
 /***/ }),
-/* 297 */
+/* 300 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29290,7 +30044,7 @@ function getUnboundedScrollPosition(scrollable) {
 module.exports = getUnboundedScrollPosition;
 
 /***/ }),
-/* 298 */
+/* 301 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29307,12 +30061,12 @@ module.exports = getUnboundedScrollPosition;
 
 
 var DOMProperty = __webpack_require__(32);
-var EventPluginHub = __webpack_require__(52);
-var EventPluginUtils = __webpack_require__(86);
-var ReactComponentEnvironment = __webpack_require__(95);
-var ReactEmptyComponent = __webpack_require__(164);
-var ReactBrowserEventEmitter = __webpack_require__(73);
-var ReactHostComponent = __webpack_require__(165);
+var EventPluginHub = __webpack_require__(53);
+var EventPluginUtils = __webpack_require__(90);
+var ReactComponentEnvironment = __webpack_require__(99);
+var ReactEmptyComponent = __webpack_require__(167);
+var ReactBrowserEventEmitter = __webpack_require__(77);
+var ReactHostComponent = __webpack_require__(168);
 var ReactUpdates = __webpack_require__(27);
 
 var ReactInjection = {
@@ -29329,7 +30083,7 @@ var ReactInjection = {
 module.exports = ReactInjection;
 
 /***/ }),
-/* 299 */
+/* 302 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29347,13 +30101,13 @@ module.exports = ReactInjection;
 
 var _assign = __webpack_require__(15);
 
-var CallbackQueue = __webpack_require__(151);
+var CallbackQueue = __webpack_require__(154);
 var PooledClass = __webpack_require__(37);
-var ReactBrowserEventEmitter = __webpack_require__(73);
-var ReactInputSelection = __webpack_require__(168);
+var ReactBrowserEventEmitter = __webpack_require__(77);
+var ReactInputSelection = __webpack_require__(171);
 var ReactInstrumentation = __webpack_require__(25);
-var Transaction = __webpack_require__(69);
-var ReactUpdateQueue = __webpack_require__(99);
+var Transaction = __webpack_require__(73);
+var ReactUpdateQueue = __webpack_require__(103);
 
 /**
  * Ensures that, when possible, the selection range (currently selected text
@@ -29513,7 +30267,7 @@ module.exports = ReactReconcileTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 300 */
+/* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29531,8 +30285,8 @@ module.exports = ReactReconcileTransaction;
 
 var ExecutionEnvironment = __webpack_require__(18);
 
-var getNodeForCharacterOffset = __webpack_require__(301);
-var getTextContentAccessor = __webpack_require__(150);
+var getNodeForCharacterOffset = __webpack_require__(304);
+var getTextContentAccessor = __webpack_require__(153);
 
 /**
  * While `isCollapsed` is available on the Selection object and `collapsed`
@@ -29730,7 +30484,7 @@ var ReactDOMSelection = {
 module.exports = ReactDOMSelection;
 
 /***/ }),
-/* 301 */
+/* 304 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29809,7 +30563,7 @@ function getNodeForCharacterOffset(root, offset) {
 module.exports = getNodeForCharacterOffset;
 
 /***/ }),
-/* 302 */
+/* 305 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29826,7 +30580,7 @@ module.exports = getNodeForCharacterOffset;
  * 
  */
 
-var isTextNode = __webpack_require__(303);
+var isTextNode = __webpack_require__(306);
 
 /*eslint-disable no-bitwise */
 
@@ -29854,7 +30608,7 @@ function containsNode(outerNode, innerNode) {
 module.exports = containsNode;
 
 /***/ }),
-/* 303 */
+/* 306 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29871,7 +30625,7 @@ module.exports = containsNode;
  * @typechecks
  */
 
-var isNode = __webpack_require__(304);
+var isNode = __webpack_require__(307);
 
 /**
  * @param {*} object The object to check.
@@ -29884,7 +30638,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 304 */
+/* 307 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29914,7 +30668,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 305 */
+/* 308 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30221,7 +30975,7 @@ Object.keys(ATTRS).forEach(function (key) {
 module.exports = SVGDOMPropertyConfig;
 
 /***/ }),
-/* 306 */
+/* 309 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30237,15 +30991,15 @@ module.exports = SVGDOMPropertyConfig;
 
 
 
-var EventPropagators = __webpack_require__(51);
+var EventPropagators = __webpack_require__(52);
 var ExecutionEnvironment = __webpack_require__(18);
 var ReactDOMComponentTree = __webpack_require__(16);
-var ReactInputSelection = __webpack_require__(168);
+var ReactInputSelection = __webpack_require__(171);
 var SyntheticEvent = __webpack_require__(31);
 
-var getActiveElement = __webpack_require__(169);
-var isTextInputElement = __webpack_require__(154);
-var shallowEqual = __webpack_require__(96);
+var getActiveElement = __webpack_require__(172);
+var isTextInputElement = __webpack_require__(157);
+var shallowEqual = __webpack_require__(100);
 
 var skipSelectionChangeEvent = ExecutionEnvironment.canUseDOM && 'documentMode' in document && document.documentMode <= 11;
 
@@ -30414,7 +31168,7 @@ var SelectEventPlugin = {
 module.exports = SelectEventPlugin;
 
 /***/ }),
-/* 307 */
+/* 310 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30433,23 +31187,23 @@ module.exports = SelectEventPlugin;
 
 var _prodInvariant = __webpack_require__(12);
 
-var EventListener = __webpack_require__(167);
-var EventPropagators = __webpack_require__(51);
+var EventListener = __webpack_require__(170);
+var EventPropagators = __webpack_require__(52);
 var ReactDOMComponentTree = __webpack_require__(16);
-var SyntheticAnimationEvent = __webpack_require__(308);
-var SyntheticClipboardEvent = __webpack_require__(309);
+var SyntheticAnimationEvent = __webpack_require__(311);
+var SyntheticClipboardEvent = __webpack_require__(312);
 var SyntheticEvent = __webpack_require__(31);
-var SyntheticFocusEvent = __webpack_require__(310);
-var SyntheticKeyboardEvent = __webpack_require__(311);
-var SyntheticMouseEvent = __webpack_require__(70);
-var SyntheticDragEvent = __webpack_require__(313);
-var SyntheticTouchEvent = __webpack_require__(314);
-var SyntheticTransitionEvent = __webpack_require__(315);
-var SyntheticUIEvent = __webpack_require__(53);
-var SyntheticWheelEvent = __webpack_require__(316);
+var SyntheticFocusEvent = __webpack_require__(313);
+var SyntheticKeyboardEvent = __webpack_require__(314);
+var SyntheticMouseEvent = __webpack_require__(74);
+var SyntheticDragEvent = __webpack_require__(316);
+var SyntheticTouchEvent = __webpack_require__(317);
+var SyntheticTransitionEvent = __webpack_require__(318);
+var SyntheticUIEvent = __webpack_require__(54);
+var SyntheticWheelEvent = __webpack_require__(319);
 
 var emptyFunction = __webpack_require__(24);
-var getEventCharCode = __webpack_require__(101);
+var getEventCharCode = __webpack_require__(105);
 var invariant = __webpack_require__(10);
 
 /**
@@ -30646,7 +31400,7 @@ module.exports = SimpleEventPlugin;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 308 */
+/* 311 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30690,7 +31444,7 @@ SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 module.exports = SyntheticAnimationEvent;
 
 /***/ }),
-/* 309 */
+/* 312 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30733,7 +31487,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 /***/ }),
-/* 310 */
+/* 313 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30749,7 +31503,7 @@ module.exports = SyntheticClipboardEvent;
 
 
 
-var SyntheticUIEvent = __webpack_require__(53);
+var SyntheticUIEvent = __webpack_require__(54);
 
 /**
  * @interface FocusEvent
@@ -30774,7 +31528,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 module.exports = SyntheticFocusEvent;
 
 /***/ }),
-/* 311 */
+/* 314 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30790,11 +31544,11 @@ module.exports = SyntheticFocusEvent;
 
 
 
-var SyntheticUIEvent = __webpack_require__(53);
+var SyntheticUIEvent = __webpack_require__(54);
 
-var getEventCharCode = __webpack_require__(101);
-var getEventKey = __webpack_require__(312);
-var getEventModifierState = __webpack_require__(90);
+var getEventCharCode = __webpack_require__(105);
+var getEventKey = __webpack_require__(315);
+var getEventModifierState = __webpack_require__(94);
 
 /**
  * @interface KeyboardEvent
@@ -30863,7 +31617,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 module.exports = SyntheticKeyboardEvent;
 
 /***/ }),
-/* 312 */
+/* 315 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30879,7 +31633,7 @@ module.exports = SyntheticKeyboardEvent;
 
 
 
-var getEventCharCode = __webpack_require__(101);
+var getEventCharCode = __webpack_require__(105);
 
 /**
  * Normalization of deprecated HTML5 `key` values
@@ -30980,7 +31734,7 @@ function getEventKey(nativeEvent) {
 module.exports = getEventKey;
 
 /***/ }),
-/* 313 */
+/* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30996,7 +31750,7 @@ module.exports = getEventKey;
 
 
 
-var SyntheticMouseEvent = __webpack_require__(70);
+var SyntheticMouseEvent = __webpack_require__(74);
 
 /**
  * @interface DragEvent
@@ -31021,7 +31775,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 module.exports = SyntheticDragEvent;
 
 /***/ }),
-/* 314 */
+/* 317 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31037,9 +31791,9 @@ module.exports = SyntheticDragEvent;
 
 
 
-var SyntheticUIEvent = __webpack_require__(53);
+var SyntheticUIEvent = __webpack_require__(54);
 
-var getEventModifierState = __webpack_require__(90);
+var getEventModifierState = __webpack_require__(94);
 
 /**
  * @interface TouchEvent
@@ -31071,7 +31825,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 module.exports = SyntheticTouchEvent;
 
 /***/ }),
-/* 315 */
+/* 318 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31115,7 +31869,7 @@ SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 module.exports = SyntheticTransitionEvent;
 
 /***/ }),
-/* 316 */
+/* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31131,7 +31885,7 @@ module.exports = SyntheticTransitionEvent;
 
 
 
-var SyntheticMouseEvent = __webpack_require__(70);
+var SyntheticMouseEvent = __webpack_require__(74);
 
 /**
  * @interface WheelEvent
@@ -31171,7 +31925,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 module.exports = SyntheticWheelEvent;
 
 /***/ }),
-/* 317 */
+/* 320 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31187,7 +31941,7 @@ module.exports = SyntheticWheelEvent;
 
 
 
-var validateDOMNesting = __webpack_require__(100);
+var validateDOMNesting = __webpack_require__(104);
 
 var DOC_NODE_TYPE = 9;
 
@@ -31210,7 +31964,7 @@ module.exports = ReactDOMContainerInfo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 318 */
+/* 321 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31234,7 +31988,7 @@ var ReactDOMFeatureFlags = {
 module.exports = ReactDOMFeatureFlags;
 
 /***/ }),
-/* 319 */
+/* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31250,7 +32004,7 @@ module.exports = ReactDOMFeatureFlags;
 
 
 
-var adler32 = __webpack_require__(320);
+var adler32 = __webpack_require__(323);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -31289,7 +32043,7 @@ var ReactMarkupChecksum = {
 module.exports = ReactMarkupChecksum;
 
 /***/ }),
-/* 320 */
+/* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31338,7 +32092,7 @@ function adler32(data) {
 module.exports = adler32;
 
 /***/ }),
-/* 321 */
+/* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31357,7 +32111,7 @@ module.exports = adler32;
 module.exports = '15.6.1';
 
 /***/ }),
-/* 322 */
+/* 325 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31377,9 +32131,9 @@ var _prodInvariant = __webpack_require__(12);
 
 var ReactCurrentOwner = __webpack_require__(26);
 var ReactDOMComponentTree = __webpack_require__(16);
-var ReactInstanceMap = __webpack_require__(54);
+var ReactInstanceMap = __webpack_require__(55);
 
-var getHostComponentFromComposite = __webpack_require__(171);
+var getHostComponentFromComposite = __webpack_require__(174);
 var invariant = __webpack_require__(10);
 var warning = __webpack_require__(11);
 
@@ -31423,7 +32177,7 @@ module.exports = findDOMNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 323 */
+/* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31439,12 +32193,12 @@ module.exports = findDOMNode;
 
 
 
-var ReactMount = __webpack_require__(170);
+var ReactMount = __webpack_require__(173);
 
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ }),
-/* 324 */
+/* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31461,7 +32215,7 @@ module.exports = ReactMount.renderSubtreeIntoContainer;
 
 
 var DOMProperty = __webpack_require__(32);
-var EventPluginRegistry = __webpack_require__(68);
+var EventPluginRegistry = __webpack_require__(72);
 var ReactComponentTreeHook = __webpack_require__(23);
 
 var warning = __webpack_require__(11);
@@ -31562,7 +32316,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 325 */
+/* 328 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31611,7 +32365,7 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 326 */
+/* 329 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31710,7 +32464,7 @@ module.exports = ReactDOMInvalidARIAHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 327 */
+/* 330 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -31720,9 +32474,9 @@ module.exports = ReactDOMInvalidARIAHook;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__ = __webpack_require__(329);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__ = __webpack_require__(332);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(108);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -31777,7 +32531,7 @@ BrowserRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (BrowserRouter);
 
 /***/ }),
-/* 328 */
+/* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31794,7 +32548,7 @@ BrowserRouter.propTypes = {
 
 var emptyFunction = __webpack_require__(24);
 var invariant = __webpack_require__(10);
-var ReactPropTypesSecret = __webpack_require__(85);
+var ReactPropTypesSecret = __webpack_require__(89);
 
 module.exports = function() {
   function shim(props, propName, componentName, location, propFullName, secret) {
@@ -31843,7 +32597,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 329 */
+/* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31863,15 +32617,15 @@ var _invariant = __webpack_require__(20);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _LocationUtils = __webpack_require__(103);
+var _LocationUtils = __webpack_require__(106);
 
-var _PathUtils = __webpack_require__(55);
+var _PathUtils = __webpack_require__(56);
 
-var _createTransitionManager = __webpack_require__(104);
+var _createTransitionManager = __webpack_require__(107);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
-var _DOMUtils = __webpack_require__(174);
+var _DOMUtils = __webpack_require__(177);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -32156,7 +32910,7 @@ var createBrowserHistory = function createBrowserHistory() {
 exports.default = createBrowserHistory;
 
 /***/ }),
-/* 330 */
+/* 333 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32166,9 +32920,9 @@ exports.default = createBrowserHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__ = __webpack_require__(331);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__ = __webpack_require__(334);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(108);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -32222,7 +32976,7 @@ HashRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (HashRouter);
 
 /***/ }),
-/* 331 */
+/* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32240,15 +32994,15 @@ var _invariant = __webpack_require__(20);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _LocationUtils = __webpack_require__(103);
+var _LocationUtils = __webpack_require__(106);
 
-var _PathUtils = __webpack_require__(55);
+var _PathUtils = __webpack_require__(56);
 
-var _createTransitionManager = __webpack_require__(104);
+var _createTransitionManager = __webpack_require__(107);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
-var _DOMUtils = __webpack_require__(174);
+var _DOMUtils = __webpack_require__(177);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -32552,18 +33306,18 @@ var createHashHistory = function createHashHistory() {
 exports.default = createHashHistory;
 
 /***/ }),
-/* 332 */
+/* 335 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__ = __webpack_require__(333);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__ = __webpack_require__(336);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__["a" /* default */]);
 
 /***/ }),
-/* 333 */
+/* 336 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32573,9 +33327,9 @@ exports.default = createHashHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__ = __webpack_require__(334);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__ = __webpack_require__(337);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(109);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -32630,7 +33384,7 @@ MemoryRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (MemoryRouter);
 
 /***/ }),
-/* 334 */
+/* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32646,11 +33400,11 @@ var _warning = __webpack_require__(13);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _PathUtils = __webpack_require__(55);
+var _PathUtils = __webpack_require__(56);
 
-var _LocationUtils = __webpack_require__(103);
+var _LocationUtils = __webpack_require__(106);
 
-var _createTransitionManager = __webpack_require__(104);
+var _createTransitionManager = __webpack_require__(107);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
@@ -32806,7 +33560,7 @@ var createMemoryHistory = function createMemoryHistory() {
 exports.default = createMemoryHistory;
 
 /***/ }),
-/* 335 */
+/* 338 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32814,8 +33568,8 @@ exports.default = createMemoryHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Route__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(175);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Route__ = __webpack_require__(179);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Link__ = __webpack_require__(178);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -32887,10 +33641,10 @@ NavLink.defaultProps = {
 /* harmony default export */ __webpack_exports__["a"] = (NavLink);
 
 /***/ }),
-/* 336 */
+/* 339 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isarray = __webpack_require__(337)
+var isarray = __webpack_require__(340)
 
 /**
  * Expose `pathToRegexp`.
@@ -33319,7 +34073,7 @@ function pathToRegexp (path, keys, options) {
 
 
 /***/ }),
-/* 337 */
+/* 340 */
 /***/ (function(module, exports) {
 
 module.exports = Array.isArray || function (arr) {
@@ -33328,18 +34082,18 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 338 */
+/* 341 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__ = __webpack_require__(342);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__["a" /* default */]);
 
 /***/ }),
-/* 339 */
+/* 342 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33430,18 +34184,18 @@ Prompt.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Prompt);
 
 /***/ }),
-/* 340 */
+/* 343 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__ = __webpack_require__(341);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__ = __webpack_require__(344);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__["a" /* default */]);
 
 /***/ }),
-/* 341 */
+/* 344 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33453,7 +34207,7 @@ Prompt.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(342);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(345);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -33549,20 +34303,20 @@ Redirect.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Redirect);
 
 /***/ }),
-/* 342 */
+/* 345 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createBrowserHistory__ = __webpack_require__(343);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createBrowserHistory__ = __webpack_require__(346);
 /* unused harmony reexport createBrowserHistory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createHashHistory__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createHashHistory__ = __webpack_require__(347);
 /* unused harmony reexport createHashHistory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createMemoryHistory__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createMemoryHistory__ = __webpack_require__(348);
 /* unused harmony reexport createMemoryHistory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__LocationUtils__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__LocationUtils__ = __webpack_require__(78);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__LocationUtils__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__LocationUtils__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__PathUtils__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__PathUtils__ = __webpack_require__(57);
 /* unused harmony reexport parsePath */
 /* unused harmony reexport createPath */
 
@@ -33576,7 +34330,7 @@ Redirect.contextTypes = {
 
 
 /***/ }),
-/* 343 */
+/* 346 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33584,10 +34338,10 @@ Redirect.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(181);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -33880,7 +34634,7 @@ var createBrowserHistory = function createBrowserHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createBrowserHistory);
 
 /***/ }),
-/* 344 */
+/* 347 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33888,10 +34642,10 @@ var createBrowserHistory = function createBrowserHistory() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(178);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__PathUtils__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__createTransitionManager__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DOMUtils__ = __webpack_require__(181);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
@@ -34201,15 +34955,15 @@ var createHashHistory = function createHashHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createHashHistory);
 
 /***/ }),
-/* 345 */
+/* 348 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PathUtils__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createTransitionManager__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__PathUtils__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__LocationUtils__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createTransitionManager__ = __webpack_require__(111);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -34369,18 +35123,18 @@ var createMemoryHistory = function createMemoryHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createMemoryHistory);
 
 /***/ }),
-/* 346 */
+/* 349 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__ = __webpack_require__(350);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__["a" /* default */]);
 
 /***/ }),
-/* 347 */
+/* 350 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34392,9 +35146,9 @@ var createMemoryHistory = function createMemoryHistory() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history_PathUtils__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history_PathUtils__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history_PathUtils___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_history_PathUtils__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Router__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Router__ = __webpack_require__(109);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
@@ -34563,18 +35317,18 @@ StaticRouter.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (StaticRouter);
 
 /***/ }),
-/* 348 */
+/* 351 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__ = __webpack_require__(349);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__ = __webpack_require__(352);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__["a" /* default */]);
 
 /***/ }),
-/* 349 */
+/* 352 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34586,7 +35340,7 @@ StaticRouter.childContextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__matchPath__ = __webpack_require__(110);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -34668,29 +35422,29 @@ Switch.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Switch);
 
 /***/ }),
-/* 350 */
+/* 353 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_matchPath__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_matchPath__ = __webpack_require__(110);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_matchPath__["a" /* default */]);
 
 /***/ }),
-/* 351 */
+/* 354 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__ = __webpack_require__(355);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__["a" /* default */]);
 
 /***/ }),
-/* 352 */
+/* 355 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -34698,9 +35452,9 @@ Switch.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(356);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Route__ = __webpack_require__(177);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Route__ = __webpack_require__(180);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
@@ -34735,7 +35489,7 @@ var withRouter = function withRouter(Component) {
 /* harmony default export */ __webpack_exports__["a"] = (withRouter);
 
 /***/ }),
-/* 353 */
+/* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34807,7 +35561,7 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 
 
 /***/ }),
-/* 354 */
+/* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34823,21 +35577,21 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactNotificationSystem = __webpack_require__(355);
+var _reactNotificationSystem = __webpack_require__(358);
 
 var _reactNotificationSystem2 = _interopRequireDefault(_reactNotificationSystem);
 
-var _UserStore = __webpack_require__(360);
+var _UserStore = __webpack_require__(58);
 
 var _UserStore2 = _interopRequireDefault(_UserStore);
 
-var _UserAction = __webpack_require__(365);
+var _UserAction = __webpack_require__(59);
 
 var _UserAction2 = _interopRequireDefault(_UserAction);
 
-var _reactRouterDom = __webpack_require__(102);
+var _reactRouterDom = __webpack_require__(45);
 
-var _reactBootstrap = __webpack_require__(367);
+var _reactBootstrap = __webpack_require__(60);
 
 var _reactRouterBootstrap = __webpack_require__(504);
 
@@ -34845,17 +35599,25 @@ var _RightNav = __webpack_require__(506);
 
 var _RightNav2 = _interopRequireDefault(_RightNav);
 
-var _ScrollButton = __webpack_require__(507);
+var _ScrollButton = __webpack_require__(508);
 
 var _ScrollButton2 = _interopRequireDefault(_ScrollButton);
 
-var _Topics = __webpack_require__(513);
+var _Topics = __webpack_require__(514);
 
 var _Topics2 = _interopRequireDefault(_Topics);
 
-var _SiginIn = __webpack_require__(515);
+var _SignIn = __webpack_require__(515);
 
-var _SiginIn2 = _interopRequireDefault(_SiginIn);
+var _SignIn2 = _interopRequireDefault(_SignIn);
+
+var _Signup = __webpack_require__(516);
+
+var _Signup2 = _interopRequireDefault(_Signup);
+
+var _TopicEdit = __webpack_require__(517);
+
+var _TopicEdit2 = _interopRequireDefault(_TopicEdit);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -35002,11 +35764,12 @@ var App = function (_React$Component) {
                 _react2.default.createElement(
                   'div',
                   _defineProperty({ style: { background: 'red' } }, 'style', { marginTop: 20 }),
-                  _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _SiginIn2.default }),
+                  _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _TopicEdit2.default }),
                   _react2.default.createElement(_reactRouterDom.Route, { path: '/home', component: Home }),
                   _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: About }),
                   _react2.default.createElement(_reactRouterDom.Route, { path: '/topics', component: _Topics2.default }),
-                  _react2.default.createElement(_reactRouterDom.Route, { path: '/siginin', component: _SiginIn2.default })
+                  _react2.default.createElement(_reactRouterDom.Route, { path: '/siginin', component: _SignIn2.default }),
+                  _react2.default.createElement(_reactRouterDom.Route, { path: '/topicedit', component: _TopicEdit2.default })
                 )
               ),
               _react2.default.createElement(
@@ -35086,16 +35849,16 @@ App.propTypes = {
 };
 
 /***/ }),
-/* 355 */
+/* 358 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var React = __webpack_require__(0);
-var createReactClass = __webpack_require__(109);
+var createReactClass = __webpack_require__(112);
 var PropTypes = __webpack_require__(5);
 var merge = __webpack_require__(15);
-var NotificationContainer = __webpack_require__(356);
-var Constants = __webpack_require__(110);
-var Styles = __webpack_require__(359);
+var NotificationContainer = __webpack_require__(359);
+var Constants = __webpack_require__(113);
+var Styles = __webpack_require__(362);
 
 var NotificationSystem = createReactClass({
 
@@ -35368,14 +36131,14 @@ module.exports = NotificationSystem;
 
 
 /***/ }),
-/* 356 */
+/* 359 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var React = __webpack_require__(0);
-var createReactClass = __webpack_require__(109);
+var createReactClass = __webpack_require__(112);
 var PropTypes = __webpack_require__(5);
-var NotificationItem = __webpack_require__(357);
-var Constants = __webpack_require__(110);
+var NotificationItem = __webpack_require__(360);
+var Constants = __webpack_require__(113);
 
 var NotificationContainer = createReactClass({
 
@@ -35432,15 +36195,15 @@ module.exports = NotificationContainer;
 
 
 /***/ }),
-/* 357 */
+/* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var React = __webpack_require__(0);
-var createReactClass = __webpack_require__(109);
+var createReactClass = __webpack_require__(112);
 var PropTypes = __webpack_require__(5);
 var ReactDOM = __webpack_require__(21);
-var Constants = __webpack_require__(110);
-var Helpers = __webpack_require__(358);
+var Constants = __webpack_require__(113);
+var Helpers = __webpack_require__(361);
 var merge = __webpack_require__(15);
 
 /* From Modernizr */
@@ -35769,7 +36532,7 @@ module.exports = NotificationItem;
 
 
 /***/ }),
-/* 358 */
+/* 361 */
 /***/ (function(module, exports) {
 
 var Helpers = {
@@ -35801,7 +36564,7 @@ module.exports = Helpers;
 
 
 /***/ }),
-/* 359 */
+/* 362 */
 /***/ (function(module, exports) {
 
 // Used for calculations
@@ -36067,253 +36830,7 @@ module.exports = STYLES;
 
 
 /***/ }),
-/* 360 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/*
- * Copyright (c) 2014, Facebook, Inc.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- *
- * TodoStore
- */
-
-var AppDispatcher = __webpack_require__(179);
-var EventEmitter = __webpack_require__(363).EventEmitter;
-var UserConstants = __webpack_require__(180);
-var assign = __webpack_require__(15);
-
-var CHANGE_EVENT = 'change';
-var NOTIFY_EVENT = 'notify';
-var LOGIN_EVENT = 'login';
-var CONFIG_EVENT = 'config';
-
-var _User = {
-  isLogin: localStorage.isLogin,
-  isRem: localStorage.isRem == undefined ? true : localStorage.isRem,
-  name: localStorage.name,
-  role: localStorage.role,
-  tkacc: localStorage.tkacc,
-  tkpid: localStorage.tkpid
-};
-
-var _notify = {
-  level: 'info',
-  msg: 'default'
-};
-
-var _UsrConfig = {};
-
-/**
- * Update a TODO item.
- * @param {object} updates An object literal containing only the data to be
- *     updated.
- */
-function updateLogin(updates) {
-  _User = assign({}, _User, updates);
-}
-
-function updateNotify(updates) {
-  _notify = assign({}, _notify, updates);
-}
-
-function logout(msg) {
-  localStorage.isLogin = false;
-  localStorage.isRem = false;
-  localStorage.name = null;
-  localStorage.role = null;
-  localStorage.tkacc = null;
-  localStorage.tkpid = null;
-  updateLogin({
-    isLogin: false,
-    isRem: false,
-    name: null,
-    tkacc: null,
-    tkpid: null
-  });
-  updateNotify({
-    msg: msg
-  });
-}
-
-function updateConfig(updates) {
-  _UsrConfig = assign({}, _UsrConfig, updates);
-}
-
-var UserStore = assign({}, EventEmitter.prototype, {
-
-  /**
-   * Get the entire collection of TODOs.
-   * @return {object}
-   */
-  isLogin: function isLogin() {
-    return _User.isLogin;
-  },
-
-  isRem: function isRem() {
-    return _User.isRem;
-  },
-
-  getTkAcc: function getTkAcc() {
-    return _User.tkacc;
-  },
-
-  getTkPid: function getTkPid() {
-    return _User.tkpid;
-  },
-
-  getUser: function getUser() {
-    return _User;
-  },
-
-  getMsg: function getMsg() {
-    return _notify;
-  },
-
-  getConfig: function getConfig() {
-    return _UsrConfig;
-  },
-
-  /**
-   * change
-   */
-  emitChange: function emitChange() {
-    this.emit(CHANGE_EVENT);
-  },
-
-  addChangeListener: function addChangeListener(callback) {
-    this.on(CHANGE_EVENT, callback);
-  },
-
-  removeChangeListener: function removeChangeListener(callback) {
-    this.removeListener(CHANGE_EVENT, callback);
-  },
-
-  /**
-   * notify
-   */
-  emitNotify: function emitNotify() {
-    this.emit(NOTIFY_EVENT);
-  },
-  addNotifyListener: function addNotifyListener(callback) {
-    this.on(NOTIFY_EVENT, callback);
-  },
-
-  removeNotifyListener: function removeNotifyListener(callback) {
-    this.removeListener(NOTIFY_EVENT, callback);
-  },
-
-  /**
-   * login
-   */
-  emitLogin: function emitLogin() {
-    this.emit(LOGIN_EVENT);
-  },
-
-  addLoginListener: function addLoginListener(callback) {
-    this.on(LOGIN_EVENT, callback);
-  },
-
-  removeLoginListener: function removeLoginListener(callback) {
-    this.removeListener(LOGIN_EVENT, callback);
-  },
-
-  /**
-   * config
-   */
-  emitConfig: function emitConfig() {
-    this.emit(CONFIG_EVENT);
-  },
-  addConfigListener: function addConfigListener(callback) {
-    this.on(CONFIG_EVENT, callback);
-  },
-  removeConfigListener: function removeConfigListener(callback) {
-    // this.removeListener(CONFIG_EVENT, callback);
-    this.removeAllListeners(CONFIG_EVENT);
-  }
-
-});
-
-// Register callback to handle all updates
-AppDispatcher.register(function (action) {
-  switch (action.actionType) {
-    case UserConstants.LOGIN_VERIFY:
-      updateLogin({
-        isLogin: true
-      });
-      UserStore.emitChange();
-      break;
-    case UserConstants.LOGIN_VERIFY:
-      updateLogin({
-        isLogin: true
-      });
-      UserStore.emitChange();
-      break;
-    case UserConstants.NOTIFY:
-      updateNotify({
-        'msg': action.msg
-      });
-      UserStore.emitNotify();
-      break;
-    case UserConstants.LOGIN_IN:
-      var isRem = true; //action.isRem;
-      localStorage.isLogin = action.isSus;
-      if (action.isSus) {
-        localStorage.isRem = isRem;
-        localStorage.name = action.name;
-        localStorage.role = action.role;
-        localStorage.tkacc = action.tkacc;
-        localStorage.tkpid = action.tkpid;
-        updateLogin({
-          isLogin: action.isSus,
-          name: action.name,
-          role: action.role,
-          tkacc: action.tkacc,
-          tkpid: action.tkpid
-        });
-        UserStore.emitChange();
-        UserStore.emitLogin();
-      } else {
-        updateNotify({
-          isLogin: action.isSus,
-          msg: action.errmsg
-        });
-        UserStore.emitLogin();
-        UserStore.emitNotify();
-      }
-      break;
-    case UserConstants.LOGIN_OUT:
-      logout('登出成功');
-      UserStore.emitChange();
-      UserStore.emitNotify();
-      break;
-    case UserConstants.LOGIN_INVAILD:
-      logout('请重新登陆');
-      UserStore.emitChange();
-      UserStore.emitNotify();
-      break;
-
-    case UserConstants.CONFIG_CHANGE:
-      var config = action.config;
-      updateConfig(config);
-      UserStore.emitConfig();
-      break;
-
-    default:
-    // no op
-  }
-});
-
-module.exports = UserStore;
-
-/***/ }),
-/* 361 */
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -36325,11 +36842,11 @@ module.exports = UserStore;
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-module.exports.Dispatcher = __webpack_require__(362);
+module.exports.Dispatcher = __webpack_require__(364);
 
 
 /***/ }),
-/* 362 */
+/* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36567,7 +37084,7 @@ module.exports = Dispatcher;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 363 */
+/* 365 */
 /***/ (function(module, exports) {
 
 // Copyright Joyent, Inc. and other Node contributors.
@@ -36875,7 +37392,7 @@ function isUndefined(arg) {
 
 
 /***/ }),
-/* 364 */
+/* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36935,248 +37452,7 @@ module.exports = keyMirror;
 
 
 /***/ }),
-/* 365 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _AppDispatcher = __webpack_require__(179);
-
-var _AppDispatcher2 = _interopRequireDefault(_AppDispatcher);
-
-var _UserConstants = __webpack_require__(180);
-
-var _UserConstants2 = _interopRequireDefault(_UserConstants);
-
-var _jquery = __webpack_require__(366);
-
-var _jquery2 = _interopRequireDefault(_jquery);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// var  host='http://127.0.0.1:8080'
-var host = 'http://tk1.owngiftc.com'; /*
-                                       * Copyright (c) 2014-2015, Facebook, Inc.
-                                       * All rights reserved.
-                                       *
-                                       * This source code is licensed under the BSD-style license found in the
-                                       * LICENSE file in the root directory of this source tree. An additional grant
-                                       * of patent rights can be found in the PATENTS file in the same directory.
-                                       *
-                                       * TodoActions
-                                       */
-
-var UserActions = {
-
-  notify: function notify(msg) {
-    _AppDispatcher2.default.dispatch({
-      actionType: _UserConstants2.default.NOTIFY,
-      msg: msg
-    });
-  },
-
-  isVerify: function isVerify() {
-    this.ajaxPost("/tkacc/verify", null, function (itemData, status, xhr) {
-      _AppDispatcher2.default.dispatch({
-        actionType: _UserConstants2.default.LOGIN_VERIFY,
-        isSus: true
-      });
-    });
-  },
-
-  logout: function logout() {
-    this.ajaxPost("/user/logout", null);
-    _AppDispatcher2.default.dispatch({
-      actionType: _UserConstants2.default.LOGIN_OUT,
-      isSus: true
-    });
-  },
-
-  loginin: function loginin(name, password) {
-    if (name && password) {
-      this.ajaxPost("/user/login", JSON.stringify({ username: name, password: password }), function (itemData, status, xhr) {
-        _AppDispatcher2.default.dispatch({
-          actionType: _UserConstants2.default.LOGIN_IN,
-          isSus: true,
-          name: itemData['name'],
-          role: itemData['role'],
-          tkacc: itemData['tkacc'],
-          tkpid: itemData['tkpid']
-        });
-      }, function (xhr, status, err) {
-        _AppDispatcher2.default.dispatch({
-          actionType: _UserConstants2.default.LOGIN_IN,
-          isSus: false,
-          errmsg: 'login in fail err=' + err.message
-        });
-      });
-    } else {
-      this.notify('params cannot empty.');
-    }
-  },
-
-  loginInvaild: function loginInvaild() {
-    _AppDispatcher2.default.dispatch({
-      actionType: _UserConstants2.default.LOGIN_INVAILD
-    });
-  },
-
-  changePwd: function changePwd(prepwd, curpwd) {
-    if (prepwd && curpwd) {
-      this.ajaxPost("/user/changepwd", JSON.stringify({ pre: prepwd, cur: curpwd }), function (itemData, status, xhr) {
-        if (itemData['result'] == 0) {
-          this.notify('修改密码成功, 请重新登陆');
-          _AppDispatcher2.default.dispatch({
-            actionType: _UserConstants2.default.LOGIN_OUT,
-            isSus: true
-          });
-        } else {
-          this.notify('修改密码失败 错误' + itemData['message']);
-        }
-      }.bind(this), function (xhr, status, err) {
-        this.notify('修改密码失败 错误' + err.message);
-      }.bind(this));
-    } else {
-      this.notify('参数不正确');
-    }
-  },
-
-  ajaxPost: function ajaxPost(url, data, funcSus, funcError) {
-    return _jquery2.default.ajax({
-      type: "POST",
-      url: url,
-      data: data,
-      contentType: "application/json; charset=utf-8",
-      dataType: "json",
-      success: function (itemData, status, xhr) {
-        if (itemData['result'] == 0) {
-          if (funcSus) funcSus(itemData, status, xhr);
-        } else {
-          if (funcError) funcError(xhr, status, new Error(itemData['message']));
-        }
-      }.bind(this),
-      error: function (xhr, status, err) {
-        if (xhr.status == 401) {
-          this.loginInvaild();
-        } else {
-          if (funcError) {
-            funcError(xhr, status, err);
-          } else {
-            // this.notify('Error Message='+err.message);
-          }
-        }
-      }.bind(this)
-    });
-  },
-
-  ajaxGet: function ajaxGet(url, funcSus, funcError) {
-    return _jquery2.default.ajax({
-      type: "GET",
-      url: url,
-      contentType: "application/json; charset=utf-8",
-      dataType: "json",
-      success: function (itemData, status, xhr) {
-        if (itemData['result'] == 0) {
-          if (funcSus) funcSus(itemData, status, xhr);
-        } else {
-          if (funcError) funcError(xhr, status, new Error(itemData['message']));
-        }
-      }.bind(this),
-      error: function (xhr, status, err) {
-        if (xhr.status == 401) {
-          this.loginInvaild();
-        } else {
-          if (funcError) {
-            funcError(xhr, status, err);
-          } else {
-            // this.notify('Error Message='+err.message);
-          }
-        }
-      }.bind(this)
-    });
-  },
-
-  ajaxGetOri: function ajaxGetOri(url, funcSus, funcError) {
-    return _jquery2.default.ajax({
-      type: "GET",
-      url: url,
-      contentType: "application/json; charset=utf-8",
-      dataType: "json",
-      success: function (itemData, status, xhr) {
-        funcSus(itemData, status, xhr);
-      }.bind(this),
-      error: function (xhr, status, err) {
-        if (funcError) {
-          funcError(xhr, status, err);
-        } else {
-          // this.notify('Error Message='+err.message);
-        }
-      }.bind(this)
-    });
-  },
-
-  jsoupPost: function jsoupPost(url, data, funcSus, funcError) {
-    return _jquery2.default.ajax({
-      url: host + url,
-      type: 'POST',
-      dataType: 'json',
-      crossDomain: true,
-      data: data,
-      success: function (itemData, status, xhr) {
-        funcSus(itemData, status, xhr);
-      }.bind(this),
-      error: function (xhr, status, err) {
-        if (funcError) {
-          funcError(xhr, status, err);
-        } else {
-          // this.notify('Error Message='+err.message);
-        }
-      }.bind(this)
-    });
-  },
-  jsoupGet: function jsoupGet(url, funcSus, funcError) {
-    return _jquery2.default.ajax({
-      url: host + url,
-      type: 'GET',
-      dataType: 'json',
-      crossDomain: true,
-      success: function (itemData, status, xhr) {
-        funcSus(itemData, status, xhr);
-      }.bind(this),
-      error: function (xhr, status, err) {
-        if (funcError) {
-          funcError(xhr, status, err);
-        } else {
-          // this.notify('Error Message='+err.message);
-        }
-      }.bind(this)
-    });
-  },
-
-  queryConfig: function queryConfig() {
-    this.ajaxGet("/userconfig/getConfig", function (itemData, status, xhr) {
-      _AppDispatcher2.default.dispatch({
-        actionType: _UserConstants2.default.CONFIG_CHANGE,
-        config: itemData['data']
-      });
-    }.bind(this));
-  },
-  updateConfig: function updateConfig(template) {
-    this.ajaxPost("/userconfig/updateConfig", JSON.stringify({ template: template }), function (itemData, status, xhr) {
-      this.notify("更新成功");
-      _AppDispatcher2.default.dispatch({
-        actionType: _UserConstants2.default.CONFIG_CHANGE,
-        config: itemData['data']
-      });
-    }.bind(this));
-  }
-};
-
-module.exports = UserActions;
-
-/***/ }),
-/* 366 */
+/* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -47436,297 +47712,6 @@ return jQuery;
 
 
 /***/ }),
-/* 367 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Accordion__ = __webpack_require__(368);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Accordion", function() { return __WEBPACK_IMPORTED_MODULE_0__Accordion__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Alert__ = __webpack_require__(405);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Alert", function() { return __WEBPACK_IMPORTED_MODULE_1__Alert__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Badge__ = __webpack_require__(408);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Badge", function() { return __WEBPACK_IMPORTED_MODULE_2__Badge__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Breadcrumb__ = __webpack_require__(409);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Breadcrumb", function() { return __WEBPACK_IMPORTED_MODULE_3__Breadcrumb__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__BreadcrumbItem__ = __webpack_require__(195);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BreadcrumbItem", function() { return __WEBPACK_IMPORTED_MODULE_4__BreadcrumbItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Button__ = __webpack_require__(63);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return __WEBPACK_IMPORTED_MODULE_5__Button__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ButtonGroup__ = __webpack_require__(129);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonGroup", function() { return __WEBPACK_IMPORTED_MODULE_6__ButtonGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ButtonToolbar__ = __webpack_require__(410);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ButtonToolbar", function() { return __WEBPACK_IMPORTED_MODULE_7__ButtonToolbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Carousel__ = __webpack_require__(411);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Carousel", function() { return __WEBPACK_IMPORTED_MODULE_8__Carousel__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CarouselItem__ = __webpack_require__(196);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CarouselItem", function() { return __WEBPACK_IMPORTED_MODULE_9__CarouselItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Checkbox__ = __webpack_require__(414);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Checkbox", function() { return __WEBPACK_IMPORTED_MODULE_10__Checkbox__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Clearfix__ = __webpack_require__(415);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Clearfix", function() { return __WEBPACK_IMPORTED_MODULE_11__Clearfix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__CloseButton__ = __webpack_require__(127);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CloseButton", function() { return __WEBPACK_IMPORTED_MODULE_12__CloseButton__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ControlLabel__ = __webpack_require__(416);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ControlLabel", function() { return __WEBPACK_IMPORTED_MODULE_13__ControlLabel__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__Col__ = __webpack_require__(417);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Col", function() { return __WEBPACK_IMPORTED_MODULE_14__Col__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Collapse__ = __webpack_require__(131);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Collapse", function() { return __WEBPACK_IMPORTED_MODULE_15__Collapse__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__Dropdown__ = __webpack_require__(79);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Dropdown", function() { return __WEBPACK_IMPORTED_MODULE_16__Dropdown__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__DropdownButton__ = __webpack_require__(437);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "DropdownButton", function() { return __WEBPACK_IMPORTED_MODULE_17__DropdownButton__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__Fade__ = __webpack_require__(82);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Fade", function() { return __WEBPACK_IMPORTED_MODULE_18__Fade__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__Form__ = __webpack_require__(438);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Form", function() { return __WEBPACK_IMPORTED_MODULE_19__Form__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__FormControl__ = __webpack_require__(439);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FormControl", function() { return __WEBPACK_IMPORTED_MODULE_20__FormControl__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__FormGroup__ = __webpack_require__(442);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "FormGroup", function() { return __WEBPACK_IMPORTED_MODULE_21__FormGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__Glyphicon__ = __webpack_require__(130);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Glyphicon", function() { return __WEBPACK_IMPORTED_MODULE_22__Glyphicon__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__Grid__ = __webpack_require__(205);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Grid", function() { return __WEBPACK_IMPORTED_MODULE_23__Grid__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__HelpBlock__ = __webpack_require__(443);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HelpBlock", function() { return __WEBPACK_IMPORTED_MODULE_24__HelpBlock__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__Image__ = __webpack_require__(444);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Image", function() { return __WEBPACK_IMPORTED_MODULE_25__Image__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__InputGroup__ = __webpack_require__(445);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "InputGroup", function() { return __WEBPACK_IMPORTED_MODULE_26__InputGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__Jumbotron__ = __webpack_require__(448);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Jumbotron", function() { return __WEBPACK_IMPORTED_MODULE_27__Jumbotron__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__Label__ = __webpack_require__(449);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Label", function() { return __WEBPACK_IMPORTED_MODULE_28__Label__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ListGroup__ = __webpack_require__(450);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ListGroup", function() { return __WEBPACK_IMPORTED_MODULE_29__ListGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ListGroupItem__ = __webpack_require__(206);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ListGroupItem", function() { return __WEBPACK_IMPORTED_MODULE_30__ListGroupItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__Media__ = __webpack_require__(134);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Media", function() { return __WEBPACK_IMPORTED_MODULE_31__Media__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__MenuItem__ = __webpack_require__(457);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MenuItem", function() { return __WEBPACK_IMPORTED_MODULE_32__MenuItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__Modal__ = __webpack_require__(458);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Modal", function() { return __WEBPACK_IMPORTED_MODULE_33__Modal__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ModalBody__ = __webpack_require__(213);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalBody", function() { return __WEBPACK_IMPORTED_MODULE_34__ModalBody__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ModalFooter__ = __webpack_require__(214);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalFooter", function() { return __WEBPACK_IMPORTED_MODULE_35__ModalFooter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__ModalHeader__ = __webpack_require__(215);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalHeader", function() { return __WEBPACK_IMPORTED_MODULE_36__ModalHeader__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__ModalTitle__ = __webpack_require__(216);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ModalTitle", function() { return __WEBPACK_IMPORTED_MODULE_37__ModalTitle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__Nav__ = __webpack_require__(217);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Nav", function() { return __WEBPACK_IMPORTED_MODULE_38__Nav__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__Navbar__ = __webpack_require__(471);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Navbar", function() { return __WEBPACK_IMPORTED_MODULE_39__Navbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__NavbarBrand__ = __webpack_require__(218);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavbarBrand", function() { return __WEBPACK_IMPORTED_MODULE_40__NavbarBrand__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__NavDropdown__ = __webpack_require__(475);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavDropdown", function() { return __WEBPACK_IMPORTED_MODULE_41__NavDropdown__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__NavItem__ = __webpack_require__(219);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavItem", function() { return __WEBPACK_IMPORTED_MODULE_42__NavItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__Overlay__ = __webpack_require__(220);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Overlay", function() { return __WEBPACK_IMPORTED_MODULE_43__Overlay__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__OverlayTrigger__ = __webpack_require__(482);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "OverlayTrigger", function() { return __WEBPACK_IMPORTED_MODULE_44__OverlayTrigger__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__PageHeader__ = __webpack_require__(483);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PageHeader", function() { return __WEBPACK_IMPORTED_MODULE_45__PageHeader__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__PageItem__ = __webpack_require__(484);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PageItem", function() { return __WEBPACK_IMPORTED_MODULE_46__PageItem__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__Pager__ = __webpack_require__(486);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Pager", function() { return __WEBPACK_IMPORTED_MODULE_47__Pager__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__Pagination__ = __webpack_require__(487);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Pagination", function() { return __WEBPACK_IMPORTED_MODULE_48__Pagination__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__PaginationButton__ = __webpack_require__(224);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PaginationButton", function() { return __WEBPACK_IMPORTED_MODULE_49__PaginationButton__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__Panel__ = __webpack_require__(488);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Panel", function() { return __WEBPACK_IMPORTED_MODULE_50__Panel__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__PanelGroup__ = __webpack_require__(192);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "PanelGroup", function() { return __WEBPACK_IMPORTED_MODULE_51__PanelGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__Popover__ = __webpack_require__(489);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Popover", function() { return __WEBPACK_IMPORTED_MODULE_52__Popover__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__ProgressBar__ = __webpack_require__(490);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ProgressBar", function() { return __WEBPACK_IMPORTED_MODULE_53__ProgressBar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__Radio__ = __webpack_require__(491);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Radio", function() { return __WEBPACK_IMPORTED_MODULE_54__Radio__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__ResponsiveEmbed__ = __webpack_require__(492);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ResponsiveEmbed", function() { return __WEBPACK_IMPORTED_MODULE_55__ResponsiveEmbed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__Row__ = __webpack_require__(493);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Row", function() { return __WEBPACK_IMPORTED_MODULE_56__Row__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__SafeAnchor__ = __webpack_require__(30);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SafeAnchor", function() { return __WEBPACK_IMPORTED_MODULE_57__SafeAnchor__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__SplitButton__ = __webpack_require__(494);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SplitButton", function() { return __WEBPACK_IMPORTED_MODULE_58__SplitButton__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__Tab__ = __webpack_require__(496);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tab", function() { return __WEBPACK_IMPORTED_MODULE_59__Tab__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__TabContainer__ = __webpack_require__(137);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabContainer", function() { return __WEBPACK_IMPORTED_MODULE_60__TabContainer__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__TabContent__ = __webpack_require__(138);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabContent", function() { return __WEBPACK_IMPORTED_MODULE_61__TabContent__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__Table__ = __webpack_require__(497);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Table", function() { return __WEBPACK_IMPORTED_MODULE_62__Table__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__TabPane__ = __webpack_require__(225);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TabPane", function() { return __WEBPACK_IMPORTED_MODULE_63__TabPane__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__Tabs__ = __webpack_require__(498);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tabs", function() { return __WEBPACK_IMPORTED_MODULE_64__Tabs__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__Thumbnail__ = __webpack_require__(499);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Thumbnail", function() { return __WEBPACK_IMPORTED_MODULE_65__Thumbnail__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__ToggleButton__ = __webpack_require__(226);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ToggleButton", function() { return __WEBPACK_IMPORTED_MODULE_66__ToggleButton__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__ToggleButtonGroup__ = __webpack_require__(500);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ToggleButtonGroup", function() { return __WEBPACK_IMPORTED_MODULE_67__ToggleButtonGroup__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__Tooltip__ = __webpack_require__(501);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Tooltip", function() { return __WEBPACK_IMPORTED_MODULE_68__Tooltip__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__Well__ = __webpack_require__(502);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Well", function() { return __WEBPACK_IMPORTED_MODULE_69__Well__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__utils__ = __webpack_require__(503);
-/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "utils", function() { return __WEBPACK_IMPORTED_MODULE_70__utils__; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
 /* 368 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -47741,7 +47726,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__PanelGroup__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__PanelGroup__ = __webpack_require__(195);
 
 
 
@@ -47807,15 +47792,15 @@ module.exports = function (it) {
 "use strict";
 
 // 19.1.2.1 Object.assign(target, source, ...)
-var getKeys = __webpack_require__(60);
-var gOPS = __webpack_require__(119);
-var pIE = __webpack_require__(61);
-var toObject = __webpack_require__(120);
-var IObject = __webpack_require__(185);
+var getKeys = __webpack_require__(64);
+var gOPS = __webpack_require__(122);
+var pIE = __webpack_require__(65);
+var toObject = __webpack_require__(123);
+var IObject = __webpack_require__(188);
 var $assign = Object.assign;
 
 // should work with symbols and should have deterministic property order (V8 bug)
-module.exports = !$assign || __webpack_require__(58)(function () {
+module.exports = !$assign || __webpack_require__(62)(function () {
   var A = {};
   var B = {};
   // eslint-disable-next-line no-undef
@@ -47848,7 +47833,7 @@ module.exports = !$assign || __webpack_require__(58)(function () {
 // false -> Array#indexOf
 // true  -> Array#includes
 var toIObject = __webpack_require__(40);
-var toLength = __webpack_require__(186);
+var toLength = __webpack_require__(189);
 var toAbsoluteIndex = __webpack_require__(374);
 module.exports = function (IS_INCLUDES) {
   return function ($this, el, fromIndex) {
@@ -47874,7 +47859,7 @@ module.exports = function (IS_INCLUDES) {
 /* 374 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(115);
+var toInteger = __webpack_require__(118);
 var max = Math.max;
 var min = Math.min;
 module.exports = function (index, length) {
@@ -47893,17 +47878,17 @@ module.exports = { "default": __webpack_require__(376), __esModule: true };
 /* 376 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(187);
+__webpack_require__(190);
 __webpack_require__(382);
-module.exports = __webpack_require__(125).f('iterator');
+module.exports = __webpack_require__(128).f('iterator');
 
 
 /***/ }),
 /* 377 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(115);
-var defined = __webpack_require__(114);
+var toInteger = __webpack_require__(118);
+var defined = __webpack_require__(117);
 // true  -> String#at
 // false -> String#codePointAt
 module.exports = function (TO_STRING) {
@@ -47927,13 +47912,13 @@ module.exports = function (TO_STRING) {
 
 "use strict";
 
-var create = __webpack_require__(123);
-var descriptor = __webpack_require__(59);
-var setToStringTag = __webpack_require__(124);
+var create = __webpack_require__(126);
+var descriptor = __webpack_require__(63);
+var setToStringTag = __webpack_require__(127);
 var IteratorPrototype = {};
 
 // 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
-__webpack_require__(45)(IteratorPrototype, __webpack_require__(29)('iterator'), function () { return this; });
+__webpack_require__(46)(IteratorPrototype, __webpack_require__(29)('iterator'), function () { return this; });
 
 module.exports = function (Constructor, NAME, next) {
   Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });
@@ -47946,10 +47931,10 @@ module.exports = function (Constructor, NAME, next) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP = __webpack_require__(38);
-var anObject = __webpack_require__(46);
-var getKeys = __webpack_require__(60);
+var anObject = __webpack_require__(47);
+var getKeys = __webpack_require__(64);
 
-module.exports = __webpack_require__(47) ? Object.defineProperties : function defineProperties(O, Properties) {
+module.exports = __webpack_require__(48) ? Object.defineProperties : function defineProperties(O, Properties) {
   anObject(O);
   var keys = getKeys(Properties);
   var length = keys.length;
@@ -47974,8 +47959,8 @@ module.exports = document && document.documentElement;
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
 var has = __webpack_require__(39);
-var toObject = __webpack_require__(120);
-var IE_PROTO = __webpack_require__(116)('IE_PROTO');
+var toObject = __webpack_require__(123);
+var IE_PROTO = __webpack_require__(119)('IE_PROTO');
 var ObjectProto = Object.prototype;
 
 module.exports = Object.getPrototypeOf || function (O) {
@@ -47993,8 +47978,8 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 __webpack_require__(383);
 var global = __webpack_require__(34);
-var hide = __webpack_require__(45);
-var Iterators = __webpack_require__(62);
+var hide = __webpack_require__(46);
+var Iterators = __webpack_require__(66);
 var TO_STRING_TAG = __webpack_require__(29)('toStringTag');
 
 var DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +
@@ -48020,14 +48005,14 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 var addToUnscopables = __webpack_require__(384);
 var step = __webpack_require__(385);
-var Iterators = __webpack_require__(62);
+var Iterators = __webpack_require__(66);
 var toIObject = __webpack_require__(40);
 
 // 22.1.3.4 Array.prototype.entries()
 // 22.1.3.13 Array.prototype.keys()
 // 22.1.3.29 Array.prototype.values()
 // 22.1.3.30 Array.prototype[@@iterator]()
-module.exports = __webpack_require__(188)(Array, 'Array', function (iterated, kind) {
+module.exports = __webpack_require__(191)(Array, 'Array', function (iterated, kind) {
   this._t = toIObject(iterated); // target
   this._i = 0;                   // next index
   this._k = kind;                // kind
@@ -48095,28 +48080,28 @@ module.exports = __webpack_require__(28).Symbol;
 // ECMAScript 6 symbols shim
 var global = __webpack_require__(34);
 var has = __webpack_require__(39);
-var DESCRIPTORS = __webpack_require__(47);
+var DESCRIPTORS = __webpack_require__(48);
 var $export = __webpack_require__(33);
-var redefine = __webpack_require__(189);
+var redefine = __webpack_require__(192);
 var META = __webpack_require__(389).KEY;
-var $fails = __webpack_require__(58);
-var shared = __webpack_require__(117);
-var setToStringTag = __webpack_require__(124);
-var uid = __webpack_require__(75);
+var $fails = __webpack_require__(62);
+var shared = __webpack_require__(120);
+var setToStringTag = __webpack_require__(127);
+var uid = __webpack_require__(79);
 var wks = __webpack_require__(29);
-var wksExt = __webpack_require__(125);
-var wksDefine = __webpack_require__(126);
+var wksExt = __webpack_require__(128);
+var wksDefine = __webpack_require__(129);
 var enumKeys = __webpack_require__(390);
 var isArray = __webpack_require__(391);
-var anObject = __webpack_require__(46);
+var anObject = __webpack_require__(47);
 var toIObject = __webpack_require__(40);
-var toPrimitive = __webpack_require__(112);
-var createDesc = __webpack_require__(59);
-var _create = __webpack_require__(123);
+var toPrimitive = __webpack_require__(115);
+var createDesc = __webpack_require__(63);
+var _create = __webpack_require__(126);
 var gOPNExt = __webpack_require__(392);
-var $GOPD = __webpack_require__(191);
+var $GOPD = __webpack_require__(194);
 var $DP = __webpack_require__(38);
-var $keys = __webpack_require__(60);
+var $keys = __webpack_require__(64);
 var gOPD = $GOPD.f;
 var dP = $DP.f;
 var gOPN = gOPNExt.f;
@@ -48239,11 +48224,11 @@ if (!USE_NATIVE) {
 
   $GOPD.f = $getOwnPropertyDescriptor;
   $DP.f = $defineProperty;
-  __webpack_require__(190).f = gOPNExt.f = $getOwnPropertyNames;
-  __webpack_require__(61).f = $propertyIsEnumerable;
-  __webpack_require__(119).f = $getOwnPropertySymbols;
+  __webpack_require__(193).f = gOPNExt.f = $getOwnPropertyNames;
+  __webpack_require__(65).f = $propertyIsEnumerable;
+  __webpack_require__(122).f = $getOwnPropertySymbols;
 
-  if (DESCRIPTORS && !__webpack_require__(122)) {
+  if (DESCRIPTORS && !__webpack_require__(125)) {
     redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
   }
 
@@ -48318,7 +48303,7 @@ $JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function () {
 });
 
 // 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
-$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(45)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
+$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(46)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
 // 19.4.3.5 Symbol.prototype[@@toStringTag]
 setToStringTag($Symbol, 'Symbol');
 // 20.2.1.9 Math[@@toStringTag]
@@ -48331,15 +48316,15 @@ setToStringTag(global.JSON, 'JSON', true);
 /* 389 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var META = __webpack_require__(75)('meta');
-var isObject = __webpack_require__(57);
+var META = __webpack_require__(79)('meta');
+var isObject = __webpack_require__(61);
 var has = __webpack_require__(39);
 var setDesc = __webpack_require__(38).f;
 var id = 0;
 var isExtensible = Object.isExtensible || function () {
   return true;
 };
-var FREEZE = !__webpack_require__(58)(function () {
+var FREEZE = !__webpack_require__(62)(function () {
   return isExtensible(Object.preventExtensions({}));
 });
 var setMeta = function (it) {
@@ -48391,9 +48376,9 @@ var meta = module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 // all enumerable object keys, includes symbols
-var getKeys = __webpack_require__(60);
-var gOPS = __webpack_require__(119);
-var pIE = __webpack_require__(61);
+var getKeys = __webpack_require__(64);
+var gOPS = __webpack_require__(122);
+var pIE = __webpack_require__(65);
 module.exports = function (it) {
   var result = getKeys(it);
   var getSymbols = gOPS.f;
@@ -48412,7 +48397,7 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
-var cof = __webpack_require__(113);
+var cof = __webpack_require__(116);
 module.exports = Array.isArray || function isArray(arg) {
   return cof(arg) == 'Array';
 };
@@ -48424,7 +48409,7 @@ module.exports = Array.isArray || function isArray(arg) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 var toIObject = __webpack_require__(40);
-var gOPN = __webpack_require__(190).f;
+var gOPN = __webpack_require__(193).f;
 var toString = {}.toString;
 
 var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -48453,14 +48438,14 @@ module.exports.f = function getOwnPropertyNames(it) {
 /* 394 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(126)('asyncIterator');
+__webpack_require__(129)('asyncIterator');
 
 
 /***/ }),
 /* 395 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(126)('observable');
+__webpack_require__(129)('observable');
 
 
 /***/ }),
@@ -48492,8 +48477,8 @@ $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(399).set });
 
 // Works with __proto__ only. Old v8 can't work with null proto objects.
 /* eslint-disable no-proto */
-var isObject = __webpack_require__(57);
-var anObject = __webpack_require__(46);
+var isObject = __webpack_require__(61);
+var anObject = __webpack_require__(47);
 var check = function (O, proto) {
   anObject(O);
   if (!isObject(proto) && proto !== null) throw TypeError(proto + ": can't set as prototype!");
@@ -48502,7 +48487,7 @@ module.exports = {
   set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
     function (test, buggy, set) {
       try {
-        set = __webpack_require__(111)(Function.call, __webpack_require__(191).f(Object.prototype, '__proto__').set, 2);
+        set = __webpack_require__(114)(Function.call, __webpack_require__(194).f(Object.prototype, '__proto__').set, 2);
         set(test, []);
         buggy = !(test instanceof Array);
       } catch (e) { buggy = true; }
@@ -48540,7 +48525,7 @@ module.exports = function create(P, D) {
 
 var $export = __webpack_require__(33);
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-$export($export.S, 'Object', { create: __webpack_require__(123) });
+$export($export.S, 'Object', { create: __webpack_require__(126) });
 
 
 /***/ }),
@@ -48557,7 +48542,7 @@ module.exports = __webpack_require__(28).Object.entries;
 
 // https://github.com/tc39/proposal-object-values-entries
 var $export = __webpack_require__(33);
-var $entries = __webpack_require__(194)(true);
+var $entries = __webpack_require__(197)(true);
 
 $export($export.S, 'Object', {
   entries: function entries(it) {
@@ -48571,7 +48556,7 @@ $export($export.S, 'Object', {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
@@ -48591,7 +48576,7 @@ $export($export.S, 'Object', {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_StyleConfig__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__CloseButton__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__CloseButton__ = __webpack_require__(130);
 
 
 
@@ -48677,7 +48662,7 @@ module.exports = __webpack_require__(28).Object.values;
 
 // https://github.com/tc39/proposal-object-values-entries
 var $export = __webpack_require__(33);
-var $values = __webpack_require__(194)(false);
+var $values = __webpack_require__(197)(false);
 
 $export($export.S, 'Object', {
   values: function values(it) {
@@ -48808,7 +48793,7 @@ Badge.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__BreadcrumbItem__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__BreadcrumbItem__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(9);
 
 
@@ -48938,8 +48923,8 @@ var ButtonToolbar = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__CarouselCaption__ = __webpack_require__(412);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CarouselItem__ = __webpack_require__(196);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Glyphicon__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__CarouselItem__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Glyphicon__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__SafeAnchor__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__utils_ValidComponentChildren__ = __webpack_require__(22);
@@ -49719,7 +49704,7 @@ Checkbox.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_elementType__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_elementType__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_capitalize__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_capitalize__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_StyleConfig__ = __webpack_require__(19);
 
 
@@ -50262,7 +50247,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = _getComputedStyle;
 
-var _camelizeStyle = __webpack_require__(198);
+var _camelizeStyle = __webpack_require__(201);
 
 var _camelizeStyle2 = _interopRequireDefault(_camelizeStyle);
 
@@ -50688,7 +50673,7 @@ function isReactComponent(component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_classnames__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_classnames__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_keycode__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_keycode__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_keycode___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_keycode__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react__);
@@ -50696,7 +50681,7 @@ function isReactComponent(component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_overlays_lib_RootCloseWrapper__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_overlays_lib_RootCloseWrapper__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_react_overlays_lib_RootCloseWrapper___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_react_overlays_lib_RootCloseWrapper__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__utils_createChainedFunction__ = __webpack_require__(17);
@@ -50871,7 +50856,7 @@ module.exports = { "default": __webpack_require__(428), __esModule: true };
 /* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(187);
+__webpack_require__(190);
 __webpack_require__(429);
 module.exports = __webpack_require__(28).Array.from;
 
@@ -50882,12 +50867,12 @@ module.exports = __webpack_require__(28).Array.from;
 
 "use strict";
 
-var ctx = __webpack_require__(111);
+var ctx = __webpack_require__(114);
 var $export = __webpack_require__(33);
-var toObject = __webpack_require__(120);
+var toObject = __webpack_require__(123);
 var call = __webpack_require__(430);
 var isArrayIter = __webpack_require__(431);
-var toLength = __webpack_require__(186);
+var toLength = __webpack_require__(189);
 var createProperty = __webpack_require__(432);
 var getIterFn = __webpack_require__(433);
 
@@ -50925,7 +50910,7 @@ $export($export.S + $export.F * !__webpack_require__(435)(function (iter) { Arra
 /***/ (function(module, exports, __webpack_require__) {
 
 // call something on iterator step with safe closing on error
-var anObject = __webpack_require__(46);
+var anObject = __webpack_require__(47);
 module.exports = function (iterator, fn, value, entries) {
   try {
     return entries ? fn(anObject(value)[0], value[1]) : fn(value);
@@ -50943,7 +50928,7 @@ module.exports = function (iterator, fn, value, entries) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // check on default Array iterator
-var Iterators = __webpack_require__(62);
+var Iterators = __webpack_require__(66);
 var ITERATOR = __webpack_require__(29)('iterator');
 var ArrayProto = Array.prototype;
 
@@ -50959,7 +50944,7 @@ module.exports = function (it) {
 "use strict";
 
 var $defineProperty = __webpack_require__(38);
-var createDesc = __webpack_require__(59);
+var createDesc = __webpack_require__(63);
 
 module.exports = function (object, index, value) {
   if (index in object) $defineProperty.f(object, index, createDesc(0, value));
@@ -50973,7 +50958,7 @@ module.exports = function (object, index, value) {
 
 var classof = __webpack_require__(434);
 var ITERATOR = __webpack_require__(29)('iterator');
-var Iterators = __webpack_require__(62);
+var Iterators = __webpack_require__(66);
 module.exports = __webpack_require__(28).getIteratorMethod = function (it) {
   if (it != undefined) return it[ITERATOR]
     || it['@@iterator']
@@ -50986,7 +50971,7 @@ module.exports = __webpack_require__(28).getIteratorMethod = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // getting tag from 19.1.3.6 Object.prototype.toString()
-var cof = __webpack_require__(113);
+var cof = __webpack_require__(116);
 var TAG = __webpack_require__(29)('toStringTag');
 // ES3 wrong here
 var ARG = cof(function () { return arguments; }()) == 'Arguments';
@@ -51045,7 +51030,7 @@ module.exports = function (exec, skipClosing) {
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["b"] = requiredRoles;
 /* harmony export (immutable) */ __webpack_exports__["a"] = exclusiveRoles;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_prop_types_extra_lib_utils_createChainableTypeChecker__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_prop_types_extra_lib_utils_createChainableTypeChecker__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_prop_types_extra_lib_utils_createChainableTypeChecker___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_prop_types_extra_lib_utils_createChainableTypeChecker__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ValidComponentChildren__ = __webpack_require__(22);
 
@@ -51127,8 +51112,8 @@ function exclusiveRoles() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Dropdown__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_splitComponentProps__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Dropdown__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_splitComponentProps__ = __webpack_require__(85);
 
 
 
@@ -51453,7 +51438,7 @@ FormControl.Static = __WEBPACK_IMPORTED_MODULE_11__FormControlStatic__["a" /* de
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Glyphicon__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Glyphicon__ = __webpack_require__(133);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(9);
 
 
@@ -52159,7 +52144,7 @@ Jumbotron.defaultProps = defaultProps;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
@@ -52265,7 +52250,7 @@ var Label = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types_extra_lib_elementType__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types_extra_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types_extra_lib_elementType__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ListGroupItem__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ListGroupItem__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_ValidComponentChildren__ = __webpack_require__(22);
 
@@ -52522,7 +52507,7 @@ MediaHeading.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Media__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Media__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(9);
 
 
@@ -52722,7 +52707,7 @@ var MediaListItem = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Media__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Media__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(9);
 
 
@@ -52802,7 +52787,7 @@ MediaRight.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_all__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_all__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_all___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_all__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__SafeAnchor__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__ = __webpack_require__(9);
@@ -52987,11 +52972,11 @@ MenuItem.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_events__ = __webpack_require__(459);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_events___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_dom_helpers_events__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_dom_helpers_util_inDOM__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_dom_helpers_util_inDOM___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_dom_helpers_util_inDOM__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_dom_helpers_util_scrollbarSize__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_dom_helpers_util_scrollbarSize__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_dom_helpers_util_scrollbarSize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_dom_helpers_util_scrollbarSize__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_react__);
@@ -53001,19 +52986,19 @@ MenuItem.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_overlays_lib_Modal__ = __webpack_require__(463);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_overlays_lib_Modal___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_react_overlays_lib_Modal__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_react_overlays_lib_utils_isOverflowing__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_react_overlays_lib_utils_isOverflowing__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_react_overlays_lib_utils_isOverflowing___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_react_overlays_lib_utils_isOverflowing__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_prop_types_extra_lib_elementType__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_prop_types_extra_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_prop_types_extra_lib_elementType__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__Fade__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ModalBody__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__Fade__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ModalBody__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ModalDialog__ = __webpack_require__(470);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ModalFooter__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ModalHeader__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ModalTitle__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ModalFooter__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ModalHeader__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ModalTitle__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__utils_createChainedFunction__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__utils_splitComponentProps__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__utils_splitComponentProps__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__utils_StyleConfig__ = __webpack_require__(19);
 
 
@@ -53309,11 +53294,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.listen = exports.filter = exports.off = exports.on = undefined;
 
-var _on = __webpack_require__(78);
+var _on = __webpack_require__(82);
 
 var _on2 = _interopRequireDefault(_on);
 
-var _off = __webpack_require__(133);
+var _off = __webpack_require__(136);
 
 var _off2 = _interopRequireDefault(_off);
 
@@ -53345,7 +53330,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = filterEvents;
 
-var _contains = __webpack_require__(50);
+var _contains = __webpack_require__(51);
 
 var _contains2 = _interopRequireDefault(_contains);
 
@@ -53422,11 +53407,11 @@ var _inDOM = __webpack_require__(35);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
-var _on = __webpack_require__(78);
+var _on = __webpack_require__(82);
 
 var _on2 = _interopRequireDefault(_on);
 
-var _off = __webpack_require__(133);
+var _off = __webpack_require__(136);
 
 var _off2 = _interopRequireDefault(_off);
 
@@ -53473,15 +53458,15 @@ var _warning = __webpack_require__(13);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _componentOrElement = __webpack_require__(135);
+var _componentOrElement = __webpack_require__(138);
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
 
-var _elementType = __webpack_require__(209);
+var _elementType = __webpack_require__(212);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
-var _Portal = __webpack_require__(210);
+var _Portal = __webpack_require__(213);
 
 var _Portal2 = _interopRequireDefault(_Portal);
 
@@ -53489,11 +53474,11 @@ var _ModalManager = __webpack_require__(464);
 
 var _ModalManager2 = _interopRequireDefault(_ModalManager);
 
-var _ownerDocument = __webpack_require__(65);
+var _ownerDocument = __webpack_require__(69);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
-var _addEventListener = __webpack_require__(203);
+var _addEventListener = __webpack_require__(206);
 
 var _addEventListener2 = _interopRequireDefault(_addEventListener);
 
@@ -53505,15 +53490,15 @@ var _inDOM = __webpack_require__(35);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
-var _activeElement = __webpack_require__(201);
+var _activeElement = __webpack_require__(204);
 
 var _activeElement2 = _interopRequireDefault(_activeElement);
 
-var _contains = __webpack_require__(50);
+var _contains = __webpack_require__(51);
 
 var _contains2 = _interopRequireDefault(_contains);
 
-var _getContainer = __webpack_require__(136);
+var _getContainer = __webpack_require__(139);
 
 var _getContainer2 = _interopRequireDefault(_getContainer);
 
@@ -54071,7 +54056,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _style = __webpack_require__(77);
+var _style = __webpack_require__(81);
 
 var _style2 = _interopRequireDefault(_style);
 
@@ -54079,11 +54064,11 @@ var _class = __webpack_require__(465);
 
 var _class2 = _interopRequireDefault(_class);
 
-var _scrollbarSize = __webpack_require__(207);
+var _scrollbarSize = __webpack_require__(210);
 
 var _scrollbarSize2 = _interopRequireDefault(_scrollbarSize);
 
-var _isOverflowing = __webpack_require__(212);
+var _isOverflowing = __webpack_require__(215);
 
 var _isOverflowing2 = _interopRequireDefault(_isOverflowing);
 
@@ -54264,7 +54249,7 @@ var _removeClass = __webpack_require__(467);
 
 var _removeClass2 = _interopRequireDefault(_removeClass);
 
-var _hasClass = __webpack_require__(211);
+var _hasClass = __webpack_require__(214);
 
 var _hasClass2 = _interopRequireDefault(_hasClass);
 
@@ -54287,7 +54272,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = addClass;
 
-var _hasClass = __webpack_require__(211);
+var _hasClass = __webpack_require__(214);
 
 var _hasClass2 = _interopRequireDefault(_hasClass);
 
@@ -54522,10 +54507,10 @@ ModalDialog.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_elementType__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_elementType__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_uncontrollable__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_uncontrollable__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_uncontrollable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Grid__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__NavbarBrand__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Grid__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__NavbarBrand__ = __webpack_require__(221);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__NavbarCollapse__ = __webpack_require__(472);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__NavbarHeader__ = __webpack_require__(473);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__NavbarToggle__ = __webpack_require__(474);
@@ -54829,7 +54814,7 @@ UncontrollableNavbar.Link = createSimpleWrapper('a', 'link', 'NavbarLink');
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Collapse__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Collapse__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils_bootstrapUtils__ = __webpack_require__(9);
 
 
@@ -55079,8 +55064,8 @@ NavbarToggle.contextTypes = contextTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Dropdown__ = __webpack_require__(79);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_splitComponentProps__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Dropdown__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_splitComponentProps__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_ValidComponentChildren__ = __webpack_require__(22);
 
 
@@ -55213,7 +55198,7 @@ var _propTypes = __webpack_require__(5);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _Portal = __webpack_require__(210);
+var _Portal = __webpack_require__(213);
 
 var _Portal2 = _interopRequireDefault(_Portal);
 
@@ -55221,11 +55206,11 @@ var _Position = __webpack_require__(477);
 
 var _Position2 = _interopRequireDefault(_Position);
 
-var _RootCloseWrapper = __webpack_require__(202);
+var _RootCloseWrapper = __webpack_require__(205);
 
 var _RootCloseWrapper2 = _interopRequireDefault(_RootCloseWrapper);
 
-var _elementType = __webpack_require__(209);
+var _elementType = __webpack_require__(212);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
@@ -55458,7 +55443,7 @@ var _reactDom = __webpack_require__(21);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _componentOrElement = __webpack_require__(135);
+var _componentOrElement = __webpack_require__(138);
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
 
@@ -55466,11 +55451,11 @@ var _calculatePosition = __webpack_require__(478);
 
 var _calculatePosition2 = _interopRequireDefault(_calculatePosition);
 
-var _getContainer = __webpack_require__(136);
+var _getContainer = __webpack_require__(139);
 
 var _getContainer2 = _interopRequireDefault(_getContainer);
 
-var _ownerDocument = __webpack_require__(65);
+var _ownerDocument = __webpack_require__(69);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -55658,7 +55643,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = calculatePosition;
 
-var _offset = __webpack_require__(221);
+var _offset = __webpack_require__(224);
 
 var _offset2 = _interopRequireDefault(_offset);
 
@@ -55666,11 +55651,11 @@ var _position = __webpack_require__(479);
 
 var _position2 = _interopRequireDefault(_position);
 
-var _scrollTop = __webpack_require__(222);
+var _scrollTop = __webpack_require__(225);
 
 var _scrollTop2 = _interopRequireDefault(_scrollTop);
 
-var _ownerDocument = __webpack_require__(65);
+var _ownerDocument = __webpack_require__(69);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -55796,7 +55781,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 exports.default = position;
 
-var _offset = __webpack_require__(221);
+var _offset = __webpack_require__(224);
 
 var _offset2 = _interopRequireDefault(_offset);
 
@@ -55804,7 +55789,7 @@ var _offsetParent = __webpack_require__(480);
 
 var _offsetParent2 = _interopRequireDefault(_offsetParent);
 
-var _scrollTop = __webpack_require__(222);
+var _scrollTop = __webpack_require__(225);
 
 var _scrollTop2 = _interopRequireDefault(_scrollTop);
 
@@ -55812,7 +55797,7 @@ var _scrollLeft = __webpack_require__(481);
 
 var _scrollLeft2 = _interopRequireDefault(_scrollLeft);
 
-var _style = __webpack_require__(77);
+var _style = __webpack_require__(81);
 
 var _style2 = _interopRequireDefault(_style);
 
@@ -55860,11 +55845,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = offsetParent;
 
-var _ownerDocument = __webpack_require__(49);
+var _ownerDocument = __webpack_require__(50);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
-var _style = __webpack_require__(77);
+var _style = __webpack_require__(81);
 
 var _style2 = _interopRequireDefault(_style);
 
@@ -55898,7 +55883,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = scrollTop;
 
-var _isWindow = __webpack_require__(83);
+var _isWindow = __webpack_require__(87);
 
 var _isWindow2 = _interopRequireDefault(_isWindow);
 
@@ -55928,7 +55913,7 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_extends__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_dom_helpers_query_contains__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_dom_helpers_query_contains__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_dom_helpers_query_contains___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_dom_helpers_query_contains__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
@@ -55938,7 +55923,7 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_warning__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_warning__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Overlay__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Overlay__ = __webpack_require__(223);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_createChainedFunction__ = __webpack_require__(17);
 
 
@@ -56326,7 +56311,7 @@ var PageHeader = function (_React$Component) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__PagerItem__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__PagerItem__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils_deprecationWarning__ = __webpack_require__(485);
 
 
@@ -56345,7 +56330,7 @@ var PageHeader = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_possibleConstructorReturn__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_inherits__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_inherits__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_typeof__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_typeof__ = __webpack_require__(124);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_typeof___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_typeof__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_warning__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_warning__);
@@ -56438,7 +56423,7 @@ function _resetWarned() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__PagerItem__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__PagerItem__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_createChainedFunction__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_ValidComponentChildren__ = __webpack_require__(22);
@@ -56527,7 +56512,7 @@ Pager.Item = __WEBPACK_IMPORTED_MODULE_8__PagerItem__["a" /* default */];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_elementType__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_elementType___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_elementType__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__PaginationButton__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__PaginationButton__ = __webpack_require__(227);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__ = __webpack_require__(9);
 
 
@@ -56796,7 +56781,7 @@ Pagination.defaultProps = defaultProps;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__);
@@ -56814,7 +56799,7 @@ Pagination.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Collapse__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Collapse__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__utils_StyleConfig__ = __webpack_require__(19);
 
@@ -57066,7 +57051,7 @@ Panel.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_isRequiredForA11y__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_isRequiredForA11y__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_isRequiredForA11y___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_isRequiredForA11y__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(9);
 
@@ -57197,7 +57182,7 @@ Popover.defaultProps = defaultProps;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_core_js_object_values__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_extends__);
@@ -57718,10 +57703,10 @@ Row.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Button__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Dropdown__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Button__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Dropdown__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__SplitToggle__ = __webpack_require__(495);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_splitComponentProps__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_splitComponentProps__ = __webpack_require__(85);
 
 
 
@@ -57832,7 +57817,7 @@ SplitButton.Toggle = __WEBPACK_IMPORTED_MODULE_9__SplitToggle__["a" /* default *
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DropdownToggle__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__DropdownToggle__ = __webpack_require__(207);
 
 
 
@@ -57881,9 +57866,9 @@ SplitToggle.defaultProps = __WEBPACK_IMPORTED_MODULE_5__DropdownToggle__["a" /* 
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__TabContainer__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__TabContent__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__TabPane__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__TabContainer__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__TabContent__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__TabPane__ = __webpack_require__(228);
 
 
 
@@ -58056,14 +58041,14 @@ Table.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types_extra_lib_isRequiredForA11y__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types_extra_lib_isRequiredForA11y__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types_extra_lib_isRequiredForA11y___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types_extra_lib_isRequiredForA11y__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_uncontrollable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Nav__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__NavItem__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__TabContainer__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__TabContent__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__Nav__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__NavItem__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__TabContainer__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__TabContent__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__utils_bootstrapUtils__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__utils_ValidComponentChildren__ = __webpack_require__(22);
 
@@ -58360,12 +58345,12 @@ Thumbnail.propTypes = propTypes;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_invariant__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_uncontrollable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_uncontrollable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_createChainedFunction__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__utils_ValidComponentChildren__ = __webpack_require__(22);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ButtonGroup__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ToggleButton__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ButtonGroup__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ToggleButton__ = __webpack_require__(229);
 
 
 
@@ -58530,7 +58515,7 @@ UncontrolledToggleButtonGroup.Button = __WEBPACK_IMPORTED_MODULE_12__ToggleButto
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_isRequiredForA11y__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_isRequiredForA11y__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_isRequiredForA11y___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_prop_types_extra_lib_isRequiredForA11y__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__utils_bootstrapUtils__ = __webpack_require__(9);
 
@@ -58739,7 +58724,7 @@ var _IndexLinkContainer2 = __webpack_require__(505);
 
 var _IndexLinkContainer3 = _interopRequireDefault(_IndexLinkContainer2);
 
-var _LinkContainer2 = __webpack_require__(227);
+var _LinkContainer2 = __webpack_require__(230);
 
 var _LinkContainer3 = _interopRequireDefault(_LinkContainer2);
 
@@ -58763,7 +58748,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _LinkContainer = __webpack_require__(227);
+var _LinkContainer = __webpack_require__(230);
 
 var _LinkContainer2 = _interopRequireDefault(_LinkContainer);
 
@@ -58815,21 +58800,29 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(367);
+var _reactBootstrap = __webpack_require__(60);
 
-var _UserAction = __webpack_require__(365);
+var _UserAction = __webpack_require__(59);
 
 var _UserAction2 = _interopRequireDefault(_UserAction);
 
-var _UserStore = __webpack_require__(360);
+var _UserStore = __webpack_require__(58);
 
 var _UserStore2 = _interopRequireDefault(_UserStore);
 
-var _reactRouterDom = __webpack_require__(102);
+var _reactRouterDom = __webpack_require__(45);
 
-var _config = __webpack_require__(514);
+var _config = __webpack_require__(507);
 
 var _config2 = _interopRequireDefault(_config);
+
+var _SiginInNav = __webpack_require__(518);
+
+var _SiginInNav2 = _interopRequireDefault(_SiginInNav);
+
+var _TopicEditNav = __webpack_require__(519);
+
+var _TopicEditNav2 = _interopRequireDefault(_TopicEditNav);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -58884,10 +58877,11 @@ var RightNav = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: SiginIn }),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/home', component: SiginIn }),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: SiginIn }),
-        _react2.default.createElement(_reactRouterDom.Route, { path: '/siginin', component: SiginIn })
+        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _TopicEditNav2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/home', component: _SiginInNav2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _SiginInNav2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/siginin', component: _SiginInNav2.default }),
+        _react2.default.createElement(_reactRouterDom.Route, { path: '/topicedit', component: _TopicEditNav2.default })
       );
     }
   }]);
@@ -58897,47 +58891,6 @@ var RightNav = function (_React$Component) {
 
 exports.default = RightNav;
 
-
-var SiginIn = function SiginIn() {
-  return _react2.default.createElement(
-    _reactBootstrap.Panel,
-    { header: '\u5173\u4E8E', style: { marginTop: 20 } },
-    _react2.default.createElement(
-      'p',
-      null,
-      _config2.default.description
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      '\u5728\u8FD9\u91CC\u4F60\u53EF\u4EE5\uFF1A'
-    ),
-    _react2.default.createElement(
-      'ul',
-      null,
-      _react2.default.createElement(
-        'li',
-        null,
-        '\u5411\u522B\u4EBA\u63D0\u51FA\u4F60\u9047\u5230\u7684\u95EE\u9898'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        '\u5E2E\u52A9\u9047\u5230\u95EE\u9898\u7684\u4EBA'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        '\u5206\u4EAB\u81EA\u5DF1\u7684\u77E5\u8BC6'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        '\u548C\u5176\u5B83\u4EBA\u4E00\u8D77\u8FDB\u6B65'
-      )
-    )
-  );
-};
 
 var About = function About() {
   return _react2.default.createElement(
@@ -59022,6 +58975,26 @@ var Topic = function Topic(_ref2) {
 "use strict";
 
 
+module.exports = {
+
+	name: 'Nodeclub', // 社区名字
+	description: '仿CNode：Node.js专业中文社区', // 社区的描述
+	//版块
+	tabs: [{ key: 'share', value: '分享' }, { key: 'ask', value: '问答' }, { key: 'job', value: '招聘' }, { key: 'dev', value: '客户端测试' }],
+
+	create_post_per_day: 10, // 每个用户一天可以发的主题数
+	create_reply_per_day: 10, // 每个用户一天可以发的评论数
+	create_user_per_ip: 10,
+	visit_per_day: 10 // 每个 ip 每天能访问的次数
+};
+
+/***/ }),
+/* 508 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -59032,7 +59005,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(508);
+__webpack_require__(509);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -59092,13 +59065,13 @@ var ScrollButton = function (_React$Component) {
 exports.default = ScrollButton;
 
 /***/ }),
-/* 508 */
+/* 509 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(509);
+var content = __webpack_require__(510);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -59106,7 +59079,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(511)(content, options);
+var update = __webpack_require__(512)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -59123,10 +59096,10 @@ if(false) {
 }
 
 /***/ }),
-/* 509 */
+/* 510 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(510)(undefined);
+exports = module.exports = __webpack_require__(511)(undefined);
 // imports
 
 
@@ -59137,7 +59110,7 @@ exports.push([module.i, "\r\n\r\n/* ScrollButton  start*/\r\n.scroll {\r\n  opac
 
 
 /***/ }),
-/* 510 */
+/* 511 */
 /***/ (function(module, exports) {
 
 /*
@@ -59219,7 +59192,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 511 */
+/* 512 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -59265,7 +59238,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(512);
+var	fixUrls = __webpack_require__(513);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -59578,7 +59551,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 512 */
+/* 513 */
 /***/ (function(module, exports) {
 
 
@@ -59673,7 +59646,7 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 513 */
+/* 514 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59689,13 +59662,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(367);
+var _reactBootstrap = __webpack_require__(60);
 
-var _UserAction = __webpack_require__(365);
+var _UserAction = __webpack_require__(59);
 
 var _UserAction2 = _interopRequireDefault(_UserAction);
 
-var _UserStore = __webpack_require__(360);
+var _UserStore = __webpack_require__(58);
 
 var _UserStore2 = _interopRequireDefault(_UserStore);
 
@@ -59772,21 +59745,6 @@ var Topics = function (_React$Component) {
 exports.default = Topics;
 
 /***/ }),
-/* 514 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var DATA = {
-
-	name: 'Nodeclub', // 社区名字
-	description: '仿CNode：Node.js专业中文社区' // 社区的描述
-
-};
-module.exports = DATA;
-
-/***/ }),
 /* 515 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -59803,17 +59761,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactBootstrap = __webpack_require__(367);
+var _reactBootstrap = __webpack_require__(60);
 
-var _UserAction = __webpack_require__(365);
+var _UserAction = __webpack_require__(59);
 
 var _UserAction2 = _interopRequireDefault(_UserAction);
 
-var _UserStore = __webpack_require__(360);
+var _UserStore = __webpack_require__(58);
 
 var _UserStore2 = _interopRequireDefault(_UserStore);
 
-var _reactRouterDom = __webpack_require__(102);
+var _reactRouterDom = __webpack_require__(45);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -59823,16 +59781,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var SiginIn = function (_React$Component) {
-		_inherits(SiginIn, _React$Component);
+var SignIn = function (_React$Component) {
+		_inherits(SignIn, _React$Component);
 
-		function SiginIn(props) {
-				_classCallCheck(this, SiginIn);
+		function SignIn(props) {
+				_classCallCheck(this, SignIn);
 
-				return _possibleConstructorReturn(this, (SiginIn.__proto__ || Object.getPrototypeOf(SiginIn)).call(this, props));
+				var _this = _possibleConstructorReturn(this, (SignIn.__proto__ || Object.getPrototypeOf(SignIn)).call(this, props));
+
+				_this.state = {
+						name: '',
+						password: '',
+						errMsg: null
+				};
+				return _this;
 		}
 
-		_createClass(SiginIn, [{
+		_createClass(SignIn, [{
 				key: 'componentDidMount',
 				value: function componentDidMount() {
 						// Decode entities in the URL
@@ -59843,15 +59808,11 @@ var SiginIn = function (_React$Component) {
 				value: function getHeaders() {
 						return _react2.default.createElement(
 								_reactBootstrap.Breadcrumb,
-								{ className: 'breadcrumb' },
+								null,
 								_react2.default.createElement(
 										_reactBootstrap.Breadcrumb.Item,
-										null,
-										_react2.default.createElement(
-												_reactRouterDom.Link,
-												{ to: '/' },
-												'\u4E3B\u9875'
-										)
+										{ href: '/' },
+										'\u4E3B\u9875'
 								),
 								_react2.default.createElement(
 										_reactBootstrap.Breadcrumb.Item,
@@ -59861,8 +59822,43 @@ var SiginIn = function (_React$Component) {
 						);
 				}
 		}, {
+				key: 'onSubmit',
+				value: function onSubmit(e) {
+						e.preventDefault();
+						var name = this.state.name;
+						var pass = this.state.password;
+						if (name.length == 0) {
+								return _UserAction2.default.notify('用户名不能为空');
+						}
+						if (pass.length == 0) {
+								return _UserAction2.default.notify('密码不能为空');
+						}
+
+						_UserAction2.default.ajaxPost("/signin", JSON.stringify({ username: name, password: pass }), function (result, status, xhr) {
+								// AppDispatcher.dispatch({
+								//   actionType: UserConstants.LOGIN_IN,
+								//   isSus: true,
+								//   name:itemData['name'],
+								//   role:itemData['role'],
+								// });
+
+						}.bind(this), function (xhr, status, err) {
+								//  AppDispatcher.dispatch({
+								//    actionType: UserConstants.LOGIN_IN,
+								//    isSus: false,
+								//    errmsg:'login in fail err='+err.message
+								//  });
+								JSON.stringify(err);
+								this.setState({
+										errMsg: err.toString()
+								});
+						}.bind(this));
+				}
+		}, {
 				key: 'render',
 				value: function render() {
+						var _this2 = this;
+
 						return _react2.default.createElement(
 								'div',
 								null,
@@ -59871,19 +59867,22 @@ var SiginIn = function (_React$Component) {
 										{ header: this.getHeaders() },
 										_react2.default.createElement(
 												_reactBootstrap.Form,
-												{ horizontal: true, style: { marginTop: 20 } },
+												{ horizontal: true, style: { marginTop: 20 }, onSubmit: this.onSubmit.bind(this) },
+												'>',
 												_react2.default.createElement(
 														_reactBootstrap.FormGroup,
 														{ controlId: 'formHorizontalEmail' },
 														_react2.default.createElement(
 																_reactBootstrap.Col,
 																{ componentClass: _reactBootstrap.ControlLabel, sm: 2 },
-																'Email'
+																'\u8D26\u6237'
 														),
 														_react2.default.createElement(
 																_reactBootstrap.Col,
 																{ sm: 10 },
-																_react2.default.createElement(_reactBootstrap.FormControl, { type: 'email', placeholder: 'Email' })
+																_react2.default.createElement(_reactBootstrap.FormControl, { type: 'text', placeholder: 'Text', onChange: function onChange(e) {
+																				return _this2.setState({ name: e.target.value });
+																		} })
 														)
 												),
 												_react2.default.createElement(
@@ -59892,23 +59891,30 @@ var SiginIn = function (_React$Component) {
 														_react2.default.createElement(
 																_reactBootstrap.Col,
 																{ componentClass: _reactBootstrap.ControlLabel, sm: 2 },
-																'Password'
+																'\u5BC6\u7801'
 														),
 														_react2.default.createElement(
 																_reactBootstrap.Col,
 																{ sm: 10 },
-																_react2.default.createElement(_reactBootstrap.FormControl, { type: 'password', placeholder: 'Password' })
+																_react2.default.createElement(_reactBootstrap.FormControl, { type: 'password', placeholder: 'Password', onChange: function onChange(e) {
+																				return _this2.setState({ password: e.target.value });
+																		} })
 														)
+												),
+												this.state.errMsg && _react2.default.createElement(
+														_reactBootstrap.Alert,
+														{ bsStyle: 'warning' },
+														this.state.errMsg
 												),
 												_react2.default.createElement(
 														_reactBootstrap.FormGroup,
-														{ horizontal: true, style: { marginTop: 50 } },
+														{ style: { marginTop: 50 } },
 														_react2.default.createElement(
 																_reactBootstrap.Col,
 																{ smOffset: 2, sm: 10 },
 																_react2.default.createElement(
 																		_reactBootstrap.Button,
-																		{ bsStyle: 'primary' },
+																		{ type: 'submit', bsStyle: 'primary' },
 																		'\u767B\u9646'
 																),
 																_react2.default.createElement(
@@ -59929,10 +59935,14991 @@ var SiginIn = function (_React$Component) {
 				}
 		}]);
 
-		return SiginIn;
+		return SignIn;
 }(_react2.default.Component);
 
-exports.default = SiginIn;
+exports.default = SignIn;
+
+/***/ }),
+/* 516 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+		value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactBootstrap = __webpack_require__(60);
+
+var _UserAction = __webpack_require__(59);
+
+var _UserAction2 = _interopRequireDefault(_UserAction);
+
+var _UserStore = __webpack_require__(58);
+
+var _UserStore2 = _interopRequireDefault(_UserStore);
+
+var _reactRouterDom = __webpack_require__(45);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Signup = function (_React$Component) {
+		_inherits(Signup, _React$Component);
+
+		function Signup(props) {
+				_classCallCheck(this, Signup);
+
+				var _this = _possibleConstructorReturn(this, (Signup.__proto__ || Object.getPrototypeOf(Signup)).call(this, props));
+
+				_this.state = {
+						name: '',
+						password: '',
+						errMsg: null
+				};
+				return _this;
+		}
+
+		_createClass(Signup, [{
+				key: 'componentDidMount',
+				value: function componentDidMount() {
+						// Decode entities in the URL
+
+				}
+		}, {
+				key: 'getHeaders',
+				value: function getHeaders() {
+						return _react2.default.createElement(
+								_reactBootstrap.Breadcrumb,
+								null,
+								_react2.default.createElement(
+										_reactBootstrap.Breadcrumb.Item,
+										{ href: '/' },
+										'\u4E3B\u9875'
+								),
+								_react2.default.createElement(
+										_reactBootstrap.Breadcrumb.Item,
+										{ active: true },
+										'\u767B\u5F55'
+								)
+						);
+				}
+		}, {
+				key: 'onSubmit',
+				value: function onSubmit(e) {
+						e.preventDefault();
+						var name = this.state.name;
+						var pass = this.state.password;
+						if (name.length == 0) {
+								return _UserAction2.default.notify('用户名不能为空');
+						}
+						if (pass.length == 0) {
+								return _UserAction2.default.notify('密码不能为空');
+						}
+
+						_UserAction2.default.ajaxPost("/signin", JSON.stringify({ username: name, password: pass }), function (result, status, xhr) {
+								// AppDispatcher.dispatch({
+								//   actionType: UserConstants.LOGIN_IN,
+								//   isSus: true,
+								//   name:itemData['name'],
+								//   role:itemData['role'],
+								// });
+
+						}.bind(this), function (xhr, status, err) {
+								//  AppDispatcher.dispatch({
+								//    actionType: UserConstants.LOGIN_IN,
+								//    isSus: false,
+								//    errmsg:'login in fail err='+err.message
+								//  });
+								JSON.stringify(err);
+								this.setState({
+										errMsg: err.toString()
+								});
+						}.bind(this));
+				}
+		}, {
+				key: 'render',
+				value: function render() {
+						var _this2 = this;
+
+						return _react2.default.createElement(
+								'div',
+								null,
+								_react2.default.createElement(
+										_reactBootstrap.Panel,
+										{ header: this.getHeaders() },
+										_react2.default.createElement(
+												_reactBootstrap.Form,
+												{ horizontal: true, style: { marginTop: 20 }, onSubmit: this.onSubmit.bind(this) },
+												'>',
+												_react2.default.createElement(
+														_reactBootstrap.FormGroup,
+														{ controlId: 'formHorizontalEmail' },
+														_react2.default.createElement(
+																_reactBootstrap.Col,
+																{ componentClass: _reactBootstrap.ControlLabel, sm: 2 },
+																'\u8D26\u6237'
+														),
+														_react2.default.createElement(
+																_reactBootstrap.Col,
+																{ sm: 10 },
+																_react2.default.createElement(_reactBootstrap.FormControl, { type: 'text', placeholder: 'Text', onChange: function onChange(e) {
+																				return _this2.setState({ name: e.target.value });
+																		} })
+														)
+												),
+												_react2.default.createElement(
+														_reactBootstrap.FormGroup,
+														{ controlId: 'formHorizontalPassword' },
+														_react2.default.createElement(
+																_reactBootstrap.Col,
+																{ componentClass: _reactBootstrap.ControlLabel, sm: 2 },
+																'\u5BC6\u7801'
+														),
+														_react2.default.createElement(
+																_reactBootstrap.Col,
+																{ sm: 10 },
+																_react2.default.createElement(_reactBootstrap.FormControl, { type: 'password', placeholder: 'Password', onChange: function onChange(e) {
+																				return _this2.setState({ password: e.target.value });
+																		} })
+														)
+												),
+												this.state.errMsg && _react2.default.createElement(
+														'p',
+														null,
+														this.state.errMsg
+												),
+												_react2.default.createElement(
+														_reactBootstrap.FormGroup,
+														{ style: { marginTop: 50 } },
+														_react2.default.createElement(
+																_reactBootstrap.Col,
+																{ smOffset: 2, sm: 10 },
+																_react2.default.createElement(
+																		_reactBootstrap.Button,
+																		{ type: 'submit', bsStyle: 'primary' },
+																		'\u767B\u9646'
+																),
+																_react2.default.createElement(
+																		_reactBootstrap.Button,
+																		{ bsStyle: 'warning', style: { marginLeft: 10 } },
+																		'\u901A\u8FC7github\u767B\u9646'
+																),
+																_react2.default.createElement(
+																		_reactBootstrap.Button,
+																		{ bsStyle: 'link', style: { marginLeft: 20 } },
+																		'\u5FD8\u8BB0\u5BC6\u7801\u4E86'
+																)
+														)
+												)
+										)
+								)
+						);
+				}
+		}]);
+
+		return Signup;
+}(_react2.default.Component);
+
+exports.default = Signup;
+
+/***/ }),
+/* 517 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+		value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactBootstrap = __webpack_require__(60);
+
+var _UserAction = __webpack_require__(59);
+
+var _UserAction2 = _interopRequireDefault(_UserAction);
+
+var _UserStore = __webpack_require__(58);
+
+var _UserStore2 = _interopRequireDefault(_UserStore);
+
+var _reactRouterDom = __webpack_require__(45);
+
+var _underscore = __webpack_require__(520);
+
+var _underscore2 = _interopRequireDefault(_underscore);
+
+var _reactMdEditor = __webpack_require__(523);
+
+var _reactMdEditor2 = _interopRequireDefault(_reactMdEditor);
+
+__webpack_require__(535);
+
+var _marked = __webpack_require__(537);
+
+var _marked2 = _interopRequireDefault(_marked);
+
+var _config = __webpack_require__(507);
+
+var _config2 = _interopRequireDefault(_config);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var TopicEdit = function (_React$Component) {
+		_inherits(TopicEdit, _React$Component);
+
+		function TopicEdit(props) {
+				_classCallCheck(this, TopicEdit);
+
+				var _this = _possibleConstructorReturn(this, (TopicEdit.__proto__ || Object.getPrototypeOf(TopicEdit)).call(this, props));
+
+				_this.state = {
+						topicId: _this.props.match.topicId,
+						errMsg: null,
+						tabs: [{ key: 'share', value: '分享' }, { key: 'ask', value: '问答' }, { key: 'job', value: '招聘' }, { key: 'dev', value: '客户端测试' }],
+						selectTab: 'share',
+						code: '',
+						codeModel: 1 //1 编辑  2预览
+				};
+				// console.log(this.props.match);
+
+				return _this;
+		}
+
+		_createClass(TopicEdit, [{
+				key: 'componentDidMount',
+				value: function componentDidMount() {}
+		}, {
+				key: 'getHeaders',
+				value: function getHeaders() {
+						return _react2.default.createElement(
+								_reactBootstrap.Breadcrumb,
+								null,
+								_react2.default.createElement(
+										_reactBootstrap.Breadcrumb.Item,
+										{ href: '/' },
+										'\u4E3B\u9875'
+								),
+								this.state.topicId ? _react2.default.createElement(
+										_reactBootstrap.Breadcrumb.Item,
+										{ active: true },
+										'\u7F16\u8F91\u8BDD\u9898'
+								) : _react2.default.createElement(
+										_reactBootstrap.Breadcrumb.Item,
+										{ active: true },
+										'\u53D1\u5E03\u8BDD\u9898'
+								)
+						);
+				}
+		}, {
+				key: 'onSubmit',
+				value: function onSubmit(e) {
+						e.preventDefault();
+						var tab = this.state.selectTab;
+						console.log(tab);
+						// const pass = this.state.password
+						// if(name.length == 0) {
+						// 	return UserAction.notify('用户名不能为空');
+						// }
+						// if(pass.length == 0) {
+						// 	return UserAction.notify('密码不能为空');
+						// }
+						//
+						// UserAction.ajaxPost("/signin",JSON.stringify({username:name, password:pass}),
+						//   function(result,status,xhr){
+						//     // AppDispatcher.dispatch({
+						//     //   actionType: UserConstants.LOGIN_IN,
+						//     //   isSus: true,
+						//     //   name:itemData['name'],
+						//     //   role:itemData['role'],
+						//     // });
+						//
+						//   }.bind(this), function(xhr, status,err){
+						//     //  AppDispatcher.dispatch({
+						//     //    actionType: UserConstants.LOGIN_IN,
+						//     //    isSus: false,
+						//     //    errmsg:'login in fail err='+err.message
+						//     //  });
+						// 	JSON.stringify(err)
+						// 	this.setState({
+						// 		errMsg:err.toString()
+						// 	})
+						// }.bind(this));
+				}
+		}, {
+				key: 'render',
+				value: function render() {
+						var _this2 = this;
+
+						var preview = (0, _marked2.default)(this.state.code);
+						return _react2.default.createElement(
+								'div',
+								null,
+								_react2.default.createElement(
+										_reactBootstrap.Panel,
+										{ header: this.getHeaders() },
+										this.state.errMsg && _react2.default.createElement(
+												_reactBootstrap.Alert,
+												{ bsStyle: 'warning' },
+												this.state.errMsg
+										),
+										_react2.default.createElement(
+												_reactBootstrap.Form,
+												{ horizontal: true, onSubmit: this.onSubmit.bind(this) },
+												_react2.default.createElement(
+														_reactBootstrap.FormGroup,
+														{ controlId: 'formControlsSelect' },
+														_react2.default.createElement(
+																_reactBootstrap.Col,
+																{ componentClass: _reactBootstrap.ControlLabel, sm: 2 },
+																'\u9009\u62E9\u677F\u5757:'
+														),
+														_react2.default.createElement(
+																_reactBootstrap.Col,
+																{ sm: 10 },
+																_react2.default.createElement(
+																		_reactBootstrap.FormControl,
+																		{ componentClass: 'select', placeholder: '\u8BF7\u9009\u62E9',
+																				onChange: function onChange(e) {
+																						return _this2.setState({ selectTab: e.target.value });
+																				},
+																				value: this.state.selectTab },
+																		_underscore2.default.map(this.state.tabs, function (tab, index) {
+																				return _react2.default.createElement(
+																						'option',
+																						{ key: index, value: tab.key },
+																						tab.value
+																				);
+																		})
+																)
+														)
+												),
+												_react2.default.createElement(
+														_reactBootstrap.FormGroup,
+														{ controlId: 'formHorizontalPassword' },
+														_react2.default.createElement(
+																_reactBootstrap.Col,
+																{ sm: 12 },
+																_react2.default.createElement(_reactBootstrap.FormControl, { type: 'text', placeholder: '\u6807\u9898\u5B57\u6570 10\u4E2A\u5B57\u4EE5\u4E0A', onChange: function onChange(e) {
+																				return _this2.setState({ password: e.target.value });
+																		} })
+														)
+												),
+												_react2.default.createElement(
+														_reactBootstrap.ButtonToolbar,
+														null,
+														_react2.default.createElement(
+																_reactBootstrap.ToggleButtonGroup,
+																{ type: 'radio', name: 'options', defaultValue: this.state.codeModel,
+																		onChange: function onChange(value) {
+																				return _this2.setState({ codeModel: value });
+																		} },
+																_react2.default.createElement(
+																		_reactBootstrap.ToggleButton,
+																		{ value: 1 },
+																		'\u7F16\u8F91'
+																),
+																_react2.default.createElement(
+																		_reactBootstrap.ToggleButton,
+																		{ value: 2 },
+																		'\u9884\u89C8'
+																)
+														)
+												),
+												this.state.codeModel == 1 ? _react2.default.createElement(_reactMdEditor2.default, { value: this.state.code, onChange: function onChange(newCode) {
+																return _this2.setState({ code: newCode });
+														} }) : _react2.default.createElement('div', { className: 'preview', dangerouslySetInnerHTML: { __html: preview } }),
+												_react2.default.createElement(
+														_reactBootstrap.Button,
+														{ type: 'submit', bsStyle: 'primary' },
+														'\u63D0\u4EA4'
+												)
+										)
+								)
+						);
+				}
+		}]);
+
+		return TopicEdit;
+}(_react2.default.Component);
+
+exports.default = TopicEdit;
+
+/***/ }),
+/* 518 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+		value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactBootstrap = __webpack_require__(60);
+
+var _config = __webpack_require__(507);
+
+var _config2 = _interopRequireDefault(_config);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SiginInNav = function (_React$Component) {
+		_inherits(SiginInNav, _React$Component);
+
+		function SiginInNav(props) {
+				_classCallCheck(this, SiginInNav);
+
+				return _possibleConstructorReturn(this, (SiginInNav.__proto__ || Object.getPrototypeOf(SiginInNav)).call(this, props));
+		}
+
+		_createClass(SiginInNav, [{
+				key: 'render',
+				value: function render() {
+						return _react2.default.createElement(
+								_reactBootstrap.Panel,
+								{ header: '\u5173\u4E8E', style: { marginTop: 20 } },
+								_react2.default.createElement(
+										'p',
+										null,
+										_config2.default.description
+								),
+								_react2.default.createElement(
+										'p',
+										null,
+										'\u5728\u8FD9\u91CC\u4F60\u53EF\u4EE5\uFF1A'
+								),
+								_react2.default.createElement(
+										'ul',
+										null,
+										_react2.default.createElement(
+												'li',
+												null,
+												'\u5411\u522B\u4EBA\u63D0\u51FA\u4F60\u9047\u5230\u7684\u95EE\u9898'
+										),
+										_react2.default.createElement(
+												'li',
+												null,
+												'\u5E2E\u52A9\u9047\u5230\u95EE\u9898\u7684\u4EBA'
+										),
+										_react2.default.createElement(
+												'li',
+												null,
+												'\u5206\u4EAB\u81EA\u5DF1\u7684\u77E5\u8BC6'
+										),
+										_react2.default.createElement(
+												'li',
+												null,
+												'\u548C\u5176\u5B83\u4EBA\u4E00\u8D77\u8FDB\u6B65'
+										)
+								)
+						);
+				}
+		}]);
+
+		return SiginInNav;
+}(_react2.default.Component);
+
+exports.default = SiginInNav;
+
+/***/ }),
+/* 519 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+		value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactBootstrap = __webpack_require__(60);
+
+var _config = __webpack_require__(507);
+
+var _config2 = _interopRequireDefault(_config);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var TopicEditNav = function (_React$Component) {
+		_inherits(TopicEditNav, _React$Component);
+
+		function TopicEditNav(props) {
+				_classCallCheck(this, TopicEditNav);
+
+				return _possibleConstructorReturn(this, (TopicEditNav.__proto__ || Object.getPrototypeOf(TopicEditNav)).call(this, props));
+		}
+
+		_createClass(TopicEditNav, [{
+				key: 'render',
+				value: function render() {
+						return _react2.default.createElement(
+								'div',
+								null,
+								_react2.default.createElement(
+										_reactBootstrap.Panel,
+										{ header: 'Markdown \u8BED\u6CD5\u53C2\u8003', style: { marginTop: 20 } },
+										_react2.default.createElement(
+												'p',
+												null,
+												_react2.default.createElement(
+														'tt',
+														null,
+														'### \u5355\u884C\u7684\u6807\u9898'
+												)
+										),
+										_react2.default.createElement(
+												'p',
+												null,
+												_react2.default.createElement(
+														'tt',
+														null,
+														'**\u7C97\u4F53**'
+												)
+										),
+										_react2.default.createElement(
+												'p',
+												null,
+												_react2.default.createElement(
+														'tt',
+														null,
+														'`console.log(\'\u884C\u5185\u4EE3\u7801\')`'
+												)
+										),
+										_react2.default.createElement(
+												'p',
+												null,
+												_react2.default.createElement(
+														'tt',
+														null,
+														'```js\\n code \\n```'
+												),
+												' \u6807\u8BB0\u4EE3\u7801\u5757'
+										),
+										_react2.default.createElement(
+												'p',
+												null,
+												_react2.default.createElement(
+														'tt',
+														null,
+														'[\u5185\u5BB9](\u94FE\u63A5)'
+												)
+										),
+										_react2.default.createElement(
+												'p',
+												null,
+												_react2.default.createElement(
+														'tt',
+														null,
+														'![\u6587\u5B57\u8BF4\u660E](\u56FE\u7247\u94FE\u63A5)'
+												)
+										),
+										_react2.default.createElement(
+												'span',
+												null,
+												_react2.default.createElement(
+														'a',
+														{ href: 'https://segmentfault.com/markdown', target: '_blank' },
+														'Markdown \u6587\u6863'
+												)
+										)
+								),
+								_react2.default.createElement(
+										_reactBootstrap.Panel,
+										{ header: '\u8BDD\u9898\u53D1\u5E03\u6307\u5357', style: { marginTop: 20 } },
+										_react2.default.createElement(
+												'p',
+												null,
+												_react2.default.createElement(
+														'tt',
+														null,
+														'\u5C3D\u91CF\u628A\u8BDD\u9898\u8981\u70B9\u6D53\u7F29\u5230\u6807\u9898\u91CC'
+												)
+										),
+										'\u4EE3\u7801\u542B\u4E49\u548C\u62A5\u9519\u53EF\u5728 ',
+										_react2.default.createElement(
+												'a',
+												{ href: 'http://segmentfault.com/t/node.js' },
+												'SegmentFault'
+										),
+										' \u63D0\u95EE'
+								)
+						);
+				}
+		}]);
+
+		return TopicEditNav;
+}(_react2.default.Component);
+
+exports.default = TopicEditNav;
+
+/***/ }),
+/* 520 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscore.js 1.8.3
+//     http://underscorejs.org
+//     (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+//     Underscore may be freely distributed under the MIT license.
+
+(function() {
+
+  // Baseline setup
+  // --------------
+
+  // Establish the root object, `window` in the browser, or `exports` on the server.
+  var root = this;
+
+  // Save the previous value of the `_` variable.
+  var previousUnderscore = root._;
+
+  // Save bytes in the minified (but not gzipped) version:
+  var ArrayProto = Array.prototype, ObjProto = Object.prototype, FuncProto = Function.prototype;
+
+  // Create quick reference variables for speed access to core prototypes.
+  var
+    push             = ArrayProto.push,
+    slice            = ArrayProto.slice,
+    toString         = ObjProto.toString,
+    hasOwnProperty   = ObjProto.hasOwnProperty;
+
+  // All **ECMAScript 5** native function implementations that we hope to use
+  // are declared here.
+  var
+    nativeIsArray      = Array.isArray,
+    nativeKeys         = Object.keys,
+    nativeBind         = FuncProto.bind,
+    nativeCreate       = Object.create;
+
+  // Naked function reference for surrogate-prototype-swapping.
+  var Ctor = function(){};
+
+  // Create a safe reference to the Underscore object for use below.
+  var _ = function(obj) {
+    if (obj instanceof _) return obj;
+    if (!(this instanceof _)) return new _(obj);
+    this._wrapped = obj;
+  };
+
+  // Export the Underscore object for **Node.js**, with
+  // backwards-compatibility for the old `require()` API. If we're in
+  // the browser, add `_` as a global object.
+  if (true) {
+    if (typeof module !== 'undefined' && module.exports) {
+      exports = module.exports = _;
+    }
+    exports._ = _;
+  } else {
+    root._ = _;
+  }
+
+  // Current version.
+  _.VERSION = '1.8.3';
+
+  // Internal function that returns an efficient (for current engines) version
+  // of the passed-in callback, to be repeatedly applied in other Underscore
+  // functions.
+  var optimizeCb = function(func, context, argCount) {
+    if (context === void 0) return func;
+    switch (argCount == null ? 3 : argCount) {
+      case 1: return function(value) {
+        return func.call(context, value);
+      };
+      case 2: return function(value, other) {
+        return func.call(context, value, other);
+      };
+      case 3: return function(value, index, collection) {
+        return func.call(context, value, index, collection);
+      };
+      case 4: return function(accumulator, value, index, collection) {
+        return func.call(context, accumulator, value, index, collection);
+      };
+    }
+    return function() {
+      return func.apply(context, arguments);
+    };
+  };
+
+  // A mostly-internal function to generate callbacks that can be applied
+  // to each element in a collection, returning the desired result — either
+  // identity, an arbitrary callback, a property matcher, or a property accessor.
+  var cb = function(value, context, argCount) {
+    if (value == null) return _.identity;
+    if (_.isFunction(value)) return optimizeCb(value, context, argCount);
+    if (_.isObject(value)) return _.matcher(value);
+    return _.property(value);
+  };
+  _.iteratee = function(value, context) {
+    return cb(value, context, Infinity);
+  };
+
+  // An internal function for creating assigner functions.
+  var createAssigner = function(keysFunc, undefinedOnly) {
+    return function(obj) {
+      var length = arguments.length;
+      if (length < 2 || obj == null) return obj;
+      for (var index = 1; index < length; index++) {
+        var source = arguments[index],
+            keys = keysFunc(source),
+            l = keys.length;
+        for (var i = 0; i < l; i++) {
+          var key = keys[i];
+          if (!undefinedOnly || obj[key] === void 0) obj[key] = source[key];
+        }
+      }
+      return obj;
+    };
+  };
+
+  // An internal function for creating a new object that inherits from another.
+  var baseCreate = function(prototype) {
+    if (!_.isObject(prototype)) return {};
+    if (nativeCreate) return nativeCreate(prototype);
+    Ctor.prototype = prototype;
+    var result = new Ctor;
+    Ctor.prototype = null;
+    return result;
+  };
+
+  var property = function(key) {
+    return function(obj) {
+      return obj == null ? void 0 : obj[key];
+    };
+  };
+
+  // Helper for collection methods to determine whether a collection
+  // should be iterated as an array or as an object
+  // Related: http://people.mozilla.org/~jorendorff/es6-draft.html#sec-tolength
+  // Avoids a very nasty iOS 8 JIT bug on ARM-64. #2094
+  var MAX_ARRAY_INDEX = Math.pow(2, 53) - 1;
+  var getLength = property('length');
+  var isArrayLike = function(collection) {
+    var length = getLength(collection);
+    return typeof length == 'number' && length >= 0 && length <= MAX_ARRAY_INDEX;
+  };
+
+  // Collection Functions
+  // --------------------
+
+  // The cornerstone, an `each` implementation, aka `forEach`.
+  // Handles raw objects in addition to array-likes. Treats all
+  // sparse array-likes as if they were dense.
+  _.each = _.forEach = function(obj, iteratee, context) {
+    iteratee = optimizeCb(iteratee, context);
+    var i, length;
+    if (isArrayLike(obj)) {
+      for (i = 0, length = obj.length; i < length; i++) {
+        iteratee(obj[i], i, obj);
+      }
+    } else {
+      var keys = _.keys(obj);
+      for (i = 0, length = keys.length; i < length; i++) {
+        iteratee(obj[keys[i]], keys[i], obj);
+      }
+    }
+    return obj;
+  };
+
+  // Return the results of applying the iteratee to each element.
+  _.map = _.collect = function(obj, iteratee, context) {
+    iteratee = cb(iteratee, context);
+    var keys = !isArrayLike(obj) && _.keys(obj),
+        length = (keys || obj).length,
+        results = Array(length);
+    for (var index = 0; index < length; index++) {
+      var currentKey = keys ? keys[index] : index;
+      results[index] = iteratee(obj[currentKey], currentKey, obj);
+    }
+    return results;
+  };
+
+  // Create a reducing function iterating left or right.
+  function createReduce(dir) {
+    // Optimized iterator function as using arguments.length
+    // in the main function will deoptimize the, see #1991.
+    function iterator(obj, iteratee, memo, keys, index, length) {
+      for (; index >= 0 && index < length; index += dir) {
+        var currentKey = keys ? keys[index] : index;
+        memo = iteratee(memo, obj[currentKey], currentKey, obj);
+      }
+      return memo;
+    }
+
+    return function(obj, iteratee, memo, context) {
+      iteratee = optimizeCb(iteratee, context, 4);
+      var keys = !isArrayLike(obj) && _.keys(obj),
+          length = (keys || obj).length,
+          index = dir > 0 ? 0 : length - 1;
+      // Determine the initial value if none is provided.
+      if (arguments.length < 3) {
+        memo = obj[keys ? keys[index] : index];
+        index += dir;
+      }
+      return iterator(obj, iteratee, memo, keys, index, length);
+    };
+  }
+
+  // **Reduce** builds up a single result from a list of values, aka `inject`,
+  // or `foldl`.
+  _.reduce = _.foldl = _.inject = createReduce(1);
+
+  // The right-associative version of reduce, also known as `foldr`.
+  _.reduceRight = _.foldr = createReduce(-1);
+
+  // Return the first value which passes a truth test. Aliased as `detect`.
+  _.find = _.detect = function(obj, predicate, context) {
+    var key;
+    if (isArrayLike(obj)) {
+      key = _.findIndex(obj, predicate, context);
+    } else {
+      key = _.findKey(obj, predicate, context);
+    }
+    if (key !== void 0 && key !== -1) return obj[key];
+  };
+
+  // Return all the elements that pass a truth test.
+  // Aliased as `select`.
+  _.filter = _.select = function(obj, predicate, context) {
+    var results = [];
+    predicate = cb(predicate, context);
+    _.each(obj, function(value, index, list) {
+      if (predicate(value, index, list)) results.push(value);
+    });
+    return results;
+  };
+
+  // Return all the elements for which a truth test fails.
+  _.reject = function(obj, predicate, context) {
+    return _.filter(obj, _.negate(cb(predicate)), context);
+  };
+
+  // Determine whether all of the elements match a truth test.
+  // Aliased as `all`.
+  _.every = _.all = function(obj, predicate, context) {
+    predicate = cb(predicate, context);
+    var keys = !isArrayLike(obj) && _.keys(obj),
+        length = (keys || obj).length;
+    for (var index = 0; index < length; index++) {
+      var currentKey = keys ? keys[index] : index;
+      if (!predicate(obj[currentKey], currentKey, obj)) return false;
+    }
+    return true;
+  };
+
+  // Determine if at least one element in the object matches a truth test.
+  // Aliased as `any`.
+  _.some = _.any = function(obj, predicate, context) {
+    predicate = cb(predicate, context);
+    var keys = !isArrayLike(obj) && _.keys(obj),
+        length = (keys || obj).length;
+    for (var index = 0; index < length; index++) {
+      var currentKey = keys ? keys[index] : index;
+      if (predicate(obj[currentKey], currentKey, obj)) return true;
+    }
+    return false;
+  };
+
+  // Determine if the array or object contains a given item (using `===`).
+  // Aliased as `includes` and `include`.
+  _.contains = _.includes = _.include = function(obj, item, fromIndex, guard) {
+    if (!isArrayLike(obj)) obj = _.values(obj);
+    if (typeof fromIndex != 'number' || guard) fromIndex = 0;
+    return _.indexOf(obj, item, fromIndex) >= 0;
+  };
+
+  // Invoke a method (with arguments) on every item in a collection.
+  _.invoke = function(obj, method) {
+    var args = slice.call(arguments, 2);
+    var isFunc = _.isFunction(method);
+    return _.map(obj, function(value) {
+      var func = isFunc ? method : value[method];
+      return func == null ? func : func.apply(value, args);
+    });
+  };
+
+  // Convenience version of a common use case of `map`: fetching a property.
+  _.pluck = function(obj, key) {
+    return _.map(obj, _.property(key));
+  };
+
+  // Convenience version of a common use case of `filter`: selecting only objects
+  // containing specific `key:value` pairs.
+  _.where = function(obj, attrs) {
+    return _.filter(obj, _.matcher(attrs));
+  };
+
+  // Convenience version of a common use case of `find`: getting the first object
+  // containing specific `key:value` pairs.
+  _.findWhere = function(obj, attrs) {
+    return _.find(obj, _.matcher(attrs));
+  };
+
+  // Return the maximum element (or element-based computation).
+  _.max = function(obj, iteratee, context) {
+    var result = -Infinity, lastComputed = -Infinity,
+        value, computed;
+    if (iteratee == null && obj != null) {
+      obj = isArrayLike(obj) ? obj : _.values(obj);
+      for (var i = 0, length = obj.length; i < length; i++) {
+        value = obj[i];
+        if (value > result) {
+          result = value;
+        }
+      }
+    } else {
+      iteratee = cb(iteratee, context);
+      _.each(obj, function(value, index, list) {
+        computed = iteratee(value, index, list);
+        if (computed > lastComputed || computed === -Infinity && result === -Infinity) {
+          result = value;
+          lastComputed = computed;
+        }
+      });
+    }
+    return result;
+  };
+
+  // Return the minimum element (or element-based computation).
+  _.min = function(obj, iteratee, context) {
+    var result = Infinity, lastComputed = Infinity,
+        value, computed;
+    if (iteratee == null && obj != null) {
+      obj = isArrayLike(obj) ? obj : _.values(obj);
+      for (var i = 0, length = obj.length; i < length; i++) {
+        value = obj[i];
+        if (value < result) {
+          result = value;
+        }
+      }
+    } else {
+      iteratee = cb(iteratee, context);
+      _.each(obj, function(value, index, list) {
+        computed = iteratee(value, index, list);
+        if (computed < lastComputed || computed === Infinity && result === Infinity) {
+          result = value;
+          lastComputed = computed;
+        }
+      });
+    }
+    return result;
+  };
+
+  // Shuffle a collection, using the modern version of the
+  // [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
+  _.shuffle = function(obj) {
+    var set = isArrayLike(obj) ? obj : _.values(obj);
+    var length = set.length;
+    var shuffled = Array(length);
+    for (var index = 0, rand; index < length; index++) {
+      rand = _.random(0, index);
+      if (rand !== index) shuffled[index] = shuffled[rand];
+      shuffled[rand] = set[index];
+    }
+    return shuffled;
+  };
+
+  // Sample **n** random values from a collection.
+  // If **n** is not specified, returns a single random element.
+  // The internal `guard` argument allows it to work with `map`.
+  _.sample = function(obj, n, guard) {
+    if (n == null || guard) {
+      if (!isArrayLike(obj)) obj = _.values(obj);
+      return obj[_.random(obj.length - 1)];
+    }
+    return _.shuffle(obj).slice(0, Math.max(0, n));
+  };
+
+  // Sort the object's values by a criterion produced by an iteratee.
+  _.sortBy = function(obj, iteratee, context) {
+    iteratee = cb(iteratee, context);
+    return _.pluck(_.map(obj, function(value, index, list) {
+      return {
+        value: value,
+        index: index,
+        criteria: iteratee(value, index, list)
+      };
+    }).sort(function(left, right) {
+      var a = left.criteria;
+      var b = right.criteria;
+      if (a !== b) {
+        if (a > b || a === void 0) return 1;
+        if (a < b || b === void 0) return -1;
+      }
+      return left.index - right.index;
+    }), 'value');
+  };
+
+  // An internal function used for aggregate "group by" operations.
+  var group = function(behavior) {
+    return function(obj, iteratee, context) {
+      var result = {};
+      iteratee = cb(iteratee, context);
+      _.each(obj, function(value, index) {
+        var key = iteratee(value, index, obj);
+        behavior(result, value, key);
+      });
+      return result;
+    };
+  };
+
+  // Groups the object's values by a criterion. Pass either a string attribute
+  // to group by, or a function that returns the criterion.
+  _.groupBy = group(function(result, value, key) {
+    if (_.has(result, key)) result[key].push(value); else result[key] = [value];
+  });
+
+  // Indexes the object's values by a criterion, similar to `groupBy`, but for
+  // when you know that your index values will be unique.
+  _.indexBy = group(function(result, value, key) {
+    result[key] = value;
+  });
+
+  // Counts instances of an object that group by a certain criterion. Pass
+  // either a string attribute to count by, or a function that returns the
+  // criterion.
+  _.countBy = group(function(result, value, key) {
+    if (_.has(result, key)) result[key]++; else result[key] = 1;
+  });
+
+  // Safely create a real, live array from anything iterable.
+  _.toArray = function(obj) {
+    if (!obj) return [];
+    if (_.isArray(obj)) return slice.call(obj);
+    if (isArrayLike(obj)) return _.map(obj, _.identity);
+    return _.values(obj);
+  };
+
+  // Return the number of elements in an object.
+  _.size = function(obj) {
+    if (obj == null) return 0;
+    return isArrayLike(obj) ? obj.length : _.keys(obj).length;
+  };
+
+  // Split a collection into two arrays: one whose elements all satisfy the given
+  // predicate, and one whose elements all do not satisfy the predicate.
+  _.partition = function(obj, predicate, context) {
+    predicate = cb(predicate, context);
+    var pass = [], fail = [];
+    _.each(obj, function(value, key, obj) {
+      (predicate(value, key, obj) ? pass : fail).push(value);
+    });
+    return [pass, fail];
+  };
+
+  // Array Functions
+  // ---------------
+
+  // Get the first element of an array. Passing **n** will return the first N
+  // values in the array. Aliased as `head` and `take`. The **guard** check
+  // allows it to work with `_.map`.
+  _.first = _.head = _.take = function(array, n, guard) {
+    if (array == null) return void 0;
+    if (n == null || guard) return array[0];
+    return _.initial(array, array.length - n);
+  };
+
+  // Returns everything but the last entry of the array. Especially useful on
+  // the arguments object. Passing **n** will return all the values in
+  // the array, excluding the last N.
+  _.initial = function(array, n, guard) {
+    return slice.call(array, 0, Math.max(0, array.length - (n == null || guard ? 1 : n)));
+  };
+
+  // Get the last element of an array. Passing **n** will return the last N
+  // values in the array.
+  _.last = function(array, n, guard) {
+    if (array == null) return void 0;
+    if (n == null || guard) return array[array.length - 1];
+    return _.rest(array, Math.max(0, array.length - n));
+  };
+
+  // Returns everything but the first entry of the array. Aliased as `tail` and `drop`.
+  // Especially useful on the arguments object. Passing an **n** will return
+  // the rest N values in the array.
+  _.rest = _.tail = _.drop = function(array, n, guard) {
+    return slice.call(array, n == null || guard ? 1 : n);
+  };
+
+  // Trim out all falsy values from an array.
+  _.compact = function(array) {
+    return _.filter(array, _.identity);
+  };
+
+  // Internal implementation of a recursive `flatten` function.
+  var flatten = function(input, shallow, strict, startIndex) {
+    var output = [], idx = 0;
+    for (var i = startIndex || 0, length = getLength(input); i < length; i++) {
+      var value = input[i];
+      if (isArrayLike(value) && (_.isArray(value) || _.isArguments(value))) {
+        //flatten current level of array or arguments object
+        if (!shallow) value = flatten(value, shallow, strict);
+        var j = 0, len = value.length;
+        output.length += len;
+        while (j < len) {
+          output[idx++] = value[j++];
+        }
+      } else if (!strict) {
+        output[idx++] = value;
+      }
+    }
+    return output;
+  };
+
+  // Flatten out an array, either recursively (by default), or just one level.
+  _.flatten = function(array, shallow) {
+    return flatten(array, shallow, false);
+  };
+
+  // Return a version of the array that does not contain the specified value(s).
+  _.without = function(array) {
+    return _.difference(array, slice.call(arguments, 1));
+  };
+
+  // Produce a duplicate-free version of the array. If the array has already
+  // been sorted, you have the option of using a faster algorithm.
+  // Aliased as `unique`.
+  _.uniq = _.unique = function(array, isSorted, iteratee, context) {
+    if (!_.isBoolean(isSorted)) {
+      context = iteratee;
+      iteratee = isSorted;
+      isSorted = false;
+    }
+    if (iteratee != null) iteratee = cb(iteratee, context);
+    var result = [];
+    var seen = [];
+    for (var i = 0, length = getLength(array); i < length; i++) {
+      var value = array[i],
+          computed = iteratee ? iteratee(value, i, array) : value;
+      if (isSorted) {
+        if (!i || seen !== computed) result.push(value);
+        seen = computed;
+      } else if (iteratee) {
+        if (!_.contains(seen, computed)) {
+          seen.push(computed);
+          result.push(value);
+        }
+      } else if (!_.contains(result, value)) {
+        result.push(value);
+      }
+    }
+    return result;
+  };
+
+  // Produce an array that contains the union: each distinct element from all of
+  // the passed-in arrays.
+  _.union = function() {
+    return _.uniq(flatten(arguments, true, true));
+  };
+
+  // Produce an array that contains every item shared between all the
+  // passed-in arrays.
+  _.intersection = function(array) {
+    var result = [];
+    var argsLength = arguments.length;
+    for (var i = 0, length = getLength(array); i < length; i++) {
+      var item = array[i];
+      if (_.contains(result, item)) continue;
+      for (var j = 1; j < argsLength; j++) {
+        if (!_.contains(arguments[j], item)) break;
+      }
+      if (j === argsLength) result.push(item);
+    }
+    return result;
+  };
+
+  // Take the difference between one array and a number of other arrays.
+  // Only the elements present in just the first array will remain.
+  _.difference = function(array) {
+    var rest = flatten(arguments, true, true, 1);
+    return _.filter(array, function(value){
+      return !_.contains(rest, value);
+    });
+  };
+
+  // Zip together multiple lists into a single array -- elements that share
+  // an index go together.
+  _.zip = function() {
+    return _.unzip(arguments);
+  };
+
+  // Complement of _.zip. Unzip accepts an array of arrays and groups
+  // each array's elements on shared indices
+  _.unzip = function(array) {
+    var length = array && _.max(array, getLength).length || 0;
+    var result = Array(length);
+
+    for (var index = 0; index < length; index++) {
+      result[index] = _.pluck(array, index);
+    }
+    return result;
+  };
+
+  // Converts lists into objects. Pass either a single array of `[key, value]`
+  // pairs, or two parallel arrays of the same length -- one of keys, and one of
+  // the corresponding values.
+  _.object = function(list, values) {
+    var result = {};
+    for (var i = 0, length = getLength(list); i < length; i++) {
+      if (values) {
+        result[list[i]] = values[i];
+      } else {
+        result[list[i][0]] = list[i][1];
+      }
+    }
+    return result;
+  };
+
+  // Generator function to create the findIndex and findLastIndex functions
+  function createPredicateIndexFinder(dir) {
+    return function(array, predicate, context) {
+      predicate = cb(predicate, context);
+      var length = getLength(array);
+      var index = dir > 0 ? 0 : length - 1;
+      for (; index >= 0 && index < length; index += dir) {
+        if (predicate(array[index], index, array)) return index;
+      }
+      return -1;
+    };
+  }
+
+  // Returns the first index on an array-like that passes a predicate test
+  _.findIndex = createPredicateIndexFinder(1);
+  _.findLastIndex = createPredicateIndexFinder(-1);
+
+  // Use a comparator function to figure out the smallest index at which
+  // an object should be inserted so as to maintain order. Uses binary search.
+  _.sortedIndex = function(array, obj, iteratee, context) {
+    iteratee = cb(iteratee, context, 1);
+    var value = iteratee(obj);
+    var low = 0, high = getLength(array);
+    while (low < high) {
+      var mid = Math.floor((low + high) / 2);
+      if (iteratee(array[mid]) < value) low = mid + 1; else high = mid;
+    }
+    return low;
+  };
+
+  // Generator function to create the indexOf and lastIndexOf functions
+  function createIndexFinder(dir, predicateFind, sortedIndex) {
+    return function(array, item, idx) {
+      var i = 0, length = getLength(array);
+      if (typeof idx == 'number') {
+        if (dir > 0) {
+            i = idx >= 0 ? idx : Math.max(idx + length, i);
+        } else {
+            length = idx >= 0 ? Math.min(idx + 1, length) : idx + length + 1;
+        }
+      } else if (sortedIndex && idx && length) {
+        idx = sortedIndex(array, item);
+        return array[idx] === item ? idx : -1;
+      }
+      if (item !== item) {
+        idx = predicateFind(slice.call(array, i, length), _.isNaN);
+        return idx >= 0 ? idx + i : -1;
+      }
+      for (idx = dir > 0 ? i : length - 1; idx >= 0 && idx < length; idx += dir) {
+        if (array[idx] === item) return idx;
+      }
+      return -1;
+    };
+  }
+
+  // Return the position of the first occurrence of an item in an array,
+  // or -1 if the item is not included in the array.
+  // If the array is large and already in sort order, pass `true`
+  // for **isSorted** to use binary search.
+  _.indexOf = createIndexFinder(1, _.findIndex, _.sortedIndex);
+  _.lastIndexOf = createIndexFinder(-1, _.findLastIndex);
+
+  // Generate an integer Array containing an arithmetic progression. A port of
+  // the native Python `range()` function. See
+  // [the Python documentation](http://docs.python.org/library/functions.html#range).
+  _.range = function(start, stop, step) {
+    if (stop == null) {
+      stop = start || 0;
+      start = 0;
+    }
+    step = step || 1;
+
+    var length = Math.max(Math.ceil((stop - start) / step), 0);
+    var range = Array(length);
+
+    for (var idx = 0; idx < length; idx++, start += step) {
+      range[idx] = start;
+    }
+
+    return range;
+  };
+
+  // Function (ahem) Functions
+  // ------------------
+
+  // Determines whether to execute a function as a constructor
+  // or a normal function with the provided arguments
+  var executeBound = function(sourceFunc, boundFunc, context, callingContext, args) {
+    if (!(callingContext instanceof boundFunc)) return sourceFunc.apply(context, args);
+    var self = baseCreate(sourceFunc.prototype);
+    var result = sourceFunc.apply(self, args);
+    if (_.isObject(result)) return result;
+    return self;
+  };
+
+  // Create a function bound to a given object (assigning `this`, and arguments,
+  // optionally). Delegates to **ECMAScript 5**'s native `Function.bind` if
+  // available.
+  _.bind = function(func, context) {
+    if (nativeBind && func.bind === nativeBind) return nativeBind.apply(func, slice.call(arguments, 1));
+    if (!_.isFunction(func)) throw new TypeError('Bind must be called on a function');
+    var args = slice.call(arguments, 2);
+    var bound = function() {
+      return executeBound(func, bound, context, this, args.concat(slice.call(arguments)));
+    };
+    return bound;
+  };
+
+  // Partially apply a function by creating a version that has had some of its
+  // arguments pre-filled, without changing its dynamic `this` context. _ acts
+  // as a placeholder, allowing any combination of arguments to be pre-filled.
+  _.partial = function(func) {
+    var boundArgs = slice.call(arguments, 1);
+    var bound = function() {
+      var position = 0, length = boundArgs.length;
+      var args = Array(length);
+      for (var i = 0; i < length; i++) {
+        args[i] = boundArgs[i] === _ ? arguments[position++] : boundArgs[i];
+      }
+      while (position < arguments.length) args.push(arguments[position++]);
+      return executeBound(func, bound, this, this, args);
+    };
+    return bound;
+  };
+
+  // Bind a number of an object's methods to that object. Remaining arguments
+  // are the method names to be bound. Useful for ensuring that all callbacks
+  // defined on an object belong to it.
+  _.bindAll = function(obj) {
+    var i, length = arguments.length, key;
+    if (length <= 1) throw new Error('bindAll must be passed function names');
+    for (i = 1; i < length; i++) {
+      key = arguments[i];
+      obj[key] = _.bind(obj[key], obj);
+    }
+    return obj;
+  };
+
+  // Memoize an expensive function by storing its results.
+  _.memoize = function(func, hasher) {
+    var memoize = function(key) {
+      var cache = memoize.cache;
+      var address = '' + (hasher ? hasher.apply(this, arguments) : key);
+      if (!_.has(cache, address)) cache[address] = func.apply(this, arguments);
+      return cache[address];
+    };
+    memoize.cache = {};
+    return memoize;
+  };
+
+  // Delays a function for the given number of milliseconds, and then calls
+  // it with the arguments supplied.
+  _.delay = function(func, wait) {
+    var args = slice.call(arguments, 2);
+    return setTimeout(function(){
+      return func.apply(null, args);
+    }, wait);
+  };
+
+  // Defers a function, scheduling it to run after the current call stack has
+  // cleared.
+  _.defer = _.partial(_.delay, _, 1);
+
+  // Returns a function, that, when invoked, will only be triggered at most once
+  // during a given window of time. Normally, the throttled function will run
+  // as much as it can, without ever going more than once per `wait` duration;
+  // but if you'd like to disable the execution on the leading edge, pass
+  // `{leading: false}`. To disable execution on the trailing edge, ditto.
+  _.throttle = function(func, wait, options) {
+    var context, args, result;
+    var timeout = null;
+    var previous = 0;
+    if (!options) options = {};
+    var later = function() {
+      previous = options.leading === false ? 0 : _.now();
+      timeout = null;
+      result = func.apply(context, args);
+      if (!timeout) context = args = null;
+    };
+    return function() {
+      var now = _.now();
+      if (!previous && options.leading === false) previous = now;
+      var remaining = wait - (now - previous);
+      context = this;
+      args = arguments;
+      if (remaining <= 0 || remaining > wait) {
+        if (timeout) {
+          clearTimeout(timeout);
+          timeout = null;
+        }
+        previous = now;
+        result = func.apply(context, args);
+        if (!timeout) context = args = null;
+      } else if (!timeout && options.trailing !== false) {
+        timeout = setTimeout(later, remaining);
+      }
+      return result;
+    };
+  };
+
+  // Returns a function, that, as long as it continues to be invoked, will not
+  // be triggered. The function will be called after it stops being called for
+  // N milliseconds. If `immediate` is passed, trigger the function on the
+  // leading edge, instead of the trailing.
+  _.debounce = function(func, wait, immediate) {
+    var timeout, args, context, timestamp, result;
+
+    var later = function() {
+      var last = _.now() - timestamp;
+
+      if (last < wait && last >= 0) {
+        timeout = setTimeout(later, wait - last);
+      } else {
+        timeout = null;
+        if (!immediate) {
+          result = func.apply(context, args);
+          if (!timeout) context = args = null;
+        }
+      }
+    };
+
+    return function() {
+      context = this;
+      args = arguments;
+      timestamp = _.now();
+      var callNow = immediate && !timeout;
+      if (!timeout) timeout = setTimeout(later, wait);
+      if (callNow) {
+        result = func.apply(context, args);
+        context = args = null;
+      }
+
+      return result;
+    };
+  };
+
+  // Returns the first function passed as an argument to the second,
+  // allowing you to adjust arguments, run code before and after, and
+  // conditionally execute the original function.
+  _.wrap = function(func, wrapper) {
+    return _.partial(wrapper, func);
+  };
+
+  // Returns a negated version of the passed-in predicate.
+  _.negate = function(predicate) {
+    return function() {
+      return !predicate.apply(this, arguments);
+    };
+  };
+
+  // Returns a function that is the composition of a list of functions, each
+  // consuming the return value of the function that follows.
+  _.compose = function() {
+    var args = arguments;
+    var start = args.length - 1;
+    return function() {
+      var i = start;
+      var result = args[start].apply(this, arguments);
+      while (i--) result = args[i].call(this, result);
+      return result;
+    };
+  };
+
+  // Returns a function that will only be executed on and after the Nth call.
+  _.after = function(times, func) {
+    return function() {
+      if (--times < 1) {
+        return func.apply(this, arguments);
+      }
+    };
+  };
+
+  // Returns a function that will only be executed up to (but not including) the Nth call.
+  _.before = function(times, func) {
+    var memo;
+    return function() {
+      if (--times > 0) {
+        memo = func.apply(this, arguments);
+      }
+      if (times <= 1) func = null;
+      return memo;
+    };
+  };
+
+  // Returns a function that will be executed at most one time, no matter how
+  // often you call it. Useful for lazy initialization.
+  _.once = _.partial(_.before, 2);
+
+  // Object Functions
+  // ----------------
+
+  // Keys in IE < 9 that won't be iterated by `for key in ...` and thus missed.
+  var hasEnumBug = !{toString: null}.propertyIsEnumerable('toString');
+  var nonEnumerableProps = ['valueOf', 'isPrototypeOf', 'toString',
+                      'propertyIsEnumerable', 'hasOwnProperty', 'toLocaleString'];
+
+  function collectNonEnumProps(obj, keys) {
+    var nonEnumIdx = nonEnumerableProps.length;
+    var constructor = obj.constructor;
+    var proto = (_.isFunction(constructor) && constructor.prototype) || ObjProto;
+
+    // Constructor is a special case.
+    var prop = 'constructor';
+    if (_.has(obj, prop) && !_.contains(keys, prop)) keys.push(prop);
+
+    while (nonEnumIdx--) {
+      prop = nonEnumerableProps[nonEnumIdx];
+      if (prop in obj && obj[prop] !== proto[prop] && !_.contains(keys, prop)) {
+        keys.push(prop);
+      }
+    }
+  }
+
+  // Retrieve the names of an object's own properties.
+  // Delegates to **ECMAScript 5**'s native `Object.keys`
+  _.keys = function(obj) {
+    if (!_.isObject(obj)) return [];
+    if (nativeKeys) return nativeKeys(obj);
+    var keys = [];
+    for (var key in obj) if (_.has(obj, key)) keys.push(key);
+    // Ahem, IE < 9.
+    if (hasEnumBug) collectNonEnumProps(obj, keys);
+    return keys;
+  };
+
+  // Retrieve all the property names of an object.
+  _.allKeys = function(obj) {
+    if (!_.isObject(obj)) return [];
+    var keys = [];
+    for (var key in obj) keys.push(key);
+    // Ahem, IE < 9.
+    if (hasEnumBug) collectNonEnumProps(obj, keys);
+    return keys;
+  };
+
+  // Retrieve the values of an object's properties.
+  _.values = function(obj) {
+    var keys = _.keys(obj);
+    var length = keys.length;
+    var values = Array(length);
+    for (var i = 0; i < length; i++) {
+      values[i] = obj[keys[i]];
+    }
+    return values;
+  };
+
+  // Returns the results of applying the iteratee to each element of the object
+  // In contrast to _.map it returns an object
+  _.mapObject = function(obj, iteratee, context) {
+    iteratee = cb(iteratee, context);
+    var keys =  _.keys(obj),
+          length = keys.length,
+          results = {},
+          currentKey;
+      for (var index = 0; index < length; index++) {
+        currentKey = keys[index];
+        results[currentKey] = iteratee(obj[currentKey], currentKey, obj);
+      }
+      return results;
+  };
+
+  // Convert an object into a list of `[key, value]` pairs.
+  _.pairs = function(obj) {
+    var keys = _.keys(obj);
+    var length = keys.length;
+    var pairs = Array(length);
+    for (var i = 0; i < length; i++) {
+      pairs[i] = [keys[i], obj[keys[i]]];
+    }
+    return pairs;
+  };
+
+  // Invert the keys and values of an object. The values must be serializable.
+  _.invert = function(obj) {
+    var result = {};
+    var keys = _.keys(obj);
+    for (var i = 0, length = keys.length; i < length; i++) {
+      result[obj[keys[i]]] = keys[i];
+    }
+    return result;
+  };
+
+  // Return a sorted list of the function names available on the object.
+  // Aliased as `methods`
+  _.functions = _.methods = function(obj) {
+    var names = [];
+    for (var key in obj) {
+      if (_.isFunction(obj[key])) names.push(key);
+    }
+    return names.sort();
+  };
+
+  // Extend a given object with all the properties in passed-in object(s).
+  _.extend = createAssigner(_.allKeys);
+
+  // Assigns a given object with all the own properties in the passed-in object(s)
+  // (https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+  _.extendOwn = _.assign = createAssigner(_.keys);
+
+  // Returns the first key on an object that passes a predicate test
+  _.findKey = function(obj, predicate, context) {
+    predicate = cb(predicate, context);
+    var keys = _.keys(obj), key;
+    for (var i = 0, length = keys.length; i < length; i++) {
+      key = keys[i];
+      if (predicate(obj[key], key, obj)) return key;
+    }
+  };
+
+  // Return a copy of the object only containing the whitelisted properties.
+  _.pick = function(object, oiteratee, context) {
+    var result = {}, obj = object, iteratee, keys;
+    if (obj == null) return result;
+    if (_.isFunction(oiteratee)) {
+      keys = _.allKeys(obj);
+      iteratee = optimizeCb(oiteratee, context);
+    } else {
+      keys = flatten(arguments, false, false, 1);
+      iteratee = function(value, key, obj) { return key in obj; };
+      obj = Object(obj);
+    }
+    for (var i = 0, length = keys.length; i < length; i++) {
+      var key = keys[i];
+      var value = obj[key];
+      if (iteratee(value, key, obj)) result[key] = value;
+    }
+    return result;
+  };
+
+   // Return a copy of the object without the blacklisted properties.
+  _.omit = function(obj, iteratee, context) {
+    if (_.isFunction(iteratee)) {
+      iteratee = _.negate(iteratee);
+    } else {
+      var keys = _.map(flatten(arguments, false, false, 1), String);
+      iteratee = function(value, key) {
+        return !_.contains(keys, key);
+      };
+    }
+    return _.pick(obj, iteratee, context);
+  };
+
+  // Fill in a given object with default properties.
+  _.defaults = createAssigner(_.allKeys, true);
+
+  // Creates an object that inherits from the given prototype object.
+  // If additional properties are provided then they will be added to the
+  // created object.
+  _.create = function(prototype, props) {
+    var result = baseCreate(prototype);
+    if (props) _.extendOwn(result, props);
+    return result;
+  };
+
+  // Create a (shallow-cloned) duplicate of an object.
+  _.clone = function(obj) {
+    if (!_.isObject(obj)) return obj;
+    return _.isArray(obj) ? obj.slice() : _.extend({}, obj);
+  };
+
+  // Invokes interceptor with the obj, and then returns obj.
+  // The primary purpose of this method is to "tap into" a method chain, in
+  // order to perform operations on intermediate results within the chain.
+  _.tap = function(obj, interceptor) {
+    interceptor(obj);
+    return obj;
+  };
+
+  // Returns whether an object has a given set of `key:value` pairs.
+  _.isMatch = function(object, attrs) {
+    var keys = _.keys(attrs), length = keys.length;
+    if (object == null) return !length;
+    var obj = Object(object);
+    for (var i = 0; i < length; i++) {
+      var key = keys[i];
+      if (attrs[key] !== obj[key] || !(key in obj)) return false;
+    }
+    return true;
+  };
+
+
+  // Internal recursive comparison function for `isEqual`.
+  var eq = function(a, b, aStack, bStack) {
+    // Identical objects are equal. `0 === -0`, but they aren't identical.
+    // See the [Harmony `egal` proposal](http://wiki.ecmascript.org/doku.php?id=harmony:egal).
+    if (a === b) return a !== 0 || 1 / a === 1 / b;
+    // A strict comparison is necessary because `null == undefined`.
+    if (a == null || b == null) return a === b;
+    // Unwrap any wrapped objects.
+    if (a instanceof _) a = a._wrapped;
+    if (b instanceof _) b = b._wrapped;
+    // Compare `[[Class]]` names.
+    var className = toString.call(a);
+    if (className !== toString.call(b)) return false;
+    switch (className) {
+      // Strings, numbers, regular expressions, dates, and booleans are compared by value.
+      case '[object RegExp]':
+      // RegExps are coerced to strings for comparison (Note: '' + /a/i === '/a/i')
+      case '[object String]':
+        // Primitives and their corresponding object wrappers are equivalent; thus, `"5"` is
+        // equivalent to `new String("5")`.
+        return '' + a === '' + b;
+      case '[object Number]':
+        // `NaN`s are equivalent, but non-reflexive.
+        // Object(NaN) is equivalent to NaN
+        if (+a !== +a) return +b !== +b;
+        // An `egal` comparison is performed for other numeric values.
+        return +a === 0 ? 1 / +a === 1 / b : +a === +b;
+      case '[object Date]':
+      case '[object Boolean]':
+        // Coerce dates and booleans to numeric primitive values. Dates are compared by their
+        // millisecond representations. Note that invalid dates with millisecond representations
+        // of `NaN` are not equivalent.
+        return +a === +b;
+    }
+
+    var areArrays = className === '[object Array]';
+    if (!areArrays) {
+      if (typeof a != 'object' || typeof b != 'object') return false;
+
+      // Objects with different constructors are not equivalent, but `Object`s or `Array`s
+      // from different frames are.
+      var aCtor = a.constructor, bCtor = b.constructor;
+      if (aCtor !== bCtor && !(_.isFunction(aCtor) && aCtor instanceof aCtor &&
+                               _.isFunction(bCtor) && bCtor instanceof bCtor)
+                          && ('constructor' in a && 'constructor' in b)) {
+        return false;
+      }
+    }
+    // Assume equality for cyclic structures. The algorithm for detecting cyclic
+    // structures is adapted from ES 5.1 section 15.12.3, abstract operation `JO`.
+
+    // Initializing stack of traversed objects.
+    // It's done here since we only need them for objects and arrays comparison.
+    aStack = aStack || [];
+    bStack = bStack || [];
+    var length = aStack.length;
+    while (length--) {
+      // Linear search. Performance is inversely proportional to the number of
+      // unique nested structures.
+      if (aStack[length] === a) return bStack[length] === b;
+    }
+
+    // Add the first object to the stack of traversed objects.
+    aStack.push(a);
+    bStack.push(b);
+
+    // Recursively compare objects and arrays.
+    if (areArrays) {
+      // Compare array lengths to determine if a deep comparison is necessary.
+      length = a.length;
+      if (length !== b.length) return false;
+      // Deep compare the contents, ignoring non-numeric properties.
+      while (length--) {
+        if (!eq(a[length], b[length], aStack, bStack)) return false;
+      }
+    } else {
+      // Deep compare objects.
+      var keys = _.keys(a), key;
+      length = keys.length;
+      // Ensure that both objects contain the same number of properties before comparing deep equality.
+      if (_.keys(b).length !== length) return false;
+      while (length--) {
+        // Deep compare each member
+        key = keys[length];
+        if (!(_.has(b, key) && eq(a[key], b[key], aStack, bStack))) return false;
+      }
+    }
+    // Remove the first object from the stack of traversed objects.
+    aStack.pop();
+    bStack.pop();
+    return true;
+  };
+
+  // Perform a deep comparison to check if two objects are equal.
+  _.isEqual = function(a, b) {
+    return eq(a, b);
+  };
+
+  // Is a given array, string, or object empty?
+  // An "empty" object has no enumerable own-properties.
+  _.isEmpty = function(obj) {
+    if (obj == null) return true;
+    if (isArrayLike(obj) && (_.isArray(obj) || _.isString(obj) || _.isArguments(obj))) return obj.length === 0;
+    return _.keys(obj).length === 0;
+  };
+
+  // Is a given value a DOM element?
+  _.isElement = function(obj) {
+    return !!(obj && obj.nodeType === 1);
+  };
+
+  // Is a given value an array?
+  // Delegates to ECMA5's native Array.isArray
+  _.isArray = nativeIsArray || function(obj) {
+    return toString.call(obj) === '[object Array]';
+  };
+
+  // Is a given variable an object?
+  _.isObject = function(obj) {
+    var type = typeof obj;
+    return type === 'function' || type === 'object' && !!obj;
+  };
+
+  // Add some isType methods: isArguments, isFunction, isString, isNumber, isDate, isRegExp, isError.
+  _.each(['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error'], function(name) {
+    _['is' + name] = function(obj) {
+      return toString.call(obj) === '[object ' + name + ']';
+    };
+  });
+
+  // Define a fallback version of the method in browsers (ahem, IE < 9), where
+  // there isn't any inspectable "Arguments" type.
+  if (!_.isArguments(arguments)) {
+    _.isArguments = function(obj) {
+      return _.has(obj, 'callee');
+    };
+  }
+
+  // Optimize `isFunction` if appropriate. Work around some typeof bugs in old v8,
+  // IE 11 (#1621), and in Safari 8 (#1929).
+  if (typeof /./ != 'function' && typeof Int8Array != 'object') {
+    _.isFunction = function(obj) {
+      return typeof obj == 'function' || false;
+    };
+  }
+
+  // Is a given object a finite number?
+  _.isFinite = function(obj) {
+    return isFinite(obj) && !isNaN(parseFloat(obj));
+  };
+
+  // Is the given value `NaN`? (NaN is the only number which does not equal itself).
+  _.isNaN = function(obj) {
+    return _.isNumber(obj) && obj !== +obj;
+  };
+
+  // Is a given value a boolean?
+  _.isBoolean = function(obj) {
+    return obj === true || obj === false || toString.call(obj) === '[object Boolean]';
+  };
+
+  // Is a given value equal to null?
+  _.isNull = function(obj) {
+    return obj === null;
+  };
+
+  // Is a given variable undefined?
+  _.isUndefined = function(obj) {
+    return obj === void 0;
+  };
+
+  // Shortcut function for checking if an object has a given property directly
+  // on itself (in other words, not on a prototype).
+  _.has = function(obj, key) {
+    return obj != null && hasOwnProperty.call(obj, key);
+  };
+
+  // Utility Functions
+  // -----------------
+
+  // Run Underscore.js in *noConflict* mode, returning the `_` variable to its
+  // previous owner. Returns a reference to the Underscore object.
+  _.noConflict = function() {
+    root._ = previousUnderscore;
+    return this;
+  };
+
+  // Keep the identity function around for default iteratees.
+  _.identity = function(value) {
+    return value;
+  };
+
+  // Predicate-generating functions. Often useful outside of Underscore.
+  _.constant = function(value) {
+    return function() {
+      return value;
+    };
+  };
+
+  _.noop = function(){};
+
+  _.property = property;
+
+  // Generates a function for a given object that returns a given property.
+  _.propertyOf = function(obj) {
+    return obj == null ? function(){} : function(key) {
+      return obj[key];
+    };
+  };
+
+  // Returns a predicate for checking whether an object has a given set of
+  // `key:value` pairs.
+  _.matcher = _.matches = function(attrs) {
+    attrs = _.extendOwn({}, attrs);
+    return function(obj) {
+      return _.isMatch(obj, attrs);
+    };
+  };
+
+  // Run a function **n** times.
+  _.times = function(n, iteratee, context) {
+    var accum = Array(Math.max(0, n));
+    iteratee = optimizeCb(iteratee, context, 1);
+    for (var i = 0; i < n; i++) accum[i] = iteratee(i);
+    return accum;
+  };
+
+  // Return a random integer between min and max (inclusive).
+  _.random = function(min, max) {
+    if (max == null) {
+      max = min;
+      min = 0;
+    }
+    return min + Math.floor(Math.random() * (max - min + 1));
+  };
+
+  // A (possibly faster) way to get the current timestamp as an integer.
+  _.now = Date.now || function() {
+    return new Date().getTime();
+  };
+
+   // List of HTML entities for escaping.
+  var escapeMap = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#x27;',
+    '`': '&#x60;'
+  };
+  var unescapeMap = _.invert(escapeMap);
+
+  // Functions for escaping and unescaping strings to/from HTML interpolation.
+  var createEscaper = function(map) {
+    var escaper = function(match) {
+      return map[match];
+    };
+    // Regexes for identifying a key that needs to be escaped
+    var source = '(?:' + _.keys(map).join('|') + ')';
+    var testRegexp = RegExp(source);
+    var replaceRegexp = RegExp(source, 'g');
+    return function(string) {
+      string = string == null ? '' : '' + string;
+      return testRegexp.test(string) ? string.replace(replaceRegexp, escaper) : string;
+    };
+  };
+  _.escape = createEscaper(escapeMap);
+  _.unescape = createEscaper(unescapeMap);
+
+  // If the value of the named `property` is a function then invoke it with the
+  // `object` as context; otherwise, return it.
+  _.result = function(object, property, fallback) {
+    var value = object == null ? void 0 : object[property];
+    if (value === void 0) {
+      value = fallback;
+    }
+    return _.isFunction(value) ? value.call(object) : value;
+  };
+
+  // Generate a unique integer id (unique within the entire client session).
+  // Useful for temporary DOM ids.
+  var idCounter = 0;
+  _.uniqueId = function(prefix) {
+    var id = ++idCounter + '';
+    return prefix ? prefix + id : id;
+  };
+
+  // By default, Underscore uses ERB-style template delimiters, change the
+  // following template settings to use alternative delimiters.
+  _.templateSettings = {
+    evaluate    : /<%([\s\S]+?)%>/g,
+    interpolate : /<%=([\s\S]+?)%>/g,
+    escape      : /<%-([\s\S]+?)%>/g
+  };
+
+  // When customizing `templateSettings`, if you don't want to define an
+  // interpolation, evaluation or escaping regex, we need one that is
+  // guaranteed not to match.
+  var noMatch = /(.)^/;
+
+  // Certain characters need to be escaped so that they can be put into a
+  // string literal.
+  var escapes = {
+    "'":      "'",
+    '\\':     '\\',
+    '\r':     'r',
+    '\n':     'n',
+    '\u2028': 'u2028',
+    '\u2029': 'u2029'
+  };
+
+  var escaper = /\\|'|\r|\n|\u2028|\u2029/g;
+
+  var escapeChar = function(match) {
+    return '\\' + escapes[match];
+  };
+
+  // JavaScript micro-templating, similar to John Resig's implementation.
+  // Underscore templating handles arbitrary delimiters, preserves whitespace,
+  // and correctly escapes quotes within interpolated code.
+  // NB: `oldSettings` only exists for backwards compatibility.
+  _.template = function(text, settings, oldSettings) {
+    if (!settings && oldSettings) settings = oldSettings;
+    settings = _.defaults({}, settings, _.templateSettings);
+
+    // Combine delimiters into one regular expression via alternation.
+    var matcher = RegExp([
+      (settings.escape || noMatch).source,
+      (settings.interpolate || noMatch).source,
+      (settings.evaluate || noMatch).source
+    ].join('|') + '|$', 'g');
+
+    // Compile the template source, escaping string literals appropriately.
+    var index = 0;
+    var source = "__p+='";
+    text.replace(matcher, function(match, escape, interpolate, evaluate, offset) {
+      source += text.slice(index, offset).replace(escaper, escapeChar);
+      index = offset + match.length;
+
+      if (escape) {
+        source += "'+\n((__t=(" + escape + "))==null?'':_.escape(__t))+\n'";
+      } else if (interpolate) {
+        source += "'+\n((__t=(" + interpolate + "))==null?'':__t)+\n'";
+      } else if (evaluate) {
+        source += "';\n" + evaluate + "\n__p+='";
+      }
+
+      // Adobe VMs need the match returned to produce the correct offest.
+      return match;
+    });
+    source += "';\n";
+
+    // If a variable is not specified, place data values in local scope.
+    if (!settings.variable) source = 'with(obj||{}){\n' + source + '}\n';
+
+    source = "var __t,__p='',__j=Array.prototype.join," +
+      "print=function(){__p+=__j.call(arguments,'');};\n" +
+      source + 'return __p;\n';
+
+    try {
+      var render = new Function(settings.variable || 'obj', '_', source);
+    } catch (e) {
+      e.source = source;
+      throw e;
+    }
+
+    var template = function(data) {
+      return render.call(this, data, _);
+    };
+
+    // Provide the compiled source as a convenience for precompilation.
+    var argument = settings.variable || 'obj';
+    template.source = 'function(' + argument + '){\n' + source + '}';
+
+    return template;
+  };
+
+  // Add a "chain" function. Start chaining a wrapped Underscore object.
+  _.chain = function(obj) {
+    var instance = _(obj);
+    instance._chain = true;
+    return instance;
+  };
+
+  // OOP
+  // ---------------
+  // If Underscore is called as a function, it returns a wrapped object that
+  // can be used OO-style. This wrapper holds altered versions of all the
+  // underscore functions. Wrapped objects may be chained.
+
+  // Helper function to continue chaining intermediate results.
+  var result = function(instance, obj) {
+    return instance._chain ? _(obj).chain() : obj;
+  };
+
+  // Add your own custom functions to the Underscore object.
+  _.mixin = function(obj) {
+    _.each(_.functions(obj), function(name) {
+      var func = _[name] = obj[name];
+      _.prototype[name] = function() {
+        var args = [this._wrapped];
+        push.apply(args, arguments);
+        return result(this, func.apply(_, args));
+      };
+    });
+  };
+
+  // Add all of the Underscore functions to the wrapper object.
+  _.mixin(_);
+
+  // Add all mutator Array functions to the wrapper.
+  _.each(['pop', 'push', 'reverse', 'shift', 'sort', 'splice', 'unshift'], function(name) {
+    var method = ArrayProto[name];
+    _.prototype[name] = function() {
+      var obj = this._wrapped;
+      method.apply(obj, arguments);
+      if ((name === 'shift' || name === 'splice') && obj.length === 0) delete obj[0];
+      return result(this, obj);
+    };
+  });
+
+  // Add all accessor Array functions to the wrapper.
+  _.each(['concat', 'join', 'slice'], function(name) {
+    var method = ArrayProto[name];
+    _.prototype[name] = function() {
+      return result(this, method.apply(this._wrapped, arguments));
+    };
+  });
+
+  // Extracts the result from a wrapped and chained object.
+  _.prototype.value = function() {
+    return this._wrapped;
+  };
+
+  // Provide unwrapping proxy for some methods used in engine operations
+  // such as arithmetic and JSON stringification.
+  _.prototype.valueOf = _.prototype.toJSON = _.prototype.value;
+
+  _.prototype.toString = function() {
+    return '' + this._wrapped;
+  };
+
+  // AMD registration happens at the end for compatibility with AMD loaders
+  // that may not enforce next-turn semantics on modules. Even though general
+  // practice for AMD registration is to be anonymous, underscore registers
+  // as a named module because, like jQuery, it is a base library that is
+  // popular enough to be bundled in a third party lib, but not be part of
+  // an AMD load request. Those cases could generate an error when an
+  // anonymous define() is called outside of a loader request.
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function() {
+      return _;
+    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  }
+}.call(this));
+
+
+/***/ }),
+/* 521 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// CodeMirror, copyright (c) by Marijn Haverbeke and others
+// Distributed under an MIT license: http://codemirror.net/LICENSE
+
+// This is CodeMirror (http://codemirror.net), a code editor
+// implemented in JavaScript on top of the browser's DOM.
+//
+// You can find some technical background for some of the code below
+// at http://marijnhaverbeke.nl/blog/#cm-internals .
+
+(function (global, factory) {
+	 true ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.CodeMirror = factory());
+}(this, (function () { 'use strict';
+
+// Kludges for bugs and behavior differences that can't be feature
+// detected are enabled based on userAgent etc sniffing.
+var userAgent = navigator.userAgent;
+var platform = navigator.platform;
+
+var gecko = /gecko\/\d/i.test(userAgent);
+var ie_upto10 = /MSIE \d/.test(userAgent);
+var ie_11up = /Trident\/(?:[7-9]|\d{2,})\..*rv:(\d+)/.exec(userAgent);
+var edge = /Edge\/(\d+)/.exec(userAgent);
+var ie = ie_upto10 || ie_11up || edge;
+var ie_version = ie && (ie_upto10 ? document.documentMode || 6 : +(edge || ie_11up)[1]);
+var webkit = !edge && /WebKit\//.test(userAgent);
+var qtwebkit = webkit && /Qt\/\d+\.\d+/.test(userAgent);
+var chrome = !edge && /Chrome\//.test(userAgent);
+var presto = /Opera\//.test(userAgent);
+var safari = /Apple Computer/.test(navigator.vendor);
+var mac_geMountainLion = /Mac OS X 1\d\D([8-9]|\d\d)\D/.test(userAgent);
+var phantom = /PhantomJS/.test(userAgent);
+
+var ios = !edge && /AppleWebKit/.test(userAgent) && /Mobile\/\w+/.test(userAgent);
+var android = /Android/.test(userAgent);
+// This is woefully incomplete. Suggestions for alternative methods welcome.
+var mobile = ios || android || /webOS|BlackBerry|Opera Mini|Opera Mobi|IEMobile/i.test(userAgent);
+var mac = ios || /Mac/.test(platform);
+var chromeOS = /\bCrOS\b/.test(userAgent);
+var windows = /win/i.test(platform);
+
+var presto_version = presto && userAgent.match(/Version\/(\d*\.\d*)/);
+if (presto_version) { presto_version = Number(presto_version[1]); }
+if (presto_version && presto_version >= 15) { presto = false; webkit = true; }
+// Some browsers use the wrong event properties to signal cmd/ctrl on OS X
+var flipCtrlCmd = mac && (qtwebkit || presto && (presto_version == null || presto_version < 12.11));
+var captureRightClick = gecko || (ie && ie_version >= 9);
+
+function classTest(cls) { return new RegExp("(^|\\s)" + cls + "(?:$|\\s)\\s*") }
+
+var rmClass = function(node, cls) {
+  var current = node.className;
+  var match = classTest(cls).exec(current);
+  if (match) {
+    var after = current.slice(match.index + match[0].length);
+    node.className = current.slice(0, match.index) + (after ? match[1] + after : "");
+  }
+};
+
+function removeChildren(e) {
+  for (var count = e.childNodes.length; count > 0; --count)
+    { e.removeChild(e.firstChild); }
+  return e
+}
+
+function removeChildrenAndAdd(parent, e) {
+  return removeChildren(parent).appendChild(e)
+}
+
+function elt(tag, content, className, style) {
+  var e = document.createElement(tag);
+  if (className) { e.className = className; }
+  if (style) { e.style.cssText = style; }
+  if (typeof content == "string") { e.appendChild(document.createTextNode(content)); }
+  else if (content) { for (var i = 0; i < content.length; ++i) { e.appendChild(content[i]); } }
+  return e
+}
+// wrapper for elt, which removes the elt from the accessibility tree
+function eltP(tag, content, className, style) {
+  var e = elt(tag, content, className, style);
+  e.setAttribute("role", "presentation");
+  return e
+}
+
+var range;
+if (document.createRange) { range = function(node, start, end, endNode) {
+  var r = document.createRange();
+  r.setEnd(endNode || node, end);
+  r.setStart(node, start);
+  return r
+}; }
+else { range = function(node, start, end) {
+  var r = document.body.createTextRange();
+  try { r.moveToElementText(node.parentNode); }
+  catch(e) { return r }
+  r.collapse(true);
+  r.moveEnd("character", end);
+  r.moveStart("character", start);
+  return r
+}; }
+
+function contains(parent, child) {
+  if (child.nodeType == 3) // Android browser always returns false when child is a textnode
+    { child = child.parentNode; }
+  if (parent.contains)
+    { return parent.contains(child) }
+  do {
+    if (child.nodeType == 11) { child = child.host; }
+    if (child == parent) { return true }
+  } while (child = child.parentNode)
+}
+
+function activeElt() {
+  // IE and Edge may throw an "Unspecified Error" when accessing document.activeElement.
+  // IE < 10 will throw when accessed while the page is loading or in an iframe.
+  // IE > 9 and Edge will throw when accessed in an iframe if document.body is unavailable.
+  var activeElement;
+  try {
+    activeElement = document.activeElement;
+  } catch(e) {
+    activeElement = document.body || null;
+  }
+  while (activeElement && activeElement.shadowRoot && activeElement.shadowRoot.activeElement)
+    { activeElement = activeElement.shadowRoot.activeElement; }
+  return activeElement
+}
+
+function addClass(node, cls) {
+  var current = node.className;
+  if (!classTest(cls).test(current)) { node.className += (current ? " " : "") + cls; }
+}
+function joinClasses(a, b) {
+  var as = a.split(" ");
+  for (var i = 0; i < as.length; i++)
+    { if (as[i] && !classTest(as[i]).test(b)) { b += " " + as[i]; } }
+  return b
+}
+
+var selectInput = function(node) { node.select(); };
+if (ios) // Mobile Safari apparently has a bug where select() is broken.
+  { selectInput = function(node) { node.selectionStart = 0; node.selectionEnd = node.value.length; }; }
+else if (ie) // Suppress mysterious IE10 errors
+  { selectInput = function(node) { try { node.select(); } catch(_e) {} }; }
+
+function bind(f) {
+  var args = Array.prototype.slice.call(arguments, 1);
+  return function(){return f.apply(null, args)}
+}
+
+function copyObj(obj, target, overwrite) {
+  if (!target) { target = {}; }
+  for (var prop in obj)
+    { if (obj.hasOwnProperty(prop) && (overwrite !== false || !target.hasOwnProperty(prop)))
+      { target[prop] = obj[prop]; } }
+  return target
+}
+
+// Counts the column offset in a string, taking tabs into account.
+// Used mostly to find indentation.
+function countColumn(string, end, tabSize, startIndex, startValue) {
+  if (end == null) {
+    end = string.search(/[^\s\u00a0]/);
+    if (end == -1) { end = string.length; }
+  }
+  for (var i = startIndex || 0, n = startValue || 0;;) {
+    var nextTab = string.indexOf("\t", i);
+    if (nextTab < 0 || nextTab >= end)
+      { return n + (end - i) }
+    n += nextTab - i;
+    n += tabSize - (n % tabSize);
+    i = nextTab + 1;
+  }
+}
+
+var Delayed = function() {this.id = null;};
+Delayed.prototype.set = function (ms, f) {
+  clearTimeout(this.id);
+  this.id = setTimeout(f, ms);
+};
+
+function indexOf(array, elt) {
+  for (var i = 0; i < array.length; ++i)
+    { if (array[i] == elt) { return i } }
+  return -1
+}
+
+// Number of pixels added to scroller and sizer to hide scrollbar
+var scrollerGap = 30;
+
+// Returned or thrown by various protocols to signal 'I'm not
+// handling this'.
+var Pass = {toString: function(){return "CodeMirror.Pass"}};
+
+// Reused option objects for setSelection & friends
+var sel_dontScroll = {scroll: false};
+var sel_mouse = {origin: "*mouse"};
+var sel_move = {origin: "+move"};
+
+// The inverse of countColumn -- find the offset that corresponds to
+// a particular column.
+function findColumn(string, goal, tabSize) {
+  for (var pos = 0, col = 0;;) {
+    var nextTab = string.indexOf("\t", pos);
+    if (nextTab == -1) { nextTab = string.length; }
+    var skipped = nextTab - pos;
+    if (nextTab == string.length || col + skipped >= goal)
+      { return pos + Math.min(skipped, goal - col) }
+    col += nextTab - pos;
+    col += tabSize - (col % tabSize);
+    pos = nextTab + 1;
+    if (col >= goal) { return pos }
+  }
+}
+
+var spaceStrs = [""];
+function spaceStr(n) {
+  while (spaceStrs.length <= n)
+    { spaceStrs.push(lst(spaceStrs) + " "); }
+  return spaceStrs[n]
+}
+
+function lst(arr) { return arr[arr.length-1] }
+
+function map(array, f) {
+  var out = [];
+  for (var i = 0; i < array.length; i++) { out[i] = f(array[i], i); }
+  return out
+}
+
+function insertSorted(array, value, score) {
+  var pos = 0, priority = score(value);
+  while (pos < array.length && score(array[pos]) <= priority) { pos++; }
+  array.splice(pos, 0, value);
+}
+
+function nothing() {}
+
+function createObj(base, props) {
+  var inst;
+  if (Object.create) {
+    inst = Object.create(base);
+  } else {
+    nothing.prototype = base;
+    inst = new nothing();
+  }
+  if (props) { copyObj(props, inst); }
+  return inst
+}
+
+var nonASCIISingleCaseWordChar = /[\u00df\u0587\u0590-\u05f4\u0600-\u06ff\u3040-\u309f\u30a0-\u30ff\u3400-\u4db5\u4e00-\u9fcc\uac00-\ud7af]/;
+function isWordCharBasic(ch) {
+  return /\w/.test(ch) || ch > "\x80" &&
+    (ch.toUpperCase() != ch.toLowerCase() || nonASCIISingleCaseWordChar.test(ch))
+}
+function isWordChar(ch, helper) {
+  if (!helper) { return isWordCharBasic(ch) }
+  if (helper.source.indexOf("\\w") > -1 && isWordCharBasic(ch)) { return true }
+  return helper.test(ch)
+}
+
+function isEmpty(obj) {
+  for (var n in obj) { if (obj.hasOwnProperty(n) && obj[n]) { return false } }
+  return true
+}
+
+// Extending unicode characters. A series of a non-extending char +
+// any number of extending chars is treated as a single unit as far
+// as editing and measuring is concerned. This is not fully correct,
+// since some scripts/fonts/browsers also treat other configurations
+// of code points as a group.
+var extendingChars = /[\u0300-\u036f\u0483-\u0489\u0591-\u05bd\u05bf\u05c1\u05c2\u05c4\u05c5\u05c7\u0610-\u061a\u064b-\u065e\u0670\u06d6-\u06dc\u06de-\u06e4\u06e7\u06e8\u06ea-\u06ed\u0711\u0730-\u074a\u07a6-\u07b0\u07eb-\u07f3\u0816-\u0819\u081b-\u0823\u0825-\u0827\u0829-\u082d\u0900-\u0902\u093c\u0941-\u0948\u094d\u0951-\u0955\u0962\u0963\u0981\u09bc\u09be\u09c1-\u09c4\u09cd\u09d7\u09e2\u09e3\u0a01\u0a02\u0a3c\u0a41\u0a42\u0a47\u0a48\u0a4b-\u0a4d\u0a51\u0a70\u0a71\u0a75\u0a81\u0a82\u0abc\u0ac1-\u0ac5\u0ac7\u0ac8\u0acd\u0ae2\u0ae3\u0b01\u0b3c\u0b3e\u0b3f\u0b41-\u0b44\u0b4d\u0b56\u0b57\u0b62\u0b63\u0b82\u0bbe\u0bc0\u0bcd\u0bd7\u0c3e-\u0c40\u0c46-\u0c48\u0c4a-\u0c4d\u0c55\u0c56\u0c62\u0c63\u0cbc\u0cbf\u0cc2\u0cc6\u0ccc\u0ccd\u0cd5\u0cd6\u0ce2\u0ce3\u0d3e\u0d41-\u0d44\u0d4d\u0d57\u0d62\u0d63\u0dca\u0dcf\u0dd2-\u0dd4\u0dd6\u0ddf\u0e31\u0e34-\u0e3a\u0e47-\u0e4e\u0eb1\u0eb4-\u0eb9\u0ebb\u0ebc\u0ec8-\u0ecd\u0f18\u0f19\u0f35\u0f37\u0f39\u0f71-\u0f7e\u0f80-\u0f84\u0f86\u0f87\u0f90-\u0f97\u0f99-\u0fbc\u0fc6\u102d-\u1030\u1032-\u1037\u1039\u103a\u103d\u103e\u1058\u1059\u105e-\u1060\u1071-\u1074\u1082\u1085\u1086\u108d\u109d\u135f\u1712-\u1714\u1732-\u1734\u1752\u1753\u1772\u1773\u17b7-\u17bd\u17c6\u17c9-\u17d3\u17dd\u180b-\u180d\u18a9\u1920-\u1922\u1927\u1928\u1932\u1939-\u193b\u1a17\u1a18\u1a56\u1a58-\u1a5e\u1a60\u1a62\u1a65-\u1a6c\u1a73-\u1a7c\u1a7f\u1b00-\u1b03\u1b34\u1b36-\u1b3a\u1b3c\u1b42\u1b6b-\u1b73\u1b80\u1b81\u1ba2-\u1ba5\u1ba8\u1ba9\u1c2c-\u1c33\u1c36\u1c37\u1cd0-\u1cd2\u1cd4-\u1ce0\u1ce2-\u1ce8\u1ced\u1dc0-\u1de6\u1dfd-\u1dff\u200c\u200d\u20d0-\u20f0\u2cef-\u2cf1\u2de0-\u2dff\u302a-\u302f\u3099\u309a\ua66f-\ua672\ua67c\ua67d\ua6f0\ua6f1\ua802\ua806\ua80b\ua825\ua826\ua8c4\ua8e0-\ua8f1\ua926-\ua92d\ua947-\ua951\ua980-\ua982\ua9b3\ua9b6-\ua9b9\ua9bc\uaa29-\uaa2e\uaa31\uaa32\uaa35\uaa36\uaa43\uaa4c\uaab0\uaab2-\uaab4\uaab7\uaab8\uaabe\uaabf\uaac1\uabe5\uabe8\uabed\udc00-\udfff\ufb1e\ufe00-\ufe0f\ufe20-\ufe26\uff9e\uff9f]/;
+function isExtendingChar(ch) { return ch.charCodeAt(0) >= 768 && extendingChars.test(ch) }
+
+// Returns a number from the range [`0`; `str.length`] unless `pos` is outside that range.
+function skipExtendingChars(str, pos, dir) {
+  while ((dir < 0 ? pos > 0 : pos < str.length) && isExtendingChar(str.charAt(pos))) { pos += dir; }
+  return pos
+}
+
+// Returns the value from the range [`from`; `to`] that satisfies
+// `pred` and is closest to `from`. Assumes that at least `to` satisfies `pred`.
+function findFirst(pred, from, to) {
+  for (;;) {
+    if (Math.abs(from - to) <= 1) { return pred(from) ? from : to }
+    var mid = Math.floor((from + to) / 2);
+    if (pred(mid)) { to = mid; }
+    else { from = mid; }
+  }
+}
+
+// The display handles the DOM integration, both for input reading
+// and content drawing. It holds references to DOM nodes and
+// display-related state.
+
+function Display(place, doc, input) {
+  var d = this;
+  this.input = input;
+
+  // Covers bottom-right square when both scrollbars are present.
+  d.scrollbarFiller = elt("div", null, "CodeMirror-scrollbar-filler");
+  d.scrollbarFiller.setAttribute("cm-not-content", "true");
+  // Covers bottom of gutter when coverGutterNextToScrollbar is on
+  // and h scrollbar is present.
+  d.gutterFiller = elt("div", null, "CodeMirror-gutter-filler");
+  d.gutterFiller.setAttribute("cm-not-content", "true");
+  // Will contain the actual code, positioned to cover the viewport.
+  d.lineDiv = eltP("div", null, "CodeMirror-code");
+  // Elements are added to these to represent selection and cursors.
+  d.selectionDiv = elt("div", null, null, "position: relative; z-index: 1");
+  d.cursorDiv = elt("div", null, "CodeMirror-cursors");
+  // A visibility: hidden element used to find the size of things.
+  d.measure = elt("div", null, "CodeMirror-measure");
+  // When lines outside of the viewport are measured, they are drawn in this.
+  d.lineMeasure = elt("div", null, "CodeMirror-measure");
+  // Wraps everything that needs to exist inside the vertically-padded coordinate system
+  d.lineSpace = eltP("div", [d.measure, d.lineMeasure, d.selectionDiv, d.cursorDiv, d.lineDiv],
+                    null, "position: relative; outline: none");
+  var lines = eltP("div", [d.lineSpace], "CodeMirror-lines");
+  // Moved around its parent to cover visible view.
+  d.mover = elt("div", [lines], null, "position: relative");
+  // Set to the height of the document, allowing scrolling.
+  d.sizer = elt("div", [d.mover], "CodeMirror-sizer");
+  d.sizerWidth = null;
+  // Behavior of elts with overflow: auto and padding is
+  // inconsistent across browsers. This is used to ensure the
+  // scrollable area is big enough.
+  d.heightForcer = elt("div", null, null, "position: absolute; height: " + scrollerGap + "px; width: 1px;");
+  // Will contain the gutters, if any.
+  d.gutters = elt("div", null, "CodeMirror-gutters");
+  d.lineGutter = null;
+  // Actual scrollable element.
+  d.scroller = elt("div", [d.sizer, d.heightForcer, d.gutters], "CodeMirror-scroll");
+  d.scroller.setAttribute("tabIndex", "-1");
+  // The element in which the editor lives.
+  d.wrapper = elt("div", [d.scrollbarFiller, d.gutterFiller, d.scroller], "CodeMirror");
+
+  // Work around IE7 z-index bug (not perfect, hence IE7 not really being supported)
+  if (ie && ie_version < 8) { d.gutters.style.zIndex = -1; d.scroller.style.paddingRight = 0; }
+  if (!webkit && !(gecko && mobile)) { d.scroller.draggable = true; }
+
+  if (place) {
+    if (place.appendChild) { place.appendChild(d.wrapper); }
+    else { place(d.wrapper); }
+  }
+
+  // Current rendered range (may be bigger than the view window).
+  d.viewFrom = d.viewTo = doc.first;
+  d.reportedViewFrom = d.reportedViewTo = doc.first;
+  // Information about the rendered lines.
+  d.view = [];
+  d.renderedView = null;
+  // Holds info about a single rendered line when it was rendered
+  // for measurement, while not in view.
+  d.externalMeasured = null;
+  // Empty space (in pixels) above the view
+  d.viewOffset = 0;
+  d.lastWrapHeight = d.lastWrapWidth = 0;
+  d.updateLineNumbers = null;
+
+  d.nativeBarWidth = d.barHeight = d.barWidth = 0;
+  d.scrollbarsClipped = false;
+
+  // Used to only resize the line number gutter when necessary (when
+  // the amount of lines crosses a boundary that makes its width change)
+  d.lineNumWidth = d.lineNumInnerWidth = d.lineNumChars = null;
+  // Set to true when a non-horizontal-scrolling line widget is
+  // added. As an optimization, line widget aligning is skipped when
+  // this is false.
+  d.alignWidgets = false;
+
+  d.cachedCharWidth = d.cachedTextHeight = d.cachedPaddingH = null;
+
+  // Tracks the maximum line length so that the horizontal scrollbar
+  // can be kept static when scrolling.
+  d.maxLine = null;
+  d.maxLineLength = 0;
+  d.maxLineChanged = false;
+
+  // Used for measuring wheel scrolling granularity
+  d.wheelDX = d.wheelDY = d.wheelStartX = d.wheelStartY = null;
+
+  // True when shift is held down.
+  d.shift = false;
+
+  // Used to track whether anything happened since the context menu
+  // was opened.
+  d.selForContextMenu = null;
+
+  d.activeTouch = null;
+
+  input.init(d);
+}
+
+// Find the line object corresponding to the given line number.
+function getLine(doc, n) {
+  n -= doc.first;
+  if (n < 0 || n >= doc.size) { throw new Error("There is no line " + (n + doc.first) + " in the document.") }
+  var chunk = doc;
+  while (!chunk.lines) {
+    for (var i = 0;; ++i) {
+      var child = chunk.children[i], sz = child.chunkSize();
+      if (n < sz) { chunk = child; break }
+      n -= sz;
+    }
+  }
+  return chunk.lines[n]
+}
+
+// Get the part of a document between two positions, as an array of
+// strings.
+function getBetween(doc, start, end) {
+  var out = [], n = start.line;
+  doc.iter(start.line, end.line + 1, function (line) {
+    var text = line.text;
+    if (n == end.line) { text = text.slice(0, end.ch); }
+    if (n == start.line) { text = text.slice(start.ch); }
+    out.push(text);
+    ++n;
+  });
+  return out
+}
+// Get the lines between from and to, as array of strings.
+function getLines(doc, from, to) {
+  var out = [];
+  doc.iter(from, to, function (line) { out.push(line.text); }); // iter aborts when callback returns truthy value
+  return out
+}
+
+// Update the height of a line, propagating the height change
+// upwards to parent nodes.
+function updateLineHeight(line, height) {
+  var diff = height - line.height;
+  if (diff) { for (var n = line; n; n = n.parent) { n.height += diff; } }
+}
+
+// Given a line object, find its line number by walking up through
+// its parent links.
+function lineNo(line) {
+  if (line.parent == null) { return null }
+  var cur = line.parent, no = indexOf(cur.lines, line);
+  for (var chunk = cur.parent; chunk; cur = chunk, chunk = chunk.parent) {
+    for (var i = 0;; ++i) {
+      if (chunk.children[i] == cur) { break }
+      no += chunk.children[i].chunkSize();
+    }
+  }
+  return no + cur.first
+}
+
+// Find the line at the given vertical position, using the height
+// information in the document tree.
+function lineAtHeight(chunk, h) {
+  var n = chunk.first;
+  outer: do {
+    for (var i$1 = 0; i$1 < chunk.children.length; ++i$1) {
+      var child = chunk.children[i$1], ch = child.height;
+      if (h < ch) { chunk = child; continue outer }
+      h -= ch;
+      n += child.chunkSize();
+    }
+    return n
+  } while (!chunk.lines)
+  var i = 0;
+  for (; i < chunk.lines.length; ++i) {
+    var line = chunk.lines[i], lh = line.height;
+    if (h < lh) { break }
+    h -= lh;
+  }
+  return n + i
+}
+
+function isLine(doc, l) {return l >= doc.first && l < doc.first + doc.size}
+
+function lineNumberFor(options, i) {
+  return String(options.lineNumberFormatter(i + options.firstLineNumber))
+}
+
+// A Pos instance represents a position within the text.
+function Pos(line, ch, sticky) {
+  if ( sticky === void 0 ) sticky = null;
+
+  if (!(this instanceof Pos)) { return new Pos(line, ch, sticky) }
+  this.line = line;
+  this.ch = ch;
+  this.sticky = sticky;
+}
+
+// Compare two positions, return 0 if they are the same, a negative
+// number when a is less, and a positive number otherwise.
+function cmp(a, b) { return a.line - b.line || a.ch - b.ch }
+
+function equalCursorPos(a, b) { return a.sticky == b.sticky && cmp(a, b) == 0 }
+
+function copyPos(x) {return Pos(x.line, x.ch)}
+function maxPos(a, b) { return cmp(a, b) < 0 ? b : a }
+function minPos(a, b) { return cmp(a, b) < 0 ? a : b }
+
+// Most of the external API clips given positions to make sure they
+// actually exist within the document.
+function clipLine(doc, n) {return Math.max(doc.first, Math.min(n, doc.first + doc.size - 1))}
+function clipPos(doc, pos) {
+  if (pos.line < doc.first) { return Pos(doc.first, 0) }
+  var last = doc.first + doc.size - 1;
+  if (pos.line > last) { return Pos(last, getLine(doc, last).text.length) }
+  return clipToLen(pos, getLine(doc, pos.line).text.length)
+}
+function clipToLen(pos, linelen) {
+  var ch = pos.ch;
+  if (ch == null || ch > linelen) { return Pos(pos.line, linelen) }
+  else if (ch < 0) { return Pos(pos.line, 0) }
+  else { return pos }
+}
+function clipPosArray(doc, array) {
+  var out = [];
+  for (var i = 0; i < array.length; i++) { out[i] = clipPos(doc, array[i]); }
+  return out
+}
+
+// Optimize some code when these features are not used.
+var sawReadOnlySpans = false;
+var sawCollapsedSpans = false;
+
+function seeReadOnlySpans() {
+  sawReadOnlySpans = true;
+}
+
+function seeCollapsedSpans() {
+  sawCollapsedSpans = true;
+}
+
+// TEXTMARKER SPANS
+
+function MarkedSpan(marker, from, to) {
+  this.marker = marker;
+  this.from = from; this.to = to;
+}
+
+// Search an array of spans for a span matching the given marker.
+function getMarkedSpanFor(spans, marker) {
+  if (spans) { for (var i = 0; i < spans.length; ++i) {
+    var span = spans[i];
+    if (span.marker == marker) { return span }
+  } }
+}
+// Remove a span from an array, returning undefined if no spans are
+// left (we don't store arrays for lines without spans).
+function removeMarkedSpan(spans, span) {
+  var r;
+  for (var i = 0; i < spans.length; ++i)
+    { if (spans[i] != span) { (r || (r = [])).push(spans[i]); } }
+  return r
+}
+// Add a span to a line.
+function addMarkedSpan(line, span) {
+  line.markedSpans = line.markedSpans ? line.markedSpans.concat([span]) : [span];
+  span.marker.attachLine(line);
+}
+
+// Used for the algorithm that adjusts markers for a change in the
+// document. These functions cut an array of spans at a given
+// character position, returning an array of remaining chunks (or
+// undefined if nothing remains).
+function markedSpansBefore(old, startCh, isInsert) {
+  var nw;
+  if (old) { for (var i = 0; i < old.length; ++i) {
+    var span = old[i], marker = span.marker;
+    var startsBefore = span.from == null || (marker.inclusiveLeft ? span.from <= startCh : span.from < startCh);
+    if (startsBefore || span.from == startCh && marker.type == "bookmark" && (!isInsert || !span.marker.insertLeft)) {
+      var endsAfter = span.to == null || (marker.inclusiveRight ? span.to >= startCh : span.to > startCh);(nw || (nw = [])).push(new MarkedSpan(marker, span.from, endsAfter ? null : span.to));
+    }
+  } }
+  return nw
+}
+function markedSpansAfter(old, endCh, isInsert) {
+  var nw;
+  if (old) { for (var i = 0; i < old.length; ++i) {
+    var span = old[i], marker = span.marker;
+    var endsAfter = span.to == null || (marker.inclusiveRight ? span.to >= endCh : span.to > endCh);
+    if (endsAfter || span.from == endCh && marker.type == "bookmark" && (!isInsert || span.marker.insertLeft)) {
+      var startsBefore = span.from == null || (marker.inclusiveLeft ? span.from <= endCh : span.from < endCh);(nw || (nw = [])).push(new MarkedSpan(marker, startsBefore ? null : span.from - endCh,
+                                            span.to == null ? null : span.to - endCh));
+    }
+  } }
+  return nw
+}
+
+// Given a change object, compute the new set of marker spans that
+// cover the line in which the change took place. Removes spans
+// entirely within the change, reconnects spans belonging to the
+// same marker that appear on both sides of the change, and cuts off
+// spans partially within the change. Returns an array of span
+// arrays with one element for each line in (after) the change.
+function stretchSpansOverChange(doc, change) {
+  if (change.full) { return null }
+  var oldFirst = isLine(doc, change.from.line) && getLine(doc, change.from.line).markedSpans;
+  var oldLast = isLine(doc, change.to.line) && getLine(doc, change.to.line).markedSpans;
+  if (!oldFirst && !oldLast) { return null }
+
+  var startCh = change.from.ch, endCh = change.to.ch, isInsert = cmp(change.from, change.to) == 0;
+  // Get the spans that 'stick out' on both sides
+  var first = markedSpansBefore(oldFirst, startCh, isInsert);
+  var last = markedSpansAfter(oldLast, endCh, isInsert);
+
+  // Next, merge those two ends
+  var sameLine = change.text.length == 1, offset = lst(change.text).length + (sameLine ? startCh : 0);
+  if (first) {
+    // Fix up .to properties of first
+    for (var i = 0; i < first.length; ++i) {
+      var span = first[i];
+      if (span.to == null) {
+        var found = getMarkedSpanFor(last, span.marker);
+        if (!found) { span.to = startCh; }
+        else if (sameLine) { span.to = found.to == null ? null : found.to + offset; }
+      }
+    }
+  }
+  if (last) {
+    // Fix up .from in last (or move them into first in case of sameLine)
+    for (var i$1 = 0; i$1 < last.length; ++i$1) {
+      var span$1 = last[i$1];
+      if (span$1.to != null) { span$1.to += offset; }
+      if (span$1.from == null) {
+        var found$1 = getMarkedSpanFor(first, span$1.marker);
+        if (!found$1) {
+          span$1.from = offset;
+          if (sameLine) { (first || (first = [])).push(span$1); }
+        }
+      } else {
+        span$1.from += offset;
+        if (sameLine) { (first || (first = [])).push(span$1); }
+      }
+    }
+  }
+  // Make sure we didn't create any zero-length spans
+  if (first) { first = clearEmptySpans(first); }
+  if (last && last != first) { last = clearEmptySpans(last); }
+
+  var newMarkers = [first];
+  if (!sameLine) {
+    // Fill gap with whole-line-spans
+    var gap = change.text.length - 2, gapMarkers;
+    if (gap > 0 && first)
+      { for (var i$2 = 0; i$2 < first.length; ++i$2)
+        { if (first[i$2].to == null)
+          { (gapMarkers || (gapMarkers = [])).push(new MarkedSpan(first[i$2].marker, null, null)); } } }
+    for (var i$3 = 0; i$3 < gap; ++i$3)
+      { newMarkers.push(gapMarkers); }
+    newMarkers.push(last);
+  }
+  return newMarkers
+}
+
+// Remove spans that are empty and don't have a clearWhenEmpty
+// option of false.
+function clearEmptySpans(spans) {
+  for (var i = 0; i < spans.length; ++i) {
+    var span = spans[i];
+    if (span.from != null && span.from == span.to && span.marker.clearWhenEmpty !== false)
+      { spans.splice(i--, 1); }
+  }
+  if (!spans.length) { return null }
+  return spans
+}
+
+// Used to 'clip' out readOnly ranges when making a change.
+function removeReadOnlyRanges(doc, from, to) {
+  var markers = null;
+  doc.iter(from.line, to.line + 1, function (line) {
+    if (line.markedSpans) { for (var i = 0; i < line.markedSpans.length; ++i) {
+      var mark = line.markedSpans[i].marker;
+      if (mark.readOnly && (!markers || indexOf(markers, mark) == -1))
+        { (markers || (markers = [])).push(mark); }
+    } }
+  });
+  if (!markers) { return null }
+  var parts = [{from: from, to: to}];
+  for (var i = 0; i < markers.length; ++i) {
+    var mk = markers[i], m = mk.find(0);
+    for (var j = 0; j < parts.length; ++j) {
+      var p = parts[j];
+      if (cmp(p.to, m.from) < 0 || cmp(p.from, m.to) > 0) { continue }
+      var newParts = [j, 1], dfrom = cmp(p.from, m.from), dto = cmp(p.to, m.to);
+      if (dfrom < 0 || !mk.inclusiveLeft && !dfrom)
+        { newParts.push({from: p.from, to: m.from}); }
+      if (dto > 0 || !mk.inclusiveRight && !dto)
+        { newParts.push({from: m.to, to: p.to}); }
+      parts.splice.apply(parts, newParts);
+      j += newParts.length - 3;
+    }
+  }
+  return parts
+}
+
+// Connect or disconnect spans from a line.
+function detachMarkedSpans(line) {
+  var spans = line.markedSpans;
+  if (!spans) { return }
+  for (var i = 0; i < spans.length; ++i)
+    { spans[i].marker.detachLine(line); }
+  line.markedSpans = null;
+}
+function attachMarkedSpans(line, spans) {
+  if (!spans) { return }
+  for (var i = 0; i < spans.length; ++i)
+    { spans[i].marker.attachLine(line); }
+  line.markedSpans = spans;
+}
+
+// Helpers used when computing which overlapping collapsed span
+// counts as the larger one.
+function extraLeft(marker) { return marker.inclusiveLeft ? -1 : 0 }
+function extraRight(marker) { return marker.inclusiveRight ? 1 : 0 }
+
+// Returns a number indicating which of two overlapping collapsed
+// spans is larger (and thus includes the other). Falls back to
+// comparing ids when the spans cover exactly the same range.
+function compareCollapsedMarkers(a, b) {
+  var lenDiff = a.lines.length - b.lines.length;
+  if (lenDiff != 0) { return lenDiff }
+  var aPos = a.find(), bPos = b.find();
+  var fromCmp = cmp(aPos.from, bPos.from) || extraLeft(a) - extraLeft(b);
+  if (fromCmp) { return -fromCmp }
+  var toCmp = cmp(aPos.to, bPos.to) || extraRight(a) - extraRight(b);
+  if (toCmp) { return toCmp }
+  return b.id - a.id
+}
+
+// Find out whether a line ends or starts in a collapsed span. If
+// so, return the marker for that span.
+function collapsedSpanAtSide(line, start) {
+  var sps = sawCollapsedSpans && line.markedSpans, found;
+  if (sps) { for (var sp = (void 0), i = 0; i < sps.length; ++i) {
+    sp = sps[i];
+    if (sp.marker.collapsed && (start ? sp.from : sp.to) == null &&
+        (!found || compareCollapsedMarkers(found, sp.marker) < 0))
+      { found = sp.marker; }
+  } }
+  return found
+}
+function collapsedSpanAtStart(line) { return collapsedSpanAtSide(line, true) }
+function collapsedSpanAtEnd(line) { return collapsedSpanAtSide(line, false) }
+
+// Test whether there exists a collapsed span that partially
+// overlaps (covers the start or end, but not both) of a new span.
+// Such overlap is not allowed.
+function conflictingCollapsedRange(doc, lineNo$$1, from, to, marker) {
+  var line = getLine(doc, lineNo$$1);
+  var sps = sawCollapsedSpans && line.markedSpans;
+  if (sps) { for (var i = 0; i < sps.length; ++i) {
+    var sp = sps[i];
+    if (!sp.marker.collapsed) { continue }
+    var found = sp.marker.find(0);
+    var fromCmp = cmp(found.from, from) || extraLeft(sp.marker) - extraLeft(marker);
+    var toCmp = cmp(found.to, to) || extraRight(sp.marker) - extraRight(marker);
+    if (fromCmp >= 0 && toCmp <= 0 || fromCmp <= 0 && toCmp >= 0) { continue }
+    if (fromCmp <= 0 && (sp.marker.inclusiveRight && marker.inclusiveLeft ? cmp(found.to, from) >= 0 : cmp(found.to, from) > 0) ||
+        fromCmp >= 0 && (sp.marker.inclusiveRight && marker.inclusiveLeft ? cmp(found.from, to) <= 0 : cmp(found.from, to) < 0))
+      { return true }
+  } }
+}
+
+// A visual line is a line as drawn on the screen. Folding, for
+// example, can cause multiple logical lines to appear on the same
+// visual line. This finds the start of the visual line that the
+// given line is part of (usually that is the line itself).
+function visualLine(line) {
+  var merged;
+  while (merged = collapsedSpanAtStart(line))
+    { line = merged.find(-1, true).line; }
+  return line
+}
+
+function visualLineEnd(line) {
+  var merged;
+  while (merged = collapsedSpanAtEnd(line))
+    { line = merged.find(1, true).line; }
+  return line
+}
+
+// Returns an array of logical lines that continue the visual line
+// started by the argument, or undefined if there are no such lines.
+function visualLineContinued(line) {
+  var merged, lines;
+  while (merged = collapsedSpanAtEnd(line)) {
+    line = merged.find(1, true).line
+    ;(lines || (lines = [])).push(line);
+  }
+  return lines
+}
+
+// Get the line number of the start of the visual line that the
+// given line number is part of.
+function visualLineNo(doc, lineN) {
+  var line = getLine(doc, lineN), vis = visualLine(line);
+  if (line == vis) { return lineN }
+  return lineNo(vis)
+}
+
+// Get the line number of the start of the next visual line after
+// the given line.
+function visualLineEndNo(doc, lineN) {
+  if (lineN > doc.lastLine()) { return lineN }
+  var line = getLine(doc, lineN), merged;
+  if (!lineIsHidden(doc, line)) { return lineN }
+  while (merged = collapsedSpanAtEnd(line))
+    { line = merged.find(1, true).line; }
+  return lineNo(line) + 1
+}
+
+// Compute whether a line is hidden. Lines count as hidden when they
+// are part of a visual line that starts with another line, or when
+// they are entirely covered by collapsed, non-widget span.
+function lineIsHidden(doc, line) {
+  var sps = sawCollapsedSpans && line.markedSpans;
+  if (sps) { for (var sp = (void 0), i = 0; i < sps.length; ++i) {
+    sp = sps[i];
+    if (!sp.marker.collapsed) { continue }
+    if (sp.from == null) { return true }
+    if (sp.marker.widgetNode) { continue }
+    if (sp.from == 0 && sp.marker.inclusiveLeft && lineIsHiddenInner(doc, line, sp))
+      { return true }
+  } }
+}
+function lineIsHiddenInner(doc, line, span) {
+  if (span.to == null) {
+    var end = span.marker.find(1, true);
+    return lineIsHiddenInner(doc, end.line, getMarkedSpanFor(end.line.markedSpans, span.marker))
+  }
+  if (span.marker.inclusiveRight && span.to == line.text.length)
+    { return true }
+  for (var sp = (void 0), i = 0; i < line.markedSpans.length; ++i) {
+    sp = line.markedSpans[i];
+    if (sp.marker.collapsed && !sp.marker.widgetNode && sp.from == span.to &&
+        (sp.to == null || sp.to != span.from) &&
+        (sp.marker.inclusiveLeft || span.marker.inclusiveRight) &&
+        lineIsHiddenInner(doc, line, sp)) { return true }
+  }
+}
+
+// Find the height above the given line.
+function heightAtLine(lineObj) {
+  lineObj = visualLine(lineObj);
+
+  var h = 0, chunk = lineObj.parent;
+  for (var i = 0; i < chunk.lines.length; ++i) {
+    var line = chunk.lines[i];
+    if (line == lineObj) { break }
+    else { h += line.height; }
+  }
+  for (var p = chunk.parent; p; chunk = p, p = chunk.parent) {
+    for (var i$1 = 0; i$1 < p.children.length; ++i$1) {
+      var cur = p.children[i$1];
+      if (cur == chunk) { break }
+      else { h += cur.height; }
+    }
+  }
+  return h
+}
+
+// Compute the character length of a line, taking into account
+// collapsed ranges (see markText) that might hide parts, and join
+// other lines onto it.
+function lineLength(line) {
+  if (line.height == 0) { return 0 }
+  var len = line.text.length, merged, cur = line;
+  while (merged = collapsedSpanAtStart(cur)) {
+    var found = merged.find(0, true);
+    cur = found.from.line;
+    len += found.from.ch - found.to.ch;
+  }
+  cur = line;
+  while (merged = collapsedSpanAtEnd(cur)) {
+    var found$1 = merged.find(0, true);
+    len -= cur.text.length - found$1.from.ch;
+    cur = found$1.to.line;
+    len += cur.text.length - found$1.to.ch;
+  }
+  return len
+}
+
+// Find the longest line in the document.
+function findMaxLine(cm) {
+  var d = cm.display, doc = cm.doc;
+  d.maxLine = getLine(doc, doc.first);
+  d.maxLineLength = lineLength(d.maxLine);
+  d.maxLineChanged = true;
+  doc.iter(function (line) {
+    var len = lineLength(line);
+    if (len > d.maxLineLength) {
+      d.maxLineLength = len;
+      d.maxLine = line;
+    }
+  });
+}
+
+// BIDI HELPERS
+
+function iterateBidiSections(order, from, to, f) {
+  if (!order) { return f(from, to, "ltr") }
+  var found = false;
+  for (var i = 0; i < order.length; ++i) {
+    var part = order[i];
+    if (part.from < to && part.to > from || from == to && part.to == from) {
+      f(Math.max(part.from, from), Math.min(part.to, to), part.level == 1 ? "rtl" : "ltr");
+      found = true;
+    }
+  }
+  if (!found) { f(from, to, "ltr"); }
+}
+
+var bidiOther = null;
+function getBidiPartAt(order, ch, sticky) {
+  var found;
+  bidiOther = null;
+  for (var i = 0; i < order.length; ++i) {
+    var cur = order[i];
+    if (cur.from < ch && cur.to > ch) { return i }
+    if (cur.to == ch) {
+      if (cur.from != cur.to && sticky == "before") { found = i; }
+      else { bidiOther = i; }
+    }
+    if (cur.from == ch) {
+      if (cur.from != cur.to && sticky != "before") { found = i; }
+      else { bidiOther = i; }
+    }
+  }
+  return found != null ? found : bidiOther
+}
+
+// Bidirectional ordering algorithm
+// See http://unicode.org/reports/tr9/tr9-13.html for the algorithm
+// that this (partially) implements.
+
+// One-char codes used for character types:
+// L (L):   Left-to-Right
+// R (R):   Right-to-Left
+// r (AL):  Right-to-Left Arabic
+// 1 (EN):  European Number
+// + (ES):  European Number Separator
+// % (ET):  European Number Terminator
+// n (AN):  Arabic Number
+// , (CS):  Common Number Separator
+// m (NSM): Non-Spacing Mark
+// b (BN):  Boundary Neutral
+// s (B):   Paragraph Separator
+// t (S):   Segment Separator
+// w (WS):  Whitespace
+// N (ON):  Other Neutrals
+
+// Returns null if characters are ordered as they appear
+// (left-to-right), or an array of sections ({from, to, level}
+// objects) in the order in which they occur visually.
+var bidiOrdering = (function() {
+  // Character types for codepoints 0 to 0xff
+  var lowTypes = "bbbbbbbbbtstwsbbbbbbbbbbbbbbssstwNN%%%NNNNNN,N,N1111111111NNNNNNNLLLLLLLLLLLLLLLLLLLLLLLLLLNNNNNNLLLLLLLLLLLLLLLLLLLLLLLLLLNNNNbbbbbbsbbbbbbbbbbbbbbbbbbbbbbbbbb,N%%%%NNNNLNNNNN%%11NLNNN1LNNNNNLLLLLLLLLLLLLLLLLLLLLLLNLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLN";
+  // Character types for codepoints 0x600 to 0x6f9
+  var arabicTypes = "nnnnnnNNr%%r,rNNmmmmmmmmmmmrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrmmmmmmmmmmmmmmmmmmmmmnnnnnnnnnn%nnrrrmrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrmmmmmmmnNmmmmmmrrmmNmmmmrr1111111111";
+  function charType(code) {
+    if (code <= 0xf7) { return lowTypes.charAt(code) }
+    else if (0x590 <= code && code <= 0x5f4) { return "R" }
+    else if (0x600 <= code && code <= 0x6f9) { return arabicTypes.charAt(code - 0x600) }
+    else if (0x6ee <= code && code <= 0x8ac) { return "r" }
+    else if (0x2000 <= code && code <= 0x200b) { return "w" }
+    else if (code == 0x200c) { return "b" }
+    else { return "L" }
+  }
+
+  var bidiRE = /[\u0590-\u05f4\u0600-\u06ff\u0700-\u08ac]/;
+  var isNeutral = /[stwN]/, isStrong = /[LRr]/, countsAsLeft = /[Lb1n]/, countsAsNum = /[1n]/;
+
+  function BidiSpan(level, from, to) {
+    this.level = level;
+    this.from = from; this.to = to;
+  }
+
+  return function(str, direction) {
+    var outerType = direction == "ltr" ? "L" : "R";
+
+    if (str.length == 0 || direction == "ltr" && !bidiRE.test(str)) { return false }
+    var len = str.length, types = [];
+    for (var i = 0; i < len; ++i)
+      { types.push(charType(str.charCodeAt(i))); }
+
+    // W1. Examine each non-spacing mark (NSM) in the level run, and
+    // change the type of the NSM to the type of the previous
+    // character. If the NSM is at the start of the level run, it will
+    // get the type of sor.
+    for (var i$1 = 0, prev = outerType; i$1 < len; ++i$1) {
+      var type = types[i$1];
+      if (type == "m") { types[i$1] = prev; }
+      else { prev = type; }
+    }
+
+    // W2. Search backwards from each instance of a European number
+    // until the first strong type (R, L, AL, or sor) is found. If an
+    // AL is found, change the type of the European number to Arabic
+    // number.
+    // W3. Change all ALs to R.
+    for (var i$2 = 0, cur = outerType; i$2 < len; ++i$2) {
+      var type$1 = types[i$2];
+      if (type$1 == "1" && cur == "r") { types[i$2] = "n"; }
+      else if (isStrong.test(type$1)) { cur = type$1; if (type$1 == "r") { types[i$2] = "R"; } }
+    }
+
+    // W4. A single European separator between two European numbers
+    // changes to a European number. A single common separator between
+    // two numbers of the same type changes to that type.
+    for (var i$3 = 1, prev$1 = types[0]; i$3 < len - 1; ++i$3) {
+      var type$2 = types[i$3];
+      if (type$2 == "+" && prev$1 == "1" && types[i$3+1] == "1") { types[i$3] = "1"; }
+      else if (type$2 == "," && prev$1 == types[i$3+1] &&
+               (prev$1 == "1" || prev$1 == "n")) { types[i$3] = prev$1; }
+      prev$1 = type$2;
+    }
+
+    // W5. A sequence of European terminators adjacent to European
+    // numbers changes to all European numbers.
+    // W6. Otherwise, separators and terminators change to Other
+    // Neutral.
+    for (var i$4 = 0; i$4 < len; ++i$4) {
+      var type$3 = types[i$4];
+      if (type$3 == ",") { types[i$4] = "N"; }
+      else if (type$3 == "%") {
+        var end = (void 0);
+        for (end = i$4 + 1; end < len && types[end] == "%"; ++end) {}
+        var replace = (i$4 && types[i$4-1] == "!") || (end < len && types[end] == "1") ? "1" : "N";
+        for (var j = i$4; j < end; ++j) { types[j] = replace; }
+        i$4 = end - 1;
+      }
+    }
+
+    // W7. Search backwards from each instance of a European number
+    // until the first strong type (R, L, or sor) is found. If an L is
+    // found, then change the type of the European number to L.
+    for (var i$5 = 0, cur$1 = outerType; i$5 < len; ++i$5) {
+      var type$4 = types[i$5];
+      if (cur$1 == "L" && type$4 == "1") { types[i$5] = "L"; }
+      else if (isStrong.test(type$4)) { cur$1 = type$4; }
+    }
+
+    // N1. A sequence of neutrals takes the direction of the
+    // surrounding strong text if the text on both sides has the same
+    // direction. European and Arabic numbers act as if they were R in
+    // terms of their influence on neutrals. Start-of-level-run (sor)
+    // and end-of-level-run (eor) are used at level run boundaries.
+    // N2. Any remaining neutrals take the embedding direction.
+    for (var i$6 = 0; i$6 < len; ++i$6) {
+      if (isNeutral.test(types[i$6])) {
+        var end$1 = (void 0);
+        for (end$1 = i$6 + 1; end$1 < len && isNeutral.test(types[end$1]); ++end$1) {}
+        var before = (i$6 ? types[i$6-1] : outerType) == "L";
+        var after = (end$1 < len ? types[end$1] : outerType) == "L";
+        var replace$1 = before == after ? (before ? "L" : "R") : outerType;
+        for (var j$1 = i$6; j$1 < end$1; ++j$1) { types[j$1] = replace$1; }
+        i$6 = end$1 - 1;
+      }
+    }
+
+    // Here we depart from the documented algorithm, in order to avoid
+    // building up an actual levels array. Since there are only three
+    // levels (0, 1, 2) in an implementation that doesn't take
+    // explicit embedding into account, we can build up the order on
+    // the fly, without following the level-based algorithm.
+    var order = [], m;
+    for (var i$7 = 0; i$7 < len;) {
+      if (countsAsLeft.test(types[i$7])) {
+        var start = i$7;
+        for (++i$7; i$7 < len && countsAsLeft.test(types[i$7]); ++i$7) {}
+        order.push(new BidiSpan(0, start, i$7));
+      } else {
+        var pos = i$7, at = order.length;
+        for (++i$7; i$7 < len && types[i$7] != "L"; ++i$7) {}
+        for (var j$2 = pos; j$2 < i$7;) {
+          if (countsAsNum.test(types[j$2])) {
+            if (pos < j$2) { order.splice(at, 0, new BidiSpan(1, pos, j$2)); }
+            var nstart = j$2;
+            for (++j$2; j$2 < i$7 && countsAsNum.test(types[j$2]); ++j$2) {}
+            order.splice(at, 0, new BidiSpan(2, nstart, j$2));
+            pos = j$2;
+          } else { ++j$2; }
+        }
+        if (pos < i$7) { order.splice(at, 0, new BidiSpan(1, pos, i$7)); }
+      }
+    }
+    if (order[0].level == 1 && (m = str.match(/^\s+/))) {
+      order[0].from = m[0].length;
+      order.unshift(new BidiSpan(0, 0, m[0].length));
+    }
+    if (lst(order).level == 1 && (m = str.match(/\s+$/))) {
+      lst(order).to -= m[0].length;
+      order.push(new BidiSpan(0, len - m[0].length, len));
+    }
+
+    return direction == "rtl" ? order.reverse() : order
+  }
+})();
+
+// Get the bidi ordering for the given line (and cache it). Returns
+// false for lines that are fully left-to-right, and an array of
+// BidiSpan objects otherwise.
+function getOrder(line, direction) {
+  var order = line.order;
+  if (order == null) { order = line.order = bidiOrdering(line.text, direction); }
+  return order
+}
+
+function moveCharLogically(line, ch, dir) {
+  var target = skipExtendingChars(line.text, ch + dir, dir);
+  return target < 0 || target > line.text.length ? null : target
+}
+
+function moveLogically(line, start, dir) {
+  var ch = moveCharLogically(line, start.ch, dir);
+  return ch == null ? null : new Pos(start.line, ch, dir < 0 ? "after" : "before")
+}
+
+function endOfLine(visually, cm, lineObj, lineNo, dir) {
+  if (visually) {
+    var order = getOrder(lineObj, cm.doc.direction);
+    if (order) {
+      var part = dir < 0 ? lst(order) : order[0];
+      var moveInStorageOrder = (dir < 0) == (part.level == 1);
+      var sticky = moveInStorageOrder ? "after" : "before";
+      var ch;
+      // With a wrapped rtl chunk (possibly spanning multiple bidi parts),
+      // it could be that the last bidi part is not on the last visual line,
+      // since visual lines contain content order-consecutive chunks.
+      // Thus, in rtl, we are looking for the first (content-order) character
+      // in the rtl chunk that is on the last line (that is, the same line
+      // as the last (content-order) character).
+      if (part.level > 0) {
+        var prep = prepareMeasureForLine(cm, lineObj);
+        ch = dir < 0 ? lineObj.text.length - 1 : 0;
+        var targetTop = measureCharPrepared(cm, prep, ch).top;
+        ch = findFirst(function (ch) { return measureCharPrepared(cm, prep, ch).top == targetTop; }, (dir < 0) == (part.level == 1) ? part.from : part.to - 1, ch);
+        if (sticky == "before") { ch = moveCharLogically(lineObj, ch, 1); }
+      } else { ch = dir < 0 ? part.to : part.from; }
+      return new Pos(lineNo, ch, sticky)
+    }
+  }
+  return new Pos(lineNo, dir < 0 ? lineObj.text.length : 0, dir < 0 ? "before" : "after")
+}
+
+function moveVisually(cm, line, start, dir) {
+  var bidi = getOrder(line, cm.doc.direction);
+  if (!bidi) { return moveLogically(line, start, dir) }
+  if (start.ch >= line.text.length) {
+    start.ch = line.text.length;
+    start.sticky = "before";
+  } else if (start.ch <= 0) {
+    start.ch = 0;
+    start.sticky = "after";
+  }
+  var partPos = getBidiPartAt(bidi, start.ch, start.sticky), part = bidi[partPos];
+  if (cm.doc.direction == "ltr" && part.level % 2 == 0 && (dir > 0 ? part.to > start.ch : part.from < start.ch)) {
+    // Case 1: We move within an ltr part in an ltr editor. Even with wrapped lines,
+    // nothing interesting happens.
+    return moveLogically(line, start, dir)
+  }
+
+  var mv = function (pos, dir) { return moveCharLogically(line, pos instanceof Pos ? pos.ch : pos, dir); };
+  var prep;
+  var getWrappedLineExtent = function (ch) {
+    if (!cm.options.lineWrapping) { return {begin: 0, end: line.text.length} }
+    prep = prep || prepareMeasureForLine(cm, line);
+    return wrappedLineExtentChar(cm, line, prep, ch)
+  };
+  var wrappedLineExtent = getWrappedLineExtent(start.sticky == "before" ? mv(start, -1) : start.ch);
+
+  if (cm.doc.direction == "rtl" || part.level == 1) {
+    var moveInStorageOrder = (part.level == 1) == (dir < 0);
+    var ch = mv(start, moveInStorageOrder ? 1 : -1);
+    if (ch != null && (!moveInStorageOrder ? ch >= part.from && ch >= wrappedLineExtent.begin : ch <= part.to && ch <= wrappedLineExtent.end)) {
+      // Case 2: We move within an rtl part or in an rtl editor on the same visual line
+      var sticky = moveInStorageOrder ? "before" : "after";
+      return new Pos(start.line, ch, sticky)
+    }
+  }
+
+  // Case 3: Could not move within this bidi part in this visual line, so leave
+  // the current bidi part
+
+  var searchInVisualLine = function (partPos, dir, wrappedLineExtent) {
+    var getRes = function (ch, moveInStorageOrder) { return moveInStorageOrder
+      ? new Pos(start.line, mv(ch, 1), "before")
+      : new Pos(start.line, ch, "after"); };
+
+    for (; partPos >= 0 && partPos < bidi.length; partPos += dir) {
+      var part = bidi[partPos];
+      var moveInStorageOrder = (dir > 0) == (part.level != 1);
+      var ch = moveInStorageOrder ? wrappedLineExtent.begin : mv(wrappedLineExtent.end, -1);
+      if (part.from <= ch && ch < part.to) { return getRes(ch, moveInStorageOrder) }
+      ch = moveInStorageOrder ? part.from : mv(part.to, -1);
+      if (wrappedLineExtent.begin <= ch && ch < wrappedLineExtent.end) { return getRes(ch, moveInStorageOrder) }
+    }
+  };
+
+  // Case 3a: Look for other bidi parts on the same visual line
+  var res = searchInVisualLine(partPos + dir, dir, wrappedLineExtent);
+  if (res) { return res }
+
+  // Case 3b: Look for other bidi parts on the next visual line
+  var nextCh = dir > 0 ? wrappedLineExtent.end : mv(wrappedLineExtent.begin, -1);
+  if (nextCh != null && !(dir > 0 && nextCh == line.text.length)) {
+    res = searchInVisualLine(dir > 0 ? 0 : bidi.length - 1, dir, getWrappedLineExtent(nextCh));
+    if (res) { return res }
+  }
+
+  // Case 4: Nowhere to move
+  return null
+}
+
+// EVENT HANDLING
+
+// Lightweight event framework. on/off also work on DOM nodes,
+// registering native DOM handlers.
+
+var noHandlers = [];
+
+var on = function(emitter, type, f) {
+  if (emitter.addEventListener) {
+    emitter.addEventListener(type, f, false);
+  } else if (emitter.attachEvent) {
+    emitter.attachEvent("on" + type, f);
+  } else {
+    var map$$1 = emitter._handlers || (emitter._handlers = {});
+    map$$1[type] = (map$$1[type] || noHandlers).concat(f);
+  }
+};
+
+function getHandlers(emitter, type) {
+  return emitter._handlers && emitter._handlers[type] || noHandlers
+}
+
+function off(emitter, type, f) {
+  if (emitter.removeEventListener) {
+    emitter.removeEventListener(type, f, false);
+  } else if (emitter.detachEvent) {
+    emitter.detachEvent("on" + type, f);
+  } else {
+    var map$$1 = emitter._handlers, arr = map$$1 && map$$1[type];
+    if (arr) {
+      var index = indexOf(arr, f);
+      if (index > -1)
+        { map$$1[type] = arr.slice(0, index).concat(arr.slice(index + 1)); }
+    }
+  }
+}
+
+function signal(emitter, type /*, values...*/) {
+  var handlers = getHandlers(emitter, type);
+  if (!handlers.length) { return }
+  var args = Array.prototype.slice.call(arguments, 2);
+  for (var i = 0; i < handlers.length; ++i) { handlers[i].apply(null, args); }
+}
+
+// The DOM events that CodeMirror handles can be overridden by
+// registering a (non-DOM) handler on the editor for the event name,
+// and preventDefault-ing the event in that handler.
+function signalDOMEvent(cm, e, override) {
+  if (typeof e == "string")
+    { e = {type: e, preventDefault: function() { this.defaultPrevented = true; }}; }
+  signal(cm, override || e.type, cm, e);
+  return e_defaultPrevented(e) || e.codemirrorIgnore
+}
+
+function signalCursorActivity(cm) {
+  var arr = cm._handlers && cm._handlers.cursorActivity;
+  if (!arr) { return }
+  var set = cm.curOp.cursorActivityHandlers || (cm.curOp.cursorActivityHandlers = []);
+  for (var i = 0; i < arr.length; ++i) { if (indexOf(set, arr[i]) == -1)
+    { set.push(arr[i]); } }
+}
+
+function hasHandler(emitter, type) {
+  return getHandlers(emitter, type).length > 0
+}
+
+// Add on and off methods to a constructor's prototype, to make
+// registering events on such objects more convenient.
+function eventMixin(ctor) {
+  ctor.prototype.on = function(type, f) {on(this, type, f);};
+  ctor.prototype.off = function(type, f) {off(this, type, f);};
+}
+
+// Due to the fact that we still support jurassic IE versions, some
+// compatibility wrappers are needed.
+
+function e_preventDefault(e) {
+  if (e.preventDefault) { e.preventDefault(); }
+  else { e.returnValue = false; }
+}
+function e_stopPropagation(e) {
+  if (e.stopPropagation) { e.stopPropagation(); }
+  else { e.cancelBubble = true; }
+}
+function e_defaultPrevented(e) {
+  return e.defaultPrevented != null ? e.defaultPrevented : e.returnValue == false
+}
+function e_stop(e) {e_preventDefault(e); e_stopPropagation(e);}
+
+function e_target(e) {return e.target || e.srcElement}
+function e_button(e) {
+  var b = e.which;
+  if (b == null) {
+    if (e.button & 1) { b = 1; }
+    else if (e.button & 2) { b = 3; }
+    else if (e.button & 4) { b = 2; }
+  }
+  if (mac && e.ctrlKey && b == 1) { b = 3; }
+  return b
+}
+
+// Detect drag-and-drop
+var dragAndDrop = function() {
+  // There is *some* kind of drag-and-drop support in IE6-8, but I
+  // couldn't get it to work yet.
+  if (ie && ie_version < 9) { return false }
+  var div = elt('div');
+  return "draggable" in div || "dragDrop" in div
+}();
+
+var zwspSupported;
+function zeroWidthElement(measure) {
+  if (zwspSupported == null) {
+    var test = elt("span", "\u200b");
+    removeChildrenAndAdd(measure, elt("span", [test, document.createTextNode("x")]));
+    if (measure.firstChild.offsetHeight != 0)
+      { zwspSupported = test.offsetWidth <= 1 && test.offsetHeight > 2 && !(ie && ie_version < 8); }
+  }
+  var node = zwspSupported ? elt("span", "\u200b") :
+    elt("span", "\u00a0", null, "display: inline-block; width: 1px; margin-right: -1px");
+  node.setAttribute("cm-text", "");
+  return node
+}
+
+// Feature-detect IE's crummy client rect reporting for bidi text
+var badBidiRects;
+function hasBadBidiRects(measure) {
+  if (badBidiRects != null) { return badBidiRects }
+  var txt = removeChildrenAndAdd(measure, document.createTextNode("A\u062eA"));
+  var r0 = range(txt, 0, 1).getBoundingClientRect();
+  var r1 = range(txt, 1, 2).getBoundingClientRect();
+  removeChildren(measure);
+  if (!r0 || r0.left == r0.right) { return false } // Safari returns null in some cases (#2780)
+  return badBidiRects = (r1.right - r0.right < 3)
+}
+
+// See if "".split is the broken IE version, if so, provide an
+// alternative way to split lines.
+var splitLinesAuto = "\n\nb".split(/\n/).length != 3 ? function (string) {
+  var pos = 0, result = [], l = string.length;
+  while (pos <= l) {
+    var nl = string.indexOf("\n", pos);
+    if (nl == -1) { nl = string.length; }
+    var line = string.slice(pos, string.charAt(nl - 1) == "\r" ? nl - 1 : nl);
+    var rt = line.indexOf("\r");
+    if (rt != -1) {
+      result.push(line.slice(0, rt));
+      pos += rt + 1;
+    } else {
+      result.push(line);
+      pos = nl + 1;
+    }
+  }
+  return result
+} : function (string) { return string.split(/\r\n?|\n/); };
+
+var hasSelection = window.getSelection ? function (te) {
+  try { return te.selectionStart != te.selectionEnd }
+  catch(e) { return false }
+} : function (te) {
+  var range$$1;
+  try {range$$1 = te.ownerDocument.selection.createRange();}
+  catch(e) {}
+  if (!range$$1 || range$$1.parentElement() != te) { return false }
+  return range$$1.compareEndPoints("StartToEnd", range$$1) != 0
+};
+
+var hasCopyEvent = (function () {
+  var e = elt("div");
+  if ("oncopy" in e) { return true }
+  e.setAttribute("oncopy", "return;");
+  return typeof e.oncopy == "function"
+})();
+
+var badZoomedRects = null;
+function hasBadZoomedRects(measure) {
+  if (badZoomedRects != null) { return badZoomedRects }
+  var node = removeChildrenAndAdd(measure, elt("span", "x"));
+  var normal = node.getBoundingClientRect();
+  var fromRange = range(node, 0, 1).getBoundingClientRect();
+  return badZoomedRects = Math.abs(normal.left - fromRange.left) > 1
+}
+
+// Known modes, by name and by MIME
+var modes = {};
+var mimeModes = {};
+
+// Extra arguments are stored as the mode's dependencies, which is
+// used by (legacy) mechanisms like loadmode.js to automatically
+// load a mode. (Preferred mechanism is the require/define calls.)
+function defineMode(name, mode) {
+  if (arguments.length > 2)
+    { mode.dependencies = Array.prototype.slice.call(arguments, 2); }
+  modes[name] = mode;
+}
+
+function defineMIME(mime, spec) {
+  mimeModes[mime] = spec;
+}
+
+// Given a MIME type, a {name, ...options} config object, or a name
+// string, return a mode config object.
+function resolveMode(spec) {
+  if (typeof spec == "string" && mimeModes.hasOwnProperty(spec)) {
+    spec = mimeModes[spec];
+  } else if (spec && typeof spec.name == "string" && mimeModes.hasOwnProperty(spec.name)) {
+    var found = mimeModes[spec.name];
+    if (typeof found == "string") { found = {name: found}; }
+    spec = createObj(found, spec);
+    spec.name = found.name;
+  } else if (typeof spec == "string" && /^[\w\-]+\/[\w\-]+\+xml$/.test(spec)) {
+    return resolveMode("application/xml")
+  } else if (typeof spec == "string" && /^[\w\-]+\/[\w\-]+\+json$/.test(spec)) {
+    return resolveMode("application/json")
+  }
+  if (typeof spec == "string") { return {name: spec} }
+  else { return spec || {name: "null"} }
+}
+
+// Given a mode spec (anything that resolveMode accepts), find and
+// initialize an actual mode object.
+function getMode(options, spec) {
+  spec = resolveMode(spec);
+  var mfactory = modes[spec.name];
+  if (!mfactory) { return getMode(options, "text/plain") }
+  var modeObj = mfactory(options, spec);
+  if (modeExtensions.hasOwnProperty(spec.name)) {
+    var exts = modeExtensions[spec.name];
+    for (var prop in exts) {
+      if (!exts.hasOwnProperty(prop)) { continue }
+      if (modeObj.hasOwnProperty(prop)) { modeObj["_" + prop] = modeObj[prop]; }
+      modeObj[prop] = exts[prop];
+    }
+  }
+  modeObj.name = spec.name;
+  if (spec.helperType) { modeObj.helperType = spec.helperType; }
+  if (spec.modeProps) { for (var prop$1 in spec.modeProps)
+    { modeObj[prop$1] = spec.modeProps[prop$1]; } }
+
+  return modeObj
+}
+
+// This can be used to attach properties to mode objects from
+// outside the actual mode definition.
+var modeExtensions = {};
+function extendMode(mode, properties) {
+  var exts = modeExtensions.hasOwnProperty(mode) ? modeExtensions[mode] : (modeExtensions[mode] = {});
+  copyObj(properties, exts);
+}
+
+function copyState(mode, state) {
+  if (state === true) { return state }
+  if (mode.copyState) { return mode.copyState(state) }
+  var nstate = {};
+  for (var n in state) {
+    var val = state[n];
+    if (val instanceof Array) { val = val.concat([]); }
+    nstate[n] = val;
+  }
+  return nstate
+}
+
+// Given a mode and a state (for that mode), find the inner mode and
+// state at the position that the state refers to.
+function innerMode(mode, state) {
+  var info;
+  while (mode.innerMode) {
+    info = mode.innerMode(state);
+    if (!info || info.mode == mode) { break }
+    state = info.state;
+    mode = info.mode;
+  }
+  return info || {mode: mode, state: state}
+}
+
+function startState(mode, a1, a2) {
+  return mode.startState ? mode.startState(a1, a2) : true
+}
+
+// STRING STREAM
+
+// Fed to the mode parsers, provides helper functions to make
+// parsers more succinct.
+
+var StringStream = function(string, tabSize, lineOracle) {
+  this.pos = this.start = 0;
+  this.string = string;
+  this.tabSize = tabSize || 8;
+  this.lastColumnPos = this.lastColumnValue = 0;
+  this.lineStart = 0;
+  this.lineOracle = lineOracle;
+};
+
+StringStream.prototype.eol = function () {return this.pos >= this.string.length};
+StringStream.prototype.sol = function () {return this.pos == this.lineStart};
+StringStream.prototype.peek = function () {return this.string.charAt(this.pos) || undefined};
+StringStream.prototype.next = function () {
+  if (this.pos < this.string.length)
+    { return this.string.charAt(this.pos++) }
+};
+StringStream.prototype.eat = function (match) {
+  var ch = this.string.charAt(this.pos);
+  var ok;
+  if (typeof match == "string") { ok = ch == match; }
+  else { ok = ch && (match.test ? match.test(ch) : match(ch)); }
+  if (ok) {++this.pos; return ch}
+};
+StringStream.prototype.eatWhile = function (match) {
+  var start = this.pos;
+  while (this.eat(match)){}
+  return this.pos > start
+};
+StringStream.prototype.eatSpace = function () {
+    var this$1 = this;
+
+  var start = this.pos;
+  while (/[\s\u00a0]/.test(this.string.charAt(this.pos))) { ++this$1.pos; }
+  return this.pos > start
+};
+StringStream.prototype.skipToEnd = function () {this.pos = this.string.length;};
+StringStream.prototype.skipTo = function (ch) {
+  var found = this.string.indexOf(ch, this.pos);
+  if (found > -1) {this.pos = found; return true}
+};
+StringStream.prototype.backUp = function (n) {this.pos -= n;};
+StringStream.prototype.column = function () {
+  if (this.lastColumnPos < this.start) {
+    this.lastColumnValue = countColumn(this.string, this.start, this.tabSize, this.lastColumnPos, this.lastColumnValue);
+    this.lastColumnPos = this.start;
+  }
+  return this.lastColumnValue - (this.lineStart ? countColumn(this.string, this.lineStart, this.tabSize) : 0)
+};
+StringStream.prototype.indentation = function () {
+  return countColumn(this.string, null, this.tabSize) -
+    (this.lineStart ? countColumn(this.string, this.lineStart, this.tabSize) : 0)
+};
+StringStream.prototype.match = function (pattern, consume, caseInsensitive) {
+  if (typeof pattern == "string") {
+    var cased = function (str) { return caseInsensitive ? str.toLowerCase() : str; };
+    var substr = this.string.substr(this.pos, pattern.length);
+    if (cased(substr) == cased(pattern)) {
+      if (consume !== false) { this.pos += pattern.length; }
+      return true
+    }
+  } else {
+    var match = this.string.slice(this.pos).match(pattern);
+    if (match && match.index > 0) { return null }
+    if (match && consume !== false) { this.pos += match[0].length; }
+    return match
+  }
+};
+StringStream.prototype.current = function (){return this.string.slice(this.start, this.pos)};
+StringStream.prototype.hideFirstChars = function (n, inner) {
+  this.lineStart += n;
+  try { return inner() }
+  finally { this.lineStart -= n; }
+};
+StringStream.prototype.lookAhead = function (n) {
+  var oracle = this.lineOracle;
+  return oracle && oracle.lookAhead(n)
+};
+
+var SavedContext = function(state, lookAhead) {
+  this.state = state;
+  this.lookAhead = lookAhead;
+};
+
+var Context = function(doc, state, line, lookAhead) {
+  this.state = state;
+  this.doc = doc;
+  this.line = line;
+  this.maxLookAhead = lookAhead || 0;
+};
+
+Context.prototype.lookAhead = function (n) {
+  var line = this.doc.getLine(this.line + n);
+  if (line != null && n > this.maxLookAhead) { this.maxLookAhead = n; }
+  return line
+};
+
+Context.prototype.nextLine = function () {
+  this.line++;
+  if (this.maxLookAhead > 0) { this.maxLookAhead--; }
+};
+
+Context.fromSaved = function (doc, saved, line) {
+  if (saved instanceof SavedContext)
+    { return new Context(doc, copyState(doc.mode, saved.state), line, saved.lookAhead) }
+  else
+    { return new Context(doc, copyState(doc.mode, saved), line) }
+};
+
+Context.prototype.save = function (copy) {
+  var state = copy !== false ? copyState(this.doc.mode, this.state) : this.state;
+  return this.maxLookAhead > 0 ? new SavedContext(state, this.maxLookAhead) : state
+};
+
+
+// Compute a style array (an array starting with a mode generation
+// -- for invalidation -- followed by pairs of end positions and
+// style strings), which is used to highlight the tokens on the
+// line.
+function highlightLine(cm, line, context, forceToEnd) {
+  // A styles array always starts with a number identifying the
+  // mode/overlays that it is based on (for easy invalidation).
+  var st = [cm.state.modeGen], lineClasses = {};
+  // Compute the base array of styles
+  runMode(cm, line.text, cm.doc.mode, context, function (end, style) { return st.push(end, style); },
+          lineClasses, forceToEnd);
+  var state = context.state;
+
+  // Run overlays, adjust style array.
+  var loop = function ( o ) {
+    var overlay = cm.state.overlays[o], i = 1, at = 0;
+    context.state = true;
+    runMode(cm, line.text, overlay.mode, context, function (end, style) {
+      var start = i;
+      // Ensure there's a token end at the current position, and that i points at it
+      while (at < end) {
+        var i_end = st[i];
+        if (i_end > end)
+          { st.splice(i, 1, end, st[i+1], i_end); }
+        i += 2;
+        at = Math.min(end, i_end);
+      }
+      if (!style) { return }
+      if (overlay.opaque) {
+        st.splice(start, i - start, end, "overlay " + style);
+        i = start + 2;
+      } else {
+        for (; start < i; start += 2) {
+          var cur = st[start+1];
+          st[start+1] = (cur ? cur + " " : "") + "overlay " + style;
+        }
+      }
+    }, lineClasses);
+  };
+
+  for (var o = 0; o < cm.state.overlays.length; ++o) loop( o );
+  context.state = state;
+
+  return {styles: st, classes: lineClasses.bgClass || lineClasses.textClass ? lineClasses : null}
+}
+
+function getLineStyles(cm, line, updateFrontier) {
+  if (!line.styles || line.styles[0] != cm.state.modeGen) {
+    var context = getContextBefore(cm, lineNo(line));
+    var resetState = line.text.length > cm.options.maxHighlightLength && copyState(cm.doc.mode, context.state);
+    var result = highlightLine(cm, line, context);
+    if (resetState) { context.state = resetState; }
+    line.stateAfter = context.save(!resetState);
+    line.styles = result.styles;
+    if (result.classes) { line.styleClasses = result.classes; }
+    else if (line.styleClasses) { line.styleClasses = null; }
+    if (updateFrontier === cm.doc.highlightFrontier)
+      { cm.doc.modeFrontier = Math.max(cm.doc.modeFrontier, ++cm.doc.highlightFrontier); }
+  }
+  return line.styles
+}
+
+function getContextBefore(cm, n, precise) {
+  var doc = cm.doc, display = cm.display;
+  if (!doc.mode.startState) { return new Context(doc, true, n) }
+  var start = findStartLine(cm, n, precise);
+  var saved = start > doc.first && getLine(doc, start - 1).stateAfter;
+  var context = saved ? Context.fromSaved(doc, saved, start) : new Context(doc, startState(doc.mode), start);
+
+  doc.iter(start, n, function (line) {
+    processLine(cm, line.text, context);
+    var pos = context.line;
+    line.stateAfter = pos == n - 1 || pos % 5 == 0 || pos >= display.viewFrom && pos < display.viewTo ? context.save() : null;
+    context.nextLine();
+  });
+  if (precise) { doc.modeFrontier = context.line; }
+  return context
+}
+
+// Lightweight form of highlight -- proceed over this line and
+// update state, but don't save a style array. Used for lines that
+// aren't currently visible.
+function processLine(cm, text, context, startAt) {
+  var mode = cm.doc.mode;
+  var stream = new StringStream(text, cm.options.tabSize, context);
+  stream.start = stream.pos = startAt || 0;
+  if (text == "") { callBlankLine(mode, context.state); }
+  while (!stream.eol()) {
+    readToken(mode, stream, context.state);
+    stream.start = stream.pos;
+  }
+}
+
+function callBlankLine(mode, state) {
+  if (mode.blankLine) { return mode.blankLine(state) }
+  if (!mode.innerMode) { return }
+  var inner = innerMode(mode, state);
+  if (inner.mode.blankLine) { return inner.mode.blankLine(inner.state) }
+}
+
+function readToken(mode, stream, state, inner) {
+  for (var i = 0; i < 10; i++) {
+    if (inner) { inner[0] = innerMode(mode, state).mode; }
+    var style = mode.token(stream, state);
+    if (stream.pos > stream.start) { return style }
+  }
+  throw new Error("Mode " + mode.name + " failed to advance stream.")
+}
+
+var Token = function(stream, type, state) {
+  this.start = stream.start; this.end = stream.pos;
+  this.string = stream.current();
+  this.type = type || null;
+  this.state = state;
+};
+
+// Utility for getTokenAt and getLineTokens
+function takeToken(cm, pos, precise, asArray) {
+  var doc = cm.doc, mode = doc.mode, style;
+  pos = clipPos(doc, pos);
+  var line = getLine(doc, pos.line), context = getContextBefore(cm, pos.line, precise);
+  var stream = new StringStream(line.text, cm.options.tabSize, context), tokens;
+  if (asArray) { tokens = []; }
+  while ((asArray || stream.pos < pos.ch) && !stream.eol()) {
+    stream.start = stream.pos;
+    style = readToken(mode, stream, context.state);
+    if (asArray) { tokens.push(new Token(stream, style, copyState(doc.mode, context.state))); }
+  }
+  return asArray ? tokens : new Token(stream, style, context.state)
+}
+
+function extractLineClasses(type, output) {
+  if (type) { for (;;) {
+    var lineClass = type.match(/(?:^|\s+)line-(background-)?(\S+)/);
+    if (!lineClass) { break }
+    type = type.slice(0, lineClass.index) + type.slice(lineClass.index + lineClass[0].length);
+    var prop = lineClass[1] ? "bgClass" : "textClass";
+    if (output[prop] == null)
+      { output[prop] = lineClass[2]; }
+    else if (!(new RegExp("(?:^|\s)" + lineClass[2] + "(?:$|\s)")).test(output[prop]))
+      { output[prop] += " " + lineClass[2]; }
+  } }
+  return type
+}
+
+// Run the given mode's parser over a line, calling f for each token.
+function runMode(cm, text, mode, context, f, lineClasses, forceToEnd) {
+  var flattenSpans = mode.flattenSpans;
+  if (flattenSpans == null) { flattenSpans = cm.options.flattenSpans; }
+  var curStart = 0, curStyle = null;
+  var stream = new StringStream(text, cm.options.tabSize, context), style;
+  var inner = cm.options.addModeClass && [null];
+  if (text == "") { extractLineClasses(callBlankLine(mode, context.state), lineClasses); }
+  while (!stream.eol()) {
+    if (stream.pos > cm.options.maxHighlightLength) {
+      flattenSpans = false;
+      if (forceToEnd) { processLine(cm, text, context, stream.pos); }
+      stream.pos = text.length;
+      style = null;
+    } else {
+      style = extractLineClasses(readToken(mode, stream, context.state, inner), lineClasses);
+    }
+    if (inner) {
+      var mName = inner[0].name;
+      if (mName) { style = "m-" + (style ? mName + " " + style : mName); }
+    }
+    if (!flattenSpans || curStyle != style) {
+      while (curStart < stream.start) {
+        curStart = Math.min(stream.start, curStart + 5000);
+        f(curStart, curStyle);
+      }
+      curStyle = style;
+    }
+    stream.start = stream.pos;
+  }
+  while (curStart < stream.pos) {
+    // Webkit seems to refuse to render text nodes longer than 57444
+    // characters, and returns inaccurate measurements in nodes
+    // starting around 5000 chars.
+    var pos = Math.min(stream.pos, curStart + 5000);
+    f(pos, curStyle);
+    curStart = pos;
+  }
+}
+
+// Finds the line to start with when starting a parse. Tries to
+// find a line with a stateAfter, so that it can start with a
+// valid state. If that fails, it returns the line with the
+// smallest indentation, which tends to need the least context to
+// parse correctly.
+function findStartLine(cm, n, precise) {
+  var minindent, minline, doc = cm.doc;
+  var lim = precise ? -1 : n - (cm.doc.mode.innerMode ? 1000 : 100);
+  for (var search = n; search > lim; --search) {
+    if (search <= doc.first) { return doc.first }
+    var line = getLine(doc, search - 1), after = line.stateAfter;
+    if (after && (!precise || search + (after instanceof SavedContext ? after.lookAhead : 0) <= doc.modeFrontier))
+      { return search }
+    var indented = countColumn(line.text, null, cm.options.tabSize);
+    if (minline == null || minindent > indented) {
+      minline = search - 1;
+      minindent = indented;
+    }
+  }
+  return minline
+}
+
+function retreatFrontier(doc, n) {
+  doc.modeFrontier = Math.min(doc.modeFrontier, n);
+  if (doc.highlightFrontier < n - 10) { return }
+  var start = doc.first;
+  for (var line = n - 1; line > start; line--) {
+    var saved = getLine(doc, line).stateAfter;
+    // change is on 3
+    // state on line 1 looked ahead 2 -- so saw 3
+    // test 1 + 2 < 3 should cover this
+    if (saved && (!(saved instanceof SavedContext) || line + saved.lookAhead < n)) {
+      start = line + 1;
+      break
+    }
+  }
+  doc.highlightFrontier = Math.min(doc.highlightFrontier, start);
+}
+
+// LINE DATA STRUCTURE
+
+// Line objects. These hold state related to a line, including
+// highlighting info (the styles array).
+var Line = function(text, markedSpans, estimateHeight) {
+  this.text = text;
+  attachMarkedSpans(this, markedSpans);
+  this.height = estimateHeight ? estimateHeight(this) : 1;
+};
+
+Line.prototype.lineNo = function () { return lineNo(this) };
+eventMixin(Line);
+
+// Change the content (text, markers) of a line. Automatically
+// invalidates cached information and tries to re-estimate the
+// line's height.
+function updateLine(line, text, markedSpans, estimateHeight) {
+  line.text = text;
+  if (line.stateAfter) { line.stateAfter = null; }
+  if (line.styles) { line.styles = null; }
+  if (line.order != null) { line.order = null; }
+  detachMarkedSpans(line);
+  attachMarkedSpans(line, markedSpans);
+  var estHeight = estimateHeight ? estimateHeight(line) : 1;
+  if (estHeight != line.height) { updateLineHeight(line, estHeight); }
+}
+
+// Detach a line from the document tree and its markers.
+function cleanUpLine(line) {
+  line.parent = null;
+  detachMarkedSpans(line);
+}
+
+// Convert a style as returned by a mode (either null, or a string
+// containing one or more styles) to a CSS style. This is cached,
+// and also looks for line-wide styles.
+var styleToClassCache = {};
+var styleToClassCacheWithMode = {};
+function interpretTokenStyle(style, options) {
+  if (!style || /^\s*$/.test(style)) { return null }
+  var cache = options.addModeClass ? styleToClassCacheWithMode : styleToClassCache;
+  return cache[style] ||
+    (cache[style] = style.replace(/\S+/g, "cm-$&"))
+}
+
+// Render the DOM representation of the text of a line. Also builds
+// up a 'line map', which points at the DOM nodes that represent
+// specific stretches of text, and is used by the measuring code.
+// The returned object contains the DOM node, this map, and
+// information about line-wide styles that were set by the mode.
+function buildLineContent(cm, lineView) {
+  // The padding-right forces the element to have a 'border', which
+  // is needed on Webkit to be able to get line-level bounding
+  // rectangles for it (in measureChar).
+  var content = eltP("span", null, null, webkit ? "padding-right: .1px" : null);
+  var builder = {pre: eltP("pre", [content], "CodeMirror-line"), content: content,
+                 col: 0, pos: 0, cm: cm,
+                 trailingSpace: false,
+                 splitSpaces: (ie || webkit) && cm.getOption("lineWrapping")};
+  lineView.measure = {};
+
+  // Iterate over the logical lines that make up this visual line.
+  for (var i = 0; i <= (lineView.rest ? lineView.rest.length : 0); i++) {
+    var line = i ? lineView.rest[i - 1] : lineView.line, order = (void 0);
+    builder.pos = 0;
+    builder.addToken = buildToken;
+    // Optionally wire in some hacks into the token-rendering
+    // algorithm, to deal with browser quirks.
+    if (hasBadBidiRects(cm.display.measure) && (order = getOrder(line, cm.doc.direction)))
+      { builder.addToken = buildTokenBadBidi(builder.addToken, order); }
+    builder.map = [];
+    var allowFrontierUpdate = lineView != cm.display.externalMeasured && lineNo(line);
+    insertLineContent(line, builder, getLineStyles(cm, line, allowFrontierUpdate));
+    if (line.styleClasses) {
+      if (line.styleClasses.bgClass)
+        { builder.bgClass = joinClasses(line.styleClasses.bgClass, builder.bgClass || ""); }
+      if (line.styleClasses.textClass)
+        { builder.textClass = joinClasses(line.styleClasses.textClass, builder.textClass || ""); }
+    }
+
+    // Ensure at least a single node is present, for measuring.
+    if (builder.map.length == 0)
+      { builder.map.push(0, 0, builder.content.appendChild(zeroWidthElement(cm.display.measure))); }
+
+    // Store the map and a cache object for the current logical line
+    if (i == 0) {
+      lineView.measure.map = builder.map;
+      lineView.measure.cache = {};
+    } else {
+      (lineView.measure.maps || (lineView.measure.maps = [])).push(builder.map)
+      ;(lineView.measure.caches || (lineView.measure.caches = [])).push({});
+    }
+  }
+
+  // See issue #2901
+  if (webkit) {
+    var last = builder.content.lastChild;
+    if (/\bcm-tab\b/.test(last.className) || (last.querySelector && last.querySelector(".cm-tab")))
+      { builder.content.className = "cm-tab-wrap-hack"; }
+  }
+
+  signal(cm, "renderLine", cm, lineView.line, builder.pre);
+  if (builder.pre.className)
+    { builder.textClass = joinClasses(builder.pre.className, builder.textClass || ""); }
+
+  return builder
+}
+
+function defaultSpecialCharPlaceholder(ch) {
+  var token = elt("span", "\u2022", "cm-invalidchar");
+  token.title = "\\u" + ch.charCodeAt(0).toString(16);
+  token.setAttribute("aria-label", token.title);
+  return token
+}
+
+// Build up the DOM representation for a single token, and add it to
+// the line map. Takes care to render special characters separately.
+function buildToken(builder, text, style, startStyle, endStyle, title, css) {
+  if (!text) { return }
+  var displayText = builder.splitSpaces ? splitSpaces(text, builder.trailingSpace) : text;
+  var special = builder.cm.state.specialChars, mustWrap = false;
+  var content;
+  if (!special.test(text)) {
+    builder.col += text.length;
+    content = document.createTextNode(displayText);
+    builder.map.push(builder.pos, builder.pos + text.length, content);
+    if (ie && ie_version < 9) { mustWrap = true; }
+    builder.pos += text.length;
+  } else {
+    content = document.createDocumentFragment();
+    var pos = 0;
+    while (true) {
+      special.lastIndex = pos;
+      var m = special.exec(text);
+      var skipped = m ? m.index - pos : text.length - pos;
+      if (skipped) {
+        var txt = document.createTextNode(displayText.slice(pos, pos + skipped));
+        if (ie && ie_version < 9) { content.appendChild(elt("span", [txt])); }
+        else { content.appendChild(txt); }
+        builder.map.push(builder.pos, builder.pos + skipped, txt);
+        builder.col += skipped;
+        builder.pos += skipped;
+      }
+      if (!m) { break }
+      pos += skipped + 1;
+      var txt$1 = (void 0);
+      if (m[0] == "\t") {
+        var tabSize = builder.cm.options.tabSize, tabWidth = tabSize - builder.col % tabSize;
+        txt$1 = content.appendChild(elt("span", spaceStr(tabWidth), "cm-tab"));
+        txt$1.setAttribute("role", "presentation");
+        txt$1.setAttribute("cm-text", "\t");
+        builder.col += tabWidth;
+      } else if (m[0] == "\r" || m[0] == "\n") {
+        txt$1 = content.appendChild(elt("span", m[0] == "\r" ? "\u240d" : "\u2424", "cm-invalidchar"));
+        txt$1.setAttribute("cm-text", m[0]);
+        builder.col += 1;
+      } else {
+        txt$1 = builder.cm.options.specialCharPlaceholder(m[0]);
+        txt$1.setAttribute("cm-text", m[0]);
+        if (ie && ie_version < 9) { content.appendChild(elt("span", [txt$1])); }
+        else { content.appendChild(txt$1); }
+        builder.col += 1;
+      }
+      builder.map.push(builder.pos, builder.pos + 1, txt$1);
+      builder.pos++;
+    }
+  }
+  builder.trailingSpace = displayText.charCodeAt(text.length - 1) == 32;
+  if (style || startStyle || endStyle || mustWrap || css) {
+    var fullStyle = style || "";
+    if (startStyle) { fullStyle += startStyle; }
+    if (endStyle) { fullStyle += endStyle; }
+    var token = elt("span", [content], fullStyle, css);
+    if (title) { token.title = title; }
+    return builder.content.appendChild(token)
+  }
+  builder.content.appendChild(content);
+}
+
+function splitSpaces(text, trailingBefore) {
+  if (text.length > 1 && !/  /.test(text)) { return text }
+  var spaceBefore = trailingBefore, result = "";
+  for (var i = 0; i < text.length; i++) {
+    var ch = text.charAt(i);
+    if (ch == " " && spaceBefore && (i == text.length - 1 || text.charCodeAt(i + 1) == 32))
+      { ch = "\u00a0"; }
+    result += ch;
+    spaceBefore = ch == " ";
+  }
+  return result
+}
+
+// Work around nonsense dimensions being reported for stretches of
+// right-to-left text.
+function buildTokenBadBidi(inner, order) {
+  return function (builder, text, style, startStyle, endStyle, title, css) {
+    style = style ? style + " cm-force-border" : "cm-force-border";
+    var start = builder.pos, end = start + text.length;
+    for (;;) {
+      // Find the part that overlaps with the start of this text
+      var part = (void 0);
+      for (var i = 0; i < order.length; i++) {
+        part = order[i];
+        if (part.to > start && part.from <= start) { break }
+      }
+      if (part.to >= end) { return inner(builder, text, style, startStyle, endStyle, title, css) }
+      inner(builder, text.slice(0, part.to - start), style, startStyle, null, title, css);
+      startStyle = null;
+      text = text.slice(part.to - start);
+      start = part.to;
+    }
+  }
+}
+
+function buildCollapsedSpan(builder, size, marker, ignoreWidget) {
+  var widget = !ignoreWidget && marker.widgetNode;
+  if (widget) { builder.map.push(builder.pos, builder.pos + size, widget); }
+  if (!ignoreWidget && builder.cm.display.input.needsContentAttribute) {
+    if (!widget)
+      { widget = builder.content.appendChild(document.createElement("span")); }
+    widget.setAttribute("cm-marker", marker.id);
+  }
+  if (widget) {
+    builder.cm.display.input.setUneditable(widget);
+    builder.content.appendChild(widget);
+  }
+  builder.pos += size;
+  builder.trailingSpace = false;
+}
+
+// Outputs a number of spans to make up a line, taking highlighting
+// and marked text into account.
+function insertLineContent(line, builder, styles) {
+  var spans = line.markedSpans, allText = line.text, at = 0;
+  if (!spans) {
+    for (var i$1 = 1; i$1 < styles.length; i$1+=2)
+      { builder.addToken(builder, allText.slice(at, at = styles[i$1]), interpretTokenStyle(styles[i$1+1], builder.cm.options)); }
+    return
+  }
+
+  var len = allText.length, pos = 0, i = 1, text = "", style, css;
+  var nextChange = 0, spanStyle, spanEndStyle, spanStartStyle, title, collapsed;
+  for (;;) {
+    if (nextChange == pos) { // Update current marker set
+      spanStyle = spanEndStyle = spanStartStyle = title = css = "";
+      collapsed = null; nextChange = Infinity;
+      var foundBookmarks = [], endStyles = (void 0);
+      for (var j = 0; j < spans.length; ++j) {
+        var sp = spans[j], m = sp.marker;
+        if (m.type == "bookmark" && sp.from == pos && m.widgetNode) {
+          foundBookmarks.push(m);
+        } else if (sp.from <= pos && (sp.to == null || sp.to > pos || m.collapsed && sp.to == pos && sp.from == pos)) {
+          if (sp.to != null && sp.to != pos && nextChange > sp.to) {
+            nextChange = sp.to;
+            spanEndStyle = "";
+          }
+          if (m.className) { spanStyle += " " + m.className; }
+          if (m.css) { css = (css ? css + ";" : "") + m.css; }
+          if (m.startStyle && sp.from == pos) { spanStartStyle += " " + m.startStyle; }
+          if (m.endStyle && sp.to == nextChange) { (endStyles || (endStyles = [])).push(m.endStyle, sp.to); }
+          if (m.title && !title) { title = m.title; }
+          if (m.collapsed && (!collapsed || compareCollapsedMarkers(collapsed.marker, m) < 0))
+            { collapsed = sp; }
+        } else if (sp.from > pos && nextChange > sp.from) {
+          nextChange = sp.from;
+        }
+      }
+      if (endStyles) { for (var j$1 = 0; j$1 < endStyles.length; j$1 += 2)
+        { if (endStyles[j$1 + 1] == nextChange) { spanEndStyle += " " + endStyles[j$1]; } } }
+
+      if (!collapsed || collapsed.from == pos) { for (var j$2 = 0; j$2 < foundBookmarks.length; ++j$2)
+        { buildCollapsedSpan(builder, 0, foundBookmarks[j$2]); } }
+      if (collapsed && (collapsed.from || 0) == pos) {
+        buildCollapsedSpan(builder, (collapsed.to == null ? len + 1 : collapsed.to) - pos,
+                           collapsed.marker, collapsed.from == null);
+        if (collapsed.to == null) { return }
+        if (collapsed.to == pos) { collapsed = false; }
+      }
+    }
+    if (pos >= len) { break }
+
+    var upto = Math.min(len, nextChange);
+    while (true) {
+      if (text) {
+        var end = pos + text.length;
+        if (!collapsed) {
+          var tokenText = end > upto ? text.slice(0, upto - pos) : text;
+          builder.addToken(builder, tokenText, style ? style + spanStyle : spanStyle,
+                           spanStartStyle, pos + tokenText.length == nextChange ? spanEndStyle : "", title, css);
+        }
+        if (end >= upto) {text = text.slice(upto - pos); pos = upto; break}
+        pos = end;
+        spanStartStyle = "";
+      }
+      text = allText.slice(at, at = styles[i++]);
+      style = interpretTokenStyle(styles[i++], builder.cm.options);
+    }
+  }
+}
+
+
+// These objects are used to represent the visible (currently drawn)
+// part of the document. A LineView may correspond to multiple
+// logical lines, if those are connected by collapsed ranges.
+function LineView(doc, line, lineN) {
+  // The starting line
+  this.line = line;
+  // Continuing lines, if any
+  this.rest = visualLineContinued(line);
+  // Number of logical lines in this visual line
+  this.size = this.rest ? lineNo(lst(this.rest)) - lineN + 1 : 1;
+  this.node = this.text = null;
+  this.hidden = lineIsHidden(doc, line);
+}
+
+// Create a range of LineView objects for the given lines.
+function buildViewArray(cm, from, to) {
+  var array = [], nextPos;
+  for (var pos = from; pos < to; pos = nextPos) {
+    var view = new LineView(cm.doc, getLine(cm.doc, pos), pos);
+    nextPos = pos + view.size;
+    array.push(view);
+  }
+  return array
+}
+
+var operationGroup = null;
+
+function pushOperation(op) {
+  if (operationGroup) {
+    operationGroup.ops.push(op);
+  } else {
+    op.ownsGroup = operationGroup = {
+      ops: [op],
+      delayedCallbacks: []
+    };
+  }
+}
+
+function fireCallbacksForOps(group) {
+  // Calls delayed callbacks and cursorActivity handlers until no
+  // new ones appear
+  var callbacks = group.delayedCallbacks, i = 0;
+  do {
+    for (; i < callbacks.length; i++)
+      { callbacks[i].call(null); }
+    for (var j = 0; j < group.ops.length; j++) {
+      var op = group.ops[j];
+      if (op.cursorActivityHandlers)
+        { while (op.cursorActivityCalled < op.cursorActivityHandlers.length)
+          { op.cursorActivityHandlers[op.cursorActivityCalled++].call(null, op.cm); } }
+    }
+  } while (i < callbacks.length)
+}
+
+function finishOperation(op, endCb) {
+  var group = op.ownsGroup;
+  if (!group) { return }
+
+  try { fireCallbacksForOps(group); }
+  finally {
+    operationGroup = null;
+    endCb(group);
+  }
+}
+
+var orphanDelayedCallbacks = null;
+
+// Often, we want to signal events at a point where we are in the
+// middle of some work, but don't want the handler to start calling
+// other methods on the editor, which might be in an inconsistent
+// state or simply not expect any other events to happen.
+// signalLater looks whether there are any handlers, and schedules
+// them to be executed when the last operation ends, or, if no
+// operation is active, when a timeout fires.
+function signalLater(emitter, type /*, values...*/) {
+  var arr = getHandlers(emitter, type);
+  if (!arr.length) { return }
+  var args = Array.prototype.slice.call(arguments, 2), list;
+  if (operationGroup) {
+    list = operationGroup.delayedCallbacks;
+  } else if (orphanDelayedCallbacks) {
+    list = orphanDelayedCallbacks;
+  } else {
+    list = orphanDelayedCallbacks = [];
+    setTimeout(fireOrphanDelayed, 0);
+  }
+  var loop = function ( i ) {
+    list.push(function () { return arr[i].apply(null, args); });
+  };
+
+  for (var i = 0; i < arr.length; ++i)
+    loop( i );
+}
+
+function fireOrphanDelayed() {
+  var delayed = orphanDelayedCallbacks;
+  orphanDelayedCallbacks = null;
+  for (var i = 0; i < delayed.length; ++i) { delayed[i](); }
+}
+
+// When an aspect of a line changes, a string is added to
+// lineView.changes. This updates the relevant part of the line's
+// DOM structure.
+function updateLineForChanges(cm, lineView, lineN, dims) {
+  for (var j = 0; j < lineView.changes.length; j++) {
+    var type = lineView.changes[j];
+    if (type == "text") { updateLineText(cm, lineView); }
+    else if (type == "gutter") { updateLineGutter(cm, lineView, lineN, dims); }
+    else if (type == "class") { updateLineClasses(cm, lineView); }
+    else if (type == "widget") { updateLineWidgets(cm, lineView, dims); }
+  }
+  lineView.changes = null;
+}
+
+// Lines with gutter elements, widgets or a background class need to
+// be wrapped, and have the extra elements added to the wrapper div
+function ensureLineWrapped(lineView) {
+  if (lineView.node == lineView.text) {
+    lineView.node = elt("div", null, null, "position: relative");
+    if (lineView.text.parentNode)
+      { lineView.text.parentNode.replaceChild(lineView.node, lineView.text); }
+    lineView.node.appendChild(lineView.text);
+    if (ie && ie_version < 8) { lineView.node.style.zIndex = 2; }
+  }
+  return lineView.node
+}
+
+function updateLineBackground(cm, lineView) {
+  var cls = lineView.bgClass ? lineView.bgClass + " " + (lineView.line.bgClass || "") : lineView.line.bgClass;
+  if (cls) { cls += " CodeMirror-linebackground"; }
+  if (lineView.background) {
+    if (cls) { lineView.background.className = cls; }
+    else { lineView.background.parentNode.removeChild(lineView.background); lineView.background = null; }
+  } else if (cls) {
+    var wrap = ensureLineWrapped(lineView);
+    lineView.background = wrap.insertBefore(elt("div", null, cls), wrap.firstChild);
+    cm.display.input.setUneditable(lineView.background);
+  }
+}
+
+// Wrapper around buildLineContent which will reuse the structure
+// in display.externalMeasured when possible.
+function getLineContent(cm, lineView) {
+  var ext = cm.display.externalMeasured;
+  if (ext && ext.line == lineView.line) {
+    cm.display.externalMeasured = null;
+    lineView.measure = ext.measure;
+    return ext.built
+  }
+  return buildLineContent(cm, lineView)
+}
+
+// Redraw the line's text. Interacts with the background and text
+// classes because the mode may output tokens that influence these
+// classes.
+function updateLineText(cm, lineView) {
+  var cls = lineView.text.className;
+  var built = getLineContent(cm, lineView);
+  if (lineView.text == lineView.node) { lineView.node = built.pre; }
+  lineView.text.parentNode.replaceChild(built.pre, lineView.text);
+  lineView.text = built.pre;
+  if (built.bgClass != lineView.bgClass || built.textClass != lineView.textClass) {
+    lineView.bgClass = built.bgClass;
+    lineView.textClass = built.textClass;
+    updateLineClasses(cm, lineView);
+  } else if (cls) {
+    lineView.text.className = cls;
+  }
+}
+
+function updateLineClasses(cm, lineView) {
+  updateLineBackground(cm, lineView);
+  if (lineView.line.wrapClass)
+    { ensureLineWrapped(lineView).className = lineView.line.wrapClass; }
+  else if (lineView.node != lineView.text)
+    { lineView.node.className = ""; }
+  var textClass = lineView.textClass ? lineView.textClass + " " + (lineView.line.textClass || "") : lineView.line.textClass;
+  lineView.text.className = textClass || "";
+}
+
+function updateLineGutter(cm, lineView, lineN, dims) {
+  if (lineView.gutter) {
+    lineView.node.removeChild(lineView.gutter);
+    lineView.gutter = null;
+  }
+  if (lineView.gutterBackground) {
+    lineView.node.removeChild(lineView.gutterBackground);
+    lineView.gutterBackground = null;
+  }
+  if (lineView.line.gutterClass) {
+    var wrap = ensureLineWrapped(lineView);
+    lineView.gutterBackground = elt("div", null, "CodeMirror-gutter-background " + lineView.line.gutterClass,
+                                    ("left: " + (cm.options.fixedGutter ? dims.fixedPos : -dims.gutterTotalWidth) + "px; width: " + (dims.gutterTotalWidth) + "px"));
+    cm.display.input.setUneditable(lineView.gutterBackground);
+    wrap.insertBefore(lineView.gutterBackground, lineView.text);
+  }
+  var markers = lineView.line.gutterMarkers;
+  if (cm.options.lineNumbers || markers) {
+    var wrap$1 = ensureLineWrapped(lineView);
+    var gutterWrap = lineView.gutter = elt("div", null, "CodeMirror-gutter-wrapper", ("left: " + (cm.options.fixedGutter ? dims.fixedPos : -dims.gutterTotalWidth) + "px"));
+    cm.display.input.setUneditable(gutterWrap);
+    wrap$1.insertBefore(gutterWrap, lineView.text);
+    if (lineView.line.gutterClass)
+      { gutterWrap.className += " " + lineView.line.gutterClass; }
+    if (cm.options.lineNumbers && (!markers || !markers["CodeMirror-linenumbers"]))
+      { lineView.lineNumber = gutterWrap.appendChild(
+        elt("div", lineNumberFor(cm.options, lineN),
+            "CodeMirror-linenumber CodeMirror-gutter-elt",
+            ("left: " + (dims.gutterLeft["CodeMirror-linenumbers"]) + "px; width: " + (cm.display.lineNumInnerWidth) + "px"))); }
+    if (markers) { for (var k = 0; k < cm.options.gutters.length; ++k) {
+      var id = cm.options.gutters[k], found = markers.hasOwnProperty(id) && markers[id];
+      if (found)
+        { gutterWrap.appendChild(elt("div", [found], "CodeMirror-gutter-elt",
+                                   ("left: " + (dims.gutterLeft[id]) + "px; width: " + (dims.gutterWidth[id]) + "px"))); }
+    } }
+  }
+}
+
+function updateLineWidgets(cm, lineView, dims) {
+  if (lineView.alignable) { lineView.alignable = null; }
+  for (var node = lineView.node.firstChild, next = (void 0); node; node = next) {
+    next = node.nextSibling;
+    if (node.className == "CodeMirror-linewidget")
+      { lineView.node.removeChild(node); }
+  }
+  insertLineWidgets(cm, lineView, dims);
+}
+
+// Build a line's DOM representation from scratch
+function buildLineElement(cm, lineView, lineN, dims) {
+  var built = getLineContent(cm, lineView);
+  lineView.text = lineView.node = built.pre;
+  if (built.bgClass) { lineView.bgClass = built.bgClass; }
+  if (built.textClass) { lineView.textClass = built.textClass; }
+
+  updateLineClasses(cm, lineView);
+  updateLineGutter(cm, lineView, lineN, dims);
+  insertLineWidgets(cm, lineView, dims);
+  return lineView.node
+}
+
+// A lineView may contain multiple logical lines (when merged by
+// collapsed spans). The widgets for all of them need to be drawn.
+function insertLineWidgets(cm, lineView, dims) {
+  insertLineWidgetsFor(cm, lineView.line, lineView, dims, true);
+  if (lineView.rest) { for (var i = 0; i < lineView.rest.length; i++)
+    { insertLineWidgetsFor(cm, lineView.rest[i], lineView, dims, false); } }
+}
+
+function insertLineWidgetsFor(cm, line, lineView, dims, allowAbove) {
+  if (!line.widgets) { return }
+  var wrap = ensureLineWrapped(lineView);
+  for (var i = 0, ws = line.widgets; i < ws.length; ++i) {
+    var widget = ws[i], node = elt("div", [widget.node], "CodeMirror-linewidget");
+    if (!widget.handleMouseEvents) { node.setAttribute("cm-ignore-events", "true"); }
+    positionLineWidget(widget, node, lineView, dims);
+    cm.display.input.setUneditable(node);
+    if (allowAbove && widget.above)
+      { wrap.insertBefore(node, lineView.gutter || lineView.text); }
+    else
+      { wrap.appendChild(node); }
+    signalLater(widget, "redraw");
+  }
+}
+
+function positionLineWidget(widget, node, lineView, dims) {
+  if (widget.noHScroll) {
+    (lineView.alignable || (lineView.alignable = [])).push(node);
+    var width = dims.wrapperWidth;
+    node.style.left = dims.fixedPos + "px";
+    if (!widget.coverGutter) {
+      width -= dims.gutterTotalWidth;
+      node.style.paddingLeft = dims.gutterTotalWidth + "px";
+    }
+    node.style.width = width + "px";
+  }
+  if (widget.coverGutter) {
+    node.style.zIndex = 5;
+    node.style.position = "relative";
+    if (!widget.noHScroll) { node.style.marginLeft = -dims.gutterTotalWidth + "px"; }
+  }
+}
+
+function widgetHeight(widget) {
+  if (widget.height != null) { return widget.height }
+  var cm = widget.doc.cm;
+  if (!cm) { return 0 }
+  if (!contains(document.body, widget.node)) {
+    var parentStyle = "position: relative;";
+    if (widget.coverGutter)
+      { parentStyle += "margin-left: -" + cm.display.gutters.offsetWidth + "px;"; }
+    if (widget.noHScroll)
+      { parentStyle += "width: " + cm.display.wrapper.clientWidth + "px;"; }
+    removeChildrenAndAdd(cm.display.measure, elt("div", [widget.node], null, parentStyle));
+  }
+  return widget.height = widget.node.parentNode.offsetHeight
+}
+
+// Return true when the given mouse event happened in a widget
+function eventInWidget(display, e) {
+  for (var n = e_target(e); n != display.wrapper; n = n.parentNode) {
+    if (!n || (n.nodeType == 1 && n.getAttribute("cm-ignore-events") == "true") ||
+        (n.parentNode == display.sizer && n != display.mover))
+      { return true }
+  }
+}
+
+// POSITION MEASUREMENT
+
+function paddingTop(display) {return display.lineSpace.offsetTop}
+function paddingVert(display) {return display.mover.offsetHeight - display.lineSpace.offsetHeight}
+function paddingH(display) {
+  if (display.cachedPaddingH) { return display.cachedPaddingH }
+  var e = removeChildrenAndAdd(display.measure, elt("pre", "x"));
+  var style = window.getComputedStyle ? window.getComputedStyle(e) : e.currentStyle;
+  var data = {left: parseInt(style.paddingLeft), right: parseInt(style.paddingRight)};
+  if (!isNaN(data.left) && !isNaN(data.right)) { display.cachedPaddingH = data; }
+  return data
+}
+
+function scrollGap(cm) { return scrollerGap - cm.display.nativeBarWidth }
+function displayWidth(cm) {
+  return cm.display.scroller.clientWidth - scrollGap(cm) - cm.display.barWidth
+}
+function displayHeight(cm) {
+  return cm.display.scroller.clientHeight - scrollGap(cm) - cm.display.barHeight
+}
+
+// Ensure the lineView.wrapping.heights array is populated. This is
+// an array of bottom offsets for the lines that make up a drawn
+// line. When lineWrapping is on, there might be more than one
+// height.
+function ensureLineHeights(cm, lineView, rect) {
+  var wrapping = cm.options.lineWrapping;
+  var curWidth = wrapping && displayWidth(cm);
+  if (!lineView.measure.heights || wrapping && lineView.measure.width != curWidth) {
+    var heights = lineView.measure.heights = [];
+    if (wrapping) {
+      lineView.measure.width = curWidth;
+      var rects = lineView.text.firstChild.getClientRects();
+      for (var i = 0; i < rects.length - 1; i++) {
+        var cur = rects[i], next = rects[i + 1];
+        if (Math.abs(cur.bottom - next.bottom) > 2)
+          { heights.push((cur.bottom + next.top) / 2 - rect.top); }
+      }
+    }
+    heights.push(rect.bottom - rect.top);
+  }
+}
+
+// Find a line map (mapping character offsets to text nodes) and a
+// measurement cache for the given line number. (A line view might
+// contain multiple lines when collapsed ranges are present.)
+function mapFromLineView(lineView, line, lineN) {
+  if (lineView.line == line)
+    { return {map: lineView.measure.map, cache: lineView.measure.cache} }
+  for (var i = 0; i < lineView.rest.length; i++)
+    { if (lineView.rest[i] == line)
+      { return {map: lineView.measure.maps[i], cache: lineView.measure.caches[i]} } }
+  for (var i$1 = 0; i$1 < lineView.rest.length; i$1++)
+    { if (lineNo(lineView.rest[i$1]) > lineN)
+      { return {map: lineView.measure.maps[i$1], cache: lineView.measure.caches[i$1], before: true} } }
+}
+
+// Render a line into the hidden node display.externalMeasured. Used
+// when measurement is needed for a line that's not in the viewport.
+function updateExternalMeasurement(cm, line) {
+  line = visualLine(line);
+  var lineN = lineNo(line);
+  var view = cm.display.externalMeasured = new LineView(cm.doc, line, lineN);
+  view.lineN = lineN;
+  var built = view.built = buildLineContent(cm, view);
+  view.text = built.pre;
+  removeChildrenAndAdd(cm.display.lineMeasure, built.pre);
+  return view
+}
+
+// Get a {top, bottom, left, right} box (in line-local coordinates)
+// for a given character.
+function measureChar(cm, line, ch, bias) {
+  return measureCharPrepared(cm, prepareMeasureForLine(cm, line), ch, bias)
+}
+
+// Find a line view that corresponds to the given line number.
+function findViewForLine(cm, lineN) {
+  if (lineN >= cm.display.viewFrom && lineN < cm.display.viewTo)
+    { return cm.display.view[findViewIndex(cm, lineN)] }
+  var ext = cm.display.externalMeasured;
+  if (ext && lineN >= ext.lineN && lineN < ext.lineN + ext.size)
+    { return ext }
+}
+
+// Measurement can be split in two steps, the set-up work that
+// applies to the whole line, and the measurement of the actual
+// character. Functions like coordsChar, that need to do a lot of
+// measurements in a row, can thus ensure that the set-up work is
+// only done once.
+function prepareMeasureForLine(cm, line) {
+  var lineN = lineNo(line);
+  var view = findViewForLine(cm, lineN);
+  if (view && !view.text) {
+    view = null;
+  } else if (view && view.changes) {
+    updateLineForChanges(cm, view, lineN, getDimensions(cm));
+    cm.curOp.forceUpdate = true;
+  }
+  if (!view)
+    { view = updateExternalMeasurement(cm, line); }
+
+  var info = mapFromLineView(view, line, lineN);
+  return {
+    line: line, view: view, rect: null,
+    map: info.map, cache: info.cache, before: info.before,
+    hasHeights: false
+  }
+}
+
+// Given a prepared measurement object, measures the position of an
+// actual character (or fetches it from the cache).
+function measureCharPrepared(cm, prepared, ch, bias, varHeight) {
+  if (prepared.before) { ch = -1; }
+  var key = ch + (bias || ""), found;
+  if (prepared.cache.hasOwnProperty(key)) {
+    found = prepared.cache[key];
+  } else {
+    if (!prepared.rect)
+      { prepared.rect = prepared.view.text.getBoundingClientRect(); }
+    if (!prepared.hasHeights) {
+      ensureLineHeights(cm, prepared.view, prepared.rect);
+      prepared.hasHeights = true;
+    }
+    found = measureCharInner(cm, prepared, ch, bias);
+    if (!found.bogus) { prepared.cache[key] = found; }
+  }
+  return {left: found.left, right: found.right,
+          top: varHeight ? found.rtop : found.top,
+          bottom: varHeight ? found.rbottom : found.bottom}
+}
+
+var nullRect = {left: 0, right: 0, top: 0, bottom: 0};
+
+function nodeAndOffsetInLineMap(map$$1, ch, bias) {
+  var node, start, end, collapse, mStart, mEnd;
+  // First, search the line map for the text node corresponding to,
+  // or closest to, the target character.
+  for (var i = 0; i < map$$1.length; i += 3) {
+    mStart = map$$1[i];
+    mEnd = map$$1[i + 1];
+    if (ch < mStart) {
+      start = 0; end = 1;
+      collapse = "left";
+    } else if (ch < mEnd) {
+      start = ch - mStart;
+      end = start + 1;
+    } else if (i == map$$1.length - 3 || ch == mEnd && map$$1[i + 3] > ch) {
+      end = mEnd - mStart;
+      start = end - 1;
+      if (ch >= mEnd) { collapse = "right"; }
+    }
+    if (start != null) {
+      node = map$$1[i + 2];
+      if (mStart == mEnd && bias == (node.insertLeft ? "left" : "right"))
+        { collapse = bias; }
+      if (bias == "left" && start == 0)
+        { while (i && map$$1[i - 2] == map$$1[i - 3] && map$$1[i - 1].insertLeft) {
+          node = map$$1[(i -= 3) + 2];
+          collapse = "left";
+        } }
+      if (bias == "right" && start == mEnd - mStart)
+        { while (i < map$$1.length - 3 && map$$1[i + 3] == map$$1[i + 4] && !map$$1[i + 5].insertLeft) {
+          node = map$$1[(i += 3) + 2];
+          collapse = "right";
+        } }
+      break
+    }
+  }
+  return {node: node, start: start, end: end, collapse: collapse, coverStart: mStart, coverEnd: mEnd}
+}
+
+function getUsefulRect(rects, bias) {
+  var rect = nullRect;
+  if (bias == "left") { for (var i = 0; i < rects.length; i++) {
+    if ((rect = rects[i]).left != rect.right) { break }
+  } } else { for (var i$1 = rects.length - 1; i$1 >= 0; i$1--) {
+    if ((rect = rects[i$1]).left != rect.right) { break }
+  } }
+  return rect
+}
+
+function measureCharInner(cm, prepared, ch, bias) {
+  var place = nodeAndOffsetInLineMap(prepared.map, ch, bias);
+  var node = place.node, start = place.start, end = place.end, collapse = place.collapse;
+
+  var rect;
+  if (node.nodeType == 3) { // If it is a text node, use a range to retrieve the coordinates.
+    for (var i$1 = 0; i$1 < 4; i$1++) { // Retry a maximum of 4 times when nonsense rectangles are returned
+      while (start && isExtendingChar(prepared.line.text.charAt(place.coverStart + start))) { --start; }
+      while (place.coverStart + end < place.coverEnd && isExtendingChar(prepared.line.text.charAt(place.coverStart + end))) { ++end; }
+      if (ie && ie_version < 9 && start == 0 && end == place.coverEnd - place.coverStart)
+        { rect = node.parentNode.getBoundingClientRect(); }
+      else
+        { rect = getUsefulRect(range(node, start, end).getClientRects(), bias); }
+      if (rect.left || rect.right || start == 0) { break }
+      end = start;
+      start = start - 1;
+      collapse = "right";
+    }
+    if (ie && ie_version < 11) { rect = maybeUpdateRectForZooming(cm.display.measure, rect); }
+  } else { // If it is a widget, simply get the box for the whole widget.
+    if (start > 0) { collapse = bias = "right"; }
+    var rects;
+    if (cm.options.lineWrapping && (rects = node.getClientRects()).length > 1)
+      { rect = rects[bias == "right" ? rects.length - 1 : 0]; }
+    else
+      { rect = node.getBoundingClientRect(); }
+  }
+  if (ie && ie_version < 9 && !start && (!rect || !rect.left && !rect.right)) {
+    var rSpan = node.parentNode.getClientRects()[0];
+    if (rSpan)
+      { rect = {left: rSpan.left, right: rSpan.left + charWidth(cm.display), top: rSpan.top, bottom: rSpan.bottom}; }
+    else
+      { rect = nullRect; }
+  }
+
+  var rtop = rect.top - prepared.rect.top, rbot = rect.bottom - prepared.rect.top;
+  var mid = (rtop + rbot) / 2;
+  var heights = prepared.view.measure.heights;
+  var i = 0;
+  for (; i < heights.length - 1; i++)
+    { if (mid < heights[i]) { break } }
+  var top = i ? heights[i - 1] : 0, bot = heights[i];
+  var result = {left: (collapse == "right" ? rect.right : rect.left) - prepared.rect.left,
+                right: (collapse == "left" ? rect.left : rect.right) - prepared.rect.left,
+                top: top, bottom: bot};
+  if (!rect.left && !rect.right) { result.bogus = true; }
+  if (!cm.options.singleCursorHeightPerLine) { result.rtop = rtop; result.rbottom = rbot; }
+
+  return result
+}
+
+// Work around problem with bounding client rects on ranges being
+// returned incorrectly when zoomed on IE10 and below.
+function maybeUpdateRectForZooming(measure, rect) {
+  if (!window.screen || screen.logicalXDPI == null ||
+      screen.logicalXDPI == screen.deviceXDPI || !hasBadZoomedRects(measure))
+    { return rect }
+  var scaleX = screen.logicalXDPI / screen.deviceXDPI;
+  var scaleY = screen.logicalYDPI / screen.deviceYDPI;
+  return {left: rect.left * scaleX, right: rect.right * scaleX,
+          top: rect.top * scaleY, bottom: rect.bottom * scaleY}
+}
+
+function clearLineMeasurementCacheFor(lineView) {
+  if (lineView.measure) {
+    lineView.measure.cache = {};
+    lineView.measure.heights = null;
+    if (lineView.rest) { for (var i = 0; i < lineView.rest.length; i++)
+      { lineView.measure.caches[i] = {}; } }
+  }
+}
+
+function clearLineMeasurementCache(cm) {
+  cm.display.externalMeasure = null;
+  removeChildren(cm.display.lineMeasure);
+  for (var i = 0; i < cm.display.view.length; i++)
+    { clearLineMeasurementCacheFor(cm.display.view[i]); }
+}
+
+function clearCaches(cm) {
+  clearLineMeasurementCache(cm);
+  cm.display.cachedCharWidth = cm.display.cachedTextHeight = cm.display.cachedPaddingH = null;
+  if (!cm.options.lineWrapping) { cm.display.maxLineChanged = true; }
+  cm.display.lineNumChars = null;
+}
+
+function pageScrollX() {
+  // Work around https://bugs.chromium.org/p/chromium/issues/detail?id=489206
+  // which causes page_Offset and bounding client rects to use
+  // different reference viewports and invalidate our calculations.
+  if (chrome && android) { return -(document.body.getBoundingClientRect().left - parseInt(getComputedStyle(document.body).marginLeft)) }
+  return window.pageXOffset || (document.documentElement || document.body).scrollLeft
+}
+function pageScrollY() {
+  if (chrome && android) { return -(document.body.getBoundingClientRect().top - parseInt(getComputedStyle(document.body).marginTop)) }
+  return window.pageYOffset || (document.documentElement || document.body).scrollTop
+}
+
+// Converts a {top, bottom, left, right} box from line-local
+// coordinates into another coordinate system. Context may be one of
+// "line", "div" (display.lineDiv), "local"./null (editor), "window",
+// or "page".
+function intoCoordSystem(cm, lineObj, rect, context, includeWidgets) {
+  if (!includeWidgets && lineObj.widgets) { for (var i = 0; i < lineObj.widgets.length; ++i) { if (lineObj.widgets[i].above) {
+    var size = widgetHeight(lineObj.widgets[i]);
+    rect.top += size; rect.bottom += size;
+  } } }
+  if (context == "line") { return rect }
+  if (!context) { context = "local"; }
+  var yOff = heightAtLine(lineObj);
+  if (context == "local") { yOff += paddingTop(cm.display); }
+  else { yOff -= cm.display.viewOffset; }
+  if (context == "page" || context == "window") {
+    var lOff = cm.display.lineSpace.getBoundingClientRect();
+    yOff += lOff.top + (context == "window" ? 0 : pageScrollY());
+    var xOff = lOff.left + (context == "window" ? 0 : pageScrollX());
+    rect.left += xOff; rect.right += xOff;
+  }
+  rect.top += yOff; rect.bottom += yOff;
+  return rect
+}
+
+// Coverts a box from "div" coords to another coordinate system.
+// Context may be "window", "page", "div", or "local"./null.
+function fromCoordSystem(cm, coords, context) {
+  if (context == "div") { return coords }
+  var left = coords.left, top = coords.top;
+  // First move into "page" coordinate system
+  if (context == "page") {
+    left -= pageScrollX();
+    top -= pageScrollY();
+  } else if (context == "local" || !context) {
+    var localBox = cm.display.sizer.getBoundingClientRect();
+    left += localBox.left;
+    top += localBox.top;
+  }
+
+  var lineSpaceBox = cm.display.lineSpace.getBoundingClientRect();
+  return {left: left - lineSpaceBox.left, top: top - lineSpaceBox.top}
+}
+
+function charCoords(cm, pos, context, lineObj, bias) {
+  if (!lineObj) { lineObj = getLine(cm.doc, pos.line); }
+  return intoCoordSystem(cm, lineObj, measureChar(cm, lineObj, pos.ch, bias), context)
+}
+
+// Returns a box for a given cursor position, which may have an
+// 'other' property containing the position of the secondary cursor
+// on a bidi boundary.
+// A cursor Pos(line, char, "before") is on the same visual line as `char - 1`
+// and after `char - 1` in writing order of `char - 1`
+// A cursor Pos(line, char, "after") is on the same visual line as `char`
+// and before `char` in writing order of `char`
+// Examples (upper-case letters are RTL, lower-case are LTR):
+//     Pos(0, 1, ...)
+//     before   after
+// ab     a|b     a|b
+// aB     a|B     aB|
+// Ab     |Ab     A|b
+// AB     B|A     B|A
+// Every position after the last character on a line is considered to stick
+// to the last character on the line.
+function cursorCoords(cm, pos, context, lineObj, preparedMeasure, varHeight) {
+  lineObj = lineObj || getLine(cm.doc, pos.line);
+  if (!preparedMeasure) { preparedMeasure = prepareMeasureForLine(cm, lineObj); }
+  function get(ch, right) {
+    var m = measureCharPrepared(cm, preparedMeasure, ch, right ? "right" : "left", varHeight);
+    if (right) { m.left = m.right; } else { m.right = m.left; }
+    return intoCoordSystem(cm, lineObj, m, context)
+  }
+  var order = getOrder(lineObj, cm.doc.direction), ch = pos.ch, sticky = pos.sticky;
+  if (ch >= lineObj.text.length) {
+    ch = lineObj.text.length;
+    sticky = "before";
+  } else if (ch <= 0) {
+    ch = 0;
+    sticky = "after";
+  }
+  if (!order) { return get(sticky == "before" ? ch - 1 : ch, sticky == "before") }
+
+  function getBidi(ch, partPos, invert) {
+    var part = order[partPos], right = (part.level % 2) != 0;
+    return get(invert ? ch - 1 : ch, right != invert)
+  }
+  var partPos = getBidiPartAt(order, ch, sticky);
+  var other = bidiOther;
+  var val = getBidi(ch, partPos, sticky == "before");
+  if (other != null) { val.other = getBidi(ch, other, sticky != "before"); }
+  return val
+}
+
+// Used to cheaply estimate the coordinates for a position. Used for
+// intermediate scroll updates.
+function estimateCoords(cm, pos) {
+  var left = 0;
+  pos = clipPos(cm.doc, pos);
+  if (!cm.options.lineWrapping) { left = charWidth(cm.display) * pos.ch; }
+  var lineObj = getLine(cm.doc, pos.line);
+  var top = heightAtLine(lineObj) + paddingTop(cm.display);
+  return {left: left, right: left, top: top, bottom: top + lineObj.height}
+}
+
+// Positions returned by coordsChar contain some extra information.
+// xRel is the relative x position of the input coordinates compared
+// to the found position (so xRel > 0 means the coordinates are to
+// the right of the character position, for example). When outside
+// is true, that means the coordinates lie outside the line's
+// vertical range.
+function PosWithInfo(line, ch, sticky, outside, xRel) {
+  var pos = Pos(line, ch, sticky);
+  pos.xRel = xRel;
+  if (outside) { pos.outside = true; }
+  return pos
+}
+
+// Compute the character position closest to the given coordinates.
+// Input must be lineSpace-local ("div" coordinate system).
+function coordsChar(cm, x, y) {
+  var doc = cm.doc;
+  y += cm.display.viewOffset;
+  if (y < 0) { return PosWithInfo(doc.first, 0, null, true, -1) }
+  var lineN = lineAtHeight(doc, y), last = doc.first + doc.size - 1;
+  if (lineN > last)
+    { return PosWithInfo(doc.first + doc.size - 1, getLine(doc, last).text.length, null, true, 1) }
+  if (x < 0) { x = 0; }
+
+  var lineObj = getLine(doc, lineN);
+  for (;;) {
+    var found = coordsCharInner(cm, lineObj, lineN, x, y);
+    var merged = collapsedSpanAtEnd(lineObj);
+    var mergedPos = merged && merged.find(0, true);
+    if (merged && (found.ch > mergedPos.from.ch || found.ch == mergedPos.from.ch && found.xRel > 0))
+      { lineN = lineNo(lineObj = mergedPos.to.line); }
+    else
+      { return found }
+  }
+}
+
+function wrappedLineExtent(cm, lineObj, preparedMeasure, y) {
+  var measure = function (ch) { return intoCoordSystem(cm, lineObj, measureCharPrepared(cm, preparedMeasure, ch), "line"); };
+  var end = lineObj.text.length;
+  var begin = findFirst(function (ch) { return measure(ch - 1).bottom <= y; }, end, 0);
+  end = findFirst(function (ch) { return measure(ch).top > y; }, begin, end);
+  return {begin: begin, end: end}
+}
+
+function wrappedLineExtentChar(cm, lineObj, preparedMeasure, target) {
+  var targetTop = intoCoordSystem(cm, lineObj, measureCharPrepared(cm, preparedMeasure, target), "line").top;
+  return wrappedLineExtent(cm, lineObj, preparedMeasure, targetTop)
+}
+
+function coordsCharInner(cm, lineObj, lineNo$$1, x, y) {
+  y -= heightAtLine(lineObj);
+  var begin = 0, end = lineObj.text.length;
+  var preparedMeasure = prepareMeasureForLine(cm, lineObj);
+  var pos;
+  var order = getOrder(lineObj, cm.doc.direction);
+  if (order) {
+    if (cm.options.lineWrapping) {
+      var assign;
+      ((assign = wrappedLineExtent(cm, lineObj, preparedMeasure, y), begin = assign.begin, end = assign.end, assign));
+    }
+    pos = new Pos(lineNo$$1, Math.floor(begin + (end - begin) / 2));
+    var beginLeft = cursorCoords(cm, pos, "line", lineObj, preparedMeasure).left;
+    var dir = beginLeft < x ? 1 : -1;
+    var prevDiff, diff = beginLeft - x, prevPos;
+    var steps = Math.ceil((end - begin) / 4);
+    outer: do {
+      prevDiff = diff;
+      prevPos = pos;
+      var i = 0;
+      for (; i < steps; ++i) {
+        var prevPos$1 = pos;
+        pos = moveVisually(cm, lineObj, pos, dir);
+        if (pos == null || pos.ch < begin || end <= (pos.sticky == "before" ? pos.ch - 1 : pos.ch)) {
+          pos = prevPos$1;
+          break outer
+        }
+      }
+      diff = cursorCoords(cm, pos, "line", lineObj, preparedMeasure).left - x;
+      if (steps > 1) {
+        var diff_change_per_step = Math.abs(diff - prevDiff) / steps;
+        steps = Math.min(steps, Math.ceil(Math.abs(diff) / diff_change_per_step));
+        dir = diff < 0 ? 1 : -1;
+      }
+    } while (diff != 0 && (steps > 1 || ((dir < 0) != (diff < 0) && (Math.abs(diff) <= Math.abs(prevDiff)))))
+    if (Math.abs(diff) > Math.abs(prevDiff)) {
+      if ((diff < 0) == (prevDiff < 0)) { throw new Error("Broke out of infinite loop in coordsCharInner") }
+      pos = prevPos;
+    }
+  } else {
+    var ch = findFirst(function (ch) {
+      var box = intoCoordSystem(cm, lineObj, measureCharPrepared(cm, preparedMeasure, ch), "line");
+      if (box.top > y) {
+        // For the cursor stickiness
+        end = Math.min(ch, end);
+        return true
+      }
+      else if (box.bottom <= y) { return false }
+      else if (box.left > x) { return true }
+      else if (box.right < x) { return false }
+      else { return (x - box.left < box.right - x) }
+    }, begin, end);
+    ch = skipExtendingChars(lineObj.text, ch, 1);
+    pos = new Pos(lineNo$$1, ch, ch == end ? "before" : "after");
+  }
+  var coords = cursorCoords(cm, pos, "line", lineObj, preparedMeasure);
+  if (y < coords.top || coords.bottom < y) { pos.outside = true; }
+  pos.xRel = x < coords.left ? -1 : (x > coords.right ? 1 : 0);
+  return pos
+}
+
+var measureText;
+// Compute the default text height.
+function textHeight(display) {
+  if (display.cachedTextHeight != null) { return display.cachedTextHeight }
+  if (measureText == null) {
+    measureText = elt("pre");
+    // Measure a bunch of lines, for browsers that compute
+    // fractional heights.
+    for (var i = 0; i < 49; ++i) {
+      measureText.appendChild(document.createTextNode("x"));
+      measureText.appendChild(elt("br"));
+    }
+    measureText.appendChild(document.createTextNode("x"));
+  }
+  removeChildrenAndAdd(display.measure, measureText);
+  var height = measureText.offsetHeight / 50;
+  if (height > 3) { display.cachedTextHeight = height; }
+  removeChildren(display.measure);
+  return height || 1
+}
+
+// Compute the default character width.
+function charWidth(display) {
+  if (display.cachedCharWidth != null) { return display.cachedCharWidth }
+  var anchor = elt("span", "xxxxxxxxxx");
+  var pre = elt("pre", [anchor]);
+  removeChildrenAndAdd(display.measure, pre);
+  var rect = anchor.getBoundingClientRect(), width = (rect.right - rect.left) / 10;
+  if (width > 2) { display.cachedCharWidth = width; }
+  return width || 10
+}
+
+// Do a bulk-read of the DOM positions and sizes needed to draw the
+// view, so that we don't interleave reading and writing to the DOM.
+function getDimensions(cm) {
+  var d = cm.display, left = {}, width = {};
+  var gutterLeft = d.gutters.clientLeft;
+  for (var n = d.gutters.firstChild, i = 0; n; n = n.nextSibling, ++i) {
+    left[cm.options.gutters[i]] = n.offsetLeft + n.clientLeft + gutterLeft;
+    width[cm.options.gutters[i]] = n.clientWidth;
+  }
+  return {fixedPos: compensateForHScroll(d),
+          gutterTotalWidth: d.gutters.offsetWidth,
+          gutterLeft: left,
+          gutterWidth: width,
+          wrapperWidth: d.wrapper.clientWidth}
+}
+
+// Computes display.scroller.scrollLeft + display.gutters.offsetWidth,
+// but using getBoundingClientRect to get a sub-pixel-accurate
+// result.
+function compensateForHScroll(display) {
+  return display.scroller.getBoundingClientRect().left - display.sizer.getBoundingClientRect().left
+}
+
+// Returns a function that estimates the height of a line, to use as
+// first approximation until the line becomes visible (and is thus
+// properly measurable).
+function estimateHeight(cm) {
+  var th = textHeight(cm.display), wrapping = cm.options.lineWrapping;
+  var perLine = wrapping && Math.max(5, cm.display.scroller.clientWidth / charWidth(cm.display) - 3);
+  return function (line) {
+    if (lineIsHidden(cm.doc, line)) { return 0 }
+
+    var widgetsHeight = 0;
+    if (line.widgets) { for (var i = 0; i < line.widgets.length; i++) {
+      if (line.widgets[i].height) { widgetsHeight += line.widgets[i].height; }
+    } }
+
+    if (wrapping)
+      { return widgetsHeight + (Math.ceil(line.text.length / perLine) || 1) * th }
+    else
+      { return widgetsHeight + th }
+  }
+}
+
+function estimateLineHeights(cm) {
+  var doc = cm.doc, est = estimateHeight(cm);
+  doc.iter(function (line) {
+    var estHeight = est(line);
+    if (estHeight != line.height) { updateLineHeight(line, estHeight); }
+  });
+}
+
+// Given a mouse event, find the corresponding position. If liberal
+// is false, it checks whether a gutter or scrollbar was clicked,
+// and returns null if it was. forRect is used by rectangular
+// selections, and tries to estimate a character position even for
+// coordinates beyond the right of the text.
+function posFromMouse(cm, e, liberal, forRect) {
+  var display = cm.display;
+  if (!liberal && e_target(e).getAttribute("cm-not-content") == "true") { return null }
+
+  var x, y, space = display.lineSpace.getBoundingClientRect();
+  // Fails unpredictably on IE[67] when mouse is dragged around quickly.
+  try { x = e.clientX - space.left; y = e.clientY - space.top; }
+  catch (e) { return null }
+  var coords = coordsChar(cm, x, y), line;
+  if (forRect && coords.xRel == 1 && (line = getLine(cm.doc, coords.line).text).length == coords.ch) {
+    var colDiff = countColumn(line, line.length, cm.options.tabSize) - line.length;
+    coords = Pos(coords.line, Math.max(0, Math.round((x - paddingH(cm.display).left) / charWidth(cm.display)) - colDiff));
+  }
+  return coords
+}
+
+// Find the view element corresponding to a given line. Return null
+// when the line isn't visible.
+function findViewIndex(cm, n) {
+  if (n >= cm.display.viewTo) { return null }
+  n -= cm.display.viewFrom;
+  if (n < 0) { return null }
+  var view = cm.display.view;
+  for (var i = 0; i < view.length; i++) {
+    n -= view[i].size;
+    if (n < 0) { return i }
+  }
+}
+
+function updateSelection(cm) {
+  cm.display.input.showSelection(cm.display.input.prepareSelection());
+}
+
+function prepareSelection(cm, primary) {
+  var doc = cm.doc, result = {};
+  var curFragment = result.cursors = document.createDocumentFragment();
+  var selFragment = result.selection = document.createDocumentFragment();
+
+  for (var i = 0; i < doc.sel.ranges.length; i++) {
+    if (primary === false && i == doc.sel.primIndex) { continue }
+    var range$$1 = doc.sel.ranges[i];
+    if (range$$1.from().line >= cm.display.viewTo || range$$1.to().line < cm.display.viewFrom) { continue }
+    var collapsed = range$$1.empty();
+    if (collapsed || cm.options.showCursorWhenSelecting)
+      { drawSelectionCursor(cm, range$$1.head, curFragment); }
+    if (!collapsed)
+      { drawSelectionRange(cm, range$$1, selFragment); }
+  }
+  return result
+}
+
+// Draws a cursor for the given range
+function drawSelectionCursor(cm, head, output) {
+  var pos = cursorCoords(cm, head, "div", null, null, !cm.options.singleCursorHeightPerLine);
+
+  var cursor = output.appendChild(elt("div", "\u00a0", "CodeMirror-cursor"));
+  cursor.style.left = pos.left + "px";
+  cursor.style.top = pos.top + "px";
+  cursor.style.height = Math.max(0, pos.bottom - pos.top) * cm.options.cursorHeight + "px";
+
+  if (pos.other) {
+    // Secondary cursor, shown when on a 'jump' in bi-directional text
+    var otherCursor = output.appendChild(elt("div", "\u00a0", "CodeMirror-cursor CodeMirror-secondarycursor"));
+    otherCursor.style.display = "";
+    otherCursor.style.left = pos.other.left + "px";
+    otherCursor.style.top = pos.other.top + "px";
+    otherCursor.style.height = (pos.other.bottom - pos.other.top) * .85 + "px";
+  }
+}
+
+// Draws the given range as a highlighted selection
+function drawSelectionRange(cm, range$$1, output) {
+  var display = cm.display, doc = cm.doc;
+  var fragment = document.createDocumentFragment();
+  var padding = paddingH(cm.display), leftSide = padding.left;
+  var rightSide = Math.max(display.sizerWidth, displayWidth(cm) - display.sizer.offsetLeft) - padding.right;
+
+  function add(left, top, width, bottom) {
+    if (top < 0) { top = 0; }
+    top = Math.round(top);
+    bottom = Math.round(bottom);
+    fragment.appendChild(elt("div", null, "CodeMirror-selected", ("position: absolute; left: " + left + "px;\n                             top: " + top + "px; width: " + (width == null ? rightSide - left : width) + "px;\n                             height: " + (bottom - top) + "px")));
+  }
+
+  function drawForLine(line, fromArg, toArg) {
+    var lineObj = getLine(doc, line);
+    var lineLen = lineObj.text.length;
+    var start, end;
+    function coords(ch, bias) {
+      return charCoords(cm, Pos(line, ch), "div", lineObj, bias)
+    }
+
+    iterateBidiSections(getOrder(lineObj, doc.direction), fromArg || 0, toArg == null ? lineLen : toArg, function (from, to, dir) {
+      var leftPos = coords(from, "left"), rightPos, left, right;
+      if (from == to) {
+        rightPos = leftPos;
+        left = right = leftPos.left;
+      } else {
+        rightPos = coords(to - 1, "right");
+        if (dir == "rtl") { var tmp = leftPos; leftPos = rightPos; rightPos = tmp; }
+        left = leftPos.left;
+        right = rightPos.right;
+      }
+      if (fromArg == null && from == 0) { left = leftSide; }
+      if (rightPos.top - leftPos.top > 3) { // Different lines, draw top part
+        add(left, leftPos.top, null, leftPos.bottom);
+        left = leftSide;
+        if (leftPos.bottom < rightPos.top) { add(left, leftPos.bottom, null, rightPos.top); }
+      }
+      if (toArg == null && to == lineLen) { right = rightSide; }
+      if (!start || leftPos.top < start.top || leftPos.top == start.top && leftPos.left < start.left)
+        { start = leftPos; }
+      if (!end || rightPos.bottom > end.bottom || rightPos.bottom == end.bottom && rightPos.right > end.right)
+        { end = rightPos; }
+      if (left < leftSide + 1) { left = leftSide; }
+      add(left, rightPos.top, right - left, rightPos.bottom);
+    });
+    return {start: start, end: end}
+  }
+
+  var sFrom = range$$1.from(), sTo = range$$1.to();
+  if (sFrom.line == sTo.line) {
+    drawForLine(sFrom.line, sFrom.ch, sTo.ch);
+  } else {
+    var fromLine = getLine(doc, sFrom.line), toLine = getLine(doc, sTo.line);
+    var singleVLine = visualLine(fromLine) == visualLine(toLine);
+    var leftEnd = drawForLine(sFrom.line, sFrom.ch, singleVLine ? fromLine.text.length + 1 : null).end;
+    var rightStart = drawForLine(sTo.line, singleVLine ? 0 : null, sTo.ch).start;
+    if (singleVLine) {
+      if (leftEnd.top < rightStart.top - 2) {
+        add(leftEnd.right, leftEnd.top, null, leftEnd.bottom);
+        add(leftSide, rightStart.top, rightStart.left, rightStart.bottom);
+      } else {
+        add(leftEnd.right, leftEnd.top, rightStart.left - leftEnd.right, leftEnd.bottom);
+      }
+    }
+    if (leftEnd.bottom < rightStart.top)
+      { add(leftSide, leftEnd.bottom, null, rightStart.top); }
+  }
+
+  output.appendChild(fragment);
+}
+
+// Cursor-blinking
+function restartBlink(cm) {
+  if (!cm.state.focused) { return }
+  var display = cm.display;
+  clearInterval(display.blinker);
+  var on = true;
+  display.cursorDiv.style.visibility = "";
+  if (cm.options.cursorBlinkRate > 0)
+    { display.blinker = setInterval(function () { return display.cursorDiv.style.visibility = (on = !on) ? "" : "hidden"; },
+      cm.options.cursorBlinkRate); }
+  else if (cm.options.cursorBlinkRate < 0)
+    { display.cursorDiv.style.visibility = "hidden"; }
+}
+
+function ensureFocus(cm) {
+  if (!cm.state.focused) { cm.display.input.focus(); onFocus(cm); }
+}
+
+function delayBlurEvent(cm) {
+  cm.state.delayingBlurEvent = true;
+  setTimeout(function () { if (cm.state.delayingBlurEvent) {
+    cm.state.delayingBlurEvent = false;
+    onBlur(cm);
+  } }, 100);
+}
+
+function onFocus(cm, e) {
+  if (cm.state.delayingBlurEvent) { cm.state.delayingBlurEvent = false; }
+
+  if (cm.options.readOnly == "nocursor") { return }
+  if (!cm.state.focused) {
+    signal(cm, "focus", cm, e);
+    cm.state.focused = true;
+    addClass(cm.display.wrapper, "CodeMirror-focused");
+    // This test prevents this from firing when a context
+    // menu is closed (since the input reset would kill the
+    // select-all detection hack)
+    if (!cm.curOp && cm.display.selForContextMenu != cm.doc.sel) {
+      cm.display.input.reset();
+      if (webkit) { setTimeout(function () { return cm.display.input.reset(true); }, 20); } // Issue #1730
+    }
+    cm.display.input.receivedFocus();
+  }
+  restartBlink(cm);
+}
+function onBlur(cm, e) {
+  if (cm.state.delayingBlurEvent) { return }
+
+  if (cm.state.focused) {
+    signal(cm, "blur", cm, e);
+    cm.state.focused = false;
+    rmClass(cm.display.wrapper, "CodeMirror-focused");
+  }
+  clearInterval(cm.display.blinker);
+  setTimeout(function () { if (!cm.state.focused) { cm.display.shift = false; } }, 150);
+}
+
+// Read the actual heights of the rendered lines, and update their
+// stored heights to match.
+function updateHeightsInViewport(cm) {
+  var display = cm.display;
+  var prevBottom = display.lineDiv.offsetTop;
+  for (var i = 0; i < display.view.length; i++) {
+    var cur = display.view[i], height = (void 0);
+    if (cur.hidden) { continue }
+    if (ie && ie_version < 8) {
+      var bot = cur.node.offsetTop + cur.node.offsetHeight;
+      height = bot - prevBottom;
+      prevBottom = bot;
+    } else {
+      var box = cur.node.getBoundingClientRect();
+      height = box.bottom - box.top;
+    }
+    var diff = cur.line.height - height;
+    if (height < 2) { height = textHeight(display); }
+    if (diff > .005 || diff < -.005) {
+      updateLineHeight(cur.line, height);
+      updateWidgetHeight(cur.line);
+      if (cur.rest) { for (var j = 0; j < cur.rest.length; j++)
+        { updateWidgetHeight(cur.rest[j]); } }
+    }
+  }
+}
+
+// Read and store the height of line widgets associated with the
+// given line.
+function updateWidgetHeight(line) {
+  if (line.widgets) { for (var i = 0; i < line.widgets.length; ++i)
+    { line.widgets[i].height = line.widgets[i].node.parentNode.offsetHeight; } }
+}
+
+// Compute the lines that are visible in a given viewport (defaults
+// the the current scroll position). viewport may contain top,
+// height, and ensure (see op.scrollToPos) properties.
+function visibleLines(display, doc, viewport) {
+  var top = viewport && viewport.top != null ? Math.max(0, viewport.top) : display.scroller.scrollTop;
+  top = Math.floor(top - paddingTop(display));
+  var bottom = viewport && viewport.bottom != null ? viewport.bottom : top + display.wrapper.clientHeight;
+
+  var from = lineAtHeight(doc, top), to = lineAtHeight(doc, bottom);
+  // Ensure is a {from: {line, ch}, to: {line, ch}} object, and
+  // forces those lines into the viewport (if possible).
+  if (viewport && viewport.ensure) {
+    var ensureFrom = viewport.ensure.from.line, ensureTo = viewport.ensure.to.line;
+    if (ensureFrom < from) {
+      from = ensureFrom;
+      to = lineAtHeight(doc, heightAtLine(getLine(doc, ensureFrom)) + display.wrapper.clientHeight);
+    } else if (Math.min(ensureTo, doc.lastLine()) >= to) {
+      from = lineAtHeight(doc, heightAtLine(getLine(doc, ensureTo)) - display.wrapper.clientHeight);
+      to = ensureTo;
+    }
+  }
+  return {from: from, to: Math.max(to, from + 1)}
+}
+
+// Re-align line numbers and gutter marks to compensate for
+// horizontal scrolling.
+function alignHorizontally(cm) {
+  var display = cm.display, view = display.view;
+  if (!display.alignWidgets && (!display.gutters.firstChild || !cm.options.fixedGutter)) { return }
+  var comp = compensateForHScroll(display) - display.scroller.scrollLeft + cm.doc.scrollLeft;
+  var gutterW = display.gutters.offsetWidth, left = comp + "px";
+  for (var i = 0; i < view.length; i++) { if (!view[i].hidden) {
+    if (cm.options.fixedGutter) {
+      if (view[i].gutter)
+        { view[i].gutter.style.left = left; }
+      if (view[i].gutterBackground)
+        { view[i].gutterBackground.style.left = left; }
+    }
+    var align = view[i].alignable;
+    if (align) { for (var j = 0; j < align.length; j++)
+      { align[j].style.left = left; } }
+  } }
+  if (cm.options.fixedGutter)
+    { display.gutters.style.left = (comp + gutterW) + "px"; }
+}
+
+// Used to ensure that the line number gutter is still the right
+// size for the current document size. Returns true when an update
+// is needed.
+function maybeUpdateLineNumberWidth(cm) {
+  if (!cm.options.lineNumbers) { return false }
+  var doc = cm.doc, last = lineNumberFor(cm.options, doc.first + doc.size - 1), display = cm.display;
+  if (last.length != display.lineNumChars) {
+    var test = display.measure.appendChild(elt("div", [elt("div", last)],
+                                               "CodeMirror-linenumber CodeMirror-gutter-elt"));
+    var innerW = test.firstChild.offsetWidth, padding = test.offsetWidth - innerW;
+    display.lineGutter.style.width = "";
+    display.lineNumInnerWidth = Math.max(innerW, display.lineGutter.offsetWidth - padding) + 1;
+    display.lineNumWidth = display.lineNumInnerWidth + padding;
+    display.lineNumChars = display.lineNumInnerWidth ? last.length : -1;
+    display.lineGutter.style.width = display.lineNumWidth + "px";
+    updateGutterSpace(cm);
+    return true
+  }
+  return false
+}
+
+// SCROLLING THINGS INTO VIEW
+
+// If an editor sits on the top or bottom of the window, partially
+// scrolled out of view, this ensures that the cursor is visible.
+function maybeScrollWindow(cm, rect) {
+  if (signalDOMEvent(cm, "scrollCursorIntoView")) { return }
+
+  var display = cm.display, box = display.sizer.getBoundingClientRect(), doScroll = null;
+  if (rect.top + box.top < 0) { doScroll = true; }
+  else if (rect.bottom + box.top > (window.innerHeight || document.documentElement.clientHeight)) { doScroll = false; }
+  if (doScroll != null && !phantom) {
+    var scrollNode = elt("div", "\u200b", null, ("position: absolute;\n                         top: " + (rect.top - display.viewOffset - paddingTop(cm.display)) + "px;\n                         height: " + (rect.bottom - rect.top + scrollGap(cm) + display.barHeight) + "px;\n                         left: " + (rect.left) + "px; width: " + (Math.max(2, rect.right - rect.left)) + "px;"));
+    cm.display.lineSpace.appendChild(scrollNode);
+    scrollNode.scrollIntoView(doScroll);
+    cm.display.lineSpace.removeChild(scrollNode);
+  }
+}
+
+// Scroll a given position into view (immediately), verifying that
+// it actually became visible (as line heights are accurately
+// measured, the position of something may 'drift' during drawing).
+function scrollPosIntoView(cm, pos, end, margin) {
+  if (margin == null) { margin = 0; }
+  var rect;
+  if (!cm.options.lineWrapping && pos == end) {
+    // Set pos and end to the cursor positions around the character pos sticks to
+    // If pos.sticky == "before", that is around pos.ch - 1, otherwise around pos.ch
+    // If pos == Pos(_, 0, "before"), pos and end are unchanged
+    pos = pos.ch ? Pos(pos.line, pos.sticky == "before" ? pos.ch - 1 : pos.ch, "after") : pos;
+    end = pos.sticky == "before" ? Pos(pos.line, pos.ch + 1, "before") : pos;
+  }
+  for (var limit = 0; limit < 5; limit++) {
+    var changed = false;
+    var coords = cursorCoords(cm, pos);
+    var endCoords = !end || end == pos ? coords : cursorCoords(cm, end);
+    rect = {left: Math.min(coords.left, endCoords.left),
+            top: Math.min(coords.top, endCoords.top) - margin,
+            right: Math.max(coords.left, endCoords.left),
+            bottom: Math.max(coords.bottom, endCoords.bottom) + margin};
+    var scrollPos = calculateScrollPos(cm, rect);
+    var startTop = cm.doc.scrollTop, startLeft = cm.doc.scrollLeft;
+    if (scrollPos.scrollTop != null) {
+      updateScrollTop(cm, scrollPos.scrollTop);
+      if (Math.abs(cm.doc.scrollTop - startTop) > 1) { changed = true; }
+    }
+    if (scrollPos.scrollLeft != null) {
+      setScrollLeft(cm, scrollPos.scrollLeft);
+      if (Math.abs(cm.doc.scrollLeft - startLeft) > 1) { changed = true; }
+    }
+    if (!changed) { break }
+  }
+  return rect
+}
+
+// Scroll a given set of coordinates into view (immediately).
+function scrollIntoView(cm, rect) {
+  var scrollPos = calculateScrollPos(cm, rect);
+  if (scrollPos.scrollTop != null) { updateScrollTop(cm, scrollPos.scrollTop); }
+  if (scrollPos.scrollLeft != null) { setScrollLeft(cm, scrollPos.scrollLeft); }
+}
+
+// Calculate a new scroll position needed to scroll the given
+// rectangle into view. Returns an object with scrollTop and
+// scrollLeft properties. When these are undefined, the
+// vertical/horizontal position does not need to be adjusted.
+function calculateScrollPos(cm, rect) {
+  var display = cm.display, snapMargin = textHeight(cm.display);
+  if (rect.top < 0) { rect.top = 0; }
+  var screentop = cm.curOp && cm.curOp.scrollTop != null ? cm.curOp.scrollTop : display.scroller.scrollTop;
+  var screen = displayHeight(cm), result = {};
+  if (rect.bottom - rect.top > screen) { rect.bottom = rect.top + screen; }
+  var docBottom = cm.doc.height + paddingVert(display);
+  var atTop = rect.top < snapMargin, atBottom = rect.bottom > docBottom - snapMargin;
+  if (rect.top < screentop) {
+    result.scrollTop = atTop ? 0 : rect.top;
+  } else if (rect.bottom > screentop + screen) {
+    var newTop = Math.min(rect.top, (atBottom ? docBottom : rect.bottom) - screen);
+    if (newTop != screentop) { result.scrollTop = newTop; }
+  }
+
+  var screenleft = cm.curOp && cm.curOp.scrollLeft != null ? cm.curOp.scrollLeft : display.scroller.scrollLeft;
+  var screenw = displayWidth(cm) - (cm.options.fixedGutter ? display.gutters.offsetWidth : 0);
+  var tooWide = rect.right - rect.left > screenw;
+  if (tooWide) { rect.right = rect.left + screenw; }
+  if (rect.left < 10)
+    { result.scrollLeft = 0; }
+  else if (rect.left < screenleft)
+    { result.scrollLeft = Math.max(0, rect.left - (tooWide ? 0 : 10)); }
+  else if (rect.right > screenw + screenleft - 3)
+    { result.scrollLeft = rect.right + (tooWide ? 0 : 10) - screenw; }
+  return result
+}
+
+// Store a relative adjustment to the scroll position in the current
+// operation (to be applied when the operation finishes).
+function addToScrollTop(cm, top) {
+  if (top == null) { return }
+  resolveScrollToPos(cm);
+  cm.curOp.scrollTop = (cm.curOp.scrollTop == null ? cm.doc.scrollTop : cm.curOp.scrollTop) + top;
+}
+
+// Make sure that at the end of the operation the current cursor is
+// shown.
+function ensureCursorVisible(cm) {
+  resolveScrollToPos(cm);
+  var cur = cm.getCursor();
+  cm.curOp.scrollToPos = {from: cur, to: cur, margin: cm.options.cursorScrollMargin};
+}
+
+function scrollToCoords(cm, x, y) {
+  if (x != null || y != null) { resolveScrollToPos(cm); }
+  if (x != null) { cm.curOp.scrollLeft = x; }
+  if (y != null) { cm.curOp.scrollTop = y; }
+}
+
+function scrollToRange(cm, range$$1) {
+  resolveScrollToPos(cm);
+  cm.curOp.scrollToPos = range$$1;
+}
+
+// When an operation has its scrollToPos property set, and another
+// scroll action is applied before the end of the operation, this
+// 'simulates' scrolling that position into view in a cheap way, so
+// that the effect of intermediate scroll commands is not ignored.
+function resolveScrollToPos(cm) {
+  var range$$1 = cm.curOp.scrollToPos;
+  if (range$$1) {
+    cm.curOp.scrollToPos = null;
+    var from = estimateCoords(cm, range$$1.from), to = estimateCoords(cm, range$$1.to);
+    scrollToCoordsRange(cm, from, to, range$$1.margin);
+  }
+}
+
+function scrollToCoordsRange(cm, from, to, margin) {
+  var sPos = calculateScrollPos(cm, {
+    left: Math.min(from.left, to.left),
+    top: Math.min(from.top, to.top) - margin,
+    right: Math.max(from.right, to.right),
+    bottom: Math.max(from.bottom, to.bottom) + margin
+  });
+  scrollToCoords(cm, sPos.scrollLeft, sPos.scrollTop);
+}
+
+// Sync the scrollable area and scrollbars, ensure the viewport
+// covers the visible area.
+function updateScrollTop(cm, val) {
+  if (Math.abs(cm.doc.scrollTop - val) < 2) { return }
+  if (!gecko) { updateDisplaySimple(cm, {top: val}); }
+  setScrollTop(cm, val, true);
+  if (gecko) { updateDisplaySimple(cm); }
+  startWorker(cm, 100);
+}
+
+function setScrollTop(cm, val, forceScroll) {
+  val = Math.min(cm.display.scroller.scrollHeight - cm.display.scroller.clientHeight, val);
+  if (cm.display.scroller.scrollTop == val && !forceScroll) { return }
+  cm.doc.scrollTop = val;
+  cm.display.scrollbars.setScrollTop(val);
+  if (cm.display.scroller.scrollTop != val) { cm.display.scroller.scrollTop = val; }
+}
+
+// Sync scroller and scrollbar, ensure the gutter elements are
+// aligned.
+function setScrollLeft(cm, val, isScroller, forceScroll) {
+  val = Math.min(val, cm.display.scroller.scrollWidth - cm.display.scroller.clientWidth);
+  if ((isScroller ? val == cm.doc.scrollLeft : Math.abs(cm.doc.scrollLeft - val) < 2) && !forceScroll) { return }
+  cm.doc.scrollLeft = val;
+  alignHorizontally(cm);
+  if (cm.display.scroller.scrollLeft != val) { cm.display.scroller.scrollLeft = val; }
+  cm.display.scrollbars.setScrollLeft(val);
+}
+
+// SCROLLBARS
+
+// Prepare DOM reads needed to update the scrollbars. Done in one
+// shot to minimize update/measure roundtrips.
+function measureForScrollbars(cm) {
+  var d = cm.display, gutterW = d.gutters.offsetWidth;
+  var docH = Math.round(cm.doc.height + paddingVert(cm.display));
+  return {
+    clientHeight: d.scroller.clientHeight,
+    viewHeight: d.wrapper.clientHeight,
+    scrollWidth: d.scroller.scrollWidth, clientWidth: d.scroller.clientWidth,
+    viewWidth: d.wrapper.clientWidth,
+    barLeft: cm.options.fixedGutter ? gutterW : 0,
+    docHeight: docH,
+    scrollHeight: docH + scrollGap(cm) + d.barHeight,
+    nativeBarWidth: d.nativeBarWidth,
+    gutterWidth: gutterW
+  }
+}
+
+var NativeScrollbars = function(place, scroll, cm) {
+  this.cm = cm;
+  var vert = this.vert = elt("div", [elt("div", null, null, "min-width: 1px")], "CodeMirror-vscrollbar");
+  var horiz = this.horiz = elt("div", [elt("div", null, null, "height: 100%; min-height: 1px")], "CodeMirror-hscrollbar");
+  place(vert); place(horiz);
+
+  on(vert, "scroll", function () {
+    if (vert.clientHeight) { scroll(vert.scrollTop, "vertical"); }
+  });
+  on(horiz, "scroll", function () {
+    if (horiz.clientWidth) { scroll(horiz.scrollLeft, "horizontal"); }
+  });
+
+  this.checkedZeroWidth = false;
+  // Need to set a minimum width to see the scrollbar on IE7 (but must not set it on IE8).
+  if (ie && ie_version < 8) { this.horiz.style.minHeight = this.vert.style.minWidth = "18px"; }
+};
+
+NativeScrollbars.prototype.update = function (measure) {
+  var needsH = measure.scrollWidth > measure.clientWidth + 1;
+  var needsV = measure.scrollHeight > measure.clientHeight + 1;
+  var sWidth = measure.nativeBarWidth;
+
+  if (needsV) {
+    this.vert.style.display = "block";
+    this.vert.style.bottom = needsH ? sWidth + "px" : "0";
+    var totalHeight = measure.viewHeight - (needsH ? sWidth : 0);
+    // A bug in IE8 can cause this value to be negative, so guard it.
+    this.vert.firstChild.style.height =
+      Math.max(0, measure.scrollHeight - measure.clientHeight + totalHeight) + "px";
+  } else {
+    this.vert.style.display = "";
+    this.vert.firstChild.style.height = "0";
+  }
+
+  if (needsH) {
+    this.horiz.style.display = "block";
+    this.horiz.style.right = needsV ? sWidth + "px" : "0";
+    this.horiz.style.left = measure.barLeft + "px";
+    var totalWidth = measure.viewWidth - measure.barLeft - (needsV ? sWidth : 0);
+    this.horiz.firstChild.style.width =
+      Math.max(0, measure.scrollWidth - measure.clientWidth + totalWidth) + "px";
+  } else {
+    this.horiz.style.display = "";
+    this.horiz.firstChild.style.width = "0";
+  }
+
+  if (!this.checkedZeroWidth && measure.clientHeight > 0) {
+    if (sWidth == 0) { this.zeroWidthHack(); }
+    this.checkedZeroWidth = true;
+  }
+
+  return {right: needsV ? sWidth : 0, bottom: needsH ? sWidth : 0}
+};
+
+NativeScrollbars.prototype.setScrollLeft = function (pos) {
+  if (this.horiz.scrollLeft != pos) { this.horiz.scrollLeft = pos; }
+  if (this.disableHoriz) { this.enableZeroWidthBar(this.horiz, this.disableHoriz, "horiz"); }
+};
+
+NativeScrollbars.prototype.setScrollTop = function (pos) {
+  if (this.vert.scrollTop != pos) { this.vert.scrollTop = pos; }
+  if (this.disableVert) { this.enableZeroWidthBar(this.vert, this.disableVert, "vert"); }
+};
+
+NativeScrollbars.prototype.zeroWidthHack = function () {
+  var w = mac && !mac_geMountainLion ? "12px" : "18px";
+  this.horiz.style.height = this.vert.style.width = w;
+  this.horiz.style.pointerEvents = this.vert.style.pointerEvents = "none";
+  this.disableHoriz = new Delayed;
+  this.disableVert = new Delayed;
+};
+
+NativeScrollbars.prototype.enableZeroWidthBar = function (bar, delay, type) {
+  bar.style.pointerEvents = "auto";
+  function maybeDisable() {
+    // To find out whether the scrollbar is still visible, we
+    // check whether the element under the pixel in the bottom
+    // right corner of the scrollbar box is the scrollbar box
+    // itself (when the bar is still visible) or its filler child
+    // (when the bar is hidden). If it is still visible, we keep
+    // it enabled, if it's hidden, we disable pointer events.
+    var box = bar.getBoundingClientRect();
+    var elt$$1 = type == "vert" ? document.elementFromPoint(box.right - 1, (box.top + box.bottom) / 2)
+        : document.elementFromPoint((box.right + box.left) / 2, box.bottom - 1);
+    if (elt$$1 != bar) { bar.style.pointerEvents = "none"; }
+    else { delay.set(1000, maybeDisable); }
+  }
+  delay.set(1000, maybeDisable);
+};
+
+NativeScrollbars.prototype.clear = function () {
+  var parent = this.horiz.parentNode;
+  parent.removeChild(this.horiz);
+  parent.removeChild(this.vert);
+};
+
+var NullScrollbars = function () {};
+
+NullScrollbars.prototype.update = function () { return {bottom: 0, right: 0} };
+NullScrollbars.prototype.setScrollLeft = function () {};
+NullScrollbars.prototype.setScrollTop = function () {};
+NullScrollbars.prototype.clear = function () {};
+
+function updateScrollbars(cm, measure) {
+  if (!measure) { measure = measureForScrollbars(cm); }
+  var startWidth = cm.display.barWidth, startHeight = cm.display.barHeight;
+  updateScrollbarsInner(cm, measure);
+  for (var i = 0; i < 4 && startWidth != cm.display.barWidth || startHeight != cm.display.barHeight; i++) {
+    if (startWidth != cm.display.barWidth && cm.options.lineWrapping)
+      { updateHeightsInViewport(cm); }
+    updateScrollbarsInner(cm, measureForScrollbars(cm));
+    startWidth = cm.display.barWidth; startHeight = cm.display.barHeight;
+  }
+}
+
+// Re-synchronize the fake scrollbars with the actual size of the
+// content.
+function updateScrollbarsInner(cm, measure) {
+  var d = cm.display;
+  var sizes = d.scrollbars.update(measure);
+
+  d.sizer.style.paddingRight = (d.barWidth = sizes.right) + "px";
+  d.sizer.style.paddingBottom = (d.barHeight = sizes.bottom) + "px";
+  d.heightForcer.style.borderBottom = sizes.bottom + "px solid transparent";
+
+  if (sizes.right && sizes.bottom) {
+    d.scrollbarFiller.style.display = "block";
+    d.scrollbarFiller.style.height = sizes.bottom + "px";
+    d.scrollbarFiller.style.width = sizes.right + "px";
+  } else { d.scrollbarFiller.style.display = ""; }
+  if (sizes.bottom && cm.options.coverGutterNextToScrollbar && cm.options.fixedGutter) {
+    d.gutterFiller.style.display = "block";
+    d.gutterFiller.style.height = sizes.bottom + "px";
+    d.gutterFiller.style.width = measure.gutterWidth + "px";
+  } else { d.gutterFiller.style.display = ""; }
+}
+
+var scrollbarModel = {"native": NativeScrollbars, "null": NullScrollbars};
+
+function initScrollbars(cm) {
+  if (cm.display.scrollbars) {
+    cm.display.scrollbars.clear();
+    if (cm.display.scrollbars.addClass)
+      { rmClass(cm.display.wrapper, cm.display.scrollbars.addClass); }
+  }
+
+  cm.display.scrollbars = new scrollbarModel[cm.options.scrollbarStyle](function (node) {
+    cm.display.wrapper.insertBefore(node, cm.display.scrollbarFiller);
+    // Prevent clicks in the scrollbars from killing focus
+    on(node, "mousedown", function () {
+      if (cm.state.focused) { setTimeout(function () { return cm.display.input.focus(); }, 0); }
+    });
+    node.setAttribute("cm-not-content", "true");
+  }, function (pos, axis) {
+    if (axis == "horizontal") { setScrollLeft(cm, pos); }
+    else { updateScrollTop(cm, pos); }
+  }, cm);
+  if (cm.display.scrollbars.addClass)
+    { addClass(cm.display.wrapper, cm.display.scrollbars.addClass); }
+}
+
+// Operations are used to wrap a series of changes to the editor
+// state in such a way that each change won't have to update the
+// cursor and display (which would be awkward, slow, and
+// error-prone). Instead, display updates are batched and then all
+// combined and executed at once.
+
+var nextOpId = 0;
+// Start a new operation.
+function startOperation(cm) {
+  cm.curOp = {
+    cm: cm,
+    viewChanged: false,      // Flag that indicates that lines might need to be redrawn
+    startHeight: cm.doc.height, // Used to detect need to update scrollbar
+    forceUpdate: false,      // Used to force a redraw
+    updateInput: null,       // Whether to reset the input textarea
+    typing: false,           // Whether this reset should be careful to leave existing text (for compositing)
+    changeObjs: null,        // Accumulated changes, for firing change events
+    cursorActivityHandlers: null, // Set of handlers to fire cursorActivity on
+    cursorActivityCalled: 0, // Tracks which cursorActivity handlers have been called already
+    selectionChanged: false, // Whether the selection needs to be redrawn
+    updateMaxLine: false,    // Set when the widest line needs to be determined anew
+    scrollLeft: null, scrollTop: null, // Intermediate scroll position, not pushed to DOM yet
+    scrollToPos: null,       // Used to scroll to a specific position
+    focus: false,
+    id: ++nextOpId           // Unique ID
+  };
+  pushOperation(cm.curOp);
+}
+
+// Finish an operation, updating the display and signalling delayed events
+function endOperation(cm) {
+  var op = cm.curOp;
+  finishOperation(op, function (group) {
+    for (var i = 0; i < group.ops.length; i++)
+      { group.ops[i].cm.curOp = null; }
+    endOperations(group);
+  });
+}
+
+// The DOM updates done when an operation finishes are batched so
+// that the minimum number of relayouts are required.
+function endOperations(group) {
+  var ops = group.ops;
+  for (var i = 0; i < ops.length; i++) // Read DOM
+    { endOperation_R1(ops[i]); }
+  for (var i$1 = 0; i$1 < ops.length; i$1++) // Write DOM (maybe)
+    { endOperation_W1(ops[i$1]); }
+  for (var i$2 = 0; i$2 < ops.length; i$2++) // Read DOM
+    { endOperation_R2(ops[i$2]); }
+  for (var i$3 = 0; i$3 < ops.length; i$3++) // Write DOM (maybe)
+    { endOperation_W2(ops[i$3]); }
+  for (var i$4 = 0; i$4 < ops.length; i$4++) // Read DOM
+    { endOperation_finish(ops[i$4]); }
+}
+
+function endOperation_R1(op) {
+  var cm = op.cm, display = cm.display;
+  maybeClipScrollbars(cm);
+  if (op.updateMaxLine) { findMaxLine(cm); }
+
+  op.mustUpdate = op.viewChanged || op.forceUpdate || op.scrollTop != null ||
+    op.scrollToPos && (op.scrollToPos.from.line < display.viewFrom ||
+                       op.scrollToPos.to.line >= display.viewTo) ||
+    display.maxLineChanged && cm.options.lineWrapping;
+  op.update = op.mustUpdate &&
+    new DisplayUpdate(cm, op.mustUpdate && {top: op.scrollTop, ensure: op.scrollToPos}, op.forceUpdate);
+}
+
+function endOperation_W1(op) {
+  op.updatedDisplay = op.mustUpdate && updateDisplayIfNeeded(op.cm, op.update);
+}
+
+function endOperation_R2(op) {
+  var cm = op.cm, display = cm.display;
+  if (op.updatedDisplay) { updateHeightsInViewport(cm); }
+
+  op.barMeasure = measureForScrollbars(cm);
+
+  // If the max line changed since it was last measured, measure it,
+  // and ensure the document's width matches it.
+  // updateDisplay_W2 will use these properties to do the actual resizing
+  if (display.maxLineChanged && !cm.options.lineWrapping) {
+    op.adjustWidthTo = measureChar(cm, display.maxLine, display.maxLine.text.length).left + 3;
+    cm.display.sizerWidth = op.adjustWidthTo;
+    op.barMeasure.scrollWidth =
+      Math.max(display.scroller.clientWidth, display.sizer.offsetLeft + op.adjustWidthTo + scrollGap(cm) + cm.display.barWidth);
+    op.maxScrollLeft = Math.max(0, display.sizer.offsetLeft + op.adjustWidthTo - displayWidth(cm));
+  }
+
+  if (op.updatedDisplay || op.selectionChanged)
+    { op.preparedSelection = display.input.prepareSelection(op.focus); }
+}
+
+function endOperation_W2(op) {
+  var cm = op.cm;
+
+  if (op.adjustWidthTo != null) {
+    cm.display.sizer.style.minWidth = op.adjustWidthTo + "px";
+    if (op.maxScrollLeft < cm.doc.scrollLeft)
+      { setScrollLeft(cm, Math.min(cm.display.scroller.scrollLeft, op.maxScrollLeft), true); }
+    cm.display.maxLineChanged = false;
+  }
+
+  var takeFocus = op.focus && op.focus == activeElt() && (!document.hasFocus || document.hasFocus());
+  if (op.preparedSelection)
+    { cm.display.input.showSelection(op.preparedSelection, takeFocus); }
+  if (op.updatedDisplay || op.startHeight != cm.doc.height)
+    { updateScrollbars(cm, op.barMeasure); }
+  if (op.updatedDisplay)
+    { setDocumentHeight(cm, op.barMeasure); }
+
+  if (op.selectionChanged) { restartBlink(cm); }
+
+  if (cm.state.focused && op.updateInput)
+    { cm.display.input.reset(op.typing); }
+  if (takeFocus) { ensureFocus(op.cm); }
+}
+
+function endOperation_finish(op) {
+  var cm = op.cm, display = cm.display, doc = cm.doc;
+
+  if (op.updatedDisplay) { postUpdateDisplay(cm, op.update); }
+
+  // Abort mouse wheel delta measurement, when scrolling explicitly
+  if (display.wheelStartX != null && (op.scrollTop != null || op.scrollLeft != null || op.scrollToPos))
+    { display.wheelStartX = display.wheelStartY = null; }
+
+  // Propagate the scroll position to the actual DOM scroller
+  if (op.scrollTop != null) { setScrollTop(cm, op.scrollTop, op.forceScroll); }
+
+  if (op.scrollLeft != null) { setScrollLeft(cm, op.scrollLeft, true, true); }
+  // If we need to scroll a specific position into view, do so.
+  if (op.scrollToPos) {
+    var rect = scrollPosIntoView(cm, clipPos(doc, op.scrollToPos.from),
+                                 clipPos(doc, op.scrollToPos.to), op.scrollToPos.margin);
+    maybeScrollWindow(cm, rect);
+  }
+
+  // Fire events for markers that are hidden/unidden by editing or
+  // undoing
+  var hidden = op.maybeHiddenMarkers, unhidden = op.maybeUnhiddenMarkers;
+  if (hidden) { for (var i = 0; i < hidden.length; ++i)
+    { if (!hidden[i].lines.length) { signal(hidden[i], "hide"); } } }
+  if (unhidden) { for (var i$1 = 0; i$1 < unhidden.length; ++i$1)
+    { if (unhidden[i$1].lines.length) { signal(unhidden[i$1], "unhide"); } } }
+
+  if (display.wrapper.offsetHeight)
+    { doc.scrollTop = cm.display.scroller.scrollTop; }
+
+  // Fire change events, and delayed event handlers
+  if (op.changeObjs)
+    { signal(cm, "changes", cm, op.changeObjs); }
+  if (op.update)
+    { op.update.finish(); }
+}
+
+// Run the given function in an operation
+function runInOp(cm, f) {
+  if (cm.curOp) { return f() }
+  startOperation(cm);
+  try { return f() }
+  finally { endOperation(cm); }
+}
+// Wraps a function in an operation. Returns the wrapped function.
+function operation(cm, f) {
+  return function() {
+    if (cm.curOp) { return f.apply(cm, arguments) }
+    startOperation(cm);
+    try { return f.apply(cm, arguments) }
+    finally { endOperation(cm); }
+  }
+}
+// Used to add methods to editor and doc instances, wrapping them in
+// operations.
+function methodOp(f) {
+  return function() {
+    if (this.curOp) { return f.apply(this, arguments) }
+    startOperation(this);
+    try { return f.apply(this, arguments) }
+    finally { endOperation(this); }
+  }
+}
+function docMethodOp(f) {
+  return function() {
+    var cm = this.cm;
+    if (!cm || cm.curOp) { return f.apply(this, arguments) }
+    startOperation(cm);
+    try { return f.apply(this, arguments) }
+    finally { endOperation(cm); }
+  }
+}
+
+// Updates the display.view data structure for a given change to the
+// document. From and to are in pre-change coordinates. Lendiff is
+// the amount of lines added or subtracted by the change. This is
+// used for changes that span multiple lines, or change the way
+// lines are divided into visual lines. regLineChange (below)
+// registers single-line changes.
+function regChange(cm, from, to, lendiff) {
+  if (from == null) { from = cm.doc.first; }
+  if (to == null) { to = cm.doc.first + cm.doc.size; }
+  if (!lendiff) { lendiff = 0; }
+
+  var display = cm.display;
+  if (lendiff && to < display.viewTo &&
+      (display.updateLineNumbers == null || display.updateLineNumbers > from))
+    { display.updateLineNumbers = from; }
+
+  cm.curOp.viewChanged = true;
+
+  if (from >= display.viewTo) { // Change after
+    if (sawCollapsedSpans && visualLineNo(cm.doc, from) < display.viewTo)
+      { resetView(cm); }
+  } else if (to <= display.viewFrom) { // Change before
+    if (sawCollapsedSpans && visualLineEndNo(cm.doc, to + lendiff) > display.viewFrom) {
+      resetView(cm);
+    } else {
+      display.viewFrom += lendiff;
+      display.viewTo += lendiff;
+    }
+  } else if (from <= display.viewFrom && to >= display.viewTo) { // Full overlap
+    resetView(cm);
+  } else if (from <= display.viewFrom) { // Top overlap
+    var cut = viewCuttingPoint(cm, to, to + lendiff, 1);
+    if (cut) {
+      display.view = display.view.slice(cut.index);
+      display.viewFrom = cut.lineN;
+      display.viewTo += lendiff;
+    } else {
+      resetView(cm);
+    }
+  } else if (to >= display.viewTo) { // Bottom overlap
+    var cut$1 = viewCuttingPoint(cm, from, from, -1);
+    if (cut$1) {
+      display.view = display.view.slice(0, cut$1.index);
+      display.viewTo = cut$1.lineN;
+    } else {
+      resetView(cm);
+    }
+  } else { // Gap in the middle
+    var cutTop = viewCuttingPoint(cm, from, from, -1);
+    var cutBot = viewCuttingPoint(cm, to, to + lendiff, 1);
+    if (cutTop && cutBot) {
+      display.view = display.view.slice(0, cutTop.index)
+        .concat(buildViewArray(cm, cutTop.lineN, cutBot.lineN))
+        .concat(display.view.slice(cutBot.index));
+      display.viewTo += lendiff;
+    } else {
+      resetView(cm);
+    }
+  }
+
+  var ext = display.externalMeasured;
+  if (ext) {
+    if (to < ext.lineN)
+      { ext.lineN += lendiff; }
+    else if (from < ext.lineN + ext.size)
+      { display.externalMeasured = null; }
+  }
+}
+
+// Register a change to a single line. Type must be one of "text",
+// "gutter", "class", "widget"
+function regLineChange(cm, line, type) {
+  cm.curOp.viewChanged = true;
+  var display = cm.display, ext = cm.display.externalMeasured;
+  if (ext && line >= ext.lineN && line < ext.lineN + ext.size)
+    { display.externalMeasured = null; }
+
+  if (line < display.viewFrom || line >= display.viewTo) { return }
+  var lineView = display.view[findViewIndex(cm, line)];
+  if (lineView.node == null) { return }
+  var arr = lineView.changes || (lineView.changes = []);
+  if (indexOf(arr, type) == -1) { arr.push(type); }
+}
+
+// Clear the view.
+function resetView(cm) {
+  cm.display.viewFrom = cm.display.viewTo = cm.doc.first;
+  cm.display.view = [];
+  cm.display.viewOffset = 0;
+}
+
+function viewCuttingPoint(cm, oldN, newN, dir) {
+  var index = findViewIndex(cm, oldN), diff, view = cm.display.view;
+  if (!sawCollapsedSpans || newN == cm.doc.first + cm.doc.size)
+    { return {index: index, lineN: newN} }
+  var n = cm.display.viewFrom;
+  for (var i = 0; i < index; i++)
+    { n += view[i].size; }
+  if (n != oldN) {
+    if (dir > 0) {
+      if (index == view.length - 1) { return null }
+      diff = (n + view[index].size) - oldN;
+      index++;
+    } else {
+      diff = n - oldN;
+    }
+    oldN += diff; newN += diff;
+  }
+  while (visualLineNo(cm.doc, newN) != newN) {
+    if (index == (dir < 0 ? 0 : view.length - 1)) { return null }
+    newN += dir * view[index - (dir < 0 ? 1 : 0)].size;
+    index += dir;
+  }
+  return {index: index, lineN: newN}
+}
+
+// Force the view to cover a given range, adding empty view element
+// or clipping off existing ones as needed.
+function adjustView(cm, from, to) {
+  var display = cm.display, view = display.view;
+  if (view.length == 0 || from >= display.viewTo || to <= display.viewFrom) {
+    display.view = buildViewArray(cm, from, to);
+    display.viewFrom = from;
+  } else {
+    if (display.viewFrom > from)
+      { display.view = buildViewArray(cm, from, display.viewFrom).concat(display.view); }
+    else if (display.viewFrom < from)
+      { display.view = display.view.slice(findViewIndex(cm, from)); }
+    display.viewFrom = from;
+    if (display.viewTo < to)
+      { display.view = display.view.concat(buildViewArray(cm, display.viewTo, to)); }
+    else if (display.viewTo > to)
+      { display.view = display.view.slice(0, findViewIndex(cm, to)); }
+  }
+  display.viewTo = to;
+}
+
+// Count the number of lines in the view whose DOM representation is
+// out of date (or nonexistent).
+function countDirtyView(cm) {
+  var view = cm.display.view, dirty = 0;
+  for (var i = 0; i < view.length; i++) {
+    var lineView = view[i];
+    if (!lineView.hidden && (!lineView.node || lineView.changes)) { ++dirty; }
+  }
+  return dirty
+}
+
+// HIGHLIGHT WORKER
+
+function startWorker(cm, time) {
+  if (cm.doc.highlightFrontier < cm.display.viewTo)
+    { cm.state.highlight.set(time, bind(highlightWorker, cm)); }
+}
+
+function highlightWorker(cm) {
+  var doc = cm.doc;
+  if (doc.highlightFrontier >= cm.display.viewTo) { return }
+  var end = +new Date + cm.options.workTime;
+  var context = getContextBefore(cm, doc.highlightFrontier);
+  var changedLines = [];
+
+  doc.iter(context.line, Math.min(doc.first + doc.size, cm.display.viewTo + 500), function (line) {
+    if (context.line >= cm.display.viewFrom) { // Visible
+      var oldStyles = line.styles;
+      var resetState = line.text.length > cm.options.maxHighlightLength ? copyState(doc.mode, context.state) : null;
+      var highlighted = highlightLine(cm, line, context, true);
+      if (resetState) { context.state = resetState; }
+      line.styles = highlighted.styles;
+      var oldCls = line.styleClasses, newCls = highlighted.classes;
+      if (newCls) { line.styleClasses = newCls; }
+      else if (oldCls) { line.styleClasses = null; }
+      var ischange = !oldStyles || oldStyles.length != line.styles.length ||
+        oldCls != newCls && (!oldCls || !newCls || oldCls.bgClass != newCls.bgClass || oldCls.textClass != newCls.textClass);
+      for (var i = 0; !ischange && i < oldStyles.length; ++i) { ischange = oldStyles[i] != line.styles[i]; }
+      if (ischange) { changedLines.push(context.line); }
+      line.stateAfter = context.save();
+      context.nextLine();
+    } else {
+      if (line.text.length <= cm.options.maxHighlightLength)
+        { processLine(cm, line.text, context); }
+      line.stateAfter = context.line % 5 == 0 ? context.save() : null;
+      context.nextLine();
+    }
+    if (+new Date > end) {
+      startWorker(cm, cm.options.workDelay);
+      return true
+    }
+  });
+  doc.highlightFrontier = context.line;
+  doc.modeFrontier = Math.max(doc.modeFrontier, context.line);
+  if (changedLines.length) { runInOp(cm, function () {
+    for (var i = 0; i < changedLines.length; i++)
+      { regLineChange(cm, changedLines[i], "text"); }
+  }); }
+}
+
+// DISPLAY DRAWING
+
+var DisplayUpdate = function(cm, viewport, force) {
+  var display = cm.display;
+
+  this.viewport = viewport;
+  // Store some values that we'll need later (but don't want to force a relayout for)
+  this.visible = visibleLines(display, cm.doc, viewport);
+  this.editorIsHidden = !display.wrapper.offsetWidth;
+  this.wrapperHeight = display.wrapper.clientHeight;
+  this.wrapperWidth = display.wrapper.clientWidth;
+  this.oldDisplayWidth = displayWidth(cm);
+  this.force = force;
+  this.dims = getDimensions(cm);
+  this.events = [];
+};
+
+DisplayUpdate.prototype.signal = function (emitter, type) {
+  if (hasHandler(emitter, type))
+    { this.events.push(arguments); }
+};
+DisplayUpdate.prototype.finish = function () {
+    var this$1 = this;
+
+  for (var i = 0; i < this.events.length; i++)
+    { signal.apply(null, this$1.events[i]); }
+};
+
+function maybeClipScrollbars(cm) {
+  var display = cm.display;
+  if (!display.scrollbarsClipped && display.scroller.offsetWidth) {
+    display.nativeBarWidth = display.scroller.offsetWidth - display.scroller.clientWidth;
+    display.heightForcer.style.height = scrollGap(cm) + "px";
+    display.sizer.style.marginBottom = -display.nativeBarWidth + "px";
+    display.sizer.style.borderRightWidth = scrollGap(cm) + "px";
+    display.scrollbarsClipped = true;
+  }
+}
+
+function selectionSnapshot(cm) {
+  if (cm.hasFocus()) { return null }
+  var active = activeElt();
+  if (!active || !contains(cm.display.lineDiv, active)) { return null }
+  var result = {activeElt: active};
+  if (window.getSelection) {
+    var sel = window.getSelection();
+    if (sel.anchorNode && sel.extend && contains(cm.display.lineDiv, sel.anchorNode)) {
+      result.anchorNode = sel.anchorNode;
+      result.anchorOffset = sel.anchorOffset;
+      result.focusNode = sel.focusNode;
+      result.focusOffset = sel.focusOffset;
+    }
+  }
+  return result
+}
+
+function restoreSelection(snapshot) {
+  if (!snapshot || !snapshot.activeElt || snapshot.activeElt == activeElt()) { return }
+  snapshot.activeElt.focus();
+  if (snapshot.anchorNode && contains(document.body, snapshot.anchorNode) && contains(document.body, snapshot.focusNode)) {
+    var sel = window.getSelection(), range$$1 = document.createRange();
+    range$$1.setEnd(snapshot.anchorNode, snapshot.anchorOffset);
+    range$$1.collapse(false);
+    sel.removeAllRanges();
+    sel.addRange(range$$1);
+    sel.extend(snapshot.focusNode, snapshot.focusOffset);
+  }
+}
+
+// Does the actual updating of the line display. Bails out
+// (returning false) when there is nothing to be done and forced is
+// false.
+function updateDisplayIfNeeded(cm, update) {
+  var display = cm.display, doc = cm.doc;
+
+  if (update.editorIsHidden) {
+    resetView(cm);
+    return false
+  }
+
+  // Bail out if the visible area is already rendered and nothing changed.
+  if (!update.force &&
+      update.visible.from >= display.viewFrom && update.visible.to <= display.viewTo &&
+      (display.updateLineNumbers == null || display.updateLineNumbers >= display.viewTo) &&
+      display.renderedView == display.view && countDirtyView(cm) == 0)
+    { return false }
+
+  if (maybeUpdateLineNumberWidth(cm)) {
+    resetView(cm);
+    update.dims = getDimensions(cm);
+  }
+
+  // Compute a suitable new viewport (from & to)
+  var end = doc.first + doc.size;
+  var from = Math.max(update.visible.from - cm.options.viewportMargin, doc.first);
+  var to = Math.min(end, update.visible.to + cm.options.viewportMargin);
+  if (display.viewFrom < from && from - display.viewFrom < 20) { from = Math.max(doc.first, display.viewFrom); }
+  if (display.viewTo > to && display.viewTo - to < 20) { to = Math.min(end, display.viewTo); }
+  if (sawCollapsedSpans) {
+    from = visualLineNo(cm.doc, from);
+    to = visualLineEndNo(cm.doc, to);
+  }
+
+  var different = from != display.viewFrom || to != display.viewTo ||
+    display.lastWrapHeight != update.wrapperHeight || display.lastWrapWidth != update.wrapperWidth;
+  adjustView(cm, from, to);
+
+  display.viewOffset = heightAtLine(getLine(cm.doc, display.viewFrom));
+  // Position the mover div to align with the current scroll position
+  cm.display.mover.style.top = display.viewOffset + "px";
+
+  var toUpdate = countDirtyView(cm);
+  if (!different && toUpdate == 0 && !update.force && display.renderedView == display.view &&
+      (display.updateLineNumbers == null || display.updateLineNumbers >= display.viewTo))
+    { return false }
+
+  // For big changes, we hide the enclosing element during the
+  // update, since that speeds up the operations on most browsers.
+  var selSnapshot = selectionSnapshot(cm);
+  if (toUpdate > 4) { display.lineDiv.style.display = "none"; }
+  patchDisplay(cm, display.updateLineNumbers, update.dims);
+  if (toUpdate > 4) { display.lineDiv.style.display = ""; }
+  display.renderedView = display.view;
+  // There might have been a widget with a focused element that got
+  // hidden or updated, if so re-focus it.
+  restoreSelection(selSnapshot);
+
+  // Prevent selection and cursors from interfering with the scroll
+  // width and height.
+  removeChildren(display.cursorDiv);
+  removeChildren(display.selectionDiv);
+  display.gutters.style.height = display.sizer.style.minHeight = 0;
+
+  if (different) {
+    display.lastWrapHeight = update.wrapperHeight;
+    display.lastWrapWidth = update.wrapperWidth;
+    startWorker(cm, 400);
+  }
+
+  display.updateLineNumbers = null;
+
+  return true
+}
+
+function postUpdateDisplay(cm, update) {
+  var viewport = update.viewport;
+
+  for (var first = true;; first = false) {
+    if (!first || !cm.options.lineWrapping || update.oldDisplayWidth == displayWidth(cm)) {
+      // Clip forced viewport to actual scrollable area.
+      if (viewport && viewport.top != null)
+        { viewport = {top: Math.min(cm.doc.height + paddingVert(cm.display) - displayHeight(cm), viewport.top)}; }
+      // Updated line heights might result in the drawn area not
+      // actually covering the viewport. Keep looping until it does.
+      update.visible = visibleLines(cm.display, cm.doc, viewport);
+      if (update.visible.from >= cm.display.viewFrom && update.visible.to <= cm.display.viewTo)
+        { break }
+    }
+    if (!updateDisplayIfNeeded(cm, update)) { break }
+    updateHeightsInViewport(cm);
+    var barMeasure = measureForScrollbars(cm);
+    updateSelection(cm);
+    updateScrollbars(cm, barMeasure);
+    setDocumentHeight(cm, barMeasure);
+    update.force = false;
+  }
+
+  update.signal(cm, "update", cm);
+  if (cm.display.viewFrom != cm.display.reportedViewFrom || cm.display.viewTo != cm.display.reportedViewTo) {
+    update.signal(cm, "viewportChange", cm, cm.display.viewFrom, cm.display.viewTo);
+    cm.display.reportedViewFrom = cm.display.viewFrom; cm.display.reportedViewTo = cm.display.viewTo;
+  }
+}
+
+function updateDisplaySimple(cm, viewport) {
+  var update = new DisplayUpdate(cm, viewport);
+  if (updateDisplayIfNeeded(cm, update)) {
+    updateHeightsInViewport(cm);
+    postUpdateDisplay(cm, update);
+    var barMeasure = measureForScrollbars(cm);
+    updateSelection(cm);
+    updateScrollbars(cm, barMeasure);
+    setDocumentHeight(cm, barMeasure);
+    update.finish();
+  }
+}
+
+// Sync the actual display DOM structure with display.view, removing
+// nodes for lines that are no longer in view, and creating the ones
+// that are not there yet, and updating the ones that are out of
+// date.
+function patchDisplay(cm, updateNumbersFrom, dims) {
+  var display = cm.display, lineNumbers = cm.options.lineNumbers;
+  var container = display.lineDiv, cur = container.firstChild;
+
+  function rm(node) {
+    var next = node.nextSibling;
+    // Works around a throw-scroll bug in OS X Webkit
+    if (webkit && mac && cm.display.currentWheelTarget == node)
+      { node.style.display = "none"; }
+    else
+      { node.parentNode.removeChild(node); }
+    return next
+  }
+
+  var view = display.view, lineN = display.viewFrom;
+  // Loop over the elements in the view, syncing cur (the DOM nodes
+  // in display.lineDiv) with the view as we go.
+  for (var i = 0; i < view.length; i++) {
+    var lineView = view[i];
+    if (lineView.hidden) {
+    } else if (!lineView.node || lineView.node.parentNode != container) { // Not drawn yet
+      var node = buildLineElement(cm, lineView, lineN, dims);
+      container.insertBefore(node, cur);
+    } else { // Already drawn
+      while (cur != lineView.node) { cur = rm(cur); }
+      var updateNumber = lineNumbers && updateNumbersFrom != null &&
+        updateNumbersFrom <= lineN && lineView.lineNumber;
+      if (lineView.changes) {
+        if (indexOf(lineView.changes, "gutter") > -1) { updateNumber = false; }
+        updateLineForChanges(cm, lineView, lineN, dims);
+      }
+      if (updateNumber) {
+        removeChildren(lineView.lineNumber);
+        lineView.lineNumber.appendChild(document.createTextNode(lineNumberFor(cm.options, lineN)));
+      }
+      cur = lineView.node.nextSibling;
+    }
+    lineN += lineView.size;
+  }
+  while (cur) { cur = rm(cur); }
+}
+
+function updateGutterSpace(cm) {
+  var width = cm.display.gutters.offsetWidth;
+  cm.display.sizer.style.marginLeft = width + "px";
+}
+
+function setDocumentHeight(cm, measure) {
+  cm.display.sizer.style.minHeight = measure.docHeight + "px";
+  cm.display.heightForcer.style.top = measure.docHeight + "px";
+  cm.display.gutters.style.height = (measure.docHeight + cm.display.barHeight + scrollGap(cm)) + "px";
+}
+
+// Rebuild the gutter elements, ensure the margin to the left of the
+// code matches their width.
+function updateGutters(cm) {
+  var gutters = cm.display.gutters, specs = cm.options.gutters;
+  removeChildren(gutters);
+  var i = 0;
+  for (; i < specs.length; ++i) {
+    var gutterClass = specs[i];
+    var gElt = gutters.appendChild(elt("div", null, "CodeMirror-gutter " + gutterClass));
+    if (gutterClass == "CodeMirror-linenumbers") {
+      cm.display.lineGutter = gElt;
+      gElt.style.width = (cm.display.lineNumWidth || 1) + "px";
+    }
+  }
+  gutters.style.display = i ? "" : "none";
+  updateGutterSpace(cm);
+}
+
+// Make sure the gutters options contains the element
+// "CodeMirror-linenumbers" when the lineNumbers option is true.
+function setGuttersForLineNumbers(options) {
+  var found = indexOf(options.gutters, "CodeMirror-linenumbers");
+  if (found == -1 && options.lineNumbers) {
+    options.gutters = options.gutters.concat(["CodeMirror-linenumbers"]);
+  } else if (found > -1 && !options.lineNumbers) {
+    options.gutters = options.gutters.slice(0);
+    options.gutters.splice(found, 1);
+  }
+}
+
+// Since the delta values reported on mouse wheel events are
+// unstandardized between browsers and even browser versions, and
+// generally horribly unpredictable, this code starts by measuring
+// the scroll effect that the first few mouse wheel events have,
+// and, from that, detects the way it can convert deltas to pixel
+// offsets afterwards.
+//
+// The reason we want to know the amount a wheel event will scroll
+// is that it gives us a chance to update the display before the
+// actual scrolling happens, reducing flickering.
+
+var wheelSamples = 0;
+var wheelPixelsPerUnit = null;
+// Fill in a browser-detected starting value on browsers where we
+// know one. These don't have to be accurate -- the result of them
+// being wrong would just be a slight flicker on the first wheel
+// scroll (if it is large enough).
+if (ie) { wheelPixelsPerUnit = -.53; }
+else if (gecko) { wheelPixelsPerUnit = 15; }
+else if (chrome) { wheelPixelsPerUnit = -.7; }
+else if (safari) { wheelPixelsPerUnit = -1/3; }
+
+function wheelEventDelta(e) {
+  var dx = e.wheelDeltaX, dy = e.wheelDeltaY;
+  if (dx == null && e.detail && e.axis == e.HORIZONTAL_AXIS) { dx = e.detail; }
+  if (dy == null && e.detail && e.axis == e.VERTICAL_AXIS) { dy = e.detail; }
+  else if (dy == null) { dy = e.wheelDelta; }
+  return {x: dx, y: dy}
+}
+function wheelEventPixels(e) {
+  var delta = wheelEventDelta(e);
+  delta.x *= wheelPixelsPerUnit;
+  delta.y *= wheelPixelsPerUnit;
+  return delta
+}
+
+function onScrollWheel(cm, e) {
+  var delta = wheelEventDelta(e), dx = delta.x, dy = delta.y;
+
+  var display = cm.display, scroll = display.scroller;
+  // Quit if there's nothing to scroll here
+  var canScrollX = scroll.scrollWidth > scroll.clientWidth;
+  var canScrollY = scroll.scrollHeight > scroll.clientHeight;
+  if (!(dx && canScrollX || dy && canScrollY)) { return }
+
+  // Webkit browsers on OS X abort momentum scrolls when the target
+  // of the scroll event is removed from the scrollable element.
+  // This hack (see related code in patchDisplay) makes sure the
+  // element is kept around.
+  if (dy && mac && webkit) {
+    outer: for (var cur = e.target, view = display.view; cur != scroll; cur = cur.parentNode) {
+      for (var i = 0; i < view.length; i++) {
+        if (view[i].node == cur) {
+          cm.display.currentWheelTarget = cur;
+          break outer
+        }
+      }
+    }
+  }
+
+  // On some browsers, horizontal scrolling will cause redraws to
+  // happen before the gutter has been realigned, causing it to
+  // wriggle around in a most unseemly way. When we have an
+  // estimated pixels/delta value, we just handle horizontal
+  // scrolling entirely here. It'll be slightly off from native, but
+  // better than glitching out.
+  if (dx && !gecko && !presto && wheelPixelsPerUnit != null) {
+    if (dy && canScrollY)
+      { updateScrollTop(cm, Math.max(0, scroll.scrollTop + dy * wheelPixelsPerUnit)); }
+    setScrollLeft(cm, Math.max(0, scroll.scrollLeft + dx * wheelPixelsPerUnit));
+    // Only prevent default scrolling if vertical scrolling is
+    // actually possible. Otherwise, it causes vertical scroll
+    // jitter on OSX trackpads when deltaX is small and deltaY
+    // is large (issue #3579)
+    if (!dy || (dy && canScrollY))
+      { e_preventDefault(e); }
+    display.wheelStartX = null; // Abort measurement, if in progress
+    return
+  }
+
+  // 'Project' the visible viewport to cover the area that is being
+  // scrolled into view (if we know enough to estimate it).
+  if (dy && wheelPixelsPerUnit != null) {
+    var pixels = dy * wheelPixelsPerUnit;
+    var top = cm.doc.scrollTop, bot = top + display.wrapper.clientHeight;
+    if (pixels < 0) { top = Math.max(0, top + pixels - 50); }
+    else { bot = Math.min(cm.doc.height, bot + pixels + 50); }
+    updateDisplaySimple(cm, {top: top, bottom: bot});
+  }
+
+  if (wheelSamples < 20) {
+    if (display.wheelStartX == null) {
+      display.wheelStartX = scroll.scrollLeft; display.wheelStartY = scroll.scrollTop;
+      display.wheelDX = dx; display.wheelDY = dy;
+      setTimeout(function () {
+        if (display.wheelStartX == null) { return }
+        var movedX = scroll.scrollLeft - display.wheelStartX;
+        var movedY = scroll.scrollTop - display.wheelStartY;
+        var sample = (movedY && display.wheelDY && movedY / display.wheelDY) ||
+          (movedX && display.wheelDX && movedX / display.wheelDX);
+        display.wheelStartX = display.wheelStartY = null;
+        if (!sample) { return }
+        wheelPixelsPerUnit = (wheelPixelsPerUnit * wheelSamples + sample) / (wheelSamples + 1);
+        ++wheelSamples;
+      }, 200);
+    } else {
+      display.wheelDX += dx; display.wheelDY += dy;
+    }
+  }
+}
+
+// Selection objects are immutable. A new one is created every time
+// the selection changes. A selection is one or more non-overlapping
+// (and non-touching) ranges, sorted, and an integer that indicates
+// which one is the primary selection (the one that's scrolled into
+// view, that getCursor returns, etc).
+var Selection = function(ranges, primIndex) {
+  this.ranges = ranges;
+  this.primIndex = primIndex;
+};
+
+Selection.prototype.primary = function () { return this.ranges[this.primIndex] };
+
+Selection.prototype.equals = function (other) {
+    var this$1 = this;
+
+  if (other == this) { return true }
+  if (other.primIndex != this.primIndex || other.ranges.length != this.ranges.length) { return false }
+  for (var i = 0; i < this.ranges.length; i++) {
+    var here = this$1.ranges[i], there = other.ranges[i];
+    if (!equalCursorPos(here.anchor, there.anchor) || !equalCursorPos(here.head, there.head)) { return false }
+  }
+  return true
+};
+
+Selection.prototype.deepCopy = function () {
+    var this$1 = this;
+
+  var out = [];
+  for (var i = 0; i < this.ranges.length; i++)
+    { out[i] = new Range(copyPos(this$1.ranges[i].anchor), copyPos(this$1.ranges[i].head)); }
+  return new Selection(out, this.primIndex)
+};
+
+Selection.prototype.somethingSelected = function () {
+    var this$1 = this;
+
+  for (var i = 0; i < this.ranges.length; i++)
+    { if (!this$1.ranges[i].empty()) { return true } }
+  return false
+};
+
+Selection.prototype.contains = function (pos, end) {
+    var this$1 = this;
+
+  if (!end) { end = pos; }
+  for (var i = 0; i < this.ranges.length; i++) {
+    var range = this$1.ranges[i];
+    if (cmp(end, range.from()) >= 0 && cmp(pos, range.to()) <= 0)
+      { return i }
+  }
+  return -1
+};
+
+var Range = function(anchor, head) {
+  this.anchor = anchor; this.head = head;
+};
+
+Range.prototype.from = function () { return minPos(this.anchor, this.head) };
+Range.prototype.to = function () { return maxPos(this.anchor, this.head) };
+Range.prototype.empty = function () { return this.head.line == this.anchor.line && this.head.ch == this.anchor.ch };
+
+// Take an unsorted, potentially overlapping set of ranges, and
+// build a selection out of it. 'Consumes' ranges array (modifying
+// it).
+function normalizeSelection(ranges, primIndex) {
+  var prim = ranges[primIndex];
+  ranges.sort(function (a, b) { return cmp(a.from(), b.from()); });
+  primIndex = indexOf(ranges, prim);
+  for (var i = 1; i < ranges.length; i++) {
+    var cur = ranges[i], prev = ranges[i - 1];
+    if (cmp(prev.to(), cur.from()) >= 0) {
+      var from = minPos(prev.from(), cur.from()), to = maxPos(prev.to(), cur.to());
+      var inv = prev.empty() ? cur.from() == cur.head : prev.from() == prev.head;
+      if (i <= primIndex) { --primIndex; }
+      ranges.splice(--i, 2, new Range(inv ? to : from, inv ? from : to));
+    }
+  }
+  return new Selection(ranges, primIndex)
+}
+
+function simpleSelection(anchor, head) {
+  return new Selection([new Range(anchor, head || anchor)], 0)
+}
+
+// Compute the position of the end of a change (its 'to' property
+// refers to the pre-change end).
+function changeEnd(change) {
+  if (!change.text) { return change.to }
+  return Pos(change.from.line + change.text.length - 1,
+             lst(change.text).length + (change.text.length == 1 ? change.from.ch : 0))
+}
+
+// Adjust a position to refer to the post-change position of the
+// same text, or the end of the change if the change covers it.
+function adjustForChange(pos, change) {
+  if (cmp(pos, change.from) < 0) { return pos }
+  if (cmp(pos, change.to) <= 0) { return changeEnd(change) }
+
+  var line = pos.line + change.text.length - (change.to.line - change.from.line) - 1, ch = pos.ch;
+  if (pos.line == change.to.line) { ch += changeEnd(change).ch - change.to.ch; }
+  return Pos(line, ch)
+}
+
+function computeSelAfterChange(doc, change) {
+  var out = [];
+  for (var i = 0; i < doc.sel.ranges.length; i++) {
+    var range = doc.sel.ranges[i];
+    out.push(new Range(adjustForChange(range.anchor, change),
+                       adjustForChange(range.head, change)));
+  }
+  return normalizeSelection(out, doc.sel.primIndex)
+}
+
+function offsetPos(pos, old, nw) {
+  if (pos.line == old.line)
+    { return Pos(nw.line, pos.ch - old.ch + nw.ch) }
+  else
+    { return Pos(nw.line + (pos.line - old.line), pos.ch) }
+}
+
+// Used by replaceSelections to allow moving the selection to the
+// start or around the replaced test. Hint may be "start" or "around".
+function computeReplacedSel(doc, changes, hint) {
+  var out = [];
+  var oldPrev = Pos(doc.first, 0), newPrev = oldPrev;
+  for (var i = 0; i < changes.length; i++) {
+    var change = changes[i];
+    var from = offsetPos(change.from, oldPrev, newPrev);
+    var to = offsetPos(changeEnd(change), oldPrev, newPrev);
+    oldPrev = change.to;
+    newPrev = to;
+    if (hint == "around") {
+      var range = doc.sel.ranges[i], inv = cmp(range.head, range.anchor) < 0;
+      out[i] = new Range(inv ? to : from, inv ? from : to);
+    } else {
+      out[i] = new Range(from, from);
+    }
+  }
+  return new Selection(out, doc.sel.primIndex)
+}
+
+// Used to get the editor into a consistent state again when options change.
+
+function loadMode(cm) {
+  cm.doc.mode = getMode(cm.options, cm.doc.modeOption);
+  resetModeState(cm);
+}
+
+function resetModeState(cm) {
+  cm.doc.iter(function (line) {
+    if (line.stateAfter) { line.stateAfter = null; }
+    if (line.styles) { line.styles = null; }
+  });
+  cm.doc.modeFrontier = cm.doc.highlightFrontier = cm.doc.first;
+  startWorker(cm, 100);
+  cm.state.modeGen++;
+  if (cm.curOp) { regChange(cm); }
+}
+
+// DOCUMENT DATA STRUCTURE
+
+// By default, updates that start and end at the beginning of a line
+// are treated specially, in order to make the association of line
+// widgets and marker elements with the text behave more intuitive.
+function isWholeLineUpdate(doc, change) {
+  return change.from.ch == 0 && change.to.ch == 0 && lst(change.text) == "" &&
+    (!doc.cm || doc.cm.options.wholeLineUpdateBefore)
+}
+
+// Perform a change on the document data structure.
+function updateDoc(doc, change, markedSpans, estimateHeight$$1) {
+  function spansFor(n) {return markedSpans ? markedSpans[n] : null}
+  function update(line, text, spans) {
+    updateLine(line, text, spans, estimateHeight$$1);
+    signalLater(line, "change", line, change);
+  }
+  function linesFor(start, end) {
+    var result = [];
+    for (var i = start; i < end; ++i)
+      { result.push(new Line(text[i], spansFor(i), estimateHeight$$1)); }
+    return result
+  }
+
+  var from = change.from, to = change.to, text = change.text;
+  var firstLine = getLine(doc, from.line), lastLine = getLine(doc, to.line);
+  var lastText = lst(text), lastSpans = spansFor(text.length - 1), nlines = to.line - from.line;
+
+  // Adjust the line structure
+  if (change.full) {
+    doc.insert(0, linesFor(0, text.length));
+    doc.remove(text.length, doc.size - text.length);
+  } else if (isWholeLineUpdate(doc, change)) {
+    // This is a whole-line replace. Treated specially to make
+    // sure line objects move the way they are supposed to.
+    var added = linesFor(0, text.length - 1);
+    update(lastLine, lastLine.text, lastSpans);
+    if (nlines) { doc.remove(from.line, nlines); }
+    if (added.length) { doc.insert(from.line, added); }
+  } else if (firstLine == lastLine) {
+    if (text.length == 1) {
+      update(firstLine, firstLine.text.slice(0, from.ch) + lastText + firstLine.text.slice(to.ch), lastSpans);
+    } else {
+      var added$1 = linesFor(1, text.length - 1);
+      added$1.push(new Line(lastText + firstLine.text.slice(to.ch), lastSpans, estimateHeight$$1));
+      update(firstLine, firstLine.text.slice(0, from.ch) + text[0], spansFor(0));
+      doc.insert(from.line + 1, added$1);
+    }
+  } else if (text.length == 1) {
+    update(firstLine, firstLine.text.slice(0, from.ch) + text[0] + lastLine.text.slice(to.ch), spansFor(0));
+    doc.remove(from.line + 1, nlines);
+  } else {
+    update(firstLine, firstLine.text.slice(0, from.ch) + text[0], spansFor(0));
+    update(lastLine, lastText + lastLine.text.slice(to.ch), lastSpans);
+    var added$2 = linesFor(1, text.length - 1);
+    if (nlines > 1) { doc.remove(from.line + 1, nlines - 1); }
+    doc.insert(from.line + 1, added$2);
+  }
+
+  signalLater(doc, "change", doc, change);
+}
+
+// Call f for all linked documents.
+function linkedDocs(doc, f, sharedHistOnly) {
+  function propagate(doc, skip, sharedHist) {
+    if (doc.linked) { for (var i = 0; i < doc.linked.length; ++i) {
+      var rel = doc.linked[i];
+      if (rel.doc == skip) { continue }
+      var shared = sharedHist && rel.sharedHist;
+      if (sharedHistOnly && !shared) { continue }
+      f(rel.doc, shared);
+      propagate(rel.doc, doc, shared);
+    } }
+  }
+  propagate(doc, null, true);
+}
+
+// Attach a document to an editor.
+function attachDoc(cm, doc) {
+  if (doc.cm) { throw new Error("This document is already in use.") }
+  cm.doc = doc;
+  doc.cm = cm;
+  estimateLineHeights(cm);
+  loadMode(cm);
+  setDirectionClass(cm);
+  if (!cm.options.lineWrapping) { findMaxLine(cm); }
+  cm.options.mode = doc.modeOption;
+  regChange(cm);
+}
+
+function setDirectionClass(cm) {
+  (cm.doc.direction == "rtl" ? addClass : rmClass)(cm.display.lineDiv, "CodeMirror-rtl");
+}
+
+function directionChanged(cm) {
+  runInOp(cm, function () {
+    setDirectionClass(cm);
+    regChange(cm);
+  });
+}
+
+function History(startGen) {
+  // Arrays of change events and selections. Doing something adds an
+  // event to done and clears undo. Undoing moves events from done
+  // to undone, redoing moves them in the other direction.
+  this.done = []; this.undone = [];
+  this.undoDepth = Infinity;
+  // Used to track when changes can be merged into a single undo
+  // event
+  this.lastModTime = this.lastSelTime = 0;
+  this.lastOp = this.lastSelOp = null;
+  this.lastOrigin = this.lastSelOrigin = null;
+  // Used by the isClean() method
+  this.generation = this.maxGeneration = startGen || 1;
+}
+
+// Create a history change event from an updateDoc-style change
+// object.
+function historyChangeFromChange(doc, change) {
+  var histChange = {from: copyPos(change.from), to: changeEnd(change), text: getBetween(doc, change.from, change.to)};
+  attachLocalSpans(doc, histChange, change.from.line, change.to.line + 1);
+  linkedDocs(doc, function (doc) { return attachLocalSpans(doc, histChange, change.from.line, change.to.line + 1); }, true);
+  return histChange
+}
+
+// Pop all selection events off the end of a history array. Stop at
+// a change event.
+function clearSelectionEvents(array) {
+  while (array.length) {
+    var last = lst(array);
+    if (last.ranges) { array.pop(); }
+    else { break }
+  }
+}
+
+// Find the top change event in the history. Pop off selection
+// events that are in the way.
+function lastChangeEvent(hist, force) {
+  if (force) {
+    clearSelectionEvents(hist.done);
+    return lst(hist.done)
+  } else if (hist.done.length && !lst(hist.done).ranges) {
+    return lst(hist.done)
+  } else if (hist.done.length > 1 && !hist.done[hist.done.length - 2].ranges) {
+    hist.done.pop();
+    return lst(hist.done)
+  }
+}
+
+// Register a change in the history. Merges changes that are within
+// a single operation, or are close together with an origin that
+// allows merging (starting with "+") into a single event.
+function addChangeToHistory(doc, change, selAfter, opId) {
+  var hist = doc.history;
+  hist.undone.length = 0;
+  var time = +new Date, cur;
+  var last;
+
+  if ((hist.lastOp == opId ||
+       hist.lastOrigin == change.origin && change.origin &&
+       ((change.origin.charAt(0) == "+" && doc.cm && hist.lastModTime > time - doc.cm.options.historyEventDelay) ||
+        change.origin.charAt(0) == "*")) &&
+      (cur = lastChangeEvent(hist, hist.lastOp == opId))) {
+    // Merge this change into the last event
+    last = lst(cur.changes);
+    if (cmp(change.from, change.to) == 0 && cmp(change.from, last.to) == 0) {
+      // Optimized case for simple insertion -- don't want to add
+      // new changesets for every character typed
+      last.to = changeEnd(change);
+    } else {
+      // Add new sub-event
+      cur.changes.push(historyChangeFromChange(doc, change));
+    }
+  } else {
+    // Can not be merged, start a new event.
+    var before = lst(hist.done);
+    if (!before || !before.ranges)
+      { pushSelectionToHistory(doc.sel, hist.done); }
+    cur = {changes: [historyChangeFromChange(doc, change)],
+           generation: hist.generation};
+    hist.done.push(cur);
+    while (hist.done.length > hist.undoDepth) {
+      hist.done.shift();
+      if (!hist.done[0].ranges) { hist.done.shift(); }
+    }
+  }
+  hist.done.push(selAfter);
+  hist.generation = ++hist.maxGeneration;
+  hist.lastModTime = hist.lastSelTime = time;
+  hist.lastOp = hist.lastSelOp = opId;
+  hist.lastOrigin = hist.lastSelOrigin = change.origin;
+
+  if (!last) { signal(doc, "historyAdded"); }
+}
+
+function selectionEventCanBeMerged(doc, origin, prev, sel) {
+  var ch = origin.charAt(0);
+  return ch == "*" ||
+    ch == "+" &&
+    prev.ranges.length == sel.ranges.length &&
+    prev.somethingSelected() == sel.somethingSelected() &&
+    new Date - doc.history.lastSelTime <= (doc.cm ? doc.cm.options.historyEventDelay : 500)
+}
+
+// Called whenever the selection changes, sets the new selection as
+// the pending selection in the history, and pushes the old pending
+// selection into the 'done' array when it was significantly
+// different (in number of selected ranges, emptiness, or time).
+function addSelectionToHistory(doc, sel, opId, options) {
+  var hist = doc.history, origin = options && options.origin;
+
+  // A new event is started when the previous origin does not match
+  // the current, or the origins don't allow matching. Origins
+  // starting with * are always merged, those starting with + are
+  // merged when similar and close together in time.
+  if (opId == hist.lastSelOp ||
+      (origin && hist.lastSelOrigin == origin &&
+       (hist.lastModTime == hist.lastSelTime && hist.lastOrigin == origin ||
+        selectionEventCanBeMerged(doc, origin, lst(hist.done), sel))))
+    { hist.done[hist.done.length - 1] = sel; }
+  else
+    { pushSelectionToHistory(sel, hist.done); }
+
+  hist.lastSelTime = +new Date;
+  hist.lastSelOrigin = origin;
+  hist.lastSelOp = opId;
+  if (options && options.clearRedo !== false)
+    { clearSelectionEvents(hist.undone); }
+}
+
+function pushSelectionToHistory(sel, dest) {
+  var top = lst(dest);
+  if (!(top && top.ranges && top.equals(sel)))
+    { dest.push(sel); }
+}
+
+// Used to store marked span information in the history.
+function attachLocalSpans(doc, change, from, to) {
+  var existing = change["spans_" + doc.id], n = 0;
+  doc.iter(Math.max(doc.first, from), Math.min(doc.first + doc.size, to), function (line) {
+    if (line.markedSpans)
+      { (existing || (existing = change["spans_" + doc.id] = {}))[n] = line.markedSpans; }
+    ++n;
+  });
+}
+
+// When un/re-doing restores text containing marked spans, those
+// that have been explicitly cleared should not be restored.
+function removeClearedSpans(spans) {
+  if (!spans) { return null }
+  var out;
+  for (var i = 0; i < spans.length; ++i) {
+    if (spans[i].marker.explicitlyCleared) { if (!out) { out = spans.slice(0, i); } }
+    else if (out) { out.push(spans[i]); }
+  }
+  return !out ? spans : out.length ? out : null
+}
+
+// Retrieve and filter the old marked spans stored in a change event.
+function getOldSpans(doc, change) {
+  var found = change["spans_" + doc.id];
+  if (!found) { return null }
+  var nw = [];
+  for (var i = 0; i < change.text.length; ++i)
+    { nw.push(removeClearedSpans(found[i])); }
+  return nw
+}
+
+// Used for un/re-doing changes from the history. Combines the
+// result of computing the existing spans with the set of spans that
+// existed in the history (so that deleting around a span and then
+// undoing brings back the span).
+function mergeOldSpans(doc, change) {
+  var old = getOldSpans(doc, change);
+  var stretched = stretchSpansOverChange(doc, change);
+  if (!old) { return stretched }
+  if (!stretched) { return old }
+
+  for (var i = 0; i < old.length; ++i) {
+    var oldCur = old[i], stretchCur = stretched[i];
+    if (oldCur && stretchCur) {
+      spans: for (var j = 0; j < stretchCur.length; ++j) {
+        var span = stretchCur[j];
+        for (var k = 0; k < oldCur.length; ++k)
+          { if (oldCur[k].marker == span.marker) { continue spans } }
+        oldCur.push(span);
+      }
+    } else if (stretchCur) {
+      old[i] = stretchCur;
+    }
+  }
+  return old
+}
+
+// Used both to provide a JSON-safe object in .getHistory, and, when
+// detaching a document, to split the history in two
+function copyHistoryArray(events, newGroup, instantiateSel) {
+  var copy = [];
+  for (var i = 0; i < events.length; ++i) {
+    var event = events[i];
+    if (event.ranges) {
+      copy.push(instantiateSel ? Selection.prototype.deepCopy.call(event) : event);
+      continue
+    }
+    var changes = event.changes, newChanges = [];
+    copy.push({changes: newChanges});
+    for (var j = 0; j < changes.length; ++j) {
+      var change = changes[j], m = (void 0);
+      newChanges.push({from: change.from, to: change.to, text: change.text});
+      if (newGroup) { for (var prop in change) { if (m = prop.match(/^spans_(\d+)$/)) {
+        if (indexOf(newGroup, Number(m[1])) > -1) {
+          lst(newChanges)[prop] = change[prop];
+          delete change[prop];
+        }
+      } } }
+    }
+  }
+  return copy
+}
+
+// The 'scroll' parameter given to many of these indicated whether
+// the new cursor position should be scrolled into view after
+// modifying the selection.
+
+// If shift is held or the extend flag is set, extends a range to
+// include a given position (and optionally a second position).
+// Otherwise, simply returns the range between the given positions.
+// Used for cursor motion and such.
+function extendRange(range, head, other, extend) {
+  if (extend) {
+    var anchor = range.anchor;
+    if (other) {
+      var posBefore = cmp(head, anchor) < 0;
+      if (posBefore != (cmp(other, anchor) < 0)) {
+        anchor = head;
+        head = other;
+      } else if (posBefore != (cmp(head, other) < 0)) {
+        head = other;
+      }
+    }
+    return new Range(anchor, head)
+  } else {
+    return new Range(other || head, head)
+  }
+}
+
+// Extend the primary selection range, discard the rest.
+function extendSelection(doc, head, other, options, extend) {
+  if (extend == null) { extend = doc.cm && (doc.cm.display.shift || doc.extend); }
+  setSelection(doc, new Selection([extendRange(doc.sel.primary(), head, other, extend)], 0), options);
+}
+
+// Extend all selections (pos is an array of selections with length
+// equal the number of selections)
+function extendSelections(doc, heads, options) {
+  var out = [];
+  var extend = doc.cm && (doc.cm.display.shift || doc.extend);
+  for (var i = 0; i < doc.sel.ranges.length; i++)
+    { out[i] = extendRange(doc.sel.ranges[i], heads[i], null, extend); }
+  var newSel = normalizeSelection(out, doc.sel.primIndex);
+  setSelection(doc, newSel, options);
+}
+
+// Updates a single range in the selection.
+function replaceOneSelection(doc, i, range, options) {
+  var ranges = doc.sel.ranges.slice(0);
+  ranges[i] = range;
+  setSelection(doc, normalizeSelection(ranges, doc.sel.primIndex), options);
+}
+
+// Reset the selection to a single range.
+function setSimpleSelection(doc, anchor, head, options) {
+  setSelection(doc, simpleSelection(anchor, head), options);
+}
+
+// Give beforeSelectionChange handlers a change to influence a
+// selection update.
+function filterSelectionChange(doc, sel, options) {
+  var obj = {
+    ranges: sel.ranges,
+    update: function(ranges) {
+      var this$1 = this;
+
+      this.ranges = [];
+      for (var i = 0; i < ranges.length; i++)
+        { this$1.ranges[i] = new Range(clipPos(doc, ranges[i].anchor),
+                                   clipPos(doc, ranges[i].head)); }
+    },
+    origin: options && options.origin
+  };
+  signal(doc, "beforeSelectionChange", doc, obj);
+  if (doc.cm) { signal(doc.cm, "beforeSelectionChange", doc.cm, obj); }
+  if (obj.ranges != sel.ranges) { return normalizeSelection(obj.ranges, obj.ranges.length - 1) }
+  else { return sel }
+}
+
+function setSelectionReplaceHistory(doc, sel, options) {
+  var done = doc.history.done, last = lst(done);
+  if (last && last.ranges) {
+    done[done.length - 1] = sel;
+    setSelectionNoUndo(doc, sel, options);
+  } else {
+    setSelection(doc, sel, options);
+  }
+}
+
+// Set a new selection.
+function setSelection(doc, sel, options) {
+  setSelectionNoUndo(doc, sel, options);
+  addSelectionToHistory(doc, doc.sel, doc.cm ? doc.cm.curOp.id : NaN, options);
+}
+
+function setSelectionNoUndo(doc, sel, options) {
+  if (hasHandler(doc, "beforeSelectionChange") || doc.cm && hasHandler(doc.cm, "beforeSelectionChange"))
+    { sel = filterSelectionChange(doc, sel, options); }
+
+  var bias = options && options.bias ||
+    (cmp(sel.primary().head, doc.sel.primary().head) < 0 ? -1 : 1);
+  setSelectionInner(doc, skipAtomicInSelection(doc, sel, bias, true));
+
+  if (!(options && options.scroll === false) && doc.cm)
+    { ensureCursorVisible(doc.cm); }
+}
+
+function setSelectionInner(doc, sel) {
+  if (sel.equals(doc.sel)) { return }
+
+  doc.sel = sel;
+
+  if (doc.cm) {
+    doc.cm.curOp.updateInput = doc.cm.curOp.selectionChanged = true;
+    signalCursorActivity(doc.cm);
+  }
+  signalLater(doc, "cursorActivity", doc);
+}
+
+// Verify that the selection does not partially select any atomic
+// marked ranges.
+function reCheckSelection(doc) {
+  setSelectionInner(doc, skipAtomicInSelection(doc, doc.sel, null, false));
+}
+
+// Return a selection that does not partially select any atomic
+// ranges.
+function skipAtomicInSelection(doc, sel, bias, mayClear) {
+  var out;
+  for (var i = 0; i < sel.ranges.length; i++) {
+    var range = sel.ranges[i];
+    var old = sel.ranges.length == doc.sel.ranges.length && doc.sel.ranges[i];
+    var newAnchor = skipAtomic(doc, range.anchor, old && old.anchor, bias, mayClear);
+    var newHead = skipAtomic(doc, range.head, old && old.head, bias, mayClear);
+    if (out || newAnchor != range.anchor || newHead != range.head) {
+      if (!out) { out = sel.ranges.slice(0, i); }
+      out[i] = new Range(newAnchor, newHead);
+    }
+  }
+  return out ? normalizeSelection(out, sel.primIndex) : sel
+}
+
+function skipAtomicInner(doc, pos, oldPos, dir, mayClear) {
+  var line = getLine(doc, pos.line);
+  if (line.markedSpans) { for (var i = 0; i < line.markedSpans.length; ++i) {
+    var sp = line.markedSpans[i], m = sp.marker;
+    if ((sp.from == null || (m.inclusiveLeft ? sp.from <= pos.ch : sp.from < pos.ch)) &&
+        (sp.to == null || (m.inclusiveRight ? sp.to >= pos.ch : sp.to > pos.ch))) {
+      if (mayClear) {
+        signal(m, "beforeCursorEnter");
+        if (m.explicitlyCleared) {
+          if (!line.markedSpans) { break }
+          else {--i; continue}
+        }
+      }
+      if (!m.atomic) { continue }
+
+      if (oldPos) {
+        var near = m.find(dir < 0 ? 1 : -1), diff = (void 0);
+        if (dir < 0 ? m.inclusiveRight : m.inclusiveLeft)
+          { near = movePos(doc, near, -dir, near && near.line == pos.line ? line : null); }
+        if (near && near.line == pos.line && (diff = cmp(near, oldPos)) && (dir < 0 ? diff < 0 : diff > 0))
+          { return skipAtomicInner(doc, near, pos, dir, mayClear) }
+      }
+
+      var far = m.find(dir < 0 ? -1 : 1);
+      if (dir < 0 ? m.inclusiveLeft : m.inclusiveRight)
+        { far = movePos(doc, far, dir, far.line == pos.line ? line : null); }
+      return far ? skipAtomicInner(doc, far, pos, dir, mayClear) : null
+    }
+  } }
+  return pos
+}
+
+// Ensure a given position is not inside an atomic range.
+function skipAtomic(doc, pos, oldPos, bias, mayClear) {
+  var dir = bias || 1;
+  var found = skipAtomicInner(doc, pos, oldPos, dir, mayClear) ||
+      (!mayClear && skipAtomicInner(doc, pos, oldPos, dir, true)) ||
+      skipAtomicInner(doc, pos, oldPos, -dir, mayClear) ||
+      (!mayClear && skipAtomicInner(doc, pos, oldPos, -dir, true));
+  if (!found) {
+    doc.cantEdit = true;
+    return Pos(doc.first, 0)
+  }
+  return found
+}
+
+function movePos(doc, pos, dir, line) {
+  if (dir < 0 && pos.ch == 0) {
+    if (pos.line > doc.first) { return clipPos(doc, Pos(pos.line - 1)) }
+    else { return null }
+  } else if (dir > 0 && pos.ch == (line || getLine(doc, pos.line)).text.length) {
+    if (pos.line < doc.first + doc.size - 1) { return Pos(pos.line + 1, 0) }
+    else { return null }
+  } else {
+    return new Pos(pos.line, pos.ch + dir)
+  }
+}
+
+function selectAll(cm) {
+  cm.setSelection(Pos(cm.firstLine(), 0), Pos(cm.lastLine()), sel_dontScroll);
+}
+
+// UPDATING
+
+// Allow "beforeChange" event handlers to influence a change
+function filterChange(doc, change, update) {
+  var obj = {
+    canceled: false,
+    from: change.from,
+    to: change.to,
+    text: change.text,
+    origin: change.origin,
+    cancel: function () { return obj.canceled = true; }
+  };
+  if (update) { obj.update = function (from, to, text, origin) {
+    if (from) { obj.from = clipPos(doc, from); }
+    if (to) { obj.to = clipPos(doc, to); }
+    if (text) { obj.text = text; }
+    if (origin !== undefined) { obj.origin = origin; }
+  }; }
+  signal(doc, "beforeChange", doc, obj);
+  if (doc.cm) { signal(doc.cm, "beforeChange", doc.cm, obj); }
+
+  if (obj.canceled) { return null }
+  return {from: obj.from, to: obj.to, text: obj.text, origin: obj.origin}
+}
+
+// Apply a change to a document, and add it to the document's
+// history, and propagating it to all linked documents.
+function makeChange(doc, change, ignoreReadOnly) {
+  if (doc.cm) {
+    if (!doc.cm.curOp) { return operation(doc.cm, makeChange)(doc, change, ignoreReadOnly) }
+    if (doc.cm.state.suppressEdits) { return }
+  }
+
+  if (hasHandler(doc, "beforeChange") || doc.cm && hasHandler(doc.cm, "beforeChange")) {
+    change = filterChange(doc, change, true);
+    if (!change) { return }
+  }
+
+  // Possibly split or suppress the update based on the presence
+  // of read-only spans in its range.
+  var split = sawReadOnlySpans && !ignoreReadOnly && removeReadOnlyRanges(doc, change.from, change.to);
+  if (split) {
+    for (var i = split.length - 1; i >= 0; --i)
+      { makeChangeInner(doc, {from: split[i].from, to: split[i].to, text: i ? [""] : change.text, origin: change.origin}); }
+  } else {
+    makeChangeInner(doc, change);
+  }
+}
+
+function makeChangeInner(doc, change) {
+  if (change.text.length == 1 && change.text[0] == "" && cmp(change.from, change.to) == 0) { return }
+  var selAfter = computeSelAfterChange(doc, change);
+  addChangeToHistory(doc, change, selAfter, doc.cm ? doc.cm.curOp.id : NaN);
+
+  makeChangeSingleDoc(doc, change, selAfter, stretchSpansOverChange(doc, change));
+  var rebased = [];
+
+  linkedDocs(doc, function (doc, sharedHist) {
+    if (!sharedHist && indexOf(rebased, doc.history) == -1) {
+      rebaseHist(doc.history, change);
+      rebased.push(doc.history);
+    }
+    makeChangeSingleDoc(doc, change, null, stretchSpansOverChange(doc, change));
+  });
+}
+
+// Revert a change stored in a document's history.
+function makeChangeFromHistory(doc, type, allowSelectionOnly) {
+  if (doc.cm && doc.cm.state.suppressEdits && !allowSelectionOnly) { return }
+
+  var hist = doc.history, event, selAfter = doc.sel;
+  var source = type == "undo" ? hist.done : hist.undone, dest = type == "undo" ? hist.undone : hist.done;
+
+  // Verify that there is a useable event (so that ctrl-z won't
+  // needlessly clear selection events)
+  var i = 0;
+  for (; i < source.length; i++) {
+    event = source[i];
+    if (allowSelectionOnly ? event.ranges && !event.equals(doc.sel) : !event.ranges)
+      { break }
+  }
+  if (i == source.length) { return }
+  hist.lastOrigin = hist.lastSelOrigin = null;
+
+  for (;;) {
+    event = source.pop();
+    if (event.ranges) {
+      pushSelectionToHistory(event, dest);
+      if (allowSelectionOnly && !event.equals(doc.sel)) {
+        setSelection(doc, event, {clearRedo: false});
+        return
+      }
+      selAfter = event;
+    }
+    else { break }
+  }
+
+  // Build up a reverse change object to add to the opposite history
+  // stack (redo when undoing, and vice versa).
+  var antiChanges = [];
+  pushSelectionToHistory(selAfter, dest);
+  dest.push({changes: antiChanges, generation: hist.generation});
+  hist.generation = event.generation || ++hist.maxGeneration;
+
+  var filter = hasHandler(doc, "beforeChange") || doc.cm && hasHandler(doc.cm, "beforeChange");
+
+  var loop = function ( i ) {
+    var change = event.changes[i];
+    change.origin = type;
+    if (filter && !filterChange(doc, change, false)) {
+      source.length = 0;
+      return {}
+    }
+
+    antiChanges.push(historyChangeFromChange(doc, change));
+
+    var after = i ? computeSelAfterChange(doc, change) : lst(source);
+    makeChangeSingleDoc(doc, change, after, mergeOldSpans(doc, change));
+    if (!i && doc.cm) { doc.cm.scrollIntoView({from: change.from, to: changeEnd(change)}); }
+    var rebased = [];
+
+    // Propagate to the linked documents
+    linkedDocs(doc, function (doc, sharedHist) {
+      if (!sharedHist && indexOf(rebased, doc.history) == -1) {
+        rebaseHist(doc.history, change);
+        rebased.push(doc.history);
+      }
+      makeChangeSingleDoc(doc, change, null, mergeOldSpans(doc, change));
+    });
+  };
+
+  for (var i$1 = event.changes.length - 1; i$1 >= 0; --i$1) {
+    var returned = loop( i$1 );
+
+    if ( returned ) return returned.v;
+  }
+}
+
+// Sub-views need their line numbers shifted when text is added
+// above or below them in the parent document.
+function shiftDoc(doc, distance) {
+  if (distance == 0) { return }
+  doc.first += distance;
+  doc.sel = new Selection(map(doc.sel.ranges, function (range) { return new Range(
+    Pos(range.anchor.line + distance, range.anchor.ch),
+    Pos(range.head.line + distance, range.head.ch)
+  ); }), doc.sel.primIndex);
+  if (doc.cm) {
+    regChange(doc.cm, doc.first, doc.first - distance, distance);
+    for (var d = doc.cm.display, l = d.viewFrom; l < d.viewTo; l++)
+      { regLineChange(doc.cm, l, "gutter"); }
+  }
+}
+
+// More lower-level change function, handling only a single document
+// (not linked ones).
+function makeChangeSingleDoc(doc, change, selAfter, spans) {
+  if (doc.cm && !doc.cm.curOp)
+    { return operation(doc.cm, makeChangeSingleDoc)(doc, change, selAfter, spans) }
+
+  if (change.to.line < doc.first) {
+    shiftDoc(doc, change.text.length - 1 - (change.to.line - change.from.line));
+    return
+  }
+  if (change.from.line > doc.lastLine()) { return }
+
+  // Clip the change to the size of this doc
+  if (change.from.line < doc.first) {
+    var shift = change.text.length - 1 - (doc.first - change.from.line);
+    shiftDoc(doc, shift);
+    change = {from: Pos(doc.first, 0), to: Pos(change.to.line + shift, change.to.ch),
+              text: [lst(change.text)], origin: change.origin};
+  }
+  var last = doc.lastLine();
+  if (change.to.line > last) {
+    change = {from: change.from, to: Pos(last, getLine(doc, last).text.length),
+              text: [change.text[0]], origin: change.origin};
+  }
+
+  change.removed = getBetween(doc, change.from, change.to);
+
+  if (!selAfter) { selAfter = computeSelAfterChange(doc, change); }
+  if (doc.cm) { makeChangeSingleDocInEditor(doc.cm, change, spans); }
+  else { updateDoc(doc, change, spans); }
+  setSelectionNoUndo(doc, selAfter, sel_dontScroll);
+}
+
+// Handle the interaction of a change to a document with the editor
+// that this document is part of.
+function makeChangeSingleDocInEditor(cm, change, spans) {
+  var doc = cm.doc, display = cm.display, from = change.from, to = change.to;
+
+  var recomputeMaxLength = false, checkWidthStart = from.line;
+  if (!cm.options.lineWrapping) {
+    checkWidthStart = lineNo(visualLine(getLine(doc, from.line)));
+    doc.iter(checkWidthStart, to.line + 1, function (line) {
+      if (line == display.maxLine) {
+        recomputeMaxLength = true;
+        return true
+      }
+    });
+  }
+
+  if (doc.sel.contains(change.from, change.to) > -1)
+    { signalCursorActivity(cm); }
+
+  updateDoc(doc, change, spans, estimateHeight(cm));
+
+  if (!cm.options.lineWrapping) {
+    doc.iter(checkWidthStart, from.line + change.text.length, function (line) {
+      var len = lineLength(line);
+      if (len > display.maxLineLength) {
+        display.maxLine = line;
+        display.maxLineLength = len;
+        display.maxLineChanged = true;
+        recomputeMaxLength = false;
+      }
+    });
+    if (recomputeMaxLength) { cm.curOp.updateMaxLine = true; }
+  }
+
+  retreatFrontier(doc, from.line);
+  startWorker(cm, 400);
+
+  var lendiff = change.text.length - (to.line - from.line) - 1;
+  // Remember that these lines changed, for updating the display
+  if (change.full)
+    { regChange(cm); }
+  else if (from.line == to.line && change.text.length == 1 && !isWholeLineUpdate(cm.doc, change))
+    { regLineChange(cm, from.line, "text"); }
+  else
+    { regChange(cm, from.line, to.line + 1, lendiff); }
+
+  var changesHandler = hasHandler(cm, "changes"), changeHandler = hasHandler(cm, "change");
+  if (changeHandler || changesHandler) {
+    var obj = {
+      from: from, to: to,
+      text: change.text,
+      removed: change.removed,
+      origin: change.origin
+    };
+    if (changeHandler) { signalLater(cm, "change", cm, obj); }
+    if (changesHandler) { (cm.curOp.changeObjs || (cm.curOp.changeObjs = [])).push(obj); }
+  }
+  cm.display.selForContextMenu = null;
+}
+
+function replaceRange(doc, code, from, to, origin) {
+  if (!to) { to = from; }
+  if (cmp(to, from) < 0) { var tmp = to; to = from; from = tmp; }
+  if (typeof code == "string") { code = doc.splitLines(code); }
+  makeChange(doc, {from: from, to: to, text: code, origin: origin});
+}
+
+// Rebasing/resetting history to deal with externally-sourced changes
+
+function rebaseHistSelSingle(pos, from, to, diff) {
+  if (to < pos.line) {
+    pos.line += diff;
+  } else if (from < pos.line) {
+    pos.line = from;
+    pos.ch = 0;
+  }
+}
+
+// Tries to rebase an array of history events given a change in the
+// document. If the change touches the same lines as the event, the
+// event, and everything 'behind' it, is discarded. If the change is
+// before the event, the event's positions are updated. Uses a
+// copy-on-write scheme for the positions, to avoid having to
+// reallocate them all on every rebase, but also avoid problems with
+// shared position objects being unsafely updated.
+function rebaseHistArray(array, from, to, diff) {
+  for (var i = 0; i < array.length; ++i) {
+    var sub = array[i], ok = true;
+    if (sub.ranges) {
+      if (!sub.copied) { sub = array[i] = sub.deepCopy(); sub.copied = true; }
+      for (var j = 0; j < sub.ranges.length; j++) {
+        rebaseHistSelSingle(sub.ranges[j].anchor, from, to, diff);
+        rebaseHistSelSingle(sub.ranges[j].head, from, to, diff);
+      }
+      continue
+    }
+    for (var j$1 = 0; j$1 < sub.changes.length; ++j$1) {
+      var cur = sub.changes[j$1];
+      if (to < cur.from.line) {
+        cur.from = Pos(cur.from.line + diff, cur.from.ch);
+        cur.to = Pos(cur.to.line + diff, cur.to.ch);
+      } else if (from <= cur.to.line) {
+        ok = false;
+        break
+      }
+    }
+    if (!ok) {
+      array.splice(0, i + 1);
+      i = 0;
+    }
+  }
+}
+
+function rebaseHist(hist, change) {
+  var from = change.from.line, to = change.to.line, diff = change.text.length - (to - from) - 1;
+  rebaseHistArray(hist.done, from, to, diff);
+  rebaseHistArray(hist.undone, from, to, diff);
+}
+
+// Utility for applying a change to a line by handle or number,
+// returning the number and optionally registering the line as
+// changed.
+function changeLine(doc, handle, changeType, op) {
+  var no = handle, line = handle;
+  if (typeof handle == "number") { line = getLine(doc, clipLine(doc, handle)); }
+  else { no = lineNo(handle); }
+  if (no == null) { return null }
+  if (op(line, no) && doc.cm) { regLineChange(doc.cm, no, changeType); }
+  return line
+}
+
+// The document is represented as a BTree consisting of leaves, with
+// chunk of lines in them, and branches, with up to ten leaves or
+// other branch nodes below them. The top node is always a branch
+// node, and is the document object itself (meaning it has
+// additional methods and properties).
+//
+// All nodes have parent links. The tree is used both to go from
+// line numbers to line objects, and to go from objects to numbers.
+// It also indexes by height, and is used to convert between height
+// and line object, and to find the total height of the document.
+//
+// See also http://marijnhaverbeke.nl/blog/codemirror-line-tree.html
+
+function LeafChunk(lines) {
+  var this$1 = this;
+
+  this.lines = lines;
+  this.parent = null;
+  var height = 0;
+  for (var i = 0; i < lines.length; ++i) {
+    lines[i].parent = this$1;
+    height += lines[i].height;
+  }
+  this.height = height;
+}
+
+LeafChunk.prototype = {
+  chunkSize: function chunkSize() { return this.lines.length },
+
+  // Remove the n lines at offset 'at'.
+  removeInner: function removeInner(at, n) {
+    var this$1 = this;
+
+    for (var i = at, e = at + n; i < e; ++i) {
+      var line = this$1.lines[i];
+      this$1.height -= line.height;
+      cleanUpLine(line);
+      signalLater(line, "delete");
+    }
+    this.lines.splice(at, n);
+  },
+
+  // Helper used to collapse a small branch into a single leaf.
+  collapse: function collapse(lines) {
+    lines.push.apply(lines, this.lines);
+  },
+
+  // Insert the given array of lines at offset 'at', count them as
+  // having the given height.
+  insertInner: function insertInner(at, lines, height) {
+    var this$1 = this;
+
+    this.height += height;
+    this.lines = this.lines.slice(0, at).concat(lines).concat(this.lines.slice(at));
+    for (var i = 0; i < lines.length; ++i) { lines[i].parent = this$1; }
+  },
+
+  // Used to iterate over a part of the tree.
+  iterN: function iterN(at, n, op) {
+    var this$1 = this;
+
+    for (var e = at + n; at < e; ++at)
+      { if (op(this$1.lines[at])) { return true } }
+  }
+};
+
+function BranchChunk(children) {
+  var this$1 = this;
+
+  this.children = children;
+  var size = 0, height = 0;
+  for (var i = 0; i < children.length; ++i) {
+    var ch = children[i];
+    size += ch.chunkSize(); height += ch.height;
+    ch.parent = this$1;
+  }
+  this.size = size;
+  this.height = height;
+  this.parent = null;
+}
+
+BranchChunk.prototype = {
+  chunkSize: function chunkSize() { return this.size },
+
+  removeInner: function removeInner(at, n) {
+    var this$1 = this;
+
+    this.size -= n;
+    for (var i = 0; i < this.children.length; ++i) {
+      var child = this$1.children[i], sz = child.chunkSize();
+      if (at < sz) {
+        var rm = Math.min(n, sz - at), oldHeight = child.height;
+        child.removeInner(at, rm);
+        this$1.height -= oldHeight - child.height;
+        if (sz == rm) { this$1.children.splice(i--, 1); child.parent = null; }
+        if ((n -= rm) == 0) { break }
+        at = 0;
+      } else { at -= sz; }
+    }
+    // If the result is smaller than 25 lines, ensure that it is a
+    // single leaf node.
+    if (this.size - n < 25 &&
+        (this.children.length > 1 || !(this.children[0] instanceof LeafChunk))) {
+      var lines = [];
+      this.collapse(lines);
+      this.children = [new LeafChunk(lines)];
+      this.children[0].parent = this;
+    }
+  },
+
+  collapse: function collapse(lines) {
+    var this$1 = this;
+
+    for (var i = 0; i < this.children.length; ++i) { this$1.children[i].collapse(lines); }
+  },
+
+  insertInner: function insertInner(at, lines, height) {
+    var this$1 = this;
+
+    this.size += lines.length;
+    this.height += height;
+    for (var i = 0; i < this.children.length; ++i) {
+      var child = this$1.children[i], sz = child.chunkSize();
+      if (at <= sz) {
+        child.insertInner(at, lines, height);
+        if (child.lines && child.lines.length > 50) {
+          // To avoid memory thrashing when child.lines is huge (e.g. first view of a large file), it's never spliced.
+          // Instead, small slices are taken. They're taken in order because sequential memory accesses are fastest.
+          var remaining = child.lines.length % 25 + 25;
+          for (var pos = remaining; pos < child.lines.length;) {
+            var leaf = new LeafChunk(child.lines.slice(pos, pos += 25));
+            child.height -= leaf.height;
+            this$1.children.splice(++i, 0, leaf);
+            leaf.parent = this$1;
+          }
+          child.lines = child.lines.slice(0, remaining);
+          this$1.maybeSpill();
+        }
+        break
+      }
+      at -= sz;
+    }
+  },
+
+  // When a node has grown, check whether it should be split.
+  maybeSpill: function maybeSpill() {
+    if (this.children.length <= 10) { return }
+    var me = this;
+    do {
+      var spilled = me.children.splice(me.children.length - 5, 5);
+      var sibling = new BranchChunk(spilled);
+      if (!me.parent) { // Become the parent node
+        var copy = new BranchChunk(me.children);
+        copy.parent = me;
+        me.children = [copy, sibling];
+        me = copy;
+     } else {
+        me.size -= sibling.size;
+        me.height -= sibling.height;
+        var myIndex = indexOf(me.parent.children, me);
+        me.parent.children.splice(myIndex + 1, 0, sibling);
+      }
+      sibling.parent = me.parent;
+    } while (me.children.length > 10)
+    me.parent.maybeSpill();
+  },
+
+  iterN: function iterN(at, n, op) {
+    var this$1 = this;
+
+    for (var i = 0; i < this.children.length; ++i) {
+      var child = this$1.children[i], sz = child.chunkSize();
+      if (at < sz) {
+        var used = Math.min(n, sz - at);
+        if (child.iterN(at, used, op)) { return true }
+        if ((n -= used) == 0) { break }
+        at = 0;
+      } else { at -= sz; }
+    }
+  }
+};
+
+// Line widgets are block elements displayed above or below a line.
+
+var LineWidget = function(doc, node, options) {
+  var this$1 = this;
+
+  if (options) { for (var opt in options) { if (options.hasOwnProperty(opt))
+    { this$1[opt] = options[opt]; } } }
+  this.doc = doc;
+  this.node = node;
+};
+
+LineWidget.prototype.clear = function () {
+    var this$1 = this;
+
+  var cm = this.doc.cm, ws = this.line.widgets, line = this.line, no = lineNo(line);
+  if (no == null || !ws) { return }
+  for (var i = 0; i < ws.length; ++i) { if (ws[i] == this$1) { ws.splice(i--, 1); } }
+  if (!ws.length) { line.widgets = null; }
+  var height = widgetHeight(this);
+  updateLineHeight(line, Math.max(0, line.height - height));
+  if (cm) {
+    runInOp(cm, function () {
+      adjustScrollWhenAboveVisible(cm, line, -height);
+      regLineChange(cm, no, "widget");
+    });
+    signalLater(cm, "lineWidgetCleared", cm, this, no);
+  }
+};
+
+LineWidget.prototype.changed = function () {
+    var this$1 = this;
+
+  var oldH = this.height, cm = this.doc.cm, line = this.line;
+  this.height = null;
+  var diff = widgetHeight(this) - oldH;
+  if (!diff) { return }
+  updateLineHeight(line, line.height + diff);
+  if (cm) {
+    runInOp(cm, function () {
+      cm.curOp.forceUpdate = true;
+      adjustScrollWhenAboveVisible(cm, line, diff);
+      signalLater(cm, "lineWidgetChanged", cm, this$1, lineNo(line));
+    });
+  }
+};
+eventMixin(LineWidget);
+
+function adjustScrollWhenAboveVisible(cm, line, diff) {
+  if (heightAtLine(line) < ((cm.curOp && cm.curOp.scrollTop) || cm.doc.scrollTop))
+    { addToScrollTop(cm, diff); }
+}
+
+function addLineWidget(doc, handle, node, options) {
+  var widget = new LineWidget(doc, node, options);
+  var cm = doc.cm;
+  if (cm && widget.noHScroll) { cm.display.alignWidgets = true; }
+  changeLine(doc, handle, "widget", function (line) {
+    var widgets = line.widgets || (line.widgets = []);
+    if (widget.insertAt == null) { widgets.push(widget); }
+    else { widgets.splice(Math.min(widgets.length - 1, Math.max(0, widget.insertAt)), 0, widget); }
+    widget.line = line;
+    if (cm && !lineIsHidden(doc, line)) {
+      var aboveVisible = heightAtLine(line) < doc.scrollTop;
+      updateLineHeight(line, line.height + widgetHeight(widget));
+      if (aboveVisible) { addToScrollTop(cm, widget.height); }
+      cm.curOp.forceUpdate = true;
+    }
+    return true
+  });
+  signalLater(cm, "lineWidgetAdded", cm, widget, typeof handle == "number" ? handle : lineNo(handle));
+  return widget
+}
+
+// TEXTMARKERS
+
+// Created with markText and setBookmark methods. A TextMarker is a
+// handle that can be used to clear or find a marked position in the
+// document. Line objects hold arrays (markedSpans) containing
+// {from, to, marker} object pointing to such marker objects, and
+// indicating that such a marker is present on that line. Multiple
+// lines may point to the same marker when it spans across lines.
+// The spans will have null for their from/to properties when the
+// marker continues beyond the start/end of the line. Markers have
+// links back to the lines they currently touch.
+
+// Collapsed markers have unique ids, in order to be able to order
+// them, which is needed for uniquely determining an outer marker
+// when they overlap (they may nest, but not partially overlap).
+var nextMarkerId = 0;
+
+var TextMarker = function(doc, type) {
+  this.lines = [];
+  this.type = type;
+  this.doc = doc;
+  this.id = ++nextMarkerId;
+};
+
+// Clear the marker.
+TextMarker.prototype.clear = function () {
+    var this$1 = this;
+
+  if (this.explicitlyCleared) { return }
+  var cm = this.doc.cm, withOp = cm && !cm.curOp;
+  if (withOp) { startOperation(cm); }
+  if (hasHandler(this, "clear")) {
+    var found = this.find();
+    if (found) { signalLater(this, "clear", found.from, found.to); }
+  }
+  var min = null, max = null;
+  for (var i = 0; i < this.lines.length; ++i) {
+    var line = this$1.lines[i];
+    var span = getMarkedSpanFor(line.markedSpans, this$1);
+    if (cm && !this$1.collapsed) { regLineChange(cm, lineNo(line), "text"); }
+    else if (cm) {
+      if (span.to != null) { max = lineNo(line); }
+      if (span.from != null) { min = lineNo(line); }
+    }
+    line.markedSpans = removeMarkedSpan(line.markedSpans, span);
+    if (span.from == null && this$1.collapsed && !lineIsHidden(this$1.doc, line) && cm)
+      { updateLineHeight(line, textHeight(cm.display)); }
+  }
+  if (cm && this.collapsed && !cm.options.lineWrapping) { for (var i$1 = 0; i$1 < this.lines.length; ++i$1) {
+    var visual = visualLine(this$1.lines[i$1]), len = lineLength(visual);
+    if (len > cm.display.maxLineLength) {
+      cm.display.maxLine = visual;
+      cm.display.maxLineLength = len;
+      cm.display.maxLineChanged = true;
+    }
+  } }
+
+  if (min != null && cm && this.collapsed) { regChange(cm, min, max + 1); }
+  this.lines.length = 0;
+  this.explicitlyCleared = true;
+  if (this.atomic && this.doc.cantEdit) {
+    this.doc.cantEdit = false;
+    if (cm) { reCheckSelection(cm.doc); }
+  }
+  if (cm) { signalLater(cm, "markerCleared", cm, this, min, max); }
+  if (withOp) { endOperation(cm); }
+  if (this.parent) { this.parent.clear(); }
+};
+
+// Find the position of the marker in the document. Returns a {from,
+// to} object by default. Side can be passed to get a specific side
+// -- 0 (both), -1 (left), or 1 (right). When lineObj is true, the
+// Pos objects returned contain a line object, rather than a line
+// number (used to prevent looking up the same line twice).
+TextMarker.prototype.find = function (side, lineObj) {
+    var this$1 = this;
+
+  if (side == null && this.type == "bookmark") { side = 1; }
+  var from, to;
+  for (var i = 0; i < this.lines.length; ++i) {
+    var line = this$1.lines[i];
+    var span = getMarkedSpanFor(line.markedSpans, this$1);
+    if (span.from != null) {
+      from = Pos(lineObj ? line : lineNo(line), span.from);
+      if (side == -1) { return from }
+    }
+    if (span.to != null) {
+      to = Pos(lineObj ? line : lineNo(line), span.to);
+      if (side == 1) { return to }
+    }
+  }
+  return from && {from: from, to: to}
+};
+
+// Signals that the marker's widget changed, and surrounding layout
+// should be recomputed.
+TextMarker.prototype.changed = function () {
+    var this$1 = this;
+
+  var pos = this.find(-1, true), widget = this, cm = this.doc.cm;
+  if (!pos || !cm) { return }
+  runInOp(cm, function () {
+    var line = pos.line, lineN = lineNo(pos.line);
+    var view = findViewForLine(cm, lineN);
+    if (view) {
+      clearLineMeasurementCacheFor(view);
+      cm.curOp.selectionChanged = cm.curOp.forceUpdate = true;
+    }
+    cm.curOp.updateMaxLine = true;
+    if (!lineIsHidden(widget.doc, line) && widget.height != null) {
+      var oldHeight = widget.height;
+      widget.height = null;
+      var dHeight = widgetHeight(widget) - oldHeight;
+      if (dHeight)
+        { updateLineHeight(line, line.height + dHeight); }
+    }
+    signalLater(cm, "markerChanged", cm, this$1);
+  });
+};
+
+TextMarker.prototype.attachLine = function (line) {
+  if (!this.lines.length && this.doc.cm) {
+    var op = this.doc.cm.curOp;
+    if (!op.maybeHiddenMarkers || indexOf(op.maybeHiddenMarkers, this) == -1)
+      { (op.maybeUnhiddenMarkers || (op.maybeUnhiddenMarkers = [])).push(this); }
+  }
+  this.lines.push(line);
+};
+
+TextMarker.prototype.detachLine = function (line) {
+  this.lines.splice(indexOf(this.lines, line), 1);
+  if (!this.lines.length && this.doc.cm) {
+    var op = this.doc.cm.curOp;(op.maybeHiddenMarkers || (op.maybeHiddenMarkers = [])).push(this);
+  }
+};
+eventMixin(TextMarker);
+
+// Create a marker, wire it up to the right lines, and
+function markText(doc, from, to, options, type) {
+  // Shared markers (across linked documents) are handled separately
+  // (markTextShared will call out to this again, once per
+  // document).
+  if (options && options.shared) { return markTextShared(doc, from, to, options, type) }
+  // Ensure we are in an operation.
+  if (doc.cm && !doc.cm.curOp) { return operation(doc.cm, markText)(doc, from, to, options, type) }
+
+  var marker = new TextMarker(doc, type), diff = cmp(from, to);
+  if (options) { copyObj(options, marker, false); }
+  // Don't connect empty markers unless clearWhenEmpty is false
+  if (diff > 0 || diff == 0 && marker.clearWhenEmpty !== false)
+    { return marker }
+  if (marker.replacedWith) {
+    // Showing up as a widget implies collapsed (widget replaces text)
+    marker.collapsed = true;
+    marker.widgetNode = eltP("span", [marker.replacedWith], "CodeMirror-widget");
+    if (!options.handleMouseEvents) { marker.widgetNode.setAttribute("cm-ignore-events", "true"); }
+    if (options.insertLeft) { marker.widgetNode.insertLeft = true; }
+  }
+  if (marker.collapsed) {
+    if (conflictingCollapsedRange(doc, from.line, from, to, marker) ||
+        from.line != to.line && conflictingCollapsedRange(doc, to.line, from, to, marker))
+      { throw new Error("Inserting collapsed marker partially overlapping an existing one") }
+    seeCollapsedSpans();
+  }
+
+  if (marker.addToHistory)
+    { addChangeToHistory(doc, {from: from, to: to, origin: "markText"}, doc.sel, NaN); }
+
+  var curLine = from.line, cm = doc.cm, updateMaxLine;
+  doc.iter(curLine, to.line + 1, function (line) {
+    if (cm && marker.collapsed && !cm.options.lineWrapping && visualLine(line) == cm.display.maxLine)
+      { updateMaxLine = true; }
+    if (marker.collapsed && curLine != from.line) { updateLineHeight(line, 0); }
+    addMarkedSpan(line, new MarkedSpan(marker,
+                                       curLine == from.line ? from.ch : null,
+                                       curLine == to.line ? to.ch : null));
+    ++curLine;
+  });
+  // lineIsHidden depends on the presence of the spans, so needs a second pass
+  if (marker.collapsed) { doc.iter(from.line, to.line + 1, function (line) {
+    if (lineIsHidden(doc, line)) { updateLineHeight(line, 0); }
+  }); }
+
+  if (marker.clearOnEnter) { on(marker, "beforeCursorEnter", function () { return marker.clear(); }); }
+
+  if (marker.readOnly) {
+    seeReadOnlySpans();
+    if (doc.history.done.length || doc.history.undone.length)
+      { doc.clearHistory(); }
+  }
+  if (marker.collapsed) {
+    marker.id = ++nextMarkerId;
+    marker.atomic = true;
+  }
+  if (cm) {
+    // Sync editor state
+    if (updateMaxLine) { cm.curOp.updateMaxLine = true; }
+    if (marker.collapsed)
+      { regChange(cm, from.line, to.line + 1); }
+    else if (marker.className || marker.title || marker.startStyle || marker.endStyle || marker.css)
+      { for (var i = from.line; i <= to.line; i++) { regLineChange(cm, i, "text"); } }
+    if (marker.atomic) { reCheckSelection(cm.doc); }
+    signalLater(cm, "markerAdded", cm, marker);
+  }
+  return marker
+}
+
+// SHARED TEXTMARKERS
+
+// A shared marker spans multiple linked documents. It is
+// implemented as a meta-marker-object controlling multiple normal
+// markers.
+var SharedTextMarker = function(markers, primary) {
+  var this$1 = this;
+
+  this.markers = markers;
+  this.primary = primary;
+  for (var i = 0; i < markers.length; ++i)
+    { markers[i].parent = this$1; }
+};
+
+SharedTextMarker.prototype.clear = function () {
+    var this$1 = this;
+
+  if (this.explicitlyCleared) { return }
+  this.explicitlyCleared = true;
+  for (var i = 0; i < this.markers.length; ++i)
+    { this$1.markers[i].clear(); }
+  signalLater(this, "clear");
+};
+
+SharedTextMarker.prototype.find = function (side, lineObj) {
+  return this.primary.find(side, lineObj)
+};
+eventMixin(SharedTextMarker);
+
+function markTextShared(doc, from, to, options, type) {
+  options = copyObj(options);
+  options.shared = false;
+  var markers = [markText(doc, from, to, options, type)], primary = markers[0];
+  var widget = options.widgetNode;
+  linkedDocs(doc, function (doc) {
+    if (widget) { options.widgetNode = widget.cloneNode(true); }
+    markers.push(markText(doc, clipPos(doc, from), clipPos(doc, to), options, type));
+    for (var i = 0; i < doc.linked.length; ++i)
+      { if (doc.linked[i].isParent) { return } }
+    primary = lst(markers);
+  });
+  return new SharedTextMarker(markers, primary)
+}
+
+function findSharedMarkers(doc) {
+  return doc.findMarks(Pos(doc.first, 0), doc.clipPos(Pos(doc.lastLine())), function (m) { return m.parent; })
+}
+
+function copySharedMarkers(doc, markers) {
+  for (var i = 0; i < markers.length; i++) {
+    var marker = markers[i], pos = marker.find();
+    var mFrom = doc.clipPos(pos.from), mTo = doc.clipPos(pos.to);
+    if (cmp(mFrom, mTo)) {
+      var subMark = markText(doc, mFrom, mTo, marker.primary, marker.primary.type);
+      marker.markers.push(subMark);
+      subMark.parent = marker;
+    }
+  }
+}
+
+function detachSharedMarkers(markers) {
+  var loop = function ( i ) {
+    var marker = markers[i], linked = [marker.primary.doc];
+    linkedDocs(marker.primary.doc, function (d) { return linked.push(d); });
+    for (var j = 0; j < marker.markers.length; j++) {
+      var subMarker = marker.markers[j];
+      if (indexOf(linked, subMarker.doc) == -1) {
+        subMarker.parent = null;
+        marker.markers.splice(j--, 1);
+      }
+    }
+  };
+
+  for (var i = 0; i < markers.length; i++) loop( i );
+}
+
+var nextDocId = 0;
+var Doc = function(text, mode, firstLine, lineSep, direction) {
+  if (!(this instanceof Doc)) { return new Doc(text, mode, firstLine, lineSep, direction) }
+  if (firstLine == null) { firstLine = 0; }
+
+  BranchChunk.call(this, [new LeafChunk([new Line("", null)])]);
+  this.first = firstLine;
+  this.scrollTop = this.scrollLeft = 0;
+  this.cantEdit = false;
+  this.cleanGeneration = 1;
+  this.modeFrontier = this.highlightFrontier = firstLine;
+  var start = Pos(firstLine, 0);
+  this.sel = simpleSelection(start);
+  this.history = new History(null);
+  this.id = ++nextDocId;
+  this.modeOption = mode;
+  this.lineSep = lineSep;
+  this.direction = (direction == "rtl") ? "rtl" : "ltr";
+  this.extend = false;
+
+  if (typeof text == "string") { text = this.splitLines(text); }
+  updateDoc(this, {from: start, to: start, text: text});
+  setSelection(this, simpleSelection(start), sel_dontScroll);
+};
+
+Doc.prototype = createObj(BranchChunk.prototype, {
+  constructor: Doc,
+  // Iterate over the document. Supports two forms -- with only one
+  // argument, it calls that for each line in the document. With
+  // three, it iterates over the range given by the first two (with
+  // the second being non-inclusive).
+  iter: function(from, to, op) {
+    if (op) { this.iterN(from - this.first, to - from, op); }
+    else { this.iterN(this.first, this.first + this.size, from); }
+  },
+
+  // Non-public interface for adding and removing lines.
+  insert: function(at, lines) {
+    var height = 0;
+    for (var i = 0; i < lines.length; ++i) { height += lines[i].height; }
+    this.insertInner(at - this.first, lines, height);
+  },
+  remove: function(at, n) { this.removeInner(at - this.first, n); },
+
+  // From here, the methods are part of the public interface. Most
+  // are also available from CodeMirror (editor) instances.
+
+  getValue: function(lineSep) {
+    var lines = getLines(this, this.first, this.first + this.size);
+    if (lineSep === false) { return lines }
+    return lines.join(lineSep || this.lineSeparator())
+  },
+  setValue: docMethodOp(function(code) {
+    var top = Pos(this.first, 0), last = this.first + this.size - 1;
+    makeChange(this, {from: top, to: Pos(last, getLine(this, last).text.length),
+                      text: this.splitLines(code), origin: "setValue", full: true}, true);
+    if (this.cm) { scrollToCoords(this.cm, 0, 0); }
+    setSelection(this, simpleSelection(top), sel_dontScroll);
+  }),
+  replaceRange: function(code, from, to, origin) {
+    from = clipPos(this, from);
+    to = to ? clipPos(this, to) : from;
+    replaceRange(this, code, from, to, origin);
+  },
+  getRange: function(from, to, lineSep) {
+    var lines = getBetween(this, clipPos(this, from), clipPos(this, to));
+    if (lineSep === false) { return lines }
+    return lines.join(lineSep || this.lineSeparator())
+  },
+
+  getLine: function(line) {var l = this.getLineHandle(line); return l && l.text},
+
+  getLineHandle: function(line) {if (isLine(this, line)) { return getLine(this, line) }},
+  getLineNumber: function(line) {return lineNo(line)},
+
+  getLineHandleVisualStart: function(line) {
+    if (typeof line == "number") { line = getLine(this, line); }
+    return visualLine(line)
+  },
+
+  lineCount: function() {return this.size},
+  firstLine: function() {return this.first},
+  lastLine: function() {return this.first + this.size - 1},
+
+  clipPos: function(pos) {return clipPos(this, pos)},
+
+  getCursor: function(start) {
+    var range$$1 = this.sel.primary(), pos;
+    if (start == null || start == "head") { pos = range$$1.head; }
+    else if (start == "anchor") { pos = range$$1.anchor; }
+    else if (start == "end" || start == "to" || start === false) { pos = range$$1.to(); }
+    else { pos = range$$1.from(); }
+    return pos
+  },
+  listSelections: function() { return this.sel.ranges },
+  somethingSelected: function() {return this.sel.somethingSelected()},
+
+  setCursor: docMethodOp(function(line, ch, options) {
+    setSimpleSelection(this, clipPos(this, typeof line == "number" ? Pos(line, ch || 0) : line), null, options);
+  }),
+  setSelection: docMethodOp(function(anchor, head, options) {
+    setSimpleSelection(this, clipPos(this, anchor), clipPos(this, head || anchor), options);
+  }),
+  extendSelection: docMethodOp(function(head, other, options) {
+    extendSelection(this, clipPos(this, head), other && clipPos(this, other), options);
+  }),
+  extendSelections: docMethodOp(function(heads, options) {
+    extendSelections(this, clipPosArray(this, heads), options);
+  }),
+  extendSelectionsBy: docMethodOp(function(f, options) {
+    var heads = map(this.sel.ranges, f);
+    extendSelections(this, clipPosArray(this, heads), options);
+  }),
+  setSelections: docMethodOp(function(ranges, primary, options) {
+    var this$1 = this;
+
+    if (!ranges.length) { return }
+    var out = [];
+    for (var i = 0; i < ranges.length; i++)
+      { out[i] = new Range(clipPos(this$1, ranges[i].anchor),
+                         clipPos(this$1, ranges[i].head)); }
+    if (primary == null) { primary = Math.min(ranges.length - 1, this.sel.primIndex); }
+    setSelection(this, normalizeSelection(out, primary), options);
+  }),
+  addSelection: docMethodOp(function(anchor, head, options) {
+    var ranges = this.sel.ranges.slice(0);
+    ranges.push(new Range(clipPos(this, anchor), clipPos(this, head || anchor)));
+    setSelection(this, normalizeSelection(ranges, ranges.length - 1), options);
+  }),
+
+  getSelection: function(lineSep) {
+    var this$1 = this;
+
+    var ranges = this.sel.ranges, lines;
+    for (var i = 0; i < ranges.length; i++) {
+      var sel = getBetween(this$1, ranges[i].from(), ranges[i].to());
+      lines = lines ? lines.concat(sel) : sel;
+    }
+    if (lineSep === false) { return lines }
+    else { return lines.join(lineSep || this.lineSeparator()) }
+  },
+  getSelections: function(lineSep) {
+    var this$1 = this;
+
+    var parts = [], ranges = this.sel.ranges;
+    for (var i = 0; i < ranges.length; i++) {
+      var sel = getBetween(this$1, ranges[i].from(), ranges[i].to());
+      if (lineSep !== false) { sel = sel.join(lineSep || this$1.lineSeparator()); }
+      parts[i] = sel;
+    }
+    return parts
+  },
+  replaceSelection: function(code, collapse, origin) {
+    var dup = [];
+    for (var i = 0; i < this.sel.ranges.length; i++)
+      { dup[i] = code; }
+    this.replaceSelections(dup, collapse, origin || "+input");
+  },
+  replaceSelections: docMethodOp(function(code, collapse, origin) {
+    var this$1 = this;
+
+    var changes = [], sel = this.sel;
+    for (var i = 0; i < sel.ranges.length; i++) {
+      var range$$1 = sel.ranges[i];
+      changes[i] = {from: range$$1.from(), to: range$$1.to(), text: this$1.splitLines(code[i]), origin: origin};
+    }
+    var newSel = collapse && collapse != "end" && computeReplacedSel(this, changes, collapse);
+    for (var i$1 = changes.length - 1; i$1 >= 0; i$1--)
+      { makeChange(this$1, changes[i$1]); }
+    if (newSel) { setSelectionReplaceHistory(this, newSel); }
+    else if (this.cm) { ensureCursorVisible(this.cm); }
+  }),
+  undo: docMethodOp(function() {makeChangeFromHistory(this, "undo");}),
+  redo: docMethodOp(function() {makeChangeFromHistory(this, "redo");}),
+  undoSelection: docMethodOp(function() {makeChangeFromHistory(this, "undo", true);}),
+  redoSelection: docMethodOp(function() {makeChangeFromHistory(this, "redo", true);}),
+
+  setExtending: function(val) {this.extend = val;},
+  getExtending: function() {return this.extend},
+
+  historySize: function() {
+    var hist = this.history, done = 0, undone = 0;
+    for (var i = 0; i < hist.done.length; i++) { if (!hist.done[i].ranges) { ++done; } }
+    for (var i$1 = 0; i$1 < hist.undone.length; i$1++) { if (!hist.undone[i$1].ranges) { ++undone; } }
+    return {undo: done, redo: undone}
+  },
+  clearHistory: function() {this.history = new History(this.history.maxGeneration);},
+
+  markClean: function() {
+    this.cleanGeneration = this.changeGeneration(true);
+  },
+  changeGeneration: function(forceSplit) {
+    if (forceSplit)
+      { this.history.lastOp = this.history.lastSelOp = this.history.lastOrigin = null; }
+    return this.history.generation
+  },
+  isClean: function (gen) {
+    return this.history.generation == (gen || this.cleanGeneration)
+  },
+
+  getHistory: function() {
+    return {done: copyHistoryArray(this.history.done),
+            undone: copyHistoryArray(this.history.undone)}
+  },
+  setHistory: function(histData) {
+    var hist = this.history = new History(this.history.maxGeneration);
+    hist.done = copyHistoryArray(histData.done.slice(0), null, true);
+    hist.undone = copyHistoryArray(histData.undone.slice(0), null, true);
+  },
+
+  setGutterMarker: docMethodOp(function(line, gutterID, value) {
+    return changeLine(this, line, "gutter", function (line) {
+      var markers = line.gutterMarkers || (line.gutterMarkers = {});
+      markers[gutterID] = value;
+      if (!value && isEmpty(markers)) { line.gutterMarkers = null; }
+      return true
+    })
+  }),
+
+  clearGutter: docMethodOp(function(gutterID) {
+    var this$1 = this;
+
+    this.iter(function (line) {
+      if (line.gutterMarkers && line.gutterMarkers[gutterID]) {
+        changeLine(this$1, line, "gutter", function () {
+          line.gutterMarkers[gutterID] = null;
+          if (isEmpty(line.gutterMarkers)) { line.gutterMarkers = null; }
+          return true
+        });
+      }
+    });
+  }),
+
+  lineInfo: function(line) {
+    var n;
+    if (typeof line == "number") {
+      if (!isLine(this, line)) { return null }
+      n = line;
+      line = getLine(this, line);
+      if (!line) { return null }
+    } else {
+      n = lineNo(line);
+      if (n == null) { return null }
+    }
+    return {line: n, handle: line, text: line.text, gutterMarkers: line.gutterMarkers,
+            textClass: line.textClass, bgClass: line.bgClass, wrapClass: line.wrapClass,
+            widgets: line.widgets}
+  },
+
+  addLineClass: docMethodOp(function(handle, where, cls) {
+    return changeLine(this, handle, where == "gutter" ? "gutter" : "class", function (line) {
+      var prop = where == "text" ? "textClass"
+               : where == "background" ? "bgClass"
+               : where == "gutter" ? "gutterClass" : "wrapClass";
+      if (!line[prop]) { line[prop] = cls; }
+      else if (classTest(cls).test(line[prop])) { return false }
+      else { line[prop] += " " + cls; }
+      return true
+    })
+  }),
+  removeLineClass: docMethodOp(function(handle, where, cls) {
+    return changeLine(this, handle, where == "gutter" ? "gutter" : "class", function (line) {
+      var prop = where == "text" ? "textClass"
+               : where == "background" ? "bgClass"
+               : where == "gutter" ? "gutterClass" : "wrapClass";
+      var cur = line[prop];
+      if (!cur) { return false }
+      else if (cls == null) { line[prop] = null; }
+      else {
+        var found = cur.match(classTest(cls));
+        if (!found) { return false }
+        var end = found.index + found[0].length;
+        line[prop] = cur.slice(0, found.index) + (!found.index || end == cur.length ? "" : " ") + cur.slice(end) || null;
+      }
+      return true
+    })
+  }),
+
+  addLineWidget: docMethodOp(function(handle, node, options) {
+    return addLineWidget(this, handle, node, options)
+  }),
+  removeLineWidget: function(widget) { widget.clear(); },
+
+  markText: function(from, to, options) {
+    return markText(this, clipPos(this, from), clipPos(this, to), options, options && options.type || "range")
+  },
+  setBookmark: function(pos, options) {
+    var realOpts = {replacedWith: options && (options.nodeType == null ? options.widget : options),
+                    insertLeft: options && options.insertLeft,
+                    clearWhenEmpty: false, shared: options && options.shared,
+                    handleMouseEvents: options && options.handleMouseEvents};
+    pos = clipPos(this, pos);
+    return markText(this, pos, pos, realOpts, "bookmark")
+  },
+  findMarksAt: function(pos) {
+    pos = clipPos(this, pos);
+    var markers = [], spans = getLine(this, pos.line).markedSpans;
+    if (spans) { for (var i = 0; i < spans.length; ++i) {
+      var span = spans[i];
+      if ((span.from == null || span.from <= pos.ch) &&
+          (span.to == null || span.to >= pos.ch))
+        { markers.push(span.marker.parent || span.marker); }
+    } }
+    return markers
+  },
+  findMarks: function(from, to, filter) {
+    from = clipPos(this, from); to = clipPos(this, to);
+    var found = [], lineNo$$1 = from.line;
+    this.iter(from.line, to.line + 1, function (line) {
+      var spans = line.markedSpans;
+      if (spans) { for (var i = 0; i < spans.length; i++) {
+        var span = spans[i];
+        if (!(span.to != null && lineNo$$1 == from.line && from.ch >= span.to ||
+              span.from == null && lineNo$$1 != from.line ||
+              span.from != null && lineNo$$1 == to.line && span.from >= to.ch) &&
+            (!filter || filter(span.marker)))
+          { found.push(span.marker.parent || span.marker); }
+      } }
+      ++lineNo$$1;
+    });
+    return found
+  },
+  getAllMarks: function() {
+    var markers = [];
+    this.iter(function (line) {
+      var sps = line.markedSpans;
+      if (sps) { for (var i = 0; i < sps.length; ++i)
+        { if (sps[i].from != null) { markers.push(sps[i].marker); } } }
+    });
+    return markers
+  },
+
+  posFromIndex: function(off) {
+    var ch, lineNo$$1 = this.first, sepSize = this.lineSeparator().length;
+    this.iter(function (line) {
+      var sz = line.text.length + sepSize;
+      if (sz > off) { ch = off; return true }
+      off -= sz;
+      ++lineNo$$1;
+    });
+    return clipPos(this, Pos(lineNo$$1, ch))
+  },
+  indexFromPos: function (coords) {
+    coords = clipPos(this, coords);
+    var index = coords.ch;
+    if (coords.line < this.first || coords.ch < 0) { return 0 }
+    var sepSize = this.lineSeparator().length;
+    this.iter(this.first, coords.line, function (line) { // iter aborts when callback returns a truthy value
+      index += line.text.length + sepSize;
+    });
+    return index
+  },
+
+  copy: function(copyHistory) {
+    var doc = new Doc(getLines(this, this.first, this.first + this.size),
+                      this.modeOption, this.first, this.lineSep, this.direction);
+    doc.scrollTop = this.scrollTop; doc.scrollLeft = this.scrollLeft;
+    doc.sel = this.sel;
+    doc.extend = false;
+    if (copyHistory) {
+      doc.history.undoDepth = this.history.undoDepth;
+      doc.setHistory(this.getHistory());
+    }
+    return doc
+  },
+
+  linkedDoc: function(options) {
+    if (!options) { options = {}; }
+    var from = this.first, to = this.first + this.size;
+    if (options.from != null && options.from > from) { from = options.from; }
+    if (options.to != null && options.to < to) { to = options.to; }
+    var copy = new Doc(getLines(this, from, to), options.mode || this.modeOption, from, this.lineSep, this.direction);
+    if (options.sharedHist) { copy.history = this.history
+    ; }(this.linked || (this.linked = [])).push({doc: copy, sharedHist: options.sharedHist});
+    copy.linked = [{doc: this, isParent: true, sharedHist: options.sharedHist}];
+    copySharedMarkers(copy, findSharedMarkers(this));
+    return copy
+  },
+  unlinkDoc: function(other) {
+    var this$1 = this;
+
+    if (other instanceof CodeMirror$1) { other = other.doc; }
+    if (this.linked) { for (var i = 0; i < this.linked.length; ++i) {
+      var link = this$1.linked[i];
+      if (link.doc != other) { continue }
+      this$1.linked.splice(i, 1);
+      other.unlinkDoc(this$1);
+      detachSharedMarkers(findSharedMarkers(this$1));
+      break
+    } }
+    // If the histories were shared, split them again
+    if (other.history == this.history) {
+      var splitIds = [other.id];
+      linkedDocs(other, function (doc) { return splitIds.push(doc.id); }, true);
+      other.history = new History(null);
+      other.history.done = copyHistoryArray(this.history.done, splitIds);
+      other.history.undone = copyHistoryArray(this.history.undone, splitIds);
+    }
+  },
+  iterLinkedDocs: function(f) {linkedDocs(this, f);},
+
+  getMode: function() {return this.mode},
+  getEditor: function() {return this.cm},
+
+  splitLines: function(str) {
+    if (this.lineSep) { return str.split(this.lineSep) }
+    return splitLinesAuto(str)
+  },
+  lineSeparator: function() { return this.lineSep || "\n" },
+
+  setDirection: docMethodOp(function (dir) {
+    if (dir != "rtl") { dir = "ltr"; }
+    if (dir == this.direction) { return }
+    this.direction = dir;
+    this.iter(function (line) { return line.order = null; });
+    if (this.cm) { directionChanged(this.cm); }
+  })
+});
+
+// Public alias.
+Doc.prototype.eachLine = Doc.prototype.iter;
+
+// Kludge to work around strange IE behavior where it'll sometimes
+// re-fire a series of drag-related events right after the drop (#1551)
+var lastDrop = 0;
+
+function onDrop(e) {
+  var cm = this;
+  clearDragCursor(cm);
+  if (signalDOMEvent(cm, e) || eventInWidget(cm.display, e))
+    { return }
+  e_preventDefault(e);
+  if (ie) { lastDrop = +new Date; }
+  var pos = posFromMouse(cm, e, true), files = e.dataTransfer.files;
+  if (!pos || cm.isReadOnly()) { return }
+  // Might be a file drop, in which case we simply extract the text
+  // and insert it.
+  if (files && files.length && window.FileReader && window.File) {
+    var n = files.length, text = Array(n), read = 0;
+    var loadFile = function (file, i) {
+      if (cm.options.allowDropFileTypes &&
+          indexOf(cm.options.allowDropFileTypes, file.type) == -1)
+        { return }
+
+      var reader = new FileReader;
+      reader.onload = operation(cm, function () {
+        var content = reader.result;
+        if (/[\x00-\x08\x0e-\x1f]{2}/.test(content)) { content = ""; }
+        text[i] = content;
+        if (++read == n) {
+          pos = clipPos(cm.doc, pos);
+          var change = {from: pos, to: pos,
+                        text: cm.doc.splitLines(text.join(cm.doc.lineSeparator())),
+                        origin: "paste"};
+          makeChange(cm.doc, change);
+          setSelectionReplaceHistory(cm.doc, simpleSelection(pos, changeEnd(change)));
+        }
+      });
+      reader.readAsText(file);
+    };
+    for (var i = 0; i < n; ++i) { loadFile(files[i], i); }
+  } else { // Normal drop
+    // Don't do a replace if the drop happened inside of the selected text.
+    if (cm.state.draggingText && cm.doc.sel.contains(pos) > -1) {
+      cm.state.draggingText(e);
+      // Ensure the editor is re-focused
+      setTimeout(function () { return cm.display.input.focus(); }, 20);
+      return
+    }
+    try {
+      var text$1 = e.dataTransfer.getData("Text");
+      if (text$1) {
+        var selected;
+        if (cm.state.draggingText && !cm.state.draggingText.copy)
+          { selected = cm.listSelections(); }
+        setSelectionNoUndo(cm.doc, simpleSelection(pos, pos));
+        if (selected) { for (var i$1 = 0; i$1 < selected.length; ++i$1)
+          { replaceRange(cm.doc, "", selected[i$1].anchor, selected[i$1].head, "drag"); } }
+        cm.replaceSelection(text$1, "around", "paste");
+        cm.display.input.focus();
+      }
+    }
+    catch(e){}
+  }
+}
+
+function onDragStart(cm, e) {
+  if (ie && (!cm.state.draggingText || +new Date - lastDrop < 100)) { e_stop(e); return }
+  if (signalDOMEvent(cm, e) || eventInWidget(cm.display, e)) { return }
+
+  e.dataTransfer.setData("Text", cm.getSelection());
+  e.dataTransfer.effectAllowed = "copyMove";
+
+  // Use dummy image instead of default browsers image.
+  // Recent Safari (~6.0.2) have a tendency to segfault when this happens, so we don't do it there.
+  if (e.dataTransfer.setDragImage && !safari) {
+    var img = elt("img", null, null, "position: fixed; left: 0; top: 0;");
+    img.src = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";
+    if (presto) {
+      img.width = img.height = 1;
+      cm.display.wrapper.appendChild(img);
+      // Force a relayout, or Opera won't use our image for some obscure reason
+      img._top = img.offsetTop;
+    }
+    e.dataTransfer.setDragImage(img, 0, 0);
+    if (presto) { img.parentNode.removeChild(img); }
+  }
+}
+
+function onDragOver(cm, e) {
+  var pos = posFromMouse(cm, e);
+  if (!pos) { return }
+  var frag = document.createDocumentFragment();
+  drawSelectionCursor(cm, pos, frag);
+  if (!cm.display.dragCursor) {
+    cm.display.dragCursor = elt("div", null, "CodeMirror-cursors CodeMirror-dragcursors");
+    cm.display.lineSpace.insertBefore(cm.display.dragCursor, cm.display.cursorDiv);
+  }
+  removeChildrenAndAdd(cm.display.dragCursor, frag);
+}
+
+function clearDragCursor(cm) {
+  if (cm.display.dragCursor) {
+    cm.display.lineSpace.removeChild(cm.display.dragCursor);
+    cm.display.dragCursor = null;
+  }
+}
+
+// These must be handled carefully, because naively registering a
+// handler for each editor will cause the editors to never be
+// garbage collected.
+
+function forEachCodeMirror(f) {
+  if (!document.getElementsByClassName) { return }
+  var byClass = document.getElementsByClassName("CodeMirror");
+  for (var i = 0; i < byClass.length; i++) {
+    var cm = byClass[i].CodeMirror;
+    if (cm) { f(cm); }
+  }
+}
+
+var globalsRegistered = false;
+function ensureGlobalHandlers() {
+  if (globalsRegistered) { return }
+  registerGlobalHandlers();
+  globalsRegistered = true;
+}
+function registerGlobalHandlers() {
+  // When the window resizes, we need to refresh active editors.
+  var resizeTimer;
+  on(window, "resize", function () {
+    if (resizeTimer == null) { resizeTimer = setTimeout(function () {
+      resizeTimer = null;
+      forEachCodeMirror(onResize);
+    }, 100); }
+  });
+  // When the window loses focus, we want to show the editor as blurred
+  on(window, "blur", function () { return forEachCodeMirror(onBlur); });
+}
+// Called when the window resizes
+function onResize(cm) {
+  var d = cm.display;
+  if (d.lastWrapHeight == d.wrapper.clientHeight && d.lastWrapWidth == d.wrapper.clientWidth)
+    { return }
+  // Might be a text scaling operation, clear size caches.
+  d.cachedCharWidth = d.cachedTextHeight = d.cachedPaddingH = null;
+  d.scrollbarsClipped = false;
+  cm.setSize();
+}
+
+var keyNames = {
+  3: "Enter", 8: "Backspace", 9: "Tab", 13: "Enter", 16: "Shift", 17: "Ctrl", 18: "Alt",
+  19: "Pause", 20: "CapsLock", 27: "Esc", 32: "Space", 33: "PageUp", 34: "PageDown", 35: "End",
+  36: "Home", 37: "Left", 38: "Up", 39: "Right", 40: "Down", 44: "PrintScrn", 45: "Insert",
+  46: "Delete", 59: ";", 61: "=", 91: "Mod", 92: "Mod", 93: "Mod",
+  106: "*", 107: "=", 109: "-", 110: ".", 111: "/", 127: "Delete",
+  173: "-", 186: ";", 187: "=", 188: ",", 189: "-", 190: ".", 191: "/", 192: "`", 219: "[", 220: "\\",
+  221: "]", 222: "'", 63232: "Up", 63233: "Down", 63234: "Left", 63235: "Right", 63272: "Delete",
+  63273: "Home", 63275: "End", 63276: "PageUp", 63277: "PageDown", 63302: "Insert"
+};
+
+// Number keys
+for (var i = 0; i < 10; i++) { keyNames[i + 48] = keyNames[i + 96] = String(i); }
+// Alphabetic keys
+for (var i$1 = 65; i$1 <= 90; i$1++) { keyNames[i$1] = String.fromCharCode(i$1); }
+// Function keys
+for (var i$2 = 1; i$2 <= 12; i$2++) { keyNames[i$2 + 111] = keyNames[i$2 + 63235] = "F" + i$2; }
+
+var keyMap = {};
+
+keyMap.basic = {
+  "Left": "goCharLeft", "Right": "goCharRight", "Up": "goLineUp", "Down": "goLineDown",
+  "End": "goLineEnd", "Home": "goLineStartSmart", "PageUp": "goPageUp", "PageDown": "goPageDown",
+  "Delete": "delCharAfter", "Backspace": "delCharBefore", "Shift-Backspace": "delCharBefore",
+  "Tab": "defaultTab", "Shift-Tab": "indentAuto",
+  "Enter": "newlineAndIndent", "Insert": "toggleOverwrite",
+  "Esc": "singleSelection"
+};
+// Note that the save and find-related commands aren't defined by
+// default. User code or addons can define them. Unknown commands
+// are simply ignored.
+keyMap.pcDefault = {
+  "Ctrl-A": "selectAll", "Ctrl-D": "deleteLine", "Ctrl-Z": "undo", "Shift-Ctrl-Z": "redo", "Ctrl-Y": "redo",
+  "Ctrl-Home": "goDocStart", "Ctrl-End": "goDocEnd", "Ctrl-Up": "goLineUp", "Ctrl-Down": "goLineDown",
+  "Ctrl-Left": "goGroupLeft", "Ctrl-Right": "goGroupRight", "Alt-Left": "goLineStart", "Alt-Right": "goLineEnd",
+  "Ctrl-Backspace": "delGroupBefore", "Ctrl-Delete": "delGroupAfter", "Ctrl-S": "save", "Ctrl-F": "find",
+  "Ctrl-G": "findNext", "Shift-Ctrl-G": "findPrev", "Shift-Ctrl-F": "replace", "Shift-Ctrl-R": "replaceAll",
+  "Ctrl-[": "indentLess", "Ctrl-]": "indentMore",
+  "Ctrl-U": "undoSelection", "Shift-Ctrl-U": "redoSelection", "Alt-U": "redoSelection",
+  fallthrough: "basic"
+};
+// Very basic readline/emacs-style bindings, which are standard on Mac.
+keyMap.emacsy = {
+  "Ctrl-F": "goCharRight", "Ctrl-B": "goCharLeft", "Ctrl-P": "goLineUp", "Ctrl-N": "goLineDown",
+  "Alt-F": "goWordRight", "Alt-B": "goWordLeft", "Ctrl-A": "goLineStart", "Ctrl-E": "goLineEnd",
+  "Ctrl-V": "goPageDown", "Shift-Ctrl-V": "goPageUp", "Ctrl-D": "delCharAfter", "Ctrl-H": "delCharBefore",
+  "Alt-D": "delWordAfter", "Alt-Backspace": "delWordBefore", "Ctrl-K": "killLine", "Ctrl-T": "transposeChars",
+  "Ctrl-O": "openLine"
+};
+keyMap.macDefault = {
+  "Cmd-A": "selectAll", "Cmd-D": "deleteLine", "Cmd-Z": "undo", "Shift-Cmd-Z": "redo", "Cmd-Y": "redo",
+  "Cmd-Home": "goDocStart", "Cmd-Up": "goDocStart", "Cmd-End": "goDocEnd", "Cmd-Down": "goDocEnd", "Alt-Left": "goGroupLeft",
+  "Alt-Right": "goGroupRight", "Cmd-Left": "goLineLeft", "Cmd-Right": "goLineRight", "Alt-Backspace": "delGroupBefore",
+  "Ctrl-Alt-Backspace": "delGroupAfter", "Alt-Delete": "delGroupAfter", "Cmd-S": "save", "Cmd-F": "find",
+  "Cmd-G": "findNext", "Shift-Cmd-G": "findPrev", "Cmd-Alt-F": "replace", "Shift-Cmd-Alt-F": "replaceAll",
+  "Cmd-[": "indentLess", "Cmd-]": "indentMore", "Cmd-Backspace": "delWrappedLineLeft", "Cmd-Delete": "delWrappedLineRight",
+  "Cmd-U": "undoSelection", "Shift-Cmd-U": "redoSelection", "Ctrl-Up": "goDocStart", "Ctrl-Down": "goDocEnd",
+  fallthrough: ["basic", "emacsy"]
+};
+keyMap["default"] = mac ? keyMap.macDefault : keyMap.pcDefault;
+
+// KEYMAP DISPATCH
+
+function normalizeKeyName(name) {
+  var parts = name.split(/-(?!$)/);
+  name = parts[parts.length - 1];
+  var alt, ctrl, shift, cmd;
+  for (var i = 0; i < parts.length - 1; i++) {
+    var mod = parts[i];
+    if (/^(cmd|meta|m)$/i.test(mod)) { cmd = true; }
+    else if (/^a(lt)?$/i.test(mod)) { alt = true; }
+    else if (/^(c|ctrl|control)$/i.test(mod)) { ctrl = true; }
+    else if (/^s(hift)?$/i.test(mod)) { shift = true; }
+    else { throw new Error("Unrecognized modifier name: " + mod) }
+  }
+  if (alt) { name = "Alt-" + name; }
+  if (ctrl) { name = "Ctrl-" + name; }
+  if (cmd) { name = "Cmd-" + name; }
+  if (shift) { name = "Shift-" + name; }
+  return name
+}
+
+// This is a kludge to keep keymaps mostly working as raw objects
+// (backwards compatibility) while at the same time support features
+// like normalization and multi-stroke key bindings. It compiles a
+// new normalized keymap, and then updates the old object to reflect
+// this.
+function normalizeKeyMap(keymap) {
+  var copy = {};
+  for (var keyname in keymap) { if (keymap.hasOwnProperty(keyname)) {
+    var value = keymap[keyname];
+    if (/^(name|fallthrough|(de|at)tach)$/.test(keyname)) { continue }
+    if (value == "...") { delete keymap[keyname]; continue }
+
+    var keys = map(keyname.split(" "), normalizeKeyName);
+    for (var i = 0; i < keys.length; i++) {
+      var val = (void 0), name = (void 0);
+      if (i == keys.length - 1) {
+        name = keys.join(" ");
+        val = value;
+      } else {
+        name = keys.slice(0, i + 1).join(" ");
+        val = "...";
+      }
+      var prev = copy[name];
+      if (!prev) { copy[name] = val; }
+      else if (prev != val) { throw new Error("Inconsistent bindings for " + name) }
+    }
+    delete keymap[keyname];
+  } }
+  for (var prop in copy) { keymap[prop] = copy[prop]; }
+  return keymap
+}
+
+function lookupKey(key, map$$1, handle, context) {
+  map$$1 = getKeyMap(map$$1);
+  var found = map$$1.call ? map$$1.call(key, context) : map$$1[key];
+  if (found === false) { return "nothing" }
+  if (found === "...") { return "multi" }
+  if (found != null && handle(found)) { return "handled" }
+
+  if (map$$1.fallthrough) {
+    if (Object.prototype.toString.call(map$$1.fallthrough) != "[object Array]")
+      { return lookupKey(key, map$$1.fallthrough, handle, context) }
+    for (var i = 0; i < map$$1.fallthrough.length; i++) {
+      var result = lookupKey(key, map$$1.fallthrough[i], handle, context);
+      if (result) { return result }
+    }
+  }
+}
+
+// Modifier key presses don't count as 'real' key presses for the
+// purpose of keymap fallthrough.
+function isModifierKey(value) {
+  var name = typeof value == "string" ? value : keyNames[value.keyCode];
+  return name == "Ctrl" || name == "Alt" || name == "Shift" || name == "Mod"
+}
+
+function addModifierNames(name, event, noShift) {
+  var base = name;
+  if (event.altKey && base != "Alt") { name = "Alt-" + name; }
+  if ((flipCtrlCmd ? event.metaKey : event.ctrlKey) && base != "Ctrl") { name = "Ctrl-" + name; }
+  if ((flipCtrlCmd ? event.ctrlKey : event.metaKey) && base != "Cmd") { name = "Cmd-" + name; }
+  if (!noShift && event.shiftKey && base != "Shift") { name = "Shift-" + name; }
+  return name
+}
+
+// Look up the name of a key as indicated by an event object.
+function keyName(event, noShift) {
+  if (presto && event.keyCode == 34 && event["char"]) { return false }
+  var name = keyNames[event.keyCode];
+  if (name == null || event.altGraphKey) { return false }
+  return addModifierNames(name, event, noShift)
+}
+
+function getKeyMap(val) {
+  return typeof val == "string" ? keyMap[val] : val
+}
+
+// Helper for deleting text near the selection(s), used to implement
+// backspace, delete, and similar functionality.
+function deleteNearSelection(cm, compute) {
+  var ranges = cm.doc.sel.ranges, kill = [];
+  // Build up a set of ranges to kill first, merging overlapping
+  // ranges.
+  for (var i = 0; i < ranges.length; i++) {
+    var toKill = compute(ranges[i]);
+    while (kill.length && cmp(toKill.from, lst(kill).to) <= 0) {
+      var replaced = kill.pop();
+      if (cmp(replaced.from, toKill.from) < 0) {
+        toKill.from = replaced.from;
+        break
+      }
+    }
+    kill.push(toKill);
+  }
+  // Next, remove those actual ranges.
+  runInOp(cm, function () {
+    for (var i = kill.length - 1; i >= 0; i--)
+      { replaceRange(cm.doc, "", kill[i].from, kill[i].to, "+delete"); }
+    ensureCursorVisible(cm);
+  });
+}
+
+// Commands are parameter-less actions that can be performed on an
+// editor, mostly used for keybindings.
+var commands = {
+  selectAll: selectAll,
+  singleSelection: function (cm) { return cm.setSelection(cm.getCursor("anchor"), cm.getCursor("head"), sel_dontScroll); },
+  killLine: function (cm) { return deleteNearSelection(cm, function (range) {
+    if (range.empty()) {
+      var len = getLine(cm.doc, range.head.line).text.length;
+      if (range.head.ch == len && range.head.line < cm.lastLine())
+        { return {from: range.head, to: Pos(range.head.line + 1, 0)} }
+      else
+        { return {from: range.head, to: Pos(range.head.line, len)} }
+    } else {
+      return {from: range.from(), to: range.to()}
+    }
+  }); },
+  deleteLine: function (cm) { return deleteNearSelection(cm, function (range) { return ({
+    from: Pos(range.from().line, 0),
+    to: clipPos(cm.doc, Pos(range.to().line + 1, 0))
+  }); }); },
+  delLineLeft: function (cm) { return deleteNearSelection(cm, function (range) { return ({
+    from: Pos(range.from().line, 0), to: range.from()
+  }); }); },
+  delWrappedLineLeft: function (cm) { return deleteNearSelection(cm, function (range) {
+    var top = cm.charCoords(range.head, "div").top + 5;
+    var leftPos = cm.coordsChar({left: 0, top: top}, "div");
+    return {from: leftPos, to: range.from()}
+  }); },
+  delWrappedLineRight: function (cm) { return deleteNearSelection(cm, function (range) {
+    var top = cm.charCoords(range.head, "div").top + 5;
+    var rightPos = cm.coordsChar({left: cm.display.lineDiv.offsetWidth + 100, top: top}, "div");
+    return {from: range.from(), to: rightPos }
+  }); },
+  undo: function (cm) { return cm.undo(); },
+  redo: function (cm) { return cm.redo(); },
+  undoSelection: function (cm) { return cm.undoSelection(); },
+  redoSelection: function (cm) { return cm.redoSelection(); },
+  goDocStart: function (cm) { return cm.extendSelection(Pos(cm.firstLine(), 0)); },
+  goDocEnd: function (cm) { return cm.extendSelection(Pos(cm.lastLine())); },
+  goLineStart: function (cm) { return cm.extendSelectionsBy(function (range) { return lineStart(cm, range.head.line); },
+    {origin: "+move", bias: 1}
+  ); },
+  goLineStartSmart: function (cm) { return cm.extendSelectionsBy(function (range) { return lineStartSmart(cm, range.head); },
+    {origin: "+move", bias: 1}
+  ); },
+  goLineEnd: function (cm) { return cm.extendSelectionsBy(function (range) { return lineEnd(cm, range.head.line); },
+    {origin: "+move", bias: -1}
+  ); },
+  goLineRight: function (cm) { return cm.extendSelectionsBy(function (range) {
+    var top = cm.cursorCoords(range.head, "div").top + 5;
+    return cm.coordsChar({left: cm.display.lineDiv.offsetWidth + 100, top: top}, "div")
+  }, sel_move); },
+  goLineLeft: function (cm) { return cm.extendSelectionsBy(function (range) {
+    var top = cm.cursorCoords(range.head, "div").top + 5;
+    return cm.coordsChar({left: 0, top: top}, "div")
+  }, sel_move); },
+  goLineLeftSmart: function (cm) { return cm.extendSelectionsBy(function (range) {
+    var top = cm.cursorCoords(range.head, "div").top + 5;
+    var pos = cm.coordsChar({left: 0, top: top}, "div");
+    if (pos.ch < cm.getLine(pos.line).search(/\S/)) { return lineStartSmart(cm, range.head) }
+    return pos
+  }, sel_move); },
+  goLineUp: function (cm) { return cm.moveV(-1, "line"); },
+  goLineDown: function (cm) { return cm.moveV(1, "line"); },
+  goPageUp: function (cm) { return cm.moveV(-1, "page"); },
+  goPageDown: function (cm) { return cm.moveV(1, "page"); },
+  goCharLeft: function (cm) { return cm.moveH(-1, "char"); },
+  goCharRight: function (cm) { return cm.moveH(1, "char"); },
+  goColumnLeft: function (cm) { return cm.moveH(-1, "column"); },
+  goColumnRight: function (cm) { return cm.moveH(1, "column"); },
+  goWordLeft: function (cm) { return cm.moveH(-1, "word"); },
+  goGroupRight: function (cm) { return cm.moveH(1, "group"); },
+  goGroupLeft: function (cm) { return cm.moveH(-1, "group"); },
+  goWordRight: function (cm) { return cm.moveH(1, "word"); },
+  delCharBefore: function (cm) { return cm.deleteH(-1, "char"); },
+  delCharAfter: function (cm) { return cm.deleteH(1, "char"); },
+  delWordBefore: function (cm) { return cm.deleteH(-1, "word"); },
+  delWordAfter: function (cm) { return cm.deleteH(1, "word"); },
+  delGroupBefore: function (cm) { return cm.deleteH(-1, "group"); },
+  delGroupAfter: function (cm) { return cm.deleteH(1, "group"); },
+  indentAuto: function (cm) { return cm.indentSelection("smart"); },
+  indentMore: function (cm) { return cm.indentSelection("add"); },
+  indentLess: function (cm) { return cm.indentSelection("subtract"); },
+  insertTab: function (cm) { return cm.replaceSelection("\t"); },
+  insertSoftTab: function (cm) {
+    var spaces = [], ranges = cm.listSelections(), tabSize = cm.options.tabSize;
+    for (var i = 0; i < ranges.length; i++) {
+      var pos = ranges[i].from();
+      var col = countColumn(cm.getLine(pos.line), pos.ch, tabSize);
+      spaces.push(spaceStr(tabSize - col % tabSize));
+    }
+    cm.replaceSelections(spaces);
+  },
+  defaultTab: function (cm) {
+    if (cm.somethingSelected()) { cm.indentSelection("add"); }
+    else { cm.execCommand("insertTab"); }
+  },
+  // Swap the two chars left and right of each selection's head.
+  // Move cursor behind the two swapped characters afterwards.
+  //
+  // Doesn't consider line feeds a character.
+  // Doesn't scan more than one line above to find a character.
+  // Doesn't do anything on an empty line.
+  // Doesn't do anything with non-empty selections.
+  transposeChars: function (cm) { return runInOp(cm, function () {
+    var ranges = cm.listSelections(), newSel = [];
+    for (var i = 0; i < ranges.length; i++) {
+      if (!ranges[i].empty()) { continue }
+      var cur = ranges[i].head, line = getLine(cm.doc, cur.line).text;
+      if (line) {
+        if (cur.ch == line.length) { cur = new Pos(cur.line, cur.ch - 1); }
+        if (cur.ch > 0) {
+          cur = new Pos(cur.line, cur.ch + 1);
+          cm.replaceRange(line.charAt(cur.ch - 1) + line.charAt(cur.ch - 2),
+                          Pos(cur.line, cur.ch - 2), cur, "+transpose");
+        } else if (cur.line > cm.doc.first) {
+          var prev = getLine(cm.doc, cur.line - 1).text;
+          if (prev) {
+            cur = new Pos(cur.line, 1);
+            cm.replaceRange(line.charAt(0) + cm.doc.lineSeparator() +
+                            prev.charAt(prev.length - 1),
+                            Pos(cur.line - 1, prev.length - 1), cur, "+transpose");
+          }
+        }
+      }
+      newSel.push(new Range(cur, cur));
+    }
+    cm.setSelections(newSel);
+  }); },
+  newlineAndIndent: function (cm) { return runInOp(cm, function () {
+    var sels = cm.listSelections();
+    for (var i = sels.length - 1; i >= 0; i--)
+      { cm.replaceRange(cm.doc.lineSeparator(), sels[i].anchor, sels[i].head, "+input"); }
+    sels = cm.listSelections();
+    for (var i$1 = 0; i$1 < sels.length; i$1++)
+      { cm.indentLine(sels[i$1].from().line, null, true); }
+    ensureCursorVisible(cm);
+  }); },
+  openLine: function (cm) { return cm.replaceSelection("\n", "start"); },
+  toggleOverwrite: function (cm) { return cm.toggleOverwrite(); }
+};
+
+
+function lineStart(cm, lineN) {
+  var line = getLine(cm.doc, lineN);
+  var visual = visualLine(line);
+  if (visual != line) { lineN = lineNo(visual); }
+  return endOfLine(true, cm, visual, lineN, 1)
+}
+function lineEnd(cm, lineN) {
+  var line = getLine(cm.doc, lineN);
+  var visual = visualLineEnd(line);
+  if (visual != line) { lineN = lineNo(visual); }
+  return endOfLine(true, cm, line, lineN, -1)
+}
+function lineStartSmart(cm, pos) {
+  var start = lineStart(cm, pos.line);
+  var line = getLine(cm.doc, start.line);
+  var order = getOrder(line, cm.doc.direction);
+  if (!order || order[0].level == 0) {
+    var firstNonWS = Math.max(0, line.text.search(/\S/));
+    var inWS = pos.line == start.line && pos.ch <= firstNonWS && pos.ch;
+    return Pos(start.line, inWS ? 0 : firstNonWS, start.sticky)
+  }
+  return start
+}
+
+// Run a handler that was bound to a key.
+function doHandleBinding(cm, bound, dropShift) {
+  if (typeof bound == "string") {
+    bound = commands[bound];
+    if (!bound) { return false }
+  }
+  // Ensure previous input has been read, so that the handler sees a
+  // consistent view of the document
+  cm.display.input.ensurePolled();
+  var prevShift = cm.display.shift, done = false;
+  try {
+    if (cm.isReadOnly()) { cm.state.suppressEdits = true; }
+    if (dropShift) { cm.display.shift = false; }
+    done = bound(cm) != Pass;
+  } finally {
+    cm.display.shift = prevShift;
+    cm.state.suppressEdits = false;
+  }
+  return done
+}
+
+function lookupKeyForEditor(cm, name, handle) {
+  for (var i = 0; i < cm.state.keyMaps.length; i++) {
+    var result = lookupKey(name, cm.state.keyMaps[i], handle, cm);
+    if (result) { return result }
+  }
+  return (cm.options.extraKeys && lookupKey(name, cm.options.extraKeys, handle, cm))
+    || lookupKey(name, cm.options.keyMap, handle, cm)
+}
+
+// Note that, despite the name, this function is also used to check
+// for bound mouse clicks.
+
+var stopSeq = new Delayed;
+function dispatchKey(cm, name, e, handle) {
+  var seq = cm.state.keySeq;
+  if (seq) {
+    if (isModifierKey(name)) { return "handled" }
+    stopSeq.set(50, function () {
+      if (cm.state.keySeq == seq) {
+        cm.state.keySeq = null;
+        cm.display.input.reset();
+      }
+    });
+    name = seq + " " + name;
+  }
+  var result = lookupKeyForEditor(cm, name, handle);
+
+  if (result == "multi")
+    { cm.state.keySeq = name; }
+  if (result == "handled")
+    { signalLater(cm, "keyHandled", cm, name, e); }
+
+  if (result == "handled" || result == "multi") {
+    e_preventDefault(e);
+    restartBlink(cm);
+  }
+
+  if (seq && !result && /\'$/.test(name)) {
+    e_preventDefault(e);
+    return true
+  }
+  return !!result
+}
+
+// Handle a key from the keydown event.
+function handleKeyBinding(cm, e) {
+  var name = keyName(e, true);
+  if (!name) { return false }
+
+  if (e.shiftKey && !cm.state.keySeq) {
+    // First try to resolve full name (including 'Shift-'). Failing
+    // that, see if there is a cursor-motion command (starting with
+    // 'go') bound to the keyname without 'Shift-'.
+    return dispatchKey(cm, "Shift-" + name, e, function (b) { return doHandleBinding(cm, b, true); })
+        || dispatchKey(cm, name, e, function (b) {
+             if (typeof b == "string" ? /^go[A-Z]/.test(b) : b.motion)
+               { return doHandleBinding(cm, b) }
+           })
+  } else {
+    return dispatchKey(cm, name, e, function (b) { return doHandleBinding(cm, b); })
+  }
+}
+
+// Handle a key from the keypress event
+function handleCharBinding(cm, e, ch) {
+  return dispatchKey(cm, "'" + ch + "'", e, function (b) { return doHandleBinding(cm, b, true); })
+}
+
+var lastStoppedKey = null;
+function onKeyDown(e) {
+  var cm = this;
+  cm.curOp.focus = activeElt();
+  if (signalDOMEvent(cm, e)) { return }
+  // IE does strange things with escape.
+  if (ie && ie_version < 11 && e.keyCode == 27) { e.returnValue = false; }
+  var code = e.keyCode;
+  cm.display.shift = code == 16 || e.shiftKey;
+  var handled = handleKeyBinding(cm, e);
+  if (presto) {
+    lastStoppedKey = handled ? code : null;
+    // Opera has no cut event... we try to at least catch the key combo
+    if (!handled && code == 88 && !hasCopyEvent && (mac ? e.metaKey : e.ctrlKey))
+      { cm.replaceSelection("", null, "cut"); }
+  }
+
+  // Turn mouse into crosshair when Alt is held on Mac.
+  if (code == 18 && !/\bCodeMirror-crosshair\b/.test(cm.display.lineDiv.className))
+    { showCrossHair(cm); }
+}
+
+function showCrossHair(cm) {
+  var lineDiv = cm.display.lineDiv;
+  addClass(lineDiv, "CodeMirror-crosshair");
+
+  function up(e) {
+    if (e.keyCode == 18 || !e.altKey) {
+      rmClass(lineDiv, "CodeMirror-crosshair");
+      off(document, "keyup", up);
+      off(document, "mouseover", up);
+    }
+  }
+  on(document, "keyup", up);
+  on(document, "mouseover", up);
+}
+
+function onKeyUp(e) {
+  if (e.keyCode == 16) { this.doc.sel.shift = false; }
+  signalDOMEvent(this, e);
+}
+
+function onKeyPress(e) {
+  var cm = this;
+  if (eventInWidget(cm.display, e) || signalDOMEvent(cm, e) || e.ctrlKey && !e.altKey || mac && e.metaKey) { return }
+  var keyCode = e.keyCode, charCode = e.charCode;
+  if (presto && keyCode == lastStoppedKey) {lastStoppedKey = null; e_preventDefault(e); return}
+  if ((presto && (!e.which || e.which < 10)) && handleKeyBinding(cm, e)) { return }
+  var ch = String.fromCharCode(charCode == null ? keyCode : charCode);
+  // Some browsers fire keypress events for backspace
+  if (ch == "\x08") { return }
+  if (handleCharBinding(cm, e, ch)) { return }
+  cm.display.input.onKeyPress(e);
+}
+
+var DOUBLECLICK_DELAY = 400;
+
+var PastClick = function(time, pos, button) {
+  this.time = time;
+  this.pos = pos;
+  this.button = button;
+};
+
+PastClick.prototype.compare = function (time, pos, button) {
+  return this.time + DOUBLECLICK_DELAY > time &&
+    cmp(pos, this.pos) == 0 && button == this.button
+};
+
+var lastClick;
+var lastDoubleClick;
+function clickRepeat(pos, button) {
+  var now = +new Date;
+  if (lastDoubleClick && lastDoubleClick.compare(now, pos, button)) {
+    lastClick = lastDoubleClick = null;
+    return "triple"
+  } else if (lastClick && lastClick.compare(now, pos, button)) {
+    lastDoubleClick = new PastClick(now, pos, button);
+    lastClick = null;
+    return "double"
+  } else {
+    lastClick = new PastClick(now, pos, button);
+    lastDoubleClick = null;
+    return "single"
+  }
+}
+
+// A mouse down can be a single click, double click, triple click,
+// start of selection drag, start of text drag, new cursor
+// (ctrl-click), rectangle drag (alt-drag), or xwin
+// middle-click-paste. Or it might be a click on something we should
+// not interfere with, such as a scrollbar or widget.
+function onMouseDown(e) {
+  var cm = this, display = cm.display;
+  if (signalDOMEvent(cm, e) || display.activeTouch && display.input.supportsTouch()) { return }
+  display.input.ensurePolled();
+  display.shift = e.shiftKey;
+
+  if (eventInWidget(display, e)) {
+    if (!webkit) {
+      // Briefly turn off draggability, to allow widgets to do
+      // normal dragging things.
+      display.scroller.draggable = false;
+      setTimeout(function () { return display.scroller.draggable = true; }, 100);
+    }
+    return
+  }
+  if (clickInGutter(cm, e)) { return }
+  var pos = posFromMouse(cm, e), button = e_button(e), repeat = pos ? clickRepeat(pos, button) : "single";
+  window.focus();
+
+  // #3261: make sure, that we're not starting a second selection
+  if (button == 1 && cm.state.selectingText)
+    { cm.state.selectingText(e); }
+
+  if (pos && handleMappedButton(cm, button, pos, repeat, e)) { return }
+
+  if (button == 1) {
+    if (pos) { leftButtonDown(cm, pos, repeat, e); }
+    else if (e_target(e) == display.scroller) { e_preventDefault(e); }
+  } else if (button == 2) {
+    if (pos) { extendSelection(cm.doc, pos); }
+    setTimeout(function () { return display.input.focus(); }, 20);
+  } else if (button == 3) {
+    if (captureRightClick) { onContextMenu(cm, e); }
+    else { delayBlurEvent(cm); }
+  }
+}
+
+function handleMappedButton(cm, button, pos, repeat, event) {
+  var name = "Click";
+  if (repeat == "double") { name = "Double" + name; }
+  else if (repeat == "triple") { name = "Triple" + name; }
+  name = (button == 1 ? "Left" : button == 2 ? "Middle" : "Right") + name;
+
+  return dispatchKey(cm,  addModifierNames(name, event), event, function (bound) {
+    if (typeof bound == "string") { bound = commands[bound]; }
+    if (!bound) { return false }
+    var done = false;
+    try {
+      if (cm.isReadOnly()) { cm.state.suppressEdits = true; }
+      done = bound(cm, pos) != Pass;
+    } finally {
+      cm.state.suppressEdits = false;
+    }
+    return done
+  })
+}
+
+function configureMouse(cm, repeat, event) {
+  var option = cm.getOption("configureMouse");
+  var value = option ? option(cm, repeat, event) : {};
+  if (value.unit == null) {
+    var rect = chromeOS ? event.shiftKey && event.metaKey : event.altKey;
+    value.unit = rect ? "rectangle" : repeat == "single" ? "char" : repeat == "double" ? "word" : "line";
+  }
+  if (value.extend == null || cm.doc.extend) { value.extend = cm.doc.extend || event.shiftKey; }
+  if (value.addNew == null) { value.addNew = mac ? event.metaKey : event.ctrlKey; }
+  if (value.moveOnDrag == null) { value.moveOnDrag = !(mac ? event.altKey : event.ctrlKey); }
+  return value
+}
+
+function leftButtonDown(cm, pos, repeat, event) {
+  if (ie) { setTimeout(bind(ensureFocus, cm), 0); }
+  else { cm.curOp.focus = activeElt(); }
+
+  var behavior = configureMouse(cm, repeat, event);
+
+  var sel = cm.doc.sel, contained;
+  if (cm.options.dragDrop && dragAndDrop && !cm.isReadOnly() &&
+      repeat == "single" && (contained = sel.contains(pos)) > -1 &&
+      (cmp((contained = sel.ranges[contained]).from(), pos) < 0 || pos.xRel > 0) &&
+      (cmp(contained.to(), pos) > 0 || pos.xRel < 0))
+    { leftButtonStartDrag(cm, event, pos, behavior); }
+  else
+    { leftButtonSelect(cm, event, pos, behavior); }
+}
+
+// Start a text drag. When it ends, see if any dragging actually
+// happen, and treat as a click if it didn't.
+function leftButtonStartDrag(cm, event, pos, behavior) {
+  var display = cm.display, moved = false;
+  var dragEnd = operation(cm, function (e) {
+    if (webkit) { display.scroller.draggable = false; }
+    cm.state.draggingText = false;
+    off(document, "mouseup", dragEnd);
+    off(document, "mousemove", mouseMove);
+    off(display.scroller, "dragstart", dragStart);
+    off(display.scroller, "drop", dragEnd);
+    if (!moved) {
+      e_preventDefault(e);
+      if (!behavior.addNew)
+        { extendSelection(cm.doc, pos, null, null, behavior.extend); }
+      // Work around unexplainable focus problem in IE9 (#2127) and Chrome (#3081)
+      if (webkit || ie && ie_version == 9)
+        { setTimeout(function () {document.body.focus(); display.input.focus();}, 20); }
+      else
+        { display.input.focus(); }
+    }
+  });
+  var mouseMove = function(e2) {
+    moved = moved || Math.abs(event.clientX - e2.clientX) + Math.abs(event.clientY - e2.clientY) >= 10;
+  };
+  var dragStart = function () { return moved = true; };
+  // Let the drag handler handle this.
+  if (webkit) { display.scroller.draggable = true; }
+  cm.state.draggingText = dragEnd;
+  dragEnd.copy = !behavior.moveOnDrag;
+  // IE's approach to draggable
+  if (display.scroller.dragDrop) { display.scroller.dragDrop(); }
+  on(document, "mouseup", dragEnd);
+  on(document, "mousemove", mouseMove);
+  on(display.scroller, "dragstart", dragStart);
+  on(display.scroller, "drop", dragEnd);
+
+  delayBlurEvent(cm);
+  setTimeout(function () { return display.input.focus(); }, 20);
+}
+
+function rangeForUnit(cm, pos, unit) {
+  if (unit == "char") { return new Range(pos, pos) }
+  if (unit == "word") { return cm.findWordAt(pos) }
+  if (unit == "line") { return new Range(Pos(pos.line, 0), clipPos(cm.doc, Pos(pos.line + 1, 0))) }
+  var result = unit(cm, pos);
+  return new Range(result.from, result.to)
+}
+
+// Normal selection, as opposed to text dragging.
+function leftButtonSelect(cm, event, start, behavior) {
+  var display = cm.display, doc = cm.doc;
+  e_preventDefault(event);
+
+  var ourRange, ourIndex, startSel = doc.sel, ranges = startSel.ranges;
+  if (behavior.addNew && !behavior.extend) {
+    ourIndex = doc.sel.contains(start);
+    if (ourIndex > -1)
+      { ourRange = ranges[ourIndex]; }
+    else
+      { ourRange = new Range(start, start); }
+  } else {
+    ourRange = doc.sel.primary();
+    ourIndex = doc.sel.primIndex;
+  }
+
+  if (behavior.unit == "rectangle") {
+    if (!behavior.addNew) { ourRange = new Range(start, start); }
+    start = posFromMouse(cm, event, true, true);
+    ourIndex = -1;
+  } else {
+    var range$$1 = rangeForUnit(cm, start, behavior.unit);
+    if (behavior.extend)
+      { ourRange = extendRange(ourRange, range$$1.anchor, range$$1.head, behavior.extend); }
+    else
+      { ourRange = range$$1; }
+  }
+
+  if (!behavior.addNew) {
+    ourIndex = 0;
+    setSelection(doc, new Selection([ourRange], 0), sel_mouse);
+    startSel = doc.sel;
+  } else if (ourIndex == -1) {
+    ourIndex = ranges.length;
+    setSelection(doc, normalizeSelection(ranges.concat([ourRange]), ourIndex),
+                 {scroll: false, origin: "*mouse"});
+  } else if (ranges.length > 1 && ranges[ourIndex].empty() && behavior.unit == "char" && !behavior.extend) {
+    setSelection(doc, normalizeSelection(ranges.slice(0, ourIndex).concat(ranges.slice(ourIndex + 1)), 0),
+                 {scroll: false, origin: "*mouse"});
+    startSel = doc.sel;
+  } else {
+    replaceOneSelection(doc, ourIndex, ourRange, sel_mouse);
+  }
+
+  var lastPos = start;
+  function extendTo(pos) {
+    if (cmp(lastPos, pos) == 0) { return }
+    lastPos = pos;
+
+    if (behavior.unit == "rectangle") {
+      var ranges = [], tabSize = cm.options.tabSize;
+      var startCol = countColumn(getLine(doc, start.line).text, start.ch, tabSize);
+      var posCol = countColumn(getLine(doc, pos.line).text, pos.ch, tabSize);
+      var left = Math.min(startCol, posCol), right = Math.max(startCol, posCol);
+      for (var line = Math.min(start.line, pos.line), end = Math.min(cm.lastLine(), Math.max(start.line, pos.line));
+           line <= end; line++) {
+        var text = getLine(doc, line).text, leftPos = findColumn(text, left, tabSize);
+        if (left == right)
+          { ranges.push(new Range(Pos(line, leftPos), Pos(line, leftPos))); }
+        else if (text.length > leftPos)
+          { ranges.push(new Range(Pos(line, leftPos), Pos(line, findColumn(text, right, tabSize)))); }
+      }
+      if (!ranges.length) { ranges.push(new Range(start, start)); }
+      setSelection(doc, normalizeSelection(startSel.ranges.slice(0, ourIndex).concat(ranges), ourIndex),
+                   {origin: "*mouse", scroll: false});
+      cm.scrollIntoView(pos);
+    } else {
+      var oldRange = ourRange;
+      var range$$1 = rangeForUnit(cm, pos, behavior.unit);
+      var anchor = oldRange.anchor, head;
+      if (cmp(range$$1.anchor, anchor) > 0) {
+        head = range$$1.head;
+        anchor = minPos(oldRange.from(), range$$1.anchor);
+      } else {
+        head = range$$1.anchor;
+        anchor = maxPos(oldRange.to(), range$$1.head);
+      }
+      var ranges$1 = startSel.ranges.slice(0);
+      ranges$1[ourIndex] = new Range(clipPos(doc, anchor), head);
+      setSelection(doc, normalizeSelection(ranges$1, ourIndex), sel_mouse);
+    }
+  }
+
+  var editorSize = display.wrapper.getBoundingClientRect();
+  // Used to ensure timeout re-tries don't fire when another extend
+  // happened in the meantime (clearTimeout isn't reliable -- at
+  // least on Chrome, the timeouts still happen even when cleared,
+  // if the clear happens after their scheduled firing time).
+  var counter = 0;
+
+  function extend(e) {
+    var curCount = ++counter;
+    var cur = posFromMouse(cm, e, true, behavior.unit == "rectangle");
+    if (!cur) { return }
+    if (cmp(cur, lastPos) != 0) {
+      cm.curOp.focus = activeElt();
+      extendTo(cur);
+      var visible = visibleLines(display, doc);
+      if (cur.line >= visible.to || cur.line < visible.from)
+        { setTimeout(operation(cm, function () {if (counter == curCount) { extend(e); }}), 150); }
+    } else {
+      var outside = e.clientY < editorSize.top ? -20 : e.clientY > editorSize.bottom ? 20 : 0;
+      if (outside) { setTimeout(operation(cm, function () {
+        if (counter != curCount) { return }
+        display.scroller.scrollTop += outside;
+        extend(e);
+      }), 50); }
+    }
+  }
+
+  function done(e) {
+    cm.state.selectingText = false;
+    counter = Infinity;
+    e_preventDefault(e);
+    display.input.focus();
+    off(document, "mousemove", move);
+    off(document, "mouseup", up);
+    doc.history.lastSelOrigin = null;
+  }
+
+  var move = operation(cm, function (e) {
+    if (!e_button(e)) { done(e); }
+    else { extend(e); }
+  });
+  var up = operation(cm, done);
+  cm.state.selectingText = up;
+  on(document, "mousemove", move);
+  on(document, "mouseup", up);
+}
+
+
+// Determines whether an event happened in the gutter, and fires the
+// handlers for the corresponding event.
+function gutterEvent(cm, e, type, prevent) {
+  var mX, mY;
+  try { mX = e.clientX; mY = e.clientY; }
+  catch(e) { return false }
+  if (mX >= Math.floor(cm.display.gutters.getBoundingClientRect().right)) { return false }
+  if (prevent) { e_preventDefault(e); }
+
+  var display = cm.display;
+  var lineBox = display.lineDiv.getBoundingClientRect();
+
+  if (mY > lineBox.bottom || !hasHandler(cm, type)) { return e_defaultPrevented(e) }
+  mY -= lineBox.top - display.viewOffset;
+
+  for (var i = 0; i < cm.options.gutters.length; ++i) {
+    var g = display.gutters.childNodes[i];
+    if (g && g.getBoundingClientRect().right >= mX) {
+      var line = lineAtHeight(cm.doc, mY);
+      var gutter = cm.options.gutters[i];
+      signal(cm, type, cm, line, gutter, e);
+      return e_defaultPrevented(e)
+    }
+  }
+}
+
+function clickInGutter(cm, e) {
+  return gutterEvent(cm, e, "gutterClick", true)
+}
+
+// CONTEXT MENU HANDLING
+
+// To make the context menu work, we need to briefly unhide the
+// textarea (making it as unobtrusive as possible) to let the
+// right-click take effect on it.
+function onContextMenu(cm, e) {
+  if (eventInWidget(cm.display, e) || contextMenuInGutter(cm, e)) { return }
+  if (signalDOMEvent(cm, e, "contextmenu")) { return }
+  cm.display.input.onContextMenu(e);
+}
+
+function contextMenuInGutter(cm, e) {
+  if (!hasHandler(cm, "gutterContextMenu")) { return false }
+  return gutterEvent(cm, e, "gutterContextMenu", false)
+}
+
+function themeChanged(cm) {
+  cm.display.wrapper.className = cm.display.wrapper.className.replace(/\s*cm-s-\S+/g, "") +
+    cm.options.theme.replace(/(^|\s)\s*/g, " cm-s-");
+  clearCaches(cm);
+}
+
+var Init = {toString: function(){return "CodeMirror.Init"}};
+
+var defaults = {};
+var optionHandlers = {};
+
+function defineOptions(CodeMirror) {
+  var optionHandlers = CodeMirror.optionHandlers;
+
+  function option(name, deflt, handle, notOnInit) {
+    CodeMirror.defaults[name] = deflt;
+    if (handle) { optionHandlers[name] =
+      notOnInit ? function (cm, val, old) {if (old != Init) { handle(cm, val, old); }} : handle; }
+  }
+
+  CodeMirror.defineOption = option;
+
+  // Passed to option handlers when there is no old value.
+  CodeMirror.Init = Init;
+
+  // These two are, on init, called from the constructor because they
+  // have to be initialized before the editor can start at all.
+  option("value", "", function (cm, val) { return cm.setValue(val); }, true);
+  option("mode", null, function (cm, val) {
+    cm.doc.modeOption = val;
+    loadMode(cm);
+  }, true);
+
+  option("indentUnit", 2, loadMode, true);
+  option("indentWithTabs", false);
+  option("smartIndent", true);
+  option("tabSize", 4, function (cm) {
+    resetModeState(cm);
+    clearCaches(cm);
+    regChange(cm);
+  }, true);
+  option("lineSeparator", null, function (cm, val) {
+    cm.doc.lineSep = val;
+    if (!val) { return }
+    var newBreaks = [], lineNo = cm.doc.first;
+    cm.doc.iter(function (line) {
+      for (var pos = 0;;) {
+        var found = line.text.indexOf(val, pos);
+        if (found == -1) { break }
+        pos = found + val.length;
+        newBreaks.push(Pos(lineNo, found));
+      }
+      lineNo++;
+    });
+    for (var i = newBreaks.length - 1; i >= 0; i--)
+      { replaceRange(cm.doc, val, newBreaks[i], Pos(newBreaks[i].line, newBreaks[i].ch + val.length)); }
+  });
+  option("specialChars", /[\u0000-\u001f\u007f-\u009f\u00ad\u061c\u200b-\u200f\u2028\u2029\ufeff]/g, function (cm, val, old) {
+    cm.state.specialChars = new RegExp(val.source + (val.test("\t") ? "" : "|\t"), "g");
+    if (old != Init) { cm.refresh(); }
+  });
+  option("specialCharPlaceholder", defaultSpecialCharPlaceholder, function (cm) { return cm.refresh(); }, true);
+  option("electricChars", true);
+  option("inputStyle", mobile ? "contenteditable" : "textarea", function () {
+    throw new Error("inputStyle can not (yet) be changed in a running editor") // FIXME
+  }, true);
+  option("spellcheck", false, function (cm, val) { return cm.getInputField().spellcheck = val; }, true);
+  option("rtlMoveVisually", !windows);
+  option("wholeLineUpdateBefore", true);
+
+  option("theme", "default", function (cm) {
+    themeChanged(cm);
+    guttersChanged(cm);
+  }, true);
+  option("keyMap", "default", function (cm, val, old) {
+    var next = getKeyMap(val);
+    var prev = old != Init && getKeyMap(old);
+    if (prev && prev.detach) { prev.detach(cm, next); }
+    if (next.attach) { next.attach(cm, prev || null); }
+  });
+  option("extraKeys", null);
+  option("configureMouse", null);
+
+  option("lineWrapping", false, wrappingChanged, true);
+  option("gutters", [], function (cm) {
+    setGuttersForLineNumbers(cm.options);
+    guttersChanged(cm);
+  }, true);
+  option("fixedGutter", true, function (cm, val) {
+    cm.display.gutters.style.left = val ? compensateForHScroll(cm.display) + "px" : "0";
+    cm.refresh();
+  }, true);
+  option("coverGutterNextToScrollbar", false, function (cm) { return updateScrollbars(cm); }, true);
+  option("scrollbarStyle", "native", function (cm) {
+    initScrollbars(cm);
+    updateScrollbars(cm);
+    cm.display.scrollbars.setScrollTop(cm.doc.scrollTop);
+    cm.display.scrollbars.setScrollLeft(cm.doc.scrollLeft);
+  }, true);
+  option("lineNumbers", false, function (cm) {
+    setGuttersForLineNumbers(cm.options);
+    guttersChanged(cm);
+  }, true);
+  option("firstLineNumber", 1, guttersChanged, true);
+  option("lineNumberFormatter", function (integer) { return integer; }, guttersChanged, true);
+  option("showCursorWhenSelecting", false, updateSelection, true);
+
+  option("resetSelectionOnContextMenu", true);
+  option("lineWiseCopyCut", true);
+  option("pasteLinesPerSelection", true);
+
+  option("readOnly", false, function (cm, val) {
+    if (val == "nocursor") {
+      onBlur(cm);
+      cm.display.input.blur();
+    }
+    cm.display.input.readOnlyChanged(val);
+  });
+  option("disableInput", false, function (cm, val) {if (!val) { cm.display.input.reset(); }}, true);
+  option("dragDrop", true, dragDropChanged);
+  option("allowDropFileTypes", null);
+
+  option("cursorBlinkRate", 530);
+  option("cursorScrollMargin", 0);
+  option("cursorHeight", 1, updateSelection, true);
+  option("singleCursorHeightPerLine", true, updateSelection, true);
+  option("workTime", 100);
+  option("workDelay", 100);
+  option("flattenSpans", true, resetModeState, true);
+  option("addModeClass", false, resetModeState, true);
+  option("pollInterval", 100);
+  option("undoDepth", 200, function (cm, val) { return cm.doc.history.undoDepth = val; });
+  option("historyEventDelay", 1250);
+  option("viewportMargin", 10, function (cm) { return cm.refresh(); }, true);
+  option("maxHighlightLength", 10000, resetModeState, true);
+  option("moveInputWithCursor", true, function (cm, val) {
+    if (!val) { cm.display.input.resetPosition(); }
+  });
+
+  option("tabindex", null, function (cm, val) { return cm.display.input.getField().tabIndex = val || ""; });
+  option("autofocus", null);
+  option("direction", "ltr", function (cm, val) { return cm.doc.setDirection(val); }, true);
+}
+
+function guttersChanged(cm) {
+  updateGutters(cm);
+  regChange(cm);
+  alignHorizontally(cm);
+}
+
+function dragDropChanged(cm, value, old) {
+  var wasOn = old && old != Init;
+  if (!value != !wasOn) {
+    var funcs = cm.display.dragFunctions;
+    var toggle = value ? on : off;
+    toggle(cm.display.scroller, "dragstart", funcs.start);
+    toggle(cm.display.scroller, "dragenter", funcs.enter);
+    toggle(cm.display.scroller, "dragover", funcs.over);
+    toggle(cm.display.scroller, "dragleave", funcs.leave);
+    toggle(cm.display.scroller, "drop", funcs.drop);
+  }
+}
+
+function wrappingChanged(cm) {
+  if (cm.options.lineWrapping) {
+    addClass(cm.display.wrapper, "CodeMirror-wrap");
+    cm.display.sizer.style.minWidth = "";
+    cm.display.sizerWidth = null;
+  } else {
+    rmClass(cm.display.wrapper, "CodeMirror-wrap");
+    findMaxLine(cm);
+  }
+  estimateLineHeights(cm);
+  regChange(cm);
+  clearCaches(cm);
+  setTimeout(function () { return updateScrollbars(cm); }, 100);
+}
+
+// A CodeMirror instance represents an editor. This is the object
+// that user code is usually dealing with.
+
+function CodeMirror$1(place, options) {
+  var this$1 = this;
+
+  if (!(this instanceof CodeMirror$1)) { return new CodeMirror$1(place, options) }
+
+  this.options = options = options ? copyObj(options) : {};
+  // Determine effective options based on given values and defaults.
+  copyObj(defaults, options, false);
+  setGuttersForLineNumbers(options);
+
+  var doc = options.value;
+  if (typeof doc == "string") { doc = new Doc(doc, options.mode, null, options.lineSeparator, options.direction); }
+  this.doc = doc;
+
+  var input = new CodeMirror$1.inputStyles[options.inputStyle](this);
+  var display = this.display = new Display(place, doc, input);
+  display.wrapper.CodeMirror = this;
+  updateGutters(this);
+  themeChanged(this);
+  if (options.lineWrapping)
+    { this.display.wrapper.className += " CodeMirror-wrap"; }
+  initScrollbars(this);
+
+  this.state = {
+    keyMaps: [],  // stores maps added by addKeyMap
+    overlays: [], // highlighting overlays, as added by addOverlay
+    modeGen: 0,   // bumped when mode/overlay changes, used to invalidate highlighting info
+    overwrite: false,
+    delayingBlurEvent: false,
+    focused: false,
+    suppressEdits: false, // used to disable editing during key handlers when in readOnly mode
+    pasteIncoming: false, cutIncoming: false, // help recognize paste/cut edits in input.poll
+    selectingText: false,
+    draggingText: false,
+    highlight: new Delayed(), // stores highlight worker timeout
+    keySeq: null,  // Unfinished key sequence
+    specialChars: null
+  };
+
+  if (options.autofocus && !mobile) { display.input.focus(); }
+
+  // Override magic textarea content restore that IE sometimes does
+  // on our hidden textarea on reload
+  if (ie && ie_version < 11) { setTimeout(function () { return this$1.display.input.reset(true); }, 20); }
+
+  registerEventHandlers(this);
+  ensureGlobalHandlers();
+
+  startOperation(this);
+  this.curOp.forceUpdate = true;
+  attachDoc(this, doc);
+
+  if ((options.autofocus && !mobile) || this.hasFocus())
+    { setTimeout(bind(onFocus, this), 20); }
+  else
+    { onBlur(this); }
+
+  for (var opt in optionHandlers) { if (optionHandlers.hasOwnProperty(opt))
+    { optionHandlers[opt](this$1, options[opt], Init); } }
+  maybeUpdateLineNumberWidth(this);
+  if (options.finishInit) { options.finishInit(this); }
+  for (var i = 0; i < initHooks.length; ++i) { initHooks[i](this$1); }
+  endOperation(this);
+  // Suppress optimizelegibility in Webkit, since it breaks text
+  // measuring on line wrapping boundaries.
+  if (webkit && options.lineWrapping &&
+      getComputedStyle(display.lineDiv).textRendering == "optimizelegibility")
+    { display.lineDiv.style.textRendering = "auto"; }
+}
+
+// The default configuration options.
+CodeMirror$1.defaults = defaults;
+// Functions to run when options are changed.
+CodeMirror$1.optionHandlers = optionHandlers;
+
+// Attach the necessary event handlers when initializing the editor
+function registerEventHandlers(cm) {
+  var d = cm.display;
+  on(d.scroller, "mousedown", operation(cm, onMouseDown));
+  // Older IE's will not fire a second mousedown for a double click
+  if (ie && ie_version < 11)
+    { on(d.scroller, "dblclick", operation(cm, function (e) {
+      if (signalDOMEvent(cm, e)) { return }
+      var pos = posFromMouse(cm, e);
+      if (!pos || clickInGutter(cm, e) || eventInWidget(cm.display, e)) { return }
+      e_preventDefault(e);
+      var word = cm.findWordAt(pos);
+      extendSelection(cm.doc, word.anchor, word.head);
+    })); }
+  else
+    { on(d.scroller, "dblclick", function (e) { return signalDOMEvent(cm, e) || e_preventDefault(e); }); }
+  // Some browsers fire contextmenu *after* opening the menu, at
+  // which point we can't mess with it anymore. Context menu is
+  // handled in onMouseDown for these browsers.
+  if (!captureRightClick) { on(d.scroller, "contextmenu", function (e) { return onContextMenu(cm, e); }); }
+
+  // Used to suppress mouse event handling when a touch happens
+  var touchFinished, prevTouch = {end: 0};
+  function finishTouch() {
+    if (d.activeTouch) {
+      touchFinished = setTimeout(function () { return d.activeTouch = null; }, 1000);
+      prevTouch = d.activeTouch;
+      prevTouch.end = +new Date;
+    }
+  }
+  function isMouseLikeTouchEvent(e) {
+    if (e.touches.length != 1) { return false }
+    var touch = e.touches[0];
+    return touch.radiusX <= 1 && touch.radiusY <= 1
+  }
+  function farAway(touch, other) {
+    if (other.left == null) { return true }
+    var dx = other.left - touch.left, dy = other.top - touch.top;
+    return dx * dx + dy * dy > 20 * 20
+  }
+  on(d.scroller, "touchstart", function (e) {
+    if (!signalDOMEvent(cm, e) && !isMouseLikeTouchEvent(e)) {
+      d.input.ensurePolled();
+      clearTimeout(touchFinished);
+      var now = +new Date;
+      d.activeTouch = {start: now, moved: false,
+                       prev: now - prevTouch.end <= 300 ? prevTouch : null};
+      if (e.touches.length == 1) {
+        d.activeTouch.left = e.touches[0].pageX;
+        d.activeTouch.top = e.touches[0].pageY;
+      }
+    }
+  });
+  on(d.scroller, "touchmove", function () {
+    if (d.activeTouch) { d.activeTouch.moved = true; }
+  });
+  on(d.scroller, "touchend", function (e) {
+    var touch = d.activeTouch;
+    if (touch && !eventInWidget(d, e) && touch.left != null &&
+        !touch.moved && new Date - touch.start < 300) {
+      var pos = cm.coordsChar(d.activeTouch, "page"), range;
+      if (!touch.prev || farAway(touch, touch.prev)) // Single tap
+        { range = new Range(pos, pos); }
+      else if (!touch.prev.prev || farAway(touch, touch.prev.prev)) // Double tap
+        { range = cm.findWordAt(pos); }
+      else // Triple tap
+        { range = new Range(Pos(pos.line, 0), clipPos(cm.doc, Pos(pos.line + 1, 0))); }
+      cm.setSelection(range.anchor, range.head);
+      cm.focus();
+      e_preventDefault(e);
+    }
+    finishTouch();
+  });
+  on(d.scroller, "touchcancel", finishTouch);
+
+  // Sync scrolling between fake scrollbars and real scrollable
+  // area, ensure viewport is updated when scrolling.
+  on(d.scroller, "scroll", function () {
+    if (d.scroller.clientHeight) {
+      updateScrollTop(cm, d.scroller.scrollTop);
+      setScrollLeft(cm, d.scroller.scrollLeft, true);
+      signal(cm, "scroll", cm);
+    }
+  });
+
+  // Listen to wheel events in order to try and update the viewport on time.
+  on(d.scroller, "mousewheel", function (e) { return onScrollWheel(cm, e); });
+  on(d.scroller, "DOMMouseScroll", function (e) { return onScrollWheel(cm, e); });
+
+  // Prevent wrapper from ever scrolling
+  on(d.wrapper, "scroll", function () { return d.wrapper.scrollTop = d.wrapper.scrollLeft = 0; });
+
+  d.dragFunctions = {
+    enter: function (e) {if (!signalDOMEvent(cm, e)) { e_stop(e); }},
+    over: function (e) {if (!signalDOMEvent(cm, e)) { onDragOver(cm, e); e_stop(e); }},
+    start: function (e) { return onDragStart(cm, e); },
+    drop: operation(cm, onDrop),
+    leave: function (e) {if (!signalDOMEvent(cm, e)) { clearDragCursor(cm); }}
+  };
+
+  var inp = d.input.getField();
+  on(inp, "keyup", function (e) { return onKeyUp.call(cm, e); });
+  on(inp, "keydown", operation(cm, onKeyDown));
+  on(inp, "keypress", operation(cm, onKeyPress));
+  on(inp, "focus", function (e) { return onFocus(cm, e); });
+  on(inp, "blur", function (e) { return onBlur(cm, e); });
+}
+
+var initHooks = [];
+CodeMirror$1.defineInitHook = function (f) { return initHooks.push(f); };
+
+// Indent the given line. The how parameter can be "smart",
+// "add"/null, "subtract", or "prev". When aggressive is false
+// (typically set to true for forced single-line indents), empty
+// lines are not indented, and places where the mode returns Pass
+// are left alone.
+function indentLine(cm, n, how, aggressive) {
+  var doc = cm.doc, state;
+  if (how == null) { how = "add"; }
+  if (how == "smart") {
+    // Fall back to "prev" when the mode doesn't have an indentation
+    // method.
+    if (!doc.mode.indent) { how = "prev"; }
+    else { state = getContextBefore(cm, n).state; }
+  }
+
+  var tabSize = cm.options.tabSize;
+  var line = getLine(doc, n), curSpace = countColumn(line.text, null, tabSize);
+  if (line.stateAfter) { line.stateAfter = null; }
+  var curSpaceString = line.text.match(/^\s*/)[0], indentation;
+  if (!aggressive && !/\S/.test(line.text)) {
+    indentation = 0;
+    how = "not";
+  } else if (how == "smart") {
+    indentation = doc.mode.indent(state, line.text.slice(curSpaceString.length), line.text);
+    if (indentation == Pass || indentation > 150) {
+      if (!aggressive) { return }
+      how = "prev";
+    }
+  }
+  if (how == "prev") {
+    if (n > doc.first) { indentation = countColumn(getLine(doc, n-1).text, null, tabSize); }
+    else { indentation = 0; }
+  } else if (how == "add") {
+    indentation = curSpace + cm.options.indentUnit;
+  } else if (how == "subtract") {
+    indentation = curSpace - cm.options.indentUnit;
+  } else if (typeof how == "number") {
+    indentation = curSpace + how;
+  }
+  indentation = Math.max(0, indentation);
+
+  var indentString = "", pos = 0;
+  if (cm.options.indentWithTabs)
+    { for (var i = Math.floor(indentation / tabSize); i; --i) {pos += tabSize; indentString += "\t";} }
+  if (pos < indentation) { indentString += spaceStr(indentation - pos); }
+
+  if (indentString != curSpaceString) {
+    replaceRange(doc, indentString, Pos(n, 0), Pos(n, curSpaceString.length), "+input");
+    line.stateAfter = null;
+    return true
+  } else {
+    // Ensure that, if the cursor was in the whitespace at the start
+    // of the line, it is moved to the end of that space.
+    for (var i$1 = 0; i$1 < doc.sel.ranges.length; i$1++) {
+      var range = doc.sel.ranges[i$1];
+      if (range.head.line == n && range.head.ch < curSpaceString.length) {
+        var pos$1 = Pos(n, curSpaceString.length);
+        replaceOneSelection(doc, i$1, new Range(pos$1, pos$1));
+        break
+      }
+    }
+  }
+}
+
+// This will be set to a {lineWise: bool, text: [string]} object, so
+// that, when pasting, we know what kind of selections the copied
+// text was made out of.
+var lastCopied = null;
+
+function setLastCopied(newLastCopied) {
+  lastCopied = newLastCopied;
+}
+
+function applyTextInput(cm, inserted, deleted, sel, origin) {
+  var doc = cm.doc;
+  cm.display.shift = false;
+  if (!sel) { sel = doc.sel; }
+
+  var paste = cm.state.pasteIncoming || origin == "paste";
+  var textLines = splitLinesAuto(inserted), multiPaste = null;
+  // When pasing N lines into N selections, insert one line per selection
+  if (paste && sel.ranges.length > 1) {
+    if (lastCopied && lastCopied.text.join("\n") == inserted) {
+      if (sel.ranges.length % lastCopied.text.length == 0) {
+        multiPaste = [];
+        for (var i = 0; i < lastCopied.text.length; i++)
+          { multiPaste.push(doc.splitLines(lastCopied.text[i])); }
+      }
+    } else if (textLines.length == sel.ranges.length && cm.options.pasteLinesPerSelection) {
+      multiPaste = map(textLines, function (l) { return [l]; });
+    }
+  }
+
+  var updateInput;
+  // Normal behavior is to insert the new text into every selection
+  for (var i$1 = sel.ranges.length - 1; i$1 >= 0; i$1--) {
+    var range$$1 = sel.ranges[i$1];
+    var from = range$$1.from(), to = range$$1.to();
+    if (range$$1.empty()) {
+      if (deleted && deleted > 0) // Handle deletion
+        { from = Pos(from.line, from.ch - deleted); }
+      else if (cm.state.overwrite && !paste) // Handle overwrite
+        { to = Pos(to.line, Math.min(getLine(doc, to.line).text.length, to.ch + lst(textLines).length)); }
+      else if (lastCopied && lastCopied.lineWise && lastCopied.text.join("\n") == inserted)
+        { from = to = Pos(from.line, 0); }
+    }
+    updateInput = cm.curOp.updateInput;
+    var changeEvent = {from: from, to: to, text: multiPaste ? multiPaste[i$1 % multiPaste.length] : textLines,
+                       origin: origin || (paste ? "paste" : cm.state.cutIncoming ? "cut" : "+input")};
+    makeChange(cm.doc, changeEvent);
+    signalLater(cm, "inputRead", cm, changeEvent);
+  }
+  if (inserted && !paste)
+    { triggerElectric(cm, inserted); }
+
+  ensureCursorVisible(cm);
+  cm.curOp.updateInput = updateInput;
+  cm.curOp.typing = true;
+  cm.state.pasteIncoming = cm.state.cutIncoming = false;
+}
+
+function handlePaste(e, cm) {
+  var pasted = e.clipboardData && e.clipboardData.getData("Text");
+  if (pasted) {
+    e.preventDefault();
+    if (!cm.isReadOnly() && !cm.options.disableInput)
+      { runInOp(cm, function () { return applyTextInput(cm, pasted, 0, null, "paste"); }); }
+    return true
+  }
+}
+
+function triggerElectric(cm, inserted) {
+  // When an 'electric' character is inserted, immediately trigger a reindent
+  if (!cm.options.electricChars || !cm.options.smartIndent) { return }
+  var sel = cm.doc.sel;
+
+  for (var i = sel.ranges.length - 1; i >= 0; i--) {
+    var range$$1 = sel.ranges[i];
+    if (range$$1.head.ch > 100 || (i && sel.ranges[i - 1].head.line == range$$1.head.line)) { continue }
+    var mode = cm.getModeAt(range$$1.head);
+    var indented = false;
+    if (mode.electricChars) {
+      for (var j = 0; j < mode.electricChars.length; j++)
+        { if (inserted.indexOf(mode.electricChars.charAt(j)) > -1) {
+          indented = indentLine(cm, range$$1.head.line, "smart");
+          break
+        } }
+    } else if (mode.electricInput) {
+      if (mode.electricInput.test(getLine(cm.doc, range$$1.head.line).text.slice(0, range$$1.head.ch)))
+        { indented = indentLine(cm, range$$1.head.line, "smart"); }
+    }
+    if (indented) { signalLater(cm, "electricInput", cm, range$$1.head.line); }
+  }
+}
+
+function copyableRanges(cm) {
+  var text = [], ranges = [];
+  for (var i = 0; i < cm.doc.sel.ranges.length; i++) {
+    var line = cm.doc.sel.ranges[i].head.line;
+    var lineRange = {anchor: Pos(line, 0), head: Pos(line + 1, 0)};
+    ranges.push(lineRange);
+    text.push(cm.getRange(lineRange.anchor, lineRange.head));
+  }
+  return {text: text, ranges: ranges}
+}
+
+function disableBrowserMagic(field, spellcheck) {
+  field.setAttribute("autocorrect", "off");
+  field.setAttribute("autocapitalize", "off");
+  field.setAttribute("spellcheck", !!spellcheck);
+}
+
+function hiddenTextarea() {
+  var te = elt("textarea", null, null, "position: absolute; bottom: -1em; padding: 0; width: 1px; height: 1em; outline: none");
+  var div = elt("div", [te], null, "overflow: hidden; position: relative; width: 3px; height: 0px;");
+  // The textarea is kept positioned near the cursor to prevent the
+  // fact that it'll be scrolled into view on input from scrolling
+  // our fake cursor out of view. On webkit, when wrap=off, paste is
+  // very slow. So make the area wide instead.
+  if (webkit) { te.style.width = "1000px"; }
+  else { te.setAttribute("wrap", "off"); }
+  // If border: 0; -- iOS fails to open keyboard (issue #1287)
+  if (ios) { te.style.border = "1px solid black"; }
+  disableBrowserMagic(te);
+  return div
+}
+
+// The publicly visible API. Note that methodOp(f) means
+// 'wrap f in an operation, performed on its `this` parameter'.
+
+// This is not the complete set of editor methods. Most of the
+// methods defined on the Doc type are also injected into
+// CodeMirror.prototype, for backwards compatibility and
+// convenience.
+
+var addEditorMethods = function(CodeMirror) {
+  var optionHandlers = CodeMirror.optionHandlers;
+
+  var helpers = CodeMirror.helpers = {};
+
+  CodeMirror.prototype = {
+    constructor: CodeMirror,
+    focus: function(){window.focus(); this.display.input.focus();},
+
+    setOption: function(option, value) {
+      var options = this.options, old = options[option];
+      if (options[option] == value && option != "mode") { return }
+      options[option] = value;
+      if (optionHandlers.hasOwnProperty(option))
+        { operation(this, optionHandlers[option])(this, value, old); }
+      signal(this, "optionChange", this, option);
+    },
+
+    getOption: function(option) {return this.options[option]},
+    getDoc: function() {return this.doc},
+
+    addKeyMap: function(map$$1, bottom) {
+      this.state.keyMaps[bottom ? "push" : "unshift"](getKeyMap(map$$1));
+    },
+    removeKeyMap: function(map$$1) {
+      var maps = this.state.keyMaps;
+      for (var i = 0; i < maps.length; ++i)
+        { if (maps[i] == map$$1 || maps[i].name == map$$1) {
+          maps.splice(i, 1);
+          return true
+        } }
+    },
+
+    addOverlay: methodOp(function(spec, options) {
+      var mode = spec.token ? spec : CodeMirror.getMode(this.options, spec);
+      if (mode.startState) { throw new Error("Overlays may not be stateful.") }
+      insertSorted(this.state.overlays,
+                   {mode: mode, modeSpec: spec, opaque: options && options.opaque,
+                    priority: (options && options.priority) || 0},
+                   function (overlay) { return overlay.priority; });
+      this.state.modeGen++;
+      regChange(this);
+    }),
+    removeOverlay: methodOp(function(spec) {
+      var this$1 = this;
+
+      var overlays = this.state.overlays;
+      for (var i = 0; i < overlays.length; ++i) {
+        var cur = overlays[i].modeSpec;
+        if (cur == spec || typeof spec == "string" && cur.name == spec) {
+          overlays.splice(i, 1);
+          this$1.state.modeGen++;
+          regChange(this$1);
+          return
+        }
+      }
+    }),
+
+    indentLine: methodOp(function(n, dir, aggressive) {
+      if (typeof dir != "string" && typeof dir != "number") {
+        if (dir == null) { dir = this.options.smartIndent ? "smart" : "prev"; }
+        else { dir = dir ? "add" : "subtract"; }
+      }
+      if (isLine(this.doc, n)) { indentLine(this, n, dir, aggressive); }
+    }),
+    indentSelection: methodOp(function(how) {
+      var this$1 = this;
+
+      var ranges = this.doc.sel.ranges, end = -1;
+      for (var i = 0; i < ranges.length; i++) {
+        var range$$1 = ranges[i];
+        if (!range$$1.empty()) {
+          var from = range$$1.from(), to = range$$1.to();
+          var start = Math.max(end, from.line);
+          end = Math.min(this$1.lastLine(), to.line - (to.ch ? 0 : 1)) + 1;
+          for (var j = start; j < end; ++j)
+            { indentLine(this$1, j, how); }
+          var newRanges = this$1.doc.sel.ranges;
+          if (from.ch == 0 && ranges.length == newRanges.length && newRanges[i].from().ch > 0)
+            { replaceOneSelection(this$1.doc, i, new Range(from, newRanges[i].to()), sel_dontScroll); }
+        } else if (range$$1.head.line > end) {
+          indentLine(this$1, range$$1.head.line, how, true);
+          end = range$$1.head.line;
+          if (i == this$1.doc.sel.primIndex) { ensureCursorVisible(this$1); }
+        }
+      }
+    }),
+
+    // Fetch the parser token for a given character. Useful for hacks
+    // that want to inspect the mode state (say, for completion).
+    getTokenAt: function(pos, precise) {
+      return takeToken(this, pos, precise)
+    },
+
+    getLineTokens: function(line, precise) {
+      return takeToken(this, Pos(line), precise, true)
+    },
+
+    getTokenTypeAt: function(pos) {
+      pos = clipPos(this.doc, pos);
+      var styles = getLineStyles(this, getLine(this.doc, pos.line));
+      var before = 0, after = (styles.length - 1) / 2, ch = pos.ch;
+      var type;
+      if (ch == 0) { type = styles[2]; }
+      else { for (;;) {
+        var mid = (before + after) >> 1;
+        if ((mid ? styles[mid * 2 - 1] : 0) >= ch) { after = mid; }
+        else if (styles[mid * 2 + 1] < ch) { before = mid + 1; }
+        else { type = styles[mid * 2 + 2]; break }
+      } }
+      var cut = type ? type.indexOf("overlay ") : -1;
+      return cut < 0 ? type : cut == 0 ? null : type.slice(0, cut - 1)
+    },
+
+    getModeAt: function(pos) {
+      var mode = this.doc.mode;
+      if (!mode.innerMode) { return mode }
+      return CodeMirror.innerMode(mode, this.getTokenAt(pos).state).mode
+    },
+
+    getHelper: function(pos, type) {
+      return this.getHelpers(pos, type)[0]
+    },
+
+    getHelpers: function(pos, type) {
+      var this$1 = this;
+
+      var found = [];
+      if (!helpers.hasOwnProperty(type)) { return found }
+      var help = helpers[type], mode = this.getModeAt(pos);
+      if (typeof mode[type] == "string") {
+        if (help[mode[type]]) { found.push(help[mode[type]]); }
+      } else if (mode[type]) {
+        for (var i = 0; i < mode[type].length; i++) {
+          var val = help[mode[type][i]];
+          if (val) { found.push(val); }
+        }
+      } else if (mode.helperType && help[mode.helperType]) {
+        found.push(help[mode.helperType]);
+      } else if (help[mode.name]) {
+        found.push(help[mode.name]);
+      }
+      for (var i$1 = 0; i$1 < help._global.length; i$1++) {
+        var cur = help._global[i$1];
+        if (cur.pred(mode, this$1) && indexOf(found, cur.val) == -1)
+          { found.push(cur.val); }
+      }
+      return found
+    },
+
+    getStateAfter: function(line, precise) {
+      var doc = this.doc;
+      line = clipLine(doc, line == null ? doc.first + doc.size - 1: line);
+      return getContextBefore(this, line + 1, precise).state
+    },
+
+    cursorCoords: function(start, mode) {
+      var pos, range$$1 = this.doc.sel.primary();
+      if (start == null) { pos = range$$1.head; }
+      else if (typeof start == "object") { pos = clipPos(this.doc, start); }
+      else { pos = start ? range$$1.from() : range$$1.to(); }
+      return cursorCoords(this, pos, mode || "page")
+    },
+
+    charCoords: function(pos, mode) {
+      return charCoords(this, clipPos(this.doc, pos), mode || "page")
+    },
+
+    coordsChar: function(coords, mode) {
+      coords = fromCoordSystem(this, coords, mode || "page");
+      return coordsChar(this, coords.left, coords.top)
+    },
+
+    lineAtHeight: function(height, mode) {
+      height = fromCoordSystem(this, {top: height, left: 0}, mode || "page").top;
+      return lineAtHeight(this.doc, height + this.display.viewOffset)
+    },
+    heightAtLine: function(line, mode, includeWidgets) {
+      var end = false, lineObj;
+      if (typeof line == "number") {
+        var last = this.doc.first + this.doc.size - 1;
+        if (line < this.doc.first) { line = this.doc.first; }
+        else if (line > last) { line = last; end = true; }
+        lineObj = getLine(this.doc, line);
+      } else {
+        lineObj = line;
+      }
+      return intoCoordSystem(this, lineObj, {top: 0, left: 0}, mode || "page", includeWidgets || end).top +
+        (end ? this.doc.height - heightAtLine(lineObj) : 0)
+    },
+
+    defaultTextHeight: function() { return textHeight(this.display) },
+    defaultCharWidth: function() { return charWidth(this.display) },
+
+    getViewport: function() { return {from: this.display.viewFrom, to: this.display.viewTo}},
+
+    addWidget: function(pos, node, scroll, vert, horiz) {
+      var display = this.display;
+      pos = cursorCoords(this, clipPos(this.doc, pos));
+      var top = pos.bottom, left = pos.left;
+      node.style.position = "absolute";
+      node.setAttribute("cm-ignore-events", "true");
+      this.display.input.setUneditable(node);
+      display.sizer.appendChild(node);
+      if (vert == "over") {
+        top = pos.top;
+      } else if (vert == "above" || vert == "near") {
+        var vspace = Math.max(display.wrapper.clientHeight, this.doc.height),
+        hspace = Math.max(display.sizer.clientWidth, display.lineSpace.clientWidth);
+        // Default to positioning above (if specified and possible); otherwise default to positioning below
+        if ((vert == 'above' || pos.bottom + node.offsetHeight > vspace) && pos.top > node.offsetHeight)
+          { top = pos.top - node.offsetHeight; }
+        else if (pos.bottom + node.offsetHeight <= vspace)
+          { top = pos.bottom; }
+        if (left + node.offsetWidth > hspace)
+          { left = hspace - node.offsetWidth; }
+      }
+      node.style.top = top + "px";
+      node.style.left = node.style.right = "";
+      if (horiz == "right") {
+        left = display.sizer.clientWidth - node.offsetWidth;
+        node.style.right = "0px";
+      } else {
+        if (horiz == "left") { left = 0; }
+        else if (horiz == "middle") { left = (display.sizer.clientWidth - node.offsetWidth) / 2; }
+        node.style.left = left + "px";
+      }
+      if (scroll)
+        { scrollIntoView(this, {left: left, top: top, right: left + node.offsetWidth, bottom: top + node.offsetHeight}); }
+    },
+
+    triggerOnKeyDown: methodOp(onKeyDown),
+    triggerOnKeyPress: methodOp(onKeyPress),
+    triggerOnKeyUp: onKeyUp,
+    triggerOnMouseDown: methodOp(onMouseDown),
+
+    execCommand: function(cmd) {
+      if (commands.hasOwnProperty(cmd))
+        { return commands[cmd].call(null, this) }
+    },
+
+    triggerElectric: methodOp(function(text) { triggerElectric(this, text); }),
+
+    findPosH: function(from, amount, unit, visually) {
+      var this$1 = this;
+
+      var dir = 1;
+      if (amount < 0) { dir = -1; amount = -amount; }
+      var cur = clipPos(this.doc, from);
+      for (var i = 0; i < amount; ++i) {
+        cur = findPosH(this$1.doc, cur, dir, unit, visually);
+        if (cur.hitSide) { break }
+      }
+      return cur
+    },
+
+    moveH: methodOp(function(dir, unit) {
+      var this$1 = this;
+
+      this.extendSelectionsBy(function (range$$1) {
+        if (this$1.display.shift || this$1.doc.extend || range$$1.empty())
+          { return findPosH(this$1.doc, range$$1.head, dir, unit, this$1.options.rtlMoveVisually) }
+        else
+          { return dir < 0 ? range$$1.from() : range$$1.to() }
+      }, sel_move);
+    }),
+
+    deleteH: methodOp(function(dir, unit) {
+      var sel = this.doc.sel, doc = this.doc;
+      if (sel.somethingSelected())
+        { doc.replaceSelection("", null, "+delete"); }
+      else
+        { deleteNearSelection(this, function (range$$1) {
+          var other = findPosH(doc, range$$1.head, dir, unit, false);
+          return dir < 0 ? {from: other, to: range$$1.head} : {from: range$$1.head, to: other}
+        }); }
+    }),
+
+    findPosV: function(from, amount, unit, goalColumn) {
+      var this$1 = this;
+
+      var dir = 1, x = goalColumn;
+      if (amount < 0) { dir = -1; amount = -amount; }
+      var cur = clipPos(this.doc, from);
+      for (var i = 0; i < amount; ++i) {
+        var coords = cursorCoords(this$1, cur, "div");
+        if (x == null) { x = coords.left; }
+        else { coords.left = x; }
+        cur = findPosV(this$1, coords, dir, unit);
+        if (cur.hitSide) { break }
+      }
+      return cur
+    },
+
+    moveV: methodOp(function(dir, unit) {
+      var this$1 = this;
+
+      var doc = this.doc, goals = [];
+      var collapse = !this.display.shift && !doc.extend && doc.sel.somethingSelected();
+      doc.extendSelectionsBy(function (range$$1) {
+        if (collapse)
+          { return dir < 0 ? range$$1.from() : range$$1.to() }
+        var headPos = cursorCoords(this$1, range$$1.head, "div");
+        if (range$$1.goalColumn != null) { headPos.left = range$$1.goalColumn; }
+        goals.push(headPos.left);
+        var pos = findPosV(this$1, headPos, dir, unit);
+        if (unit == "page" && range$$1 == doc.sel.primary())
+          { addToScrollTop(this$1, charCoords(this$1, pos, "div").top - headPos.top); }
+        return pos
+      }, sel_move);
+      if (goals.length) { for (var i = 0; i < doc.sel.ranges.length; i++)
+        { doc.sel.ranges[i].goalColumn = goals[i]; } }
+    }),
+
+    // Find the word at the given position (as returned by coordsChar).
+    findWordAt: function(pos) {
+      var doc = this.doc, line = getLine(doc, pos.line).text;
+      var start = pos.ch, end = pos.ch;
+      if (line) {
+        var helper = this.getHelper(pos, "wordChars");
+        if ((pos.sticky == "before" || end == line.length) && start) { --start; } else { ++end; }
+        var startChar = line.charAt(start);
+        var check = isWordChar(startChar, helper)
+          ? function (ch) { return isWordChar(ch, helper); }
+          : /\s/.test(startChar) ? function (ch) { return /\s/.test(ch); }
+          : function (ch) { return (!/\s/.test(ch) && !isWordChar(ch)); };
+        while (start > 0 && check(line.charAt(start - 1))) { --start; }
+        while (end < line.length && check(line.charAt(end))) { ++end; }
+      }
+      return new Range(Pos(pos.line, start), Pos(pos.line, end))
+    },
+
+    toggleOverwrite: function(value) {
+      if (value != null && value == this.state.overwrite) { return }
+      if (this.state.overwrite = !this.state.overwrite)
+        { addClass(this.display.cursorDiv, "CodeMirror-overwrite"); }
+      else
+        { rmClass(this.display.cursorDiv, "CodeMirror-overwrite"); }
+
+      signal(this, "overwriteToggle", this, this.state.overwrite);
+    },
+    hasFocus: function() { return this.display.input.getField() == activeElt() },
+    isReadOnly: function() { return !!(this.options.readOnly || this.doc.cantEdit) },
+
+    scrollTo: methodOp(function (x, y) { scrollToCoords(this, x, y); }),
+    getScrollInfo: function() {
+      var scroller = this.display.scroller;
+      return {left: scroller.scrollLeft, top: scroller.scrollTop,
+              height: scroller.scrollHeight - scrollGap(this) - this.display.barHeight,
+              width: scroller.scrollWidth - scrollGap(this) - this.display.barWidth,
+              clientHeight: displayHeight(this), clientWidth: displayWidth(this)}
+    },
+
+    scrollIntoView: methodOp(function(range$$1, margin) {
+      if (range$$1 == null) {
+        range$$1 = {from: this.doc.sel.primary().head, to: null};
+        if (margin == null) { margin = this.options.cursorScrollMargin; }
+      } else if (typeof range$$1 == "number") {
+        range$$1 = {from: Pos(range$$1, 0), to: null};
+      } else if (range$$1.from == null) {
+        range$$1 = {from: range$$1, to: null};
+      }
+      if (!range$$1.to) { range$$1.to = range$$1.from; }
+      range$$1.margin = margin || 0;
+
+      if (range$$1.from.line != null) {
+        scrollToRange(this, range$$1);
+      } else {
+        scrollToCoordsRange(this, range$$1.from, range$$1.to, range$$1.margin);
+      }
+    }),
+
+    setSize: methodOp(function(width, height) {
+      var this$1 = this;
+
+      var interpret = function (val) { return typeof val == "number" || /^\d+$/.test(String(val)) ? val + "px" : val; };
+      if (width != null) { this.display.wrapper.style.width = interpret(width); }
+      if (height != null) { this.display.wrapper.style.height = interpret(height); }
+      if (this.options.lineWrapping) { clearLineMeasurementCache(this); }
+      var lineNo$$1 = this.display.viewFrom;
+      this.doc.iter(lineNo$$1, this.display.viewTo, function (line) {
+        if (line.widgets) { for (var i = 0; i < line.widgets.length; i++)
+          { if (line.widgets[i].noHScroll) { regLineChange(this$1, lineNo$$1, "widget"); break } } }
+        ++lineNo$$1;
+      });
+      this.curOp.forceUpdate = true;
+      signal(this, "refresh", this);
+    }),
+
+    operation: function(f){return runInOp(this, f)},
+    startOperation: function(){return startOperation(this)},
+    endOperation: function(){return endOperation(this)},
+
+    refresh: methodOp(function() {
+      var oldHeight = this.display.cachedTextHeight;
+      regChange(this);
+      this.curOp.forceUpdate = true;
+      clearCaches(this);
+      scrollToCoords(this, this.doc.scrollLeft, this.doc.scrollTop);
+      updateGutterSpace(this);
+      if (oldHeight == null || Math.abs(oldHeight - textHeight(this.display)) > .5)
+        { estimateLineHeights(this); }
+      signal(this, "refresh", this);
+    }),
+
+    swapDoc: methodOp(function(doc) {
+      var old = this.doc;
+      old.cm = null;
+      attachDoc(this, doc);
+      clearCaches(this);
+      this.display.input.reset();
+      scrollToCoords(this, doc.scrollLeft, doc.scrollTop);
+      this.curOp.forceScroll = true;
+      signalLater(this, "swapDoc", this, old);
+      return old
+    }),
+
+    getInputField: function(){return this.display.input.getField()},
+    getWrapperElement: function(){return this.display.wrapper},
+    getScrollerElement: function(){return this.display.scroller},
+    getGutterElement: function(){return this.display.gutters}
+  };
+  eventMixin(CodeMirror);
+
+  CodeMirror.registerHelper = function(type, name, value) {
+    if (!helpers.hasOwnProperty(type)) { helpers[type] = CodeMirror[type] = {_global: []}; }
+    helpers[type][name] = value;
+  };
+  CodeMirror.registerGlobalHelper = function(type, name, predicate, value) {
+    CodeMirror.registerHelper(type, name, value);
+    helpers[type]._global.push({pred: predicate, val: value});
+  };
+};
+
+// Used for horizontal relative motion. Dir is -1 or 1 (left or
+// right), unit can be "char", "column" (like char, but doesn't
+// cross line boundaries), "word" (across next word), or "group" (to
+// the start of next group of word or non-word-non-whitespace
+// chars). The visually param controls whether, in right-to-left
+// text, direction 1 means to move towards the next index in the
+// string, or towards the character to the right of the current
+// position. The resulting position will have a hitSide=true
+// property if it reached the end of the document.
+function findPosH(doc, pos, dir, unit, visually) {
+  var oldPos = pos;
+  var origDir = dir;
+  var lineObj = getLine(doc, pos.line);
+  function findNextLine() {
+    var l = pos.line + dir;
+    if (l < doc.first || l >= doc.first + doc.size) { return false }
+    pos = new Pos(l, pos.ch, pos.sticky);
+    return lineObj = getLine(doc, l)
+  }
+  function moveOnce(boundToLine) {
+    var next;
+    if (visually) {
+      next = moveVisually(doc.cm, lineObj, pos, dir);
+    } else {
+      next = moveLogically(lineObj, pos, dir);
+    }
+    if (next == null) {
+      if (!boundToLine && findNextLine())
+        { pos = endOfLine(visually, doc.cm, lineObj, pos.line, dir); }
+      else
+        { return false }
+    } else {
+      pos = next;
+    }
+    return true
+  }
+
+  if (unit == "char") {
+    moveOnce();
+  } else if (unit == "column") {
+    moveOnce(true);
+  } else if (unit == "word" || unit == "group") {
+    var sawType = null, group = unit == "group";
+    var helper = doc.cm && doc.cm.getHelper(pos, "wordChars");
+    for (var first = true;; first = false) {
+      if (dir < 0 && !moveOnce(!first)) { break }
+      var cur = lineObj.text.charAt(pos.ch) || "\n";
+      var type = isWordChar(cur, helper) ? "w"
+        : group && cur == "\n" ? "n"
+        : !group || /\s/.test(cur) ? null
+        : "p";
+      if (group && !first && !type) { type = "s"; }
+      if (sawType && sawType != type) {
+        if (dir < 0) {dir = 1; moveOnce(); pos.sticky = "after";}
+        break
+      }
+
+      if (type) { sawType = type; }
+      if (dir > 0 && !moveOnce(!first)) { break }
+    }
+  }
+  var result = skipAtomic(doc, pos, oldPos, origDir, true);
+  if (equalCursorPos(oldPos, result)) { result.hitSide = true; }
+  return result
+}
+
+// For relative vertical movement. Dir may be -1 or 1. Unit can be
+// "page" or "line". The resulting position will have a hitSide=true
+// property if it reached the end of the document.
+function findPosV(cm, pos, dir, unit) {
+  var doc = cm.doc, x = pos.left, y;
+  if (unit == "page") {
+    var pageSize = Math.min(cm.display.wrapper.clientHeight, window.innerHeight || document.documentElement.clientHeight);
+    var moveAmount = Math.max(pageSize - .5 * textHeight(cm.display), 3);
+    y = (dir > 0 ? pos.bottom : pos.top) + dir * moveAmount;
+
+  } else if (unit == "line") {
+    y = dir > 0 ? pos.bottom + 3 : pos.top - 3;
+  }
+  var target;
+  for (;;) {
+    target = coordsChar(cm, x, y);
+    if (!target.outside) { break }
+    if (dir < 0 ? y <= 0 : y >= doc.height) { target.hitSide = true; break }
+    y += dir * 5;
+  }
+  return target
+}
+
+// CONTENTEDITABLE INPUT STYLE
+
+var ContentEditableInput = function(cm) {
+  this.cm = cm;
+  this.lastAnchorNode = this.lastAnchorOffset = this.lastFocusNode = this.lastFocusOffset = null;
+  this.polling = new Delayed();
+  this.composing = null;
+  this.gracePeriod = false;
+  this.readDOMTimeout = null;
+};
+
+ContentEditableInput.prototype.init = function (display) {
+    var this$1 = this;
+
+  var input = this, cm = input.cm;
+  var div = input.div = display.lineDiv;
+  disableBrowserMagic(div, cm.options.spellcheck);
+
+  on(div, "paste", function (e) {
+    if (signalDOMEvent(cm, e) || handlePaste(e, cm)) { return }
+    // IE doesn't fire input events, so we schedule a read for the pasted content in this way
+    if (ie_version <= 11) { setTimeout(operation(cm, function () { return this$1.updateFromDOM(); }), 20); }
+  });
+
+  on(div, "compositionstart", function (e) {
+    this$1.composing = {data: e.data, done: false};
+  });
+  on(div, "compositionupdate", function (e) {
+    if (!this$1.composing) { this$1.composing = {data: e.data, done: false}; }
+  });
+  on(div, "compositionend", function (e) {
+    if (this$1.composing) {
+      if (e.data != this$1.composing.data) { this$1.readFromDOMSoon(); }
+      this$1.composing.done = true;
+    }
+  });
+
+  on(div, "touchstart", function () { return input.forceCompositionEnd(); });
+
+  on(div, "input", function () {
+    if (!this$1.composing) { this$1.readFromDOMSoon(); }
+  });
+
+  function onCopyCut(e) {
+    if (signalDOMEvent(cm, e)) { return }
+    if (cm.somethingSelected()) {
+      setLastCopied({lineWise: false, text: cm.getSelections()});
+      if (e.type == "cut") { cm.replaceSelection("", null, "cut"); }
+    } else if (!cm.options.lineWiseCopyCut) {
+      return
+    } else {
+      var ranges = copyableRanges(cm);
+      setLastCopied({lineWise: true, text: ranges.text});
+      if (e.type == "cut") {
+        cm.operation(function () {
+          cm.setSelections(ranges.ranges, 0, sel_dontScroll);
+          cm.replaceSelection("", null, "cut");
+        });
+      }
+    }
+    if (e.clipboardData) {
+      e.clipboardData.clearData();
+      var content = lastCopied.text.join("\n");
+      // iOS exposes the clipboard API, but seems to discard content inserted into it
+      e.clipboardData.setData("Text", content);
+      if (e.clipboardData.getData("Text") == content) {
+        e.preventDefault();
+        return
+      }
+    }
+    // Old-fashioned briefly-focus-a-textarea hack
+    var kludge = hiddenTextarea(), te = kludge.firstChild;
+    cm.display.lineSpace.insertBefore(kludge, cm.display.lineSpace.firstChild);
+    te.value = lastCopied.text.join("\n");
+    var hadFocus = document.activeElement;
+    selectInput(te);
+    setTimeout(function () {
+      cm.display.lineSpace.removeChild(kludge);
+      hadFocus.focus();
+      if (hadFocus == div) { input.showPrimarySelection(); }
+    }, 50);
+  }
+  on(div, "copy", onCopyCut);
+  on(div, "cut", onCopyCut);
+};
+
+ContentEditableInput.prototype.prepareSelection = function () {
+  var result = prepareSelection(this.cm, false);
+  result.focus = this.cm.state.focused;
+  return result
+};
+
+ContentEditableInput.prototype.showSelection = function (info, takeFocus) {
+  if (!info || !this.cm.display.view.length) { return }
+  if (info.focus || takeFocus) { this.showPrimarySelection(); }
+  this.showMultipleSelections(info);
+};
+
+ContentEditableInput.prototype.showPrimarySelection = function () {
+  var sel = window.getSelection(), cm = this.cm, prim = cm.doc.sel.primary();
+  var from = prim.from(), to = prim.to();
+
+  if (cm.display.viewTo == cm.display.viewFrom || from.line >= cm.display.viewTo || to.line < cm.display.viewFrom) {
+    sel.removeAllRanges();
+    return
+  }
+
+  var curAnchor = domToPos(cm, sel.anchorNode, sel.anchorOffset);
+  var curFocus = domToPos(cm, sel.focusNode, sel.focusOffset);
+  if (curAnchor && !curAnchor.bad && curFocus && !curFocus.bad &&
+      cmp(minPos(curAnchor, curFocus), from) == 0 &&
+      cmp(maxPos(curAnchor, curFocus), to) == 0)
+    { return }
+
+  var view = cm.display.view;
+  var start = (from.line >= cm.display.viewFrom && posToDOM(cm, from)) ||
+      {node: view[0].measure.map[2], offset: 0};
+  var end = to.line < cm.display.viewTo && posToDOM(cm, to);
+  if (!end) {
+    var measure = view[view.length - 1].measure;
+    var map$$1 = measure.maps ? measure.maps[measure.maps.length - 1] : measure.map;
+    end = {node: map$$1[map$$1.length - 1], offset: map$$1[map$$1.length - 2] - map$$1[map$$1.length - 3]};
+  }
+
+  if (!start || !end) {
+    sel.removeAllRanges();
+    return
+  }
+
+  var old = sel.rangeCount && sel.getRangeAt(0), rng;
+  try { rng = range(start.node, start.offset, end.offset, end.node); }
+  catch(e) {} // Our model of the DOM might be outdated, in which case the range we try to set can be impossible
+  if (rng) {
+    if (!gecko && cm.state.focused) {
+      sel.collapse(start.node, start.offset);
+      if (!rng.collapsed) {
+        sel.removeAllRanges();
+        sel.addRange(rng);
+      }
+    } else {
+      sel.removeAllRanges();
+      sel.addRange(rng);
+    }
+    if (old && sel.anchorNode == null) { sel.addRange(old); }
+    else if (gecko) { this.startGracePeriod(); }
+  }
+  this.rememberSelection();
+};
+
+ContentEditableInput.prototype.startGracePeriod = function () {
+    var this$1 = this;
+
+  clearTimeout(this.gracePeriod);
+  this.gracePeriod = setTimeout(function () {
+    this$1.gracePeriod = false;
+    if (this$1.selectionChanged())
+      { this$1.cm.operation(function () { return this$1.cm.curOp.selectionChanged = true; }); }
+  }, 20);
+};
+
+ContentEditableInput.prototype.showMultipleSelections = function (info) {
+  removeChildrenAndAdd(this.cm.display.cursorDiv, info.cursors);
+  removeChildrenAndAdd(this.cm.display.selectionDiv, info.selection);
+};
+
+ContentEditableInput.prototype.rememberSelection = function () {
+  var sel = window.getSelection();
+  this.lastAnchorNode = sel.anchorNode; this.lastAnchorOffset = sel.anchorOffset;
+  this.lastFocusNode = sel.focusNode; this.lastFocusOffset = sel.focusOffset;
+};
+
+ContentEditableInput.prototype.selectionInEditor = function () {
+  var sel = window.getSelection();
+  if (!sel.rangeCount) { return false }
+  var node = sel.getRangeAt(0).commonAncestorContainer;
+  return contains(this.div, node)
+};
+
+ContentEditableInput.prototype.focus = function () {
+  if (this.cm.options.readOnly != "nocursor") {
+    if (!this.selectionInEditor())
+      { this.showSelection(this.prepareSelection(), true); }
+    this.div.focus();
+  }
+};
+ContentEditableInput.prototype.blur = function () { this.div.blur(); };
+ContentEditableInput.prototype.getField = function () { return this.div };
+
+ContentEditableInput.prototype.supportsTouch = function () { return true };
+
+ContentEditableInput.prototype.receivedFocus = function () {
+  var input = this;
+  if (this.selectionInEditor())
+    { this.pollSelection(); }
+  else
+    { runInOp(this.cm, function () { return input.cm.curOp.selectionChanged = true; }); }
+
+  function poll() {
+    if (input.cm.state.focused) {
+      input.pollSelection();
+      input.polling.set(input.cm.options.pollInterval, poll);
+    }
+  }
+  this.polling.set(this.cm.options.pollInterval, poll);
+};
+
+ContentEditableInput.prototype.selectionChanged = function () {
+  var sel = window.getSelection();
+  return sel.anchorNode != this.lastAnchorNode || sel.anchorOffset != this.lastAnchorOffset ||
+    sel.focusNode != this.lastFocusNode || sel.focusOffset != this.lastFocusOffset
+};
+
+ContentEditableInput.prototype.pollSelection = function () {
+  if (this.readDOMTimeout != null || this.gracePeriod || !this.selectionChanged()) { return }
+  var sel = window.getSelection(), cm = this.cm;
+  // On Android Chrome (version 56, at least), backspacing into an
+  // uneditable block element will put the cursor in that element,
+  // and then, because it's not editable, hide the virtual keyboard.
+  // Because Android doesn't allow us to actually detect backspace
+  // presses in a sane way, this code checks for when that happens
+  // and simulates a backspace press in this case.
+  if (android && chrome && this.cm.options.gutters.length && isInGutter(sel.anchorNode)) {
+    this.cm.triggerOnKeyDown({type: "keydown", keyCode: 8, preventDefault: Math.abs});
+    this.blur();
+    this.focus();
+    return
+  }
+  if (this.composing) { return }
+  this.rememberSelection();
+  var anchor = domToPos(cm, sel.anchorNode, sel.anchorOffset);
+  var head = domToPos(cm, sel.focusNode, sel.focusOffset);
+  if (anchor && head) { runInOp(cm, function () {
+    setSelection(cm.doc, simpleSelection(anchor, head), sel_dontScroll);
+    if (anchor.bad || head.bad) { cm.curOp.selectionChanged = true; }
+  }); }
+};
+
+ContentEditableInput.prototype.pollContent = function () {
+  if (this.readDOMTimeout != null) {
+    clearTimeout(this.readDOMTimeout);
+    this.readDOMTimeout = null;
+  }
+
+  var cm = this.cm, display = cm.display, sel = cm.doc.sel.primary();
+  var from = sel.from(), to = sel.to();
+  if (from.ch == 0 && from.line > cm.firstLine())
+    { from = Pos(from.line - 1, getLine(cm.doc, from.line - 1).length); }
+  if (to.ch == getLine(cm.doc, to.line).text.length && to.line < cm.lastLine())
+    { to = Pos(to.line + 1, 0); }
+  if (from.line < display.viewFrom || to.line > display.viewTo - 1) { return false }
+
+  var fromIndex, fromLine, fromNode;
+  if (from.line == display.viewFrom || (fromIndex = findViewIndex(cm, from.line)) == 0) {
+    fromLine = lineNo(display.view[0].line);
+    fromNode = display.view[0].node;
+  } else {
+    fromLine = lineNo(display.view[fromIndex].line);
+    fromNode = display.view[fromIndex - 1].node.nextSibling;
+  }
+  var toIndex = findViewIndex(cm, to.line);
+  var toLine, toNode;
+  if (toIndex == display.view.length - 1) {
+    toLine = display.viewTo - 1;
+    toNode = display.lineDiv.lastChild;
+  } else {
+    toLine = lineNo(display.view[toIndex + 1].line) - 1;
+    toNode = display.view[toIndex + 1].node.previousSibling;
+  }
+
+  if (!fromNode) { return false }
+  var newText = cm.doc.splitLines(domTextBetween(cm, fromNode, toNode, fromLine, toLine));
+  var oldText = getBetween(cm.doc, Pos(fromLine, 0), Pos(toLine, getLine(cm.doc, toLine).text.length));
+  while (newText.length > 1 && oldText.length > 1) {
+    if (lst(newText) == lst(oldText)) { newText.pop(); oldText.pop(); toLine--; }
+    else if (newText[0] == oldText[0]) { newText.shift(); oldText.shift(); fromLine++; }
+    else { break }
+  }
+
+  var cutFront = 0, cutEnd = 0;
+  var newTop = newText[0], oldTop = oldText[0], maxCutFront = Math.min(newTop.length, oldTop.length);
+  while (cutFront < maxCutFront && newTop.charCodeAt(cutFront) == oldTop.charCodeAt(cutFront))
+    { ++cutFront; }
+  var newBot = lst(newText), oldBot = lst(oldText);
+  var maxCutEnd = Math.min(newBot.length - (newText.length == 1 ? cutFront : 0),
+                           oldBot.length - (oldText.length == 1 ? cutFront : 0));
+  while (cutEnd < maxCutEnd &&
+         newBot.charCodeAt(newBot.length - cutEnd - 1) == oldBot.charCodeAt(oldBot.length - cutEnd - 1))
+    { ++cutEnd; }
+  // Try to move start of change to start of selection if ambiguous
+  if (newText.length == 1 && oldText.length == 1 && fromLine == from.line) {
+    while (cutFront && cutFront > from.ch &&
+           newBot.charCodeAt(newBot.length - cutEnd - 1) == oldBot.charCodeAt(oldBot.length - cutEnd - 1)) {
+      cutFront--;
+      cutEnd++;
+    }
+  }
+
+  newText[newText.length - 1] = newBot.slice(0, newBot.length - cutEnd).replace(/^\u200b+/, "");
+  newText[0] = newText[0].slice(cutFront).replace(/\u200b+$/, "");
+
+  var chFrom = Pos(fromLine, cutFront);
+  var chTo = Pos(toLine, oldText.length ? lst(oldText).length - cutEnd : 0);
+  if (newText.length > 1 || newText[0] || cmp(chFrom, chTo)) {
+    replaceRange(cm.doc, newText, chFrom, chTo, "+input");
+    return true
+  }
+};
+
+ContentEditableInput.prototype.ensurePolled = function () {
+  this.forceCompositionEnd();
+};
+ContentEditableInput.prototype.reset = function () {
+  this.forceCompositionEnd();
+};
+ContentEditableInput.prototype.forceCompositionEnd = function () {
+  if (!this.composing) { return }
+  clearTimeout(this.readDOMTimeout);
+  this.composing = null;
+  this.updateFromDOM();
+  this.div.blur();
+  this.div.focus();
+};
+ContentEditableInput.prototype.readFromDOMSoon = function () {
+    var this$1 = this;
+
+  if (this.readDOMTimeout != null) { return }
+  this.readDOMTimeout = setTimeout(function () {
+    this$1.readDOMTimeout = null;
+    if (this$1.composing) {
+      if (this$1.composing.done) { this$1.composing = null; }
+      else { return }
+    }
+    this$1.updateFromDOM();
+  }, 80);
+};
+
+ContentEditableInput.prototype.updateFromDOM = function () {
+    var this$1 = this;
+
+  if (this.cm.isReadOnly() || !this.pollContent())
+    { runInOp(this.cm, function () { return regChange(this$1.cm); }); }
+};
+
+ContentEditableInput.prototype.setUneditable = function (node) {
+  node.contentEditable = "false";
+};
+
+ContentEditableInput.prototype.onKeyPress = function (e) {
+  if (e.charCode == 0) { return }
+  e.preventDefault();
+  if (!this.cm.isReadOnly())
+    { operation(this.cm, applyTextInput)(this.cm, String.fromCharCode(e.charCode == null ? e.keyCode : e.charCode), 0); }
+};
+
+ContentEditableInput.prototype.readOnlyChanged = function (val) {
+  this.div.contentEditable = String(val != "nocursor");
+};
+
+ContentEditableInput.prototype.onContextMenu = function () {};
+ContentEditableInput.prototype.resetPosition = function () {};
+
+ContentEditableInput.prototype.needsContentAttribute = true;
+
+function posToDOM(cm, pos) {
+  var view = findViewForLine(cm, pos.line);
+  if (!view || view.hidden) { return null }
+  var line = getLine(cm.doc, pos.line);
+  var info = mapFromLineView(view, line, pos.line);
+
+  var order = getOrder(line, cm.doc.direction), side = "left";
+  if (order) {
+    var partPos = getBidiPartAt(order, pos.ch);
+    side = partPos % 2 ? "right" : "left";
+  }
+  var result = nodeAndOffsetInLineMap(info.map, pos.ch, side);
+  result.offset = result.collapse == "right" ? result.end : result.start;
+  return result
+}
+
+function isInGutter(node) {
+  for (var scan = node; scan; scan = scan.parentNode)
+    { if (/CodeMirror-gutter-wrapper/.test(scan.className)) { return true } }
+  return false
+}
+
+function badPos(pos, bad) { if (bad) { pos.bad = true; } return pos }
+
+function domTextBetween(cm, from, to, fromLine, toLine) {
+  var text = "", closing = false, lineSep = cm.doc.lineSeparator();
+  function recognizeMarker(id) { return function (marker) { return marker.id == id; } }
+  function close() {
+    if (closing) {
+      text += lineSep;
+      closing = false;
+    }
+  }
+  function addText(str) {
+    if (str) {
+      close();
+      text += str;
+    }
+  }
+  function walk(node) {
+    if (node.nodeType == 1) {
+      var cmText = node.getAttribute("cm-text");
+      if (cmText != null) {
+        addText(cmText || node.textContent.replace(/\u200b/g, ""));
+        return
+      }
+      var markerID = node.getAttribute("cm-marker"), range$$1;
+      if (markerID) {
+        var found = cm.findMarks(Pos(fromLine, 0), Pos(toLine + 1, 0), recognizeMarker(+markerID));
+        if (found.length && (range$$1 = found[0].find(0)))
+          { addText(getBetween(cm.doc, range$$1.from, range$$1.to).join(lineSep)); }
+        return
+      }
+      if (node.getAttribute("contenteditable") == "false") { return }
+      var isBlock = /^(pre|div|p)$/i.test(node.nodeName);
+      if (isBlock) { close(); }
+      for (var i = 0; i < node.childNodes.length; i++)
+        { walk(node.childNodes[i]); }
+      if (isBlock) { closing = true; }
+    } else if (node.nodeType == 3) {
+      addText(node.nodeValue);
+    }
+  }
+  for (;;) {
+    walk(from);
+    if (from == to) { break }
+    from = from.nextSibling;
+  }
+  return text
+}
+
+function domToPos(cm, node, offset) {
+  var lineNode;
+  if (node == cm.display.lineDiv) {
+    lineNode = cm.display.lineDiv.childNodes[offset];
+    if (!lineNode) { return badPos(cm.clipPos(Pos(cm.display.viewTo - 1)), true) }
+    node = null; offset = 0;
+  } else {
+    for (lineNode = node;; lineNode = lineNode.parentNode) {
+      if (!lineNode || lineNode == cm.display.lineDiv) { return null }
+      if (lineNode.parentNode && lineNode.parentNode == cm.display.lineDiv) { break }
+    }
+  }
+  for (var i = 0; i < cm.display.view.length; i++) {
+    var lineView = cm.display.view[i];
+    if (lineView.node == lineNode)
+      { return locateNodeInLineView(lineView, node, offset) }
+  }
+}
+
+function locateNodeInLineView(lineView, node, offset) {
+  var wrapper = lineView.text.firstChild, bad = false;
+  if (!node || !contains(wrapper, node)) { return badPos(Pos(lineNo(lineView.line), 0), true) }
+  if (node == wrapper) {
+    bad = true;
+    node = wrapper.childNodes[offset];
+    offset = 0;
+    if (!node) {
+      var line = lineView.rest ? lst(lineView.rest) : lineView.line;
+      return badPos(Pos(lineNo(line), line.text.length), bad)
+    }
+  }
+
+  var textNode = node.nodeType == 3 ? node : null, topNode = node;
+  if (!textNode && node.childNodes.length == 1 && node.firstChild.nodeType == 3) {
+    textNode = node.firstChild;
+    if (offset) { offset = textNode.nodeValue.length; }
+  }
+  while (topNode.parentNode != wrapper) { topNode = topNode.parentNode; }
+  var measure = lineView.measure, maps = measure.maps;
+
+  function find(textNode, topNode, offset) {
+    for (var i = -1; i < (maps ? maps.length : 0); i++) {
+      var map$$1 = i < 0 ? measure.map : maps[i];
+      for (var j = 0; j < map$$1.length; j += 3) {
+        var curNode = map$$1[j + 2];
+        if (curNode == textNode || curNode == topNode) {
+          var line = lineNo(i < 0 ? lineView.line : lineView.rest[i]);
+          var ch = map$$1[j] + offset;
+          if (offset < 0 || curNode != textNode) { ch = map$$1[j + (offset ? 1 : 0)]; }
+          return Pos(line, ch)
+        }
+      }
+    }
+  }
+  var found = find(textNode, topNode, offset);
+  if (found) { return badPos(found, bad) }
+
+  // FIXME this is all really shaky. might handle the few cases it needs to handle, but likely to cause problems
+  for (var after = topNode.nextSibling, dist = textNode ? textNode.nodeValue.length - offset : 0; after; after = after.nextSibling) {
+    found = find(after, after.firstChild, 0);
+    if (found)
+      { return badPos(Pos(found.line, found.ch - dist), bad) }
+    else
+      { dist += after.textContent.length; }
+  }
+  for (var before = topNode.previousSibling, dist$1 = offset; before; before = before.previousSibling) {
+    found = find(before, before.firstChild, -1);
+    if (found)
+      { return badPos(Pos(found.line, found.ch + dist$1), bad) }
+    else
+      { dist$1 += before.textContent.length; }
+  }
+}
+
+// TEXTAREA INPUT STYLE
+
+var TextareaInput = function(cm) {
+  this.cm = cm;
+  // See input.poll and input.reset
+  this.prevInput = "";
+
+  // Flag that indicates whether we expect input to appear real soon
+  // now (after some event like 'keypress' or 'input') and are
+  // polling intensively.
+  this.pollingFast = false;
+  // Self-resetting timeout for the poller
+  this.polling = new Delayed();
+  // Used to work around IE issue with selection being forgotten when focus moves away from textarea
+  this.hasSelection = false;
+  this.composing = null;
+};
+
+TextareaInput.prototype.init = function (display) {
+    var this$1 = this;
+
+  var input = this, cm = this.cm;
+
+  // Wraps and hides input textarea
+  var div = this.wrapper = hiddenTextarea();
+  // The semihidden textarea that is focused when the editor is
+  // focused, and receives input.
+  var te = this.textarea = div.firstChild;
+  display.wrapper.insertBefore(div, display.wrapper.firstChild);
+
+  // Needed to hide big blue blinking cursor on Mobile Safari (doesn't seem to work in iOS 8 anymore)
+  if (ios) { te.style.width = "0px"; }
+
+  on(te, "input", function () {
+    if (ie && ie_version >= 9 && this$1.hasSelection) { this$1.hasSelection = null; }
+    input.poll();
+  });
+
+  on(te, "paste", function (e) {
+    if (signalDOMEvent(cm, e) || handlePaste(e, cm)) { return }
+
+    cm.state.pasteIncoming = true;
+    input.fastPoll();
+  });
+
+  function prepareCopyCut(e) {
+    if (signalDOMEvent(cm, e)) { return }
+    if (cm.somethingSelected()) {
+      setLastCopied({lineWise: false, text: cm.getSelections()});
+    } else if (!cm.options.lineWiseCopyCut) {
+      return
+    } else {
+      var ranges = copyableRanges(cm);
+      setLastCopied({lineWise: true, text: ranges.text});
+      if (e.type == "cut") {
+        cm.setSelections(ranges.ranges, null, sel_dontScroll);
+      } else {
+        input.prevInput = "";
+        te.value = ranges.text.join("\n");
+        selectInput(te);
+      }
+    }
+    if (e.type == "cut") { cm.state.cutIncoming = true; }
+  }
+  on(te, "cut", prepareCopyCut);
+  on(te, "copy", prepareCopyCut);
+
+  on(display.scroller, "paste", function (e) {
+    if (eventInWidget(display, e) || signalDOMEvent(cm, e)) { return }
+    cm.state.pasteIncoming = true;
+    input.focus();
+  });
+
+  // Prevent normal selection in the editor (we handle our own)
+  on(display.lineSpace, "selectstart", function (e) {
+    if (!eventInWidget(display, e)) { e_preventDefault(e); }
+  });
+
+  on(te, "compositionstart", function () {
+    var start = cm.getCursor("from");
+    if (input.composing) { input.composing.range.clear(); }
+    input.composing = {
+      start: start,
+      range: cm.markText(start, cm.getCursor("to"), {className: "CodeMirror-composing"})
+    };
+  });
+  on(te, "compositionend", function () {
+    if (input.composing) {
+      input.poll();
+      input.composing.range.clear();
+      input.composing = null;
+    }
+  });
+};
+
+TextareaInput.prototype.prepareSelection = function () {
+  // Redraw the selection and/or cursor
+  var cm = this.cm, display = cm.display, doc = cm.doc;
+  var result = prepareSelection(cm);
+
+  // Move the hidden textarea near the cursor to prevent scrolling artifacts
+  if (cm.options.moveInputWithCursor) {
+    var headPos = cursorCoords(cm, doc.sel.primary().head, "div");
+    var wrapOff = display.wrapper.getBoundingClientRect(), lineOff = display.lineDiv.getBoundingClientRect();
+    result.teTop = Math.max(0, Math.min(display.wrapper.clientHeight - 10,
+                                        headPos.top + lineOff.top - wrapOff.top));
+    result.teLeft = Math.max(0, Math.min(display.wrapper.clientWidth - 10,
+                                         headPos.left + lineOff.left - wrapOff.left));
+  }
+
+  return result
+};
+
+TextareaInput.prototype.showSelection = function (drawn) {
+  var cm = this.cm, display = cm.display;
+  removeChildrenAndAdd(display.cursorDiv, drawn.cursors);
+  removeChildrenAndAdd(display.selectionDiv, drawn.selection);
+  if (drawn.teTop != null) {
+    this.wrapper.style.top = drawn.teTop + "px";
+    this.wrapper.style.left = drawn.teLeft + "px";
+  }
+};
+
+// Reset the input to correspond to the selection (or to be empty,
+// when not typing and nothing is selected)
+TextareaInput.prototype.reset = function (typing) {
+  if (this.contextMenuPending || this.composing) { return }
+  var cm = this.cm;
+  if (cm.somethingSelected()) {
+    this.prevInput = "";
+    var content = cm.getSelection();
+    this.textarea.value = content;
+    if (cm.state.focused) { selectInput(this.textarea); }
+    if (ie && ie_version >= 9) { this.hasSelection = content; }
+  } else if (!typing) {
+    this.prevInput = this.textarea.value = "";
+    if (ie && ie_version >= 9) { this.hasSelection = null; }
+  }
+};
+
+TextareaInput.prototype.getField = function () { return this.textarea };
+
+TextareaInput.prototype.supportsTouch = function () { return false };
+
+TextareaInput.prototype.focus = function () {
+  if (this.cm.options.readOnly != "nocursor" && (!mobile || activeElt() != this.textarea)) {
+    try { this.textarea.focus(); }
+    catch (e) {} // IE8 will throw if the textarea is display: none or not in DOM
+  }
+};
+
+TextareaInput.prototype.blur = function () { this.textarea.blur(); };
+
+TextareaInput.prototype.resetPosition = function () {
+  this.wrapper.style.top = this.wrapper.style.left = 0;
+};
+
+TextareaInput.prototype.receivedFocus = function () { this.slowPoll(); };
+
+// Poll for input changes, using the normal rate of polling. This
+// runs as long as the editor is focused.
+TextareaInput.prototype.slowPoll = function () {
+    var this$1 = this;
+
+  if (this.pollingFast) { return }
+  this.polling.set(this.cm.options.pollInterval, function () {
+    this$1.poll();
+    if (this$1.cm.state.focused) { this$1.slowPoll(); }
+  });
+};
+
+// When an event has just come in that is likely to add or change
+// something in the input textarea, we poll faster, to ensure that
+// the change appears on the screen quickly.
+TextareaInput.prototype.fastPoll = function () {
+  var missed = false, input = this;
+  input.pollingFast = true;
+  function p() {
+    var changed = input.poll();
+    if (!changed && !missed) {missed = true; input.polling.set(60, p);}
+    else {input.pollingFast = false; input.slowPoll();}
+  }
+  input.polling.set(20, p);
+};
+
+// Read input from the textarea, and update the document to match.
+// When something is selected, it is present in the textarea, and
+// selected (unless it is huge, in which case a placeholder is
+// used). When nothing is selected, the cursor sits after previously
+// seen text (can be empty), which is stored in prevInput (we must
+// not reset the textarea when typing, because that breaks IME).
+TextareaInput.prototype.poll = function () {
+    var this$1 = this;
+
+  var cm = this.cm, input = this.textarea, prevInput = this.prevInput;
+  // Since this is called a *lot*, try to bail out as cheaply as
+  // possible when it is clear that nothing happened. hasSelection
+  // will be the case when there is a lot of text in the textarea,
+  // in which case reading its value would be expensive.
+  if (this.contextMenuPending || !cm.state.focused ||
+      (hasSelection(input) && !prevInput && !this.composing) ||
+      cm.isReadOnly() || cm.options.disableInput || cm.state.keySeq)
+    { return false }
+
+  var text = input.value;
+  // If nothing changed, bail.
+  if (text == prevInput && !cm.somethingSelected()) { return false }
+  // Work around nonsensical selection resetting in IE9/10, and
+  // inexplicable appearance of private area unicode characters on
+  // some key combos in Mac (#2689).
+  if (ie && ie_version >= 9 && this.hasSelection === text ||
+      mac && /[\uf700-\uf7ff]/.test(text)) {
+    cm.display.input.reset();
+    return false
+  }
+
+  if (cm.doc.sel == cm.display.selForContextMenu) {
+    var first = text.charCodeAt(0);
+    if (first == 0x200b && !prevInput) { prevInput = "\u200b"; }
+    if (first == 0x21da) { this.reset(); return this.cm.execCommand("undo") }
+  }
+  // Find the part of the input that is actually new
+  var same = 0, l = Math.min(prevInput.length, text.length);
+  while (same < l && prevInput.charCodeAt(same) == text.charCodeAt(same)) { ++same; }
+
+  runInOp(cm, function () {
+    applyTextInput(cm, text.slice(same), prevInput.length - same,
+                   null, this$1.composing ? "*compose" : null);
+
+    // Don't leave long text in the textarea, since it makes further polling slow
+    if (text.length > 1000 || text.indexOf("\n") > -1) { input.value = this$1.prevInput = ""; }
+    else { this$1.prevInput = text; }
+
+    if (this$1.composing) {
+      this$1.composing.range.clear();
+      this$1.composing.range = cm.markText(this$1.composing.start, cm.getCursor("to"),
+                                         {className: "CodeMirror-composing"});
+    }
+  });
+  return true
+};
+
+TextareaInput.prototype.ensurePolled = function () {
+  if (this.pollingFast && this.poll()) { this.pollingFast = false; }
+};
+
+TextareaInput.prototype.onKeyPress = function () {
+  if (ie && ie_version >= 9) { this.hasSelection = null; }
+  this.fastPoll();
+};
+
+TextareaInput.prototype.onContextMenu = function (e) {
+  var input = this, cm = input.cm, display = cm.display, te = input.textarea;
+  var pos = posFromMouse(cm, e), scrollPos = display.scroller.scrollTop;
+  if (!pos || presto) { return } // Opera is difficult.
+
+  // Reset the current text selection only if the click is done outside of the selection
+  // and 'resetSelectionOnContextMenu' option is true.
+  var reset = cm.options.resetSelectionOnContextMenu;
+  if (reset && cm.doc.sel.contains(pos) == -1)
+    { operation(cm, setSelection)(cm.doc, simpleSelection(pos), sel_dontScroll); }
+
+  var oldCSS = te.style.cssText, oldWrapperCSS = input.wrapper.style.cssText;
+  input.wrapper.style.cssText = "position: absolute";
+  var wrapperBox = input.wrapper.getBoundingClientRect();
+  te.style.cssText = "position: absolute; width: 30px; height: 30px;\n      top: " + (e.clientY - wrapperBox.top - 5) + "px; left: " + (e.clientX - wrapperBox.left - 5) + "px;\n      z-index: 1000; background: " + (ie ? "rgba(255, 255, 255, .05)" : "transparent") + ";\n      outline: none; border-width: 0; outline: none; overflow: hidden; opacity: .05; filter: alpha(opacity=5);";
+  var oldScrollY;
+  if (webkit) { oldScrollY = window.scrollY; } // Work around Chrome issue (#2712)
+  display.input.focus();
+  if (webkit) { window.scrollTo(null, oldScrollY); }
+  display.input.reset();
+  // Adds "Select all" to context menu in FF
+  if (!cm.somethingSelected()) { te.value = input.prevInput = " "; }
+  input.contextMenuPending = true;
+  display.selForContextMenu = cm.doc.sel;
+  clearTimeout(display.detectingSelectAll);
+
+  // Select-all will be greyed out if there's nothing to select, so
+  // this adds a zero-width space so that we can later check whether
+  // it got selected.
+  function prepareSelectAllHack() {
+    if (te.selectionStart != null) {
+      var selected = cm.somethingSelected();
+      var extval = "\u200b" + (selected ? te.value : "");
+      te.value = "\u21da"; // Used to catch context-menu undo
+      te.value = extval;
+      input.prevInput = selected ? "" : "\u200b";
+      te.selectionStart = 1; te.selectionEnd = extval.length;
+      // Re-set this, in case some other handler touched the
+      // selection in the meantime.
+      display.selForContextMenu = cm.doc.sel;
+    }
+  }
+  function rehide() {
+    input.contextMenuPending = false;
+    input.wrapper.style.cssText = oldWrapperCSS;
+    te.style.cssText = oldCSS;
+    if (ie && ie_version < 9) { display.scrollbars.setScrollTop(display.scroller.scrollTop = scrollPos); }
+
+    // Try to detect the user choosing select-all
+    if (te.selectionStart != null) {
+      if (!ie || (ie && ie_version < 9)) { prepareSelectAllHack(); }
+      var i = 0, poll = function () {
+        if (display.selForContextMenu == cm.doc.sel && te.selectionStart == 0 &&
+            te.selectionEnd > 0 && input.prevInput == "\u200b") {
+          operation(cm, selectAll)(cm);
+        } else if (i++ < 10) {
+          display.detectingSelectAll = setTimeout(poll, 500);
+        } else {
+          display.selForContextMenu = null;
+          display.input.reset();
+        }
+      };
+      display.detectingSelectAll = setTimeout(poll, 200);
+    }
+  }
+
+  if (ie && ie_version >= 9) { prepareSelectAllHack(); }
+  if (captureRightClick) {
+    e_stop(e);
+    var mouseup = function () {
+      off(window, "mouseup", mouseup);
+      setTimeout(rehide, 20);
+    };
+    on(window, "mouseup", mouseup);
+  } else {
+    setTimeout(rehide, 50);
+  }
+};
+
+TextareaInput.prototype.readOnlyChanged = function (val) {
+  if (!val) { this.reset(); }
+  this.textarea.disabled = val == "nocursor";
+};
+
+TextareaInput.prototype.setUneditable = function () {};
+
+TextareaInput.prototype.needsContentAttribute = false;
+
+function fromTextArea(textarea, options) {
+  options = options ? copyObj(options) : {};
+  options.value = textarea.value;
+  if (!options.tabindex && textarea.tabIndex)
+    { options.tabindex = textarea.tabIndex; }
+  if (!options.placeholder && textarea.placeholder)
+    { options.placeholder = textarea.placeholder; }
+  // Set autofocus to true if this textarea is focused, or if it has
+  // autofocus and no other element is focused.
+  if (options.autofocus == null) {
+    var hasFocus = activeElt();
+    options.autofocus = hasFocus == textarea ||
+      textarea.getAttribute("autofocus") != null && hasFocus == document.body;
+  }
+
+  function save() {textarea.value = cm.getValue();}
+
+  var realSubmit;
+  if (textarea.form) {
+    on(textarea.form, "submit", save);
+    // Deplorable hack to make the submit method do the right thing.
+    if (!options.leaveSubmitMethodAlone) {
+      var form = textarea.form;
+      realSubmit = form.submit;
+      try {
+        var wrappedSubmit = form.submit = function () {
+          save();
+          form.submit = realSubmit;
+          form.submit();
+          form.submit = wrappedSubmit;
+        };
+      } catch(e) {}
+    }
+  }
+
+  options.finishInit = function (cm) {
+    cm.save = save;
+    cm.getTextArea = function () { return textarea; };
+    cm.toTextArea = function () {
+      cm.toTextArea = isNaN; // Prevent this from being ran twice
+      save();
+      textarea.parentNode.removeChild(cm.getWrapperElement());
+      textarea.style.display = "";
+      if (textarea.form) {
+        off(textarea.form, "submit", save);
+        if (typeof textarea.form.submit == "function")
+          { textarea.form.submit = realSubmit; }
+      }
+    };
+  };
+
+  textarea.style.display = "none";
+  var cm = CodeMirror$1(function (node) { return textarea.parentNode.insertBefore(node, textarea.nextSibling); },
+    options);
+  return cm
+}
+
+function addLegacyProps(CodeMirror) {
+  CodeMirror.off = off;
+  CodeMirror.on = on;
+  CodeMirror.wheelEventPixels = wheelEventPixels;
+  CodeMirror.Doc = Doc;
+  CodeMirror.splitLines = splitLinesAuto;
+  CodeMirror.countColumn = countColumn;
+  CodeMirror.findColumn = findColumn;
+  CodeMirror.isWordChar = isWordCharBasic;
+  CodeMirror.Pass = Pass;
+  CodeMirror.signal = signal;
+  CodeMirror.Line = Line;
+  CodeMirror.changeEnd = changeEnd;
+  CodeMirror.scrollbarModel = scrollbarModel;
+  CodeMirror.Pos = Pos;
+  CodeMirror.cmpPos = cmp;
+  CodeMirror.modes = modes;
+  CodeMirror.mimeModes = mimeModes;
+  CodeMirror.resolveMode = resolveMode;
+  CodeMirror.getMode = getMode;
+  CodeMirror.modeExtensions = modeExtensions;
+  CodeMirror.extendMode = extendMode;
+  CodeMirror.copyState = copyState;
+  CodeMirror.startState = startState;
+  CodeMirror.innerMode = innerMode;
+  CodeMirror.commands = commands;
+  CodeMirror.keyMap = keyMap;
+  CodeMirror.keyName = keyName;
+  CodeMirror.isModifierKey = isModifierKey;
+  CodeMirror.lookupKey = lookupKey;
+  CodeMirror.normalizeKeyMap = normalizeKeyMap;
+  CodeMirror.StringStream = StringStream;
+  CodeMirror.SharedTextMarker = SharedTextMarker;
+  CodeMirror.TextMarker = TextMarker;
+  CodeMirror.LineWidget = LineWidget;
+  CodeMirror.e_preventDefault = e_preventDefault;
+  CodeMirror.e_stopPropagation = e_stopPropagation;
+  CodeMirror.e_stop = e_stop;
+  CodeMirror.addClass = addClass;
+  CodeMirror.contains = contains;
+  CodeMirror.rmClass = rmClass;
+  CodeMirror.keyNames = keyNames;
+}
+
+// EDITOR CONSTRUCTOR
+
+defineOptions(CodeMirror$1);
+
+addEditorMethods(CodeMirror$1);
+
+// Set up methods on CodeMirror's prototype to redirect to the editor's document.
+var dontDelegate = "iter insert remove copy getEditor constructor".split(" ");
+for (var prop in Doc.prototype) { if (Doc.prototype.hasOwnProperty(prop) && indexOf(dontDelegate, prop) < 0)
+  { CodeMirror$1.prototype[prop] = (function(method) {
+    return function() {return method.apply(this.doc, arguments)}
+  })(Doc.prototype[prop]); } }
+
+eventMixin(Doc);
+
+// INPUT HANDLING
+
+CodeMirror$1.inputStyles = {"textarea": TextareaInput, "contenteditable": ContentEditableInput};
+
+// MODE DEFINITION AND QUERYING
+
+// Extra arguments are stored as the mode's dependencies, which is
+// used by (legacy) mechanisms like loadmode.js to automatically
+// load a mode. (Preferred mechanism is the require/define calls.)
+CodeMirror$1.defineMode = function(name/*, mode, …*/) {
+  if (!CodeMirror$1.defaults.mode && name != "null") { CodeMirror$1.defaults.mode = name; }
+  defineMode.apply(this, arguments);
+};
+
+CodeMirror$1.defineMIME = defineMIME;
+
+// Minimal default mode.
+CodeMirror$1.defineMode("null", function () { return ({token: function (stream) { return stream.skipToEnd(); }}); });
+CodeMirror$1.defineMIME("text/plain", "null");
+
+// EXTENSIONS
+
+CodeMirror$1.defineExtension = function (name, func) {
+  CodeMirror$1.prototype[name] = func;
+};
+CodeMirror$1.defineDocExtension = function (name, func) {
+  Doc.prototype[name] = func;
+};
+
+CodeMirror$1.fromTextArea = fromTextArea;
+
+addLegacyProps(CodeMirror$1);
+
+CodeMirror$1.version = "5.29.0";
+
+return CodeMirror$1;
+
+})));
+
+
+/***/ }),
+/* 522 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// CodeMirror, copyright (c) by Marijn Haverbeke and others
+// Distributed under an MIT license: http://codemirror.net/LICENSE
+
+(function(mod) {
+  if (true) // CommonJS
+    mod(__webpack_require__(521));
+  else if (typeof define == "function" && define.amd) // AMD
+    define(["../../lib/codemirror"], mod);
+  else // Plain browser env
+    mod(CodeMirror);
+})(function(CodeMirror) {
+"use strict";
+
+var htmlConfig = {
+  autoSelfClosers: {'area': true, 'base': true, 'br': true, 'col': true, 'command': true,
+                    'embed': true, 'frame': true, 'hr': true, 'img': true, 'input': true,
+                    'keygen': true, 'link': true, 'meta': true, 'param': true, 'source': true,
+                    'track': true, 'wbr': true, 'menuitem': true},
+  implicitlyClosed: {'dd': true, 'li': true, 'optgroup': true, 'option': true, 'p': true,
+                     'rp': true, 'rt': true, 'tbody': true, 'td': true, 'tfoot': true,
+                     'th': true, 'tr': true},
+  contextGrabbers: {
+    'dd': {'dd': true, 'dt': true},
+    'dt': {'dd': true, 'dt': true},
+    'li': {'li': true},
+    'option': {'option': true, 'optgroup': true},
+    'optgroup': {'optgroup': true},
+    'p': {'address': true, 'article': true, 'aside': true, 'blockquote': true, 'dir': true,
+          'div': true, 'dl': true, 'fieldset': true, 'footer': true, 'form': true,
+          'h1': true, 'h2': true, 'h3': true, 'h4': true, 'h5': true, 'h6': true,
+          'header': true, 'hgroup': true, 'hr': true, 'menu': true, 'nav': true, 'ol': true,
+          'p': true, 'pre': true, 'section': true, 'table': true, 'ul': true},
+    'rp': {'rp': true, 'rt': true},
+    'rt': {'rp': true, 'rt': true},
+    'tbody': {'tbody': true, 'tfoot': true},
+    'td': {'td': true, 'th': true},
+    'tfoot': {'tbody': true},
+    'th': {'td': true, 'th': true},
+    'thead': {'tbody': true, 'tfoot': true},
+    'tr': {'tr': true}
+  },
+  doNotIndent: {"pre": true},
+  allowUnquoted: true,
+  allowMissing: true,
+  caseFold: true
+}
+
+var xmlConfig = {
+  autoSelfClosers: {},
+  implicitlyClosed: {},
+  contextGrabbers: {},
+  doNotIndent: {},
+  allowUnquoted: false,
+  allowMissing: false,
+  caseFold: false
+}
+
+CodeMirror.defineMode("xml", function(editorConf, config_) {
+  var indentUnit = editorConf.indentUnit
+  var config = {}
+  var defaults = config_.htmlMode ? htmlConfig : xmlConfig
+  for (var prop in defaults) config[prop] = defaults[prop]
+  for (var prop in config_) config[prop] = config_[prop]
+
+  // Return variables for tokenizers
+  var type, setStyle;
+
+  function inText(stream, state) {
+    function chain(parser) {
+      state.tokenize = parser;
+      return parser(stream, state);
+    }
+
+    var ch = stream.next();
+    if (ch == "<") {
+      if (stream.eat("!")) {
+        if (stream.eat("[")) {
+          if (stream.match("CDATA[")) return chain(inBlock("atom", "]]>"));
+          else return null;
+        } else if (stream.match("--")) {
+          return chain(inBlock("comment", "-->"));
+        } else if (stream.match("DOCTYPE", true, true)) {
+          stream.eatWhile(/[\w\._\-]/);
+          return chain(doctype(1));
+        } else {
+          return null;
+        }
+      } else if (stream.eat("?")) {
+        stream.eatWhile(/[\w\._\-]/);
+        state.tokenize = inBlock("meta", "?>");
+        return "meta";
+      } else {
+        type = stream.eat("/") ? "closeTag" : "openTag";
+        state.tokenize = inTag;
+        return "tag bracket";
+      }
+    } else if (ch == "&") {
+      var ok;
+      if (stream.eat("#")) {
+        if (stream.eat("x")) {
+          ok = stream.eatWhile(/[a-fA-F\d]/) && stream.eat(";");
+        } else {
+          ok = stream.eatWhile(/[\d]/) && stream.eat(";");
+        }
+      } else {
+        ok = stream.eatWhile(/[\w\.\-:]/) && stream.eat(";");
+      }
+      return ok ? "atom" : "error";
+    } else {
+      stream.eatWhile(/[^&<]/);
+      return null;
+    }
+  }
+  inText.isInText = true;
+
+  function inTag(stream, state) {
+    var ch = stream.next();
+    if (ch == ">" || (ch == "/" && stream.eat(">"))) {
+      state.tokenize = inText;
+      type = ch == ">" ? "endTag" : "selfcloseTag";
+      return "tag bracket";
+    } else if (ch == "=") {
+      type = "equals";
+      return null;
+    } else if (ch == "<") {
+      state.tokenize = inText;
+      state.state = baseState;
+      state.tagName = state.tagStart = null;
+      var next = state.tokenize(stream, state);
+      return next ? next + " tag error" : "tag error";
+    } else if (/[\'\"]/.test(ch)) {
+      state.tokenize = inAttribute(ch);
+      state.stringStartCol = stream.column();
+      return state.tokenize(stream, state);
+    } else {
+      stream.match(/^[^\s\u00a0=<>\"\']*[^\s\u00a0=<>\"\'\/]/);
+      return "word";
+    }
+  }
+
+  function inAttribute(quote) {
+    var closure = function(stream, state) {
+      while (!stream.eol()) {
+        if (stream.next() == quote) {
+          state.tokenize = inTag;
+          break;
+        }
+      }
+      return "string";
+    };
+    closure.isInAttribute = true;
+    return closure;
+  }
+
+  function inBlock(style, terminator) {
+    return function(stream, state) {
+      while (!stream.eol()) {
+        if (stream.match(terminator)) {
+          state.tokenize = inText;
+          break;
+        }
+        stream.next();
+      }
+      return style;
+    };
+  }
+  function doctype(depth) {
+    return function(stream, state) {
+      var ch;
+      while ((ch = stream.next()) != null) {
+        if (ch == "<") {
+          state.tokenize = doctype(depth + 1);
+          return state.tokenize(stream, state);
+        } else if (ch == ">") {
+          if (depth == 1) {
+            state.tokenize = inText;
+            break;
+          } else {
+            state.tokenize = doctype(depth - 1);
+            return state.tokenize(stream, state);
+          }
+        }
+      }
+      return "meta";
+    };
+  }
+
+  function Context(state, tagName, startOfLine) {
+    this.prev = state.context;
+    this.tagName = tagName;
+    this.indent = state.indented;
+    this.startOfLine = startOfLine;
+    if (config.doNotIndent.hasOwnProperty(tagName) || (state.context && state.context.noIndent))
+      this.noIndent = true;
+  }
+  function popContext(state) {
+    if (state.context) state.context = state.context.prev;
+  }
+  function maybePopContext(state, nextTagName) {
+    var parentTagName;
+    while (true) {
+      if (!state.context) {
+        return;
+      }
+      parentTagName = state.context.tagName;
+      if (!config.contextGrabbers.hasOwnProperty(parentTagName) ||
+          !config.contextGrabbers[parentTagName].hasOwnProperty(nextTagName)) {
+        return;
+      }
+      popContext(state);
+    }
+  }
+
+  function baseState(type, stream, state) {
+    if (type == "openTag") {
+      state.tagStart = stream.column();
+      return tagNameState;
+    } else if (type == "closeTag") {
+      return closeTagNameState;
+    } else {
+      return baseState;
+    }
+  }
+  function tagNameState(type, stream, state) {
+    if (type == "word") {
+      state.tagName = stream.current();
+      setStyle = "tag";
+      return attrState;
+    } else {
+      setStyle = "error";
+      return tagNameState;
+    }
+  }
+  function closeTagNameState(type, stream, state) {
+    if (type == "word") {
+      var tagName = stream.current();
+      if (state.context && state.context.tagName != tagName &&
+          config.implicitlyClosed.hasOwnProperty(state.context.tagName))
+        popContext(state);
+      if ((state.context && state.context.tagName == tagName) || config.matchClosing === false) {
+        setStyle = "tag";
+        return closeState;
+      } else {
+        setStyle = "tag error";
+        return closeStateErr;
+      }
+    } else {
+      setStyle = "error";
+      return closeStateErr;
+    }
+  }
+
+  function closeState(type, _stream, state) {
+    if (type != "endTag") {
+      setStyle = "error";
+      return closeState;
+    }
+    popContext(state);
+    return baseState;
+  }
+  function closeStateErr(type, stream, state) {
+    setStyle = "error";
+    return closeState(type, stream, state);
+  }
+
+  function attrState(type, _stream, state) {
+    if (type == "word") {
+      setStyle = "attribute";
+      return attrEqState;
+    } else if (type == "endTag" || type == "selfcloseTag") {
+      var tagName = state.tagName, tagStart = state.tagStart;
+      state.tagName = state.tagStart = null;
+      if (type == "selfcloseTag" ||
+          config.autoSelfClosers.hasOwnProperty(tagName)) {
+        maybePopContext(state, tagName);
+      } else {
+        maybePopContext(state, tagName);
+        state.context = new Context(state, tagName, tagStart == state.indented);
+      }
+      return baseState;
+    }
+    setStyle = "error";
+    return attrState;
+  }
+  function attrEqState(type, stream, state) {
+    if (type == "equals") return attrValueState;
+    if (!config.allowMissing) setStyle = "error";
+    return attrState(type, stream, state);
+  }
+  function attrValueState(type, stream, state) {
+    if (type == "string") return attrContinuedState;
+    if (type == "word" && config.allowUnquoted) {setStyle = "string"; return attrState;}
+    setStyle = "error";
+    return attrState(type, stream, state);
+  }
+  function attrContinuedState(type, stream, state) {
+    if (type == "string") return attrContinuedState;
+    return attrState(type, stream, state);
+  }
+
+  return {
+    startState: function(baseIndent) {
+      var state = {tokenize: inText,
+                   state: baseState,
+                   indented: baseIndent || 0,
+                   tagName: null, tagStart: null,
+                   context: null}
+      if (baseIndent != null) state.baseIndent = baseIndent
+      return state
+    },
+
+    token: function(stream, state) {
+      if (!state.tagName && stream.sol())
+        state.indented = stream.indentation();
+
+      if (stream.eatSpace()) return null;
+      type = null;
+      var style = state.tokenize(stream, state);
+      if ((style || type) && style != "comment") {
+        setStyle = null;
+        state.state = state.state(type || style, stream, state);
+        if (setStyle)
+          style = setStyle == "error" ? style + " error" : setStyle;
+      }
+      return style;
+    },
+
+    indent: function(state, textAfter, fullLine) {
+      var context = state.context;
+      // Indent multi-line strings (e.g. css).
+      if (state.tokenize.isInAttribute) {
+        if (state.tagStart == state.indented)
+          return state.stringStartCol + 1;
+        else
+          return state.indented + indentUnit;
+      }
+      if (context && context.noIndent) return CodeMirror.Pass;
+      if (state.tokenize != inTag && state.tokenize != inText)
+        return fullLine ? fullLine.match(/^(\s*)/)[0].length : 0;
+      // Indent the starts of attribute names.
+      if (state.tagName) {
+        if (config.multilineTagIndentPastTag !== false)
+          return state.tagStart + state.tagName.length + 2;
+        else
+          return state.tagStart + indentUnit * (config.multilineTagIndentFactor || 1);
+      }
+      if (config.alignCDATA && /<!\[CDATA\[/.test(textAfter)) return 0;
+      var tagAfter = textAfter && /^<(\/)?([\w_:\.-]*)/.exec(textAfter);
+      if (tagAfter && tagAfter[1]) { // Closing tag spotted
+        while (context) {
+          if (context.tagName == tagAfter[2]) {
+            context = context.prev;
+            break;
+          } else if (config.implicitlyClosed.hasOwnProperty(context.tagName)) {
+            context = context.prev;
+          } else {
+            break;
+          }
+        }
+      } else if (tagAfter) { // Opening tag spotted
+        while (context) {
+          var grabbers = config.contextGrabbers[context.tagName];
+          if (grabbers && grabbers.hasOwnProperty(tagAfter[2]))
+            context = context.prev;
+          else
+            break;
+        }
+      }
+      while (context && context.prev && !context.startOfLine)
+        context = context.prev;
+      if (context) return context.indent + indentUnit;
+      else return state.baseIndent || 0;
+    },
+
+    electricInput: /<\/[\s\w:]+>$/,
+    blockCommentStart: "<!--",
+    blockCommentEnd: "-->",
+
+    configuration: config.htmlMode ? "html" : "xml",
+    helperType: config.htmlMode ? "html" : "xml",
+
+    skipAttribute: function(state) {
+      if (state.state == attrValueState)
+        state.state = attrState
+    }
+  };
+});
+
+CodeMirror.defineMIME("text/xml", "xml");
+CodeMirror.defineMIME("application/xml", "xml");
+if (!CodeMirror.mimeModes.hasOwnProperty("text/html"))
+  CodeMirror.defineMIME("text/html", {name: "xml", htmlMode: true});
+
+});
+
+
+/***/ }),
+/* 523 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, '__esModule', {
+	value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _formatJs = __webpack_require__(524);
+
+var classNames = __webpack_require__(8);
+var CM = __webpack_require__(521);
+var React = __webpack_require__(0);
+var ReactDOM = __webpack_require__(21);
+var Icons = __webpack_require__(525);
+
+__webpack_require__(522);
+__webpack_require__(532);
+__webpack_require__(534);
+
+var MarkdownEditor = React.createClass({
+	displayName: 'MarkdownEditor',
+
+	propTypes: {
+		onChange: React.PropTypes.func,
+		options: React.PropTypes.object,
+		path: React.PropTypes.string,
+		value: React.PropTypes.string
+	},
+
+	getInitialState: function getInitialState() {
+		return {
+			isFocused: false,
+			cs: {}
+		};
+	},
+
+	componentDidMount: function componentDidMount() {
+		this.codeMirror = CM.fromTextArea(ReactDOM.findDOMNode(this.refs.codemirror), this.getOptions());
+		this.codeMirror.on('change', this.codemirrorValueChanged);
+		this.codeMirror.on('focus', this.focusChanged.bind(this, true));
+		this.codeMirror.on('blur', this.focusChanged.bind(this, false));
+		this.codeMirror.on('cursorActivity', this.updateCursorState);
+		this._currentCodemirrorValue = this.props.value;
+	},
+
+	getOptions: function getOptions() {
+		return _extends({
+			mode: 'markdown',
+			lineNumbers: false,
+			indentWithTabs: true,
+			tabSize: '2'
+		}, this.props.options);
+	},
+
+	componentWillUnmount: function componentWillUnmount() {
+		// todo: is there a lighter-weight way to remove the cm instance?
+		if (this.codeMirror) {
+			this.codeMirror.toTextArea();
+		}
+	},
+
+	componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
+		if (this.codeMirror && this._currentCodemirrorValue !== nextProps.value) {
+			this.codeMirror.setValue(nextProps.value);
+		}
+	},
+
+	getCodeMirror: function getCodeMirror() {
+		return this.codeMirror;
+	},
+
+	focus: function focus() {
+		if (this.codeMirror) {
+			this.codeMirror.focus();
+		}
+	},
+
+	focusChanged: function focusChanged(focused) {
+		this.setState({ isFocused: focused });
+	},
+
+	updateCursorState: function updateCursorState() {
+		this.setState({ cs: (0, _formatJs.getCursorState)(this.codeMirror) });
+	},
+
+	codemirrorValueChanged: function codemirrorValueChanged(doc, change) {
+		var newValue = doc.getValue();
+		this._currentCodemirrorValue = newValue;
+		this.props.onChange && this.props.onChange(newValue);
+	},
+
+	toggleFormat: function toggleFormat(formatKey, e) {
+		e.preventDefault();
+		(0, _formatJs.applyFormat)(this.codeMirror, formatKey);
+	},
+
+	renderIcon: function renderIcon(icon) {
+		return React.createElement('span', { dangerouslySetInnerHTML: { __html: icon }, className: 'MDEditor_toolbarButton_icon' });
+	},
+
+	renderButton: function renderButton(formatKey, label, action) {
+		if (!action) action = this.toggleFormat.bind(this, formatKey);
+
+		var isTextIcon = formatKey === 'h1' || formatKey === 'h2' || formatKey === 'h3';
+		var className = classNames('MDEditor_toolbarButton', {
+			'MDEditor_toolbarButton--pressed': this.state.cs[formatKey]
+		}, 'MDEditor_toolbarButton--' + formatKey);
+
+		var labelClass = isTextIcon ? 'MDEditor_toolbarButton_label-icon' : 'MDEditor_toolbarButton_label';
+
+		return React.createElement(
+			'button',
+			{ className: className, onClick: action, title: formatKey },
+			isTextIcon ? null : this.renderIcon(Icons[formatKey]),
+			React.createElement(
+				'span',
+				{ className: labelClass },
+				label
+			)
+		);
+	},
+
+	renderToolbar: function renderToolbar() {
+		return React.createElement(
+			'div',
+			{ className: 'MDEditor_toolbar' },
+			this.renderButton('h1', 'h1'),
+			this.renderButton('h2', 'h2'),
+			this.renderButton('h3', 'h3'),
+			this.renderButton('bold', 'b'),
+			this.renderButton('italic', 'i'),
+			this.renderButton('oList', 'ol'),
+			this.renderButton('uList', 'ul'),
+			this.renderButton('quote', 'q')
+		);
+	},
+
+	render: function render() {
+		var editorClassName = classNames('MDEditor_editor', { 'MDEditor_editor--focused': this.state.isFocused });
+		return React.createElement(
+			'div',
+			{ className: 'MDEditor' },
+			this.renderToolbar(),
+			React.createElement(
+				'div',
+				{ className: editorClassName },
+				React.createElement('textarea', { ref: 'codemirror', name: this.props.path, defaultValue: this.props.value, autoComplete: 'off' })
+			)
+		);
+	}
+
+});
+
+exports['default'] = MarkdownEditor;
+module.exports = exports['default'];
+/*this.renderButton('link', 'a')*/
+
+/***/ }),
+/* 524 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, '__esModule', {
+	value: true
+});
+exports.getCursorState = getCursorState;
+exports.applyFormat = applyFormat;
+var FORMATS = {
+	h1: { type: 'block', token: 'header-1', before: '#', re: /^#\s+/, placeholder: 'Heading' },
+	h2: { type: 'block', token: 'header-2', before: '##', re: /^##\s+/, placeholder: 'Heading' },
+	h3: { type: 'block', token: 'header-3', before: '###', re: /^###\s+/, placeholder: 'Heading' },
+	bold: { type: 'inline', token: 'strong', before: '**', after: '**', placeholder: 'bold text' },
+	italic: { type: 'inline', token: 'em', before: '_', after: '_', placeholder: 'italic text' },
+	quote: { type: 'block', token: 'quote', re: /^\>\s+/, before: '>', placeholder: 'quote' },
+	oList: { type: 'block', before: '1. ', re: /^\d+\.\s+/, placeholder: 'List' },
+	uList: { type: 'block', before: '* ', re: /^[\*\-]\s+/, placeholder: 'List' }
+};
+
+var FORMAT_TOKENS = {};
+Object.keys(FORMATS).forEach(function (key) {
+	if (FORMATS[key].token) FORMAT_TOKENS[FORMATS[key].token] = key;
+});
+
+function getCursorState(cm, pos) {
+	pos = pos || cm.getCursor('start');
+	var cs = {};
+	var token = cs.token = cm.getTokenAt(pos);
+	if (!token.type) return cs;
+	var tokens = token.type.split(' ');
+	tokens.forEach(function (t) {
+		if (FORMAT_TOKENS[t]) {
+			cs[FORMAT_TOKENS[t]] = true;
+			return;
+		}
+		switch (t) {
+			case 'link':
+				cs.link = true;
+				cs.link_label = true;
+				break;
+			case 'string':
+				cs.link = true;
+				cs.link_href = true;
+				break;
+			case 'variable-2':
+				var text = cm.getLine(pos.line);
+				if (/^\s*\d+\.\s/.test(text)) {
+					cs.oList = true;
+				} else {
+					cs.uList = true;
+				}
+				break;
+		}
+	});
+	return cs;
+}
+
+function applyFormat(cm, key) {
+	var cs = getCursorState(cm);
+	var format = FORMATS[key];
+	operations[format.type + (cs[key] ? 'Remove' : 'Apply')](cm, format);
+}
+
+var operations = {
+	inlineApply: function inlineApply(cm, format) {
+		var startPoint = cm.getCursor('start');
+		var endPoint = cm.getCursor('end');
+
+		cm.replaceSelection(format.before + cm.getSelection() + format.after);
+
+		startPoint.ch += format.before.length;
+		endPoint.ch += format.after.length;
+		cm.setSelection(startPoint, endPoint);
+		cm.focus();
+	},
+	inlineRemove: function inlineRemove(cm, format) {
+		var startPoint = cm.getCursor('start');
+		var endPoint = cm.getCursor('end');
+		var line = cm.getLine(startPoint.line);
+
+		var startPos = startPoint.ch;
+		while (startPos) {
+			if (line.substr(startPos, format.before.length) === format.before) {
+				break;
+			}
+			startPos--;
+		}
+
+		var endPos = endPoint.ch;
+		while (endPos <= line.length) {
+			if (line.substr(endPos, format.after.length) === format.after) {
+				break;
+			}
+			endPos++;
+		}
+
+		var start = line.slice(0, startPos);
+		var mid = line.slice(startPos + format.before.length, endPos);
+		var end = line.slice(endPos + format.after.length);
+		cm.replaceRange(start + mid + end, { line: startPoint.line, ch: 0 }, { line: startPoint.line, ch: line.length + 1 });
+		cm.setSelection({ line: startPoint.line, ch: start.length }, { line: startPoint.line, ch: (start + mid).length });
+		cm.focus();
+	},
+	blockApply: function blockApply(cm, format) {
+		var startPoint = cm.getCursor('start');
+		var line = cm.getLine(startPoint.line);
+		var text = format.before + ' ' + (line.length ? line : format.placeholder);
+		cm.replaceRange(text, { line: startPoint.line, ch: 0 }, { line: startPoint.line, ch: line.length + 1 });
+		cm.setSelection({ line: startPoint.line, ch: format.before.length + 1 }, { line: startPoint.line, ch: text.length });
+		cm.focus();
+	},
+	blockRemove: function blockRemove(cm, format) {
+		var startPoint = cm.getCursor('start');
+		var line = cm.getLine(startPoint.line);
+		var text = line.replace(format.re, '');
+		cm.replaceRange(text, { line: startPoint.line, ch: 0 }, { line: startPoint.line, ch: line.length + 1 });
+		cm.setSelection({ line: startPoint.line, ch: 0 }, { line: startPoint.line, ch: text.length });
+		cm.focus();
+	}
+};
+
+/***/ }),
+/* 525 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = {
+	bold: __webpack_require__(526),
+	italic: __webpack_require__(527),
+	link: __webpack_require__(528),
+	uList: __webpack_require__(529),
+	oList: __webpack_require__(530),
+	quote: __webpack_require__(531)
+};
+
+/***/ }),
+/* 526 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = '<svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M747 1521q74 32 140 32 376 0 376-335 0-114-41-180-27-44-61.5-74t-67.5-46.5-80.5-25-84-10.5-94.5-2q-73 0-101 10 0 53-.5 159t-.5 158q0 8-1 67.5t-.5 96.5 4.5 83.5 12 66.5zm-14-746q42 7 109 7 82 0 143-13t110-44.5 74.5-89.5 25.5-142q0-70-29-122.5t-79-82-108-43.5-124-14q-50 0-130 13 0 50 4 151t4 152q0 27-.5 80t-.5 79q0 46 1 69zm-541 889l2-94q15-4 85-16t106-27q7-12 12.5-27t8.5-33.5 5.5-32.5 3-37.5.5-34v-65.5q0-982-22-1025-4-8-22-14.5t-44.5-11-49.5-7-48.5-4.5-30.5-3l-4-83q98-2 340-11.5t373-9.5q23 0 68.5.5t67.5.5q70 0 136.5 13t128.5 42 108 71 74 104.5 28 137.5q0 52-16.5 95.5t-39 72-64.5 57.5-73 45-84 40q154 35 256.5 134t102.5 248q0 100-35 179.5t-93.5 130.5-138 85.5-163.5 48.5-176 14q-44 0-132-3t-132-3q-106 0-307 11t-231 12z"/></svg>';
+
+/***/ }),
+/* 527 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = '<svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M384 1662l17-85q6-2 81.5-21.5t111.5-37.5q28-35 41-101 1-7 62-289t114-543.5 52-296.5v-25q-24-13-54.5-18.5t-69.5-8-58-5.5l19-103q33 2 120 6.5t149.5 7 120.5 2.5q48 0 98.5-2.5t121-7 98.5-6.5q-5 39-19 89-30 10-101.5 28.5t-108.5 33.5q-8 19-14 42.5t-9 40-7.5 45.5-6.5 42q-27 148-87.5 419.5t-77.5 355.5q-2 9-13 58t-20 90-16 83.5-6 57.5l1 18q17 4 185 31-3 44-16 99-11 0-32.5 1.5t-32.5 1.5q-29 0-87-10t-86-10q-138-2-206-2-51 0-143 9t-121 11z"/></svg>';
+
+/***/ }),
+/* 528 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = '<svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z"/></svg>';
+
+/***/ }),
+/* 529 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = '<svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M384 1408q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm0-512q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm1408 416v192q0 13-9.5 22.5t-22.5 9.5h-1216q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1216q13 0 22.5 9.5t9.5 22.5zm-1408-928q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm1408 416v192q0 13-9.5 22.5t-22.5 9.5h-1216q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1216q13 0 22.5 9.5t9.5 22.5zm0-512v192q0 13-9.5 22.5t-22.5 9.5h-1216q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1216q13 0 22.5 9.5t9.5 22.5z"/></svg>';
+
+/***/ }),
+/* 530 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = '<svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M381 1620q0 80-54.5 126t-135.5 46q-106 0-172-66l57-88q49 45 106 45 29 0 50.5-14.5t21.5-42.5q0-64-105-56l-26-56q8-10 32.5-43.5t42.5-54 37-38.5v-1q-16 0-48.5 1t-48.5 1v53h-106v-152h333v88l-95 115q51 12 81 49t30 88zm2-627v159h-362q-6-36-6-54 0-51 23.5-93t56.5-68 66-47.5 56.5-43.5 23.5-45q0-25-14.5-38.5t-39.5-13.5q-46 0-81 58l-85-59q24-51 71.5-79.5t105.5-28.5q73 0 123 41.5t50 112.5q0 50-34 91.5t-75 64.5-75.5 50.5-35.5 52.5h127v-60h105zm1409 319v192q0 13-9.5 22.5t-22.5 9.5h-1216q-13 0-22.5-9.5t-9.5-22.5v-192q0-14 9-23t23-9h1216q13 0 22.5 9.5t9.5 22.5zm-1408-899v99h-335v-99h107q0-41 .5-122t.5-121v-12h-2q-8 17-50 54l-71-76 136-127h106v404h108zm1408 387v192q0 13-9.5 22.5t-22.5 9.5h-1216q-13 0-22.5-9.5t-9.5-22.5v-192q0-14 9-23t23-9h1216q13 0 22.5 9.5t9.5 22.5zm0-512v192q0 13-9.5 22.5t-22.5 9.5h-1216q-13 0-22.5-9.5t-9.5-22.5v-192q0-13 9.5-22.5t22.5-9.5h1216q13 0 22.5 9.5t9.5 22.5z"/></svg>';
+
+/***/ }),
+/* 531 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = '<svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M832 960v384q0 80-56 136t-136 56h-384q-80 0-136-56t-56-136v-704q0-104 40.5-198.5t109.5-163.5 163.5-109.5 198.5-40.5h64q26 0 45 19t19 45v128q0 26-19 45t-45 19h-64q-106 0-181 75t-75 181v32q0 40 28 68t68 28h224q80 0 136 56t56 136zm896 0v384q0 80-56 136t-136 56h-384q-80 0-136-56t-56-136v-704q0-104 40.5-198.5t109.5-163.5 163.5-109.5 198.5-40.5h64q26 0 45 19t19 45v128q0 26-19 45t-45 19h-64q-106 0-181 75t-75 181v32q0 40 28 68t68 28h224q80 0 136 56t56 136z"/></svg>';
+
+/***/ }),
+/* 532 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// CodeMirror, copyright (c) by Marijn Haverbeke and others
+// Distributed under an MIT license: http://codemirror.net/LICENSE
+
+(function(mod) {
+  if (true) // CommonJS
+    mod(__webpack_require__(521), __webpack_require__(522), __webpack_require__(533));
+  else if (typeof define == "function" && define.amd) // AMD
+    define(["../../lib/codemirror", "../xml/xml", "../meta"], mod);
+  else // Plain browser env
+    mod(CodeMirror);
+})(function(CodeMirror) {
+"use strict";
+
+CodeMirror.defineMode("markdown", function(cmCfg, modeCfg) {
+
+  var htmlMode = CodeMirror.getMode(cmCfg, "text/html");
+  var htmlModeMissing = htmlMode.name == "null"
+
+  function getMode(name) {
+    if (CodeMirror.findModeByName) {
+      var found = CodeMirror.findModeByName(name);
+      if (found) name = found.mime || found.mimes[0];
+    }
+    var mode = CodeMirror.getMode(cmCfg, name);
+    return mode.name == "null" ? null : mode;
+  }
+
+  // Should characters that affect highlighting be highlighted separate?
+  // Does not include characters that will be output (such as `1.` and `-` for lists)
+  if (modeCfg.highlightFormatting === undefined)
+    modeCfg.highlightFormatting = false;
+
+  // Maximum number of nested blockquotes. Set to 0 for infinite nesting.
+  // Excess `>` will emit `error` token.
+  if (modeCfg.maxBlockquoteDepth === undefined)
+    modeCfg.maxBlockquoteDepth = 0;
+
+  // Turn on task lists? ("- [ ] " and "- [x] ")
+  if (modeCfg.taskLists === undefined) modeCfg.taskLists = false;
+
+  // Turn on strikethrough syntax
+  if (modeCfg.strikethrough === undefined)
+    modeCfg.strikethrough = false;
+
+  if (modeCfg.emoji === undefined)
+    modeCfg.emoji = false;
+
+  if (modeCfg.fencedCodeBlockHighlighting === undefined)
+    modeCfg.fencedCodeBlockHighlighting = true;
+
+  if (modeCfg.xml === undefined)
+    modeCfg.xml = true;
+
+  // Allow token types to be overridden by user-provided token types.
+  if (modeCfg.tokenTypeOverrides === undefined)
+    modeCfg.tokenTypeOverrides = {};
+
+  var tokenTypes = {
+    header: "header",
+    code: "comment",
+    quote: "quote",
+    list1: "variable-2",
+    list2: "variable-3",
+    list3: "keyword",
+    hr: "hr",
+    image: "image",
+    imageAltText: "image-alt-text",
+    imageMarker: "image-marker",
+    formatting: "formatting",
+    linkInline: "link",
+    linkEmail: "link",
+    linkText: "link",
+    linkHref: "string",
+    em: "em",
+    strong: "strong",
+    strikethrough: "strikethrough",
+    emoji: "builtin"
+  };
+
+  for (var tokenType in tokenTypes) {
+    if (tokenTypes.hasOwnProperty(tokenType) && modeCfg.tokenTypeOverrides[tokenType]) {
+      tokenTypes[tokenType] = modeCfg.tokenTypeOverrides[tokenType];
+    }
+  }
+
+  var hrRE = /^([*\-_])(?:\s*\1){2,}\s*$/
+  ,   listRE = /^(?:[*\-+]|^[0-9]+([.)]))\s+/
+  ,   taskListRE = /^\[(x| )\](?=\s)/ // Must follow listRE
+  ,   atxHeaderRE = modeCfg.allowAtxHeaderWithoutSpace ? /^(#+)/ : /^(#+)(?: |$)/
+  ,   setextHeaderRE = /^ *(?:\={1,}|-{1,})\s*$/
+  ,   textRE = /^[^#!\[\]*_\\<>` "'(~:]+/
+  ,   fencedCodeRE = /^(~~~+|```+)[ \t]*([\w+#-]*)[^\n`]*$/
+  ,   linkDefRE = /^\s*\[[^\]]+?\]:\s*\S+(\s*\S*\s*)?$/ // naive link-definition
+  ,   punctuation = /[!\"#$%&\'()*+,\-\.\/:;<=>?@\[\\\]^_`{|}~—]/
+  ,   expandedTab = "    " // CommonMark specifies tab as 4 spaces
+
+  function switchInline(stream, state, f) {
+    state.f = state.inline = f;
+    return f(stream, state);
+  }
+
+  function switchBlock(stream, state, f) {
+    state.f = state.block = f;
+    return f(stream, state);
+  }
+
+  function lineIsEmpty(line) {
+    return !line || !/\S/.test(line.string)
+  }
+
+  // Blocks
+
+  function blankLine(state) {
+    // Reset linkTitle state
+    state.linkTitle = false;
+    // Reset EM state
+    state.em = false;
+    // Reset STRONG state
+    state.strong = false;
+    // Reset strikethrough state
+    state.strikethrough = false;
+    // Reset state.quote
+    state.quote = 0;
+    // Reset state.indentedCode
+    state.indentedCode = false;
+    if (state.f == htmlBlock) {
+      state.f = inlineNormal;
+      state.block = blockNormal;
+    }
+    // Reset state.trailingSpace
+    state.trailingSpace = 0;
+    state.trailingSpaceNewLine = false;
+    // Mark this line as blank
+    state.prevLine = state.thisLine
+    state.thisLine = {stream: null}
+    return null;
+  }
+
+  function blockNormal(stream, state) {
+    var firstTokenOnLine = stream.column() === state.indentation;
+    var prevLineLineIsEmpty = lineIsEmpty(state.prevLine.stream);
+    var prevLineIsIndentedCode = state.indentedCode;
+    var prevLineIsHr = state.prevLine.hr;
+    var prevLineIsList = state.list !== false;
+    var maxNonCodeIndentation = (state.listStack[state.listStack.length - 1] || 0) + 3;
+
+    state.indentedCode = false;
+
+    var lineIndentation = state.indentation;
+    // compute once per line (on first token)
+    if (state.indentationDiff === null) {
+      state.indentationDiff = state.indentation;
+      if (prevLineIsList) {
+        state.list = null;
+        // While this list item's marker's indentation is less than the deepest
+        //  list item's content's indentation,pop the deepest list item
+        //  indentation off the stack, and update block indentation state
+        while (lineIndentation < state.listStack[state.listStack.length - 1]) {
+          state.listStack.pop();
+          if (state.listStack.length) {
+            state.indentation = state.listStack[state.listStack.length - 1];
+          // less than the first list's indent -> the line is no longer a list
+          } else {
+            state.list = false;
+          }
+        }
+        if (state.list !== false) {
+          state.indentationDiff = lineIndentation - state.listStack[state.listStack.length - 1]
+        }
+      }
+    }
+
+    // not comprehensive (currently only for setext detection purposes)
+    var allowsInlineContinuation = (
+        !prevLineLineIsEmpty && !prevLineIsHr && !state.prevLine.header &&
+        (!prevLineIsList || !prevLineIsIndentedCode) &&
+        !state.prevLine.fencedCodeEnd
+    );
+
+    var isHr = (state.list === false || prevLineIsHr || prevLineLineIsEmpty) &&
+      state.indentation <= maxNonCodeIndentation && stream.match(hrRE);
+
+    var match = null;
+    if (state.indentationDiff >= 4 && (prevLineIsIndentedCode || state.prevLine.fencedCodeEnd ||
+         state.prevLine.header || prevLineLineIsEmpty)) {
+      stream.skipToEnd();
+      state.indentedCode = true;
+      return tokenTypes.code;
+    } else if (stream.eatSpace()) {
+      return null;
+    } else if (firstTokenOnLine && state.indentation <= maxNonCodeIndentation && (match = stream.match(atxHeaderRE)) && match[1].length <= 6) {
+      state.quote = 0;
+      state.header = match[1].length;
+      state.thisLine.header = true;
+      if (modeCfg.highlightFormatting) state.formatting = "header";
+      state.f = state.inline;
+      return getType(state);
+    } else if (state.indentation <= maxNonCodeIndentation && stream.eat('>')) {
+      state.quote = firstTokenOnLine ? 1 : state.quote + 1;
+      if (modeCfg.highlightFormatting) state.formatting = "quote";
+      stream.eatSpace();
+      return getType(state);
+    } else if (!isHr && !state.setext && firstTokenOnLine && state.indentation <= maxNonCodeIndentation && (match = stream.match(listRE))) {
+      var listType = match[1] ? "ol" : "ul";
+
+      state.indentation = lineIndentation + stream.current().length;
+      state.list = true;
+      state.quote = 0;
+
+      // Add this list item's content's indentation to the stack
+      state.listStack.push(state.indentation);
+
+      if (modeCfg.taskLists && stream.match(taskListRE, false)) {
+        state.taskList = true;
+      }
+      state.f = state.inline;
+      if (modeCfg.highlightFormatting) state.formatting = ["list", "list-" + listType];
+      return getType(state);
+    } else if (firstTokenOnLine && state.indentation <= maxNonCodeIndentation && (match = stream.match(fencedCodeRE, true))) {
+      state.quote = 0;
+      state.fencedEndRE = new RegExp(match[1] + "+ *$");
+      // try switching mode
+      state.localMode = modeCfg.fencedCodeBlockHighlighting && getMode(match[2]);
+      if (state.localMode) state.localState = CodeMirror.startState(state.localMode);
+      state.f = state.block = local;
+      if (modeCfg.highlightFormatting) state.formatting = "code-block";
+      state.code = -1
+      return getType(state);
+    // SETEXT has lowest block-scope precedence after HR, so check it after
+    //  the others (code, blockquote, list...)
+    } else if (
+      // if setext set, indicates line after ---/===
+      state.setext || (
+        // line before ---/===
+        (!allowsInlineContinuation || !prevLineIsList) && !state.quote && state.list === false &&
+        !state.code && !isHr && !linkDefRE.test(stream.string) &&
+        (match = stream.lookAhead(1)) && (match = match.match(setextHeaderRE))
+      )
+    ) {
+      if ( !state.setext ) {
+        state.header = match[0].charAt(0) == '=' ? 1 : 2;
+        state.setext = state.header;
+      } else {
+        state.header = state.setext;
+        // has no effect on type so we can reset it now
+        state.setext = 0;
+        stream.skipToEnd();
+        if (modeCfg.highlightFormatting) state.formatting = "header";
+      }
+      state.thisLine.header = true;
+      state.f = state.inline;
+      return getType(state);
+    } else if (isHr) {
+      stream.skipToEnd();
+      state.hr = true;
+      state.thisLine.hr = true;
+      return tokenTypes.hr;
+    } else if (stream.peek() === '[') {
+      return switchInline(stream, state, footnoteLink);
+    }
+
+    return switchInline(stream, state, state.inline);
+  }
+
+  function htmlBlock(stream, state) {
+    var style = htmlMode.token(stream, state.htmlState);
+    if (!htmlModeMissing) {
+      var inner = CodeMirror.innerMode(htmlMode, state.htmlState)
+      if ((inner.mode.name == "xml" && inner.state.tagStart === null &&
+           (!inner.state.context && inner.state.tokenize.isInText)) ||
+          (state.md_inside && stream.current().indexOf(">") > -1)) {
+        state.f = inlineNormal;
+        state.block = blockNormal;
+        state.htmlState = null;
+      }
+    }
+    return style;
+  }
+
+  function local(stream, state) {
+    var currListInd = state.listStack[state.listStack.length - 1] || 0;
+    var hasExitedList = state.indentation < currListInd;
+    var maxFencedEndInd = currListInd + 3;
+    if (state.fencedEndRE && state.indentation <= maxFencedEndInd && (hasExitedList || stream.match(state.fencedEndRE))) {
+      if (modeCfg.highlightFormatting) state.formatting = "code-block";
+      var returnType;
+      if (!hasExitedList) returnType = getType(state)
+      state.localMode = state.localState = null;
+      state.block = blockNormal;
+      state.f = inlineNormal;
+      state.fencedEndRE = null;
+      state.code = 0
+      state.thisLine.fencedCodeEnd = true;
+      if (hasExitedList) return switchBlock(stream, state, state.block);
+      return returnType;
+    } else if (state.localMode) {
+      return state.localMode.token(stream, state.localState);
+    } else {
+      stream.skipToEnd();
+      return tokenTypes.code;
+    }
+  }
+
+  // Inline
+  function getType(state) {
+    var styles = [];
+
+    if (state.formatting) {
+      styles.push(tokenTypes.formatting);
+
+      if (typeof state.formatting === "string") state.formatting = [state.formatting];
+
+      for (var i = 0; i < state.formatting.length; i++) {
+        styles.push(tokenTypes.formatting + "-" + state.formatting[i]);
+
+        if (state.formatting[i] === "header") {
+          styles.push(tokenTypes.formatting + "-" + state.formatting[i] + "-" + state.header);
+        }
+
+        // Add `formatting-quote` and `formatting-quote-#` for blockquotes
+        // Add `error` instead if the maximum blockquote nesting depth is passed
+        if (state.formatting[i] === "quote") {
+          if (!modeCfg.maxBlockquoteDepth || modeCfg.maxBlockquoteDepth >= state.quote) {
+            styles.push(tokenTypes.formatting + "-" + state.formatting[i] + "-" + state.quote);
+          } else {
+            styles.push("error");
+          }
+        }
+      }
+    }
+
+    if (state.taskOpen) {
+      styles.push("meta");
+      return styles.length ? styles.join(' ') : null;
+    }
+    if (state.taskClosed) {
+      styles.push("property");
+      return styles.length ? styles.join(' ') : null;
+    }
+
+    if (state.linkHref) {
+      styles.push(tokenTypes.linkHref, "url");
+    } else { // Only apply inline styles to non-url text
+      if (state.strong) { styles.push(tokenTypes.strong); }
+      if (state.em) { styles.push(tokenTypes.em); }
+      if (state.strikethrough) { styles.push(tokenTypes.strikethrough); }
+      if (state.emoji) { styles.push(tokenTypes.emoji); }
+      if (state.linkText) { styles.push(tokenTypes.linkText); }
+      if (state.code) { styles.push(tokenTypes.code); }
+      if (state.image) { styles.push(tokenTypes.image); }
+      if (state.imageAltText) { styles.push(tokenTypes.imageAltText, "link"); }
+      if (state.imageMarker) { styles.push(tokenTypes.imageMarker); }
+    }
+
+    if (state.header) { styles.push(tokenTypes.header, tokenTypes.header + "-" + state.header); }
+
+    if (state.quote) {
+      styles.push(tokenTypes.quote);
+
+      // Add `quote-#` where the maximum for `#` is modeCfg.maxBlockquoteDepth
+      if (!modeCfg.maxBlockquoteDepth || modeCfg.maxBlockquoteDepth >= state.quote) {
+        styles.push(tokenTypes.quote + "-" + state.quote);
+      } else {
+        styles.push(tokenTypes.quote + "-" + modeCfg.maxBlockquoteDepth);
+      }
+    }
+
+    if (state.list !== false) {
+      var listMod = (state.listStack.length - 1) % 3;
+      if (!listMod) {
+        styles.push(tokenTypes.list1);
+      } else if (listMod === 1) {
+        styles.push(tokenTypes.list2);
+      } else {
+        styles.push(tokenTypes.list3);
+      }
+    }
+
+    if (state.trailingSpaceNewLine) {
+      styles.push("trailing-space-new-line");
+    } else if (state.trailingSpace) {
+      styles.push("trailing-space-" + (state.trailingSpace % 2 ? "a" : "b"));
+    }
+
+    return styles.length ? styles.join(' ') : null;
+  }
+
+  function handleText(stream, state) {
+    if (stream.match(textRE, true)) {
+      return getType(state);
+    }
+    return undefined;
+  }
+
+  function inlineNormal(stream, state) {
+    var style = state.text(stream, state);
+    if (typeof style !== 'undefined')
+      return style;
+
+    if (state.list) { // List marker (*, +, -, 1., etc)
+      state.list = null;
+      return getType(state);
+    }
+
+    if (state.taskList) {
+      var taskOpen = stream.match(taskListRE, true)[1] !== "x";
+      if (taskOpen) state.taskOpen = true;
+      else state.taskClosed = true;
+      if (modeCfg.highlightFormatting) state.formatting = "task";
+      state.taskList = false;
+      return getType(state);
+    }
+
+    state.taskOpen = false;
+    state.taskClosed = false;
+
+    if (state.header && stream.match(/^#+$/, true)) {
+      if (modeCfg.highlightFormatting) state.formatting = "header";
+      return getType(state);
+    }
+
+    var ch = stream.next();
+
+    // Matches link titles present on next line
+    if (state.linkTitle) {
+      state.linkTitle = false;
+      var matchCh = ch;
+      if (ch === '(') {
+        matchCh = ')';
+      }
+      matchCh = (matchCh+'').replace(/([.?*+^\[\]\\(){}|-])/g, "\\$1");
+      var regex = '^\\s*(?:[^' + matchCh + '\\\\]+|\\\\\\\\|\\\\.)' + matchCh;
+      if (stream.match(new RegExp(regex), true)) {
+        return tokenTypes.linkHref;
+      }
+    }
+
+    // If this block is changed, it may need to be updated in GFM mode
+    if (ch === '`') {
+      var previousFormatting = state.formatting;
+      if (modeCfg.highlightFormatting) state.formatting = "code";
+      stream.eatWhile('`');
+      var count = stream.current().length
+      if (state.code == 0 && (!state.quote || count == 1)) {
+        state.code = count
+        return getType(state)
+      } else if (count == state.code) { // Must be exact
+        var t = getType(state)
+        state.code = 0
+        return t
+      } else {
+        state.formatting = previousFormatting
+        return getType(state)
+      }
+    } else if (state.code) {
+      return getType(state);
+    }
+
+    if (ch === '\\') {
+      stream.next();
+      if (modeCfg.highlightFormatting) {
+        var type = getType(state);
+        var formattingEscape = tokenTypes.formatting + "-escape";
+        return type ? type + " " + formattingEscape : formattingEscape;
+      }
+    }
+
+    if (ch === '!' && stream.match(/\[[^\]]*\] ?(?:\(|\[)/, false)) {
+      state.imageMarker = true;
+      state.image = true;
+      if (modeCfg.highlightFormatting) state.formatting = "image";
+      return getType(state);
+    }
+
+    if (ch === '[' && state.imageMarker && stream.match(/[^\]]*\](\(.*?\)| ?\[.*?\])/, false)) {
+      state.imageMarker = false;
+      state.imageAltText = true
+      if (modeCfg.highlightFormatting) state.formatting = "image";
+      return getType(state);
+    }
+
+    if (ch === ']' && state.imageAltText) {
+      if (modeCfg.highlightFormatting) state.formatting = "image";
+      var type = getType(state);
+      state.imageAltText = false;
+      state.image = false;
+      state.inline = state.f = linkHref;
+      return type;
+    }
+
+    if (ch === '[' && !state.image) {
+      state.linkText = true;
+      if (modeCfg.highlightFormatting) state.formatting = "link";
+      return getType(state);
+    }
+
+    if (ch === ']' && state.linkText) {
+      if (modeCfg.highlightFormatting) state.formatting = "link";
+      var type = getType(state);
+      state.linkText = false;
+      state.inline = state.f = stream.match(/\(.*?\)| ?\[.*?\]/, false) ? linkHref : inlineNormal
+      return type;
+    }
+
+    if (ch === '<' && stream.match(/^(https?|ftps?):\/\/(?:[^\\>]|\\.)+>/, false)) {
+      state.f = state.inline = linkInline;
+      if (modeCfg.highlightFormatting) state.formatting = "link";
+      var type = getType(state);
+      if (type){
+        type += " ";
+      } else {
+        type = "";
+      }
+      return type + tokenTypes.linkInline;
+    }
+
+    if (ch === '<' && stream.match(/^[^> \\]+@(?:[^\\>]|\\.)+>/, false)) {
+      state.f = state.inline = linkInline;
+      if (modeCfg.highlightFormatting) state.formatting = "link";
+      var type = getType(state);
+      if (type){
+        type += " ";
+      } else {
+        type = "";
+      }
+      return type + tokenTypes.linkEmail;
+    }
+
+    if (modeCfg.xml && ch === '<' && stream.match(/^(!--|[a-z]+(?:\s+[a-z_:.\-]+(?:\s*=\s*[^ >]+)?)*\s*>)/i, false)) {
+      var end = stream.string.indexOf(">", stream.pos);
+      if (end != -1) {
+        var atts = stream.string.substring(stream.start, end);
+        if (/markdown\s*=\s*('|"){0,1}1('|"){0,1}/.test(atts)) state.md_inside = true;
+      }
+      stream.backUp(1);
+      state.htmlState = CodeMirror.startState(htmlMode);
+      return switchBlock(stream, state, htmlBlock);
+    }
+
+    if (modeCfg.xml && ch === '<' && stream.match(/^\/\w*?>/)) {
+      state.md_inside = false;
+      return "tag";
+    } else if (ch === "*" || ch === "_") {
+      var len = 1, before = stream.pos == 1 ? " " : stream.string.charAt(stream.pos - 2)
+      while (len < 3 && stream.eat(ch)) len++
+      var after = stream.peek() || " "
+      // See http://spec.commonmark.org/0.27/#emphasis-and-strong-emphasis
+      var leftFlanking = !/\s/.test(after) && (!punctuation.test(after) || /\s/.test(before) || punctuation.test(before))
+      var rightFlanking = !/\s/.test(before) && (!punctuation.test(before) || /\s/.test(after) || punctuation.test(after))
+      var setEm = null, setStrong = null
+      if (len % 2) { // Em
+        if (!state.em && leftFlanking && (ch === "*" || !rightFlanking || punctuation.test(before)))
+          setEm = true
+        else if (state.em == ch && rightFlanking && (ch === "*" || !leftFlanking || punctuation.test(after)))
+          setEm = false
+      }
+      if (len > 1) { // Strong
+        if (!state.strong && leftFlanking && (ch === "*" || !rightFlanking || punctuation.test(before)))
+          setStrong = true
+        else if (state.strong == ch && rightFlanking && (ch === "*" || !leftFlanking || punctuation.test(after)))
+          setStrong = false
+      }
+      if (setStrong != null || setEm != null) {
+        if (modeCfg.highlightFormatting) state.formatting = setEm == null ? "strong" : setStrong == null ? "em" : "strong em"
+        if (setEm === true) state.em = ch
+        if (setStrong === true) state.strong = ch
+        var t = getType(state)
+        if (setEm === false) state.em = false
+        if (setStrong === false) state.strong = false
+        return t
+      }
+    } else if (ch === ' ') {
+      if (stream.eat('*') || stream.eat('_')) { // Probably surrounded by spaces
+        if (stream.peek() === ' ') { // Surrounded by spaces, ignore
+          return getType(state);
+        } else { // Not surrounded by spaces, back up pointer
+          stream.backUp(1);
+        }
+      }
+    }
+
+    if (modeCfg.strikethrough) {
+      if (ch === '~' && stream.eatWhile(ch)) {
+        if (state.strikethrough) {// Remove strikethrough
+          if (modeCfg.highlightFormatting) state.formatting = "strikethrough";
+          var t = getType(state);
+          state.strikethrough = false;
+          return t;
+        } else if (stream.match(/^[^\s]/, false)) {// Add strikethrough
+          state.strikethrough = true;
+          if (modeCfg.highlightFormatting) state.formatting = "strikethrough";
+          return getType(state);
+        }
+      } else if (ch === ' ') {
+        if (stream.match(/^~~/, true)) { // Probably surrounded by space
+          if (stream.peek() === ' ') { // Surrounded by spaces, ignore
+            return getType(state);
+          } else { // Not surrounded by spaces, back up pointer
+            stream.backUp(2);
+          }
+        }
+      }
+    }
+
+    if (modeCfg.emoji && ch === ":" && stream.match(/^[a-z_\d+-]+:/)) {
+      state.emoji = true;
+      if (modeCfg.highlightFormatting) state.formatting = "emoji";
+      var retType = getType(state);
+      state.emoji = false;
+      return retType;
+    }
+
+    if (ch === ' ') {
+      if (stream.match(/ +$/, false)) {
+        state.trailingSpace++;
+      } else if (state.trailingSpace) {
+        state.trailingSpaceNewLine = true;
+      }
+    }
+
+    return getType(state);
+  }
+
+  function linkInline(stream, state) {
+    var ch = stream.next();
+
+    if (ch === ">") {
+      state.f = state.inline = inlineNormal;
+      if (modeCfg.highlightFormatting) state.formatting = "link";
+      var type = getType(state);
+      if (type){
+        type += " ";
+      } else {
+        type = "";
+      }
+      return type + tokenTypes.linkInline;
+    }
+
+    stream.match(/^[^>]+/, true);
+
+    return tokenTypes.linkInline;
+  }
+
+  function linkHref(stream, state) {
+    // Check if space, and return NULL if so (to avoid marking the space)
+    if(stream.eatSpace()){
+      return null;
+    }
+    var ch = stream.next();
+    if (ch === '(' || ch === '[') {
+      state.f = state.inline = getLinkHrefInside(ch === "(" ? ")" : "]");
+      if (modeCfg.highlightFormatting) state.formatting = "link-string";
+      state.linkHref = true;
+      return getType(state);
+    }
+    return 'error';
+  }
+
+  var linkRE = {
+    ")": /^(?:[^\\\(\)]|\\.|\((?:[^\\\(\)]|\\.)*\))*?(?=\))/,
+    "]": /^(?:[^\\\[\]]|\\.|\[(?:[^\\\[\]]|\\.)*\])*?(?=\])/
+  }
+
+  function getLinkHrefInside(endChar) {
+    return function(stream, state) {
+      var ch = stream.next();
+
+      if (ch === endChar) {
+        state.f = state.inline = inlineNormal;
+        if (modeCfg.highlightFormatting) state.formatting = "link-string";
+        var returnState = getType(state);
+        state.linkHref = false;
+        return returnState;
+      }
+
+      stream.match(linkRE[endChar])
+      state.linkHref = true;
+      return getType(state);
+    };
+  }
+
+  function footnoteLink(stream, state) {
+    if (stream.match(/^([^\]\\]|\\.)*\]:/, false)) {
+      state.f = footnoteLinkInside;
+      stream.next(); // Consume [
+      if (modeCfg.highlightFormatting) state.formatting = "link";
+      state.linkText = true;
+      return getType(state);
+    }
+    return switchInline(stream, state, inlineNormal);
+  }
+
+  function footnoteLinkInside(stream, state) {
+    if (stream.match(/^\]:/, true)) {
+      state.f = state.inline = footnoteUrl;
+      if (modeCfg.highlightFormatting) state.formatting = "link";
+      var returnType = getType(state);
+      state.linkText = false;
+      return returnType;
+    }
+
+    stream.match(/^([^\]\\]|\\.)+/, true);
+
+    return tokenTypes.linkText;
+  }
+
+  function footnoteUrl(stream, state) {
+    // Check if space, and return NULL if so (to avoid marking the space)
+    if(stream.eatSpace()){
+      return null;
+    }
+    // Match URL
+    stream.match(/^[^\s]+/, true);
+    // Check for link title
+    if (stream.peek() === undefined) { // End of line, set flag to check next line
+      state.linkTitle = true;
+    } else { // More content on line, check if link title
+      stream.match(/^(?:\s+(?:"(?:[^"\\]|\\\\|\\.)+"|'(?:[^'\\]|\\\\|\\.)+'|\((?:[^)\\]|\\\\|\\.)+\)))?/, true);
+    }
+    state.f = state.inline = inlineNormal;
+    return tokenTypes.linkHref + " url";
+  }
+
+  var mode = {
+    startState: function() {
+      return {
+        f: blockNormal,
+
+        prevLine: {stream: null},
+        thisLine: {stream: null},
+
+        block: blockNormal,
+        htmlState: null,
+        indentation: 0,
+
+        inline: inlineNormal,
+        text: handleText,
+
+        formatting: false,
+        linkText: false,
+        linkHref: false,
+        linkTitle: false,
+        code: 0,
+        em: false,
+        strong: false,
+        header: 0,
+        setext: 0,
+        hr: false,
+        taskList: false,
+        list: false,
+        listStack: [],
+        quote: 0,
+        trailingSpace: 0,
+        trailingSpaceNewLine: false,
+        strikethrough: false,
+        emoji: false,
+        fencedEndRE: null
+      };
+    },
+
+    copyState: function(s) {
+      return {
+        f: s.f,
+
+        prevLine: s.prevLine,
+        thisLine: s.thisLine,
+
+        block: s.block,
+        htmlState: s.htmlState && CodeMirror.copyState(htmlMode, s.htmlState),
+        indentation: s.indentation,
+
+        localMode: s.localMode,
+        localState: s.localMode ? CodeMirror.copyState(s.localMode, s.localState) : null,
+
+        inline: s.inline,
+        text: s.text,
+        formatting: false,
+        linkText: s.linkText,
+        linkTitle: s.linkTitle,
+        code: s.code,
+        em: s.em,
+        strong: s.strong,
+        strikethrough: s.strikethrough,
+        emoji: s.emoji,
+        header: s.header,
+        setext: s.setext,
+        hr: s.hr,
+        taskList: s.taskList,
+        list: s.list,
+        listStack: s.listStack.slice(0),
+        quote: s.quote,
+        indentedCode: s.indentedCode,
+        trailingSpace: s.trailingSpace,
+        trailingSpaceNewLine: s.trailingSpaceNewLine,
+        md_inside: s.md_inside,
+        fencedEndRE: s.fencedEndRE
+      };
+    },
+
+    token: function(stream, state) {
+
+      // Reset state.formatting
+      state.formatting = false;
+
+      if (stream != state.thisLine.stream) {
+        state.header = 0;
+        state.hr = false;
+
+        if (stream.match(/^\s*$/, true)) {
+          blankLine(state);
+          return null;
+        }
+
+        state.prevLine = state.thisLine
+        state.thisLine = {stream: stream}
+
+        // Reset state.taskList
+        state.taskList = false;
+
+        // Reset state.trailingSpace
+        state.trailingSpace = 0;
+        state.trailingSpaceNewLine = false;
+
+        state.f = state.block;
+        if (state.f != htmlBlock) {
+          var indentation = stream.match(/^\s*/, true)[0].replace(/\t/g, expandedTab).length;
+          state.indentation = indentation;
+          state.indentationDiff = null;
+          if (indentation > 0) return null;
+        }
+      }
+      return state.f(stream, state);
+    },
+
+    innerMode: function(state) {
+      if (state.block == htmlBlock) return {state: state.htmlState, mode: htmlMode};
+      if (state.localState) return {state: state.localState, mode: state.localMode};
+      return {state: state, mode: mode};
+    },
+
+    indent: function(state, textAfter, line) {
+      if (state.block == htmlBlock) return htmlMode.indent(state.htmlState, textAfter, line)
+      if (state.localState) return state.localMode.indent(state.localState, textAfter, line)
+      return CodeMirror.Pass
+    },
+
+    blankLine: blankLine,
+
+    getType: getType,
+
+    closeBrackets: "()[]{}''\"\"``",
+    fold: "markdown"
+  };
+  return mode;
+}, "xml");
+
+CodeMirror.defineMIME("text/x-markdown", "markdown");
+
+});
+
+
+/***/ }),
+/* 533 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// CodeMirror, copyright (c) by Marijn Haverbeke and others
+// Distributed under an MIT license: http://codemirror.net/LICENSE
+
+(function(mod) {
+  if (true) // CommonJS
+    mod(__webpack_require__(521));
+  else if (typeof define == "function" && define.amd) // AMD
+    define(["../lib/codemirror"], mod);
+  else // Plain browser env
+    mod(CodeMirror);
+})(function(CodeMirror) {
+  "use strict";
+
+  CodeMirror.modeInfo = [
+    {name: "APL", mime: "text/apl", mode: "apl", ext: ["dyalog", "apl"]},
+    {name: "PGP", mimes: ["application/pgp", "application/pgp-encrypted", "application/pgp-keys", "application/pgp-signature"], mode: "asciiarmor", ext: ["asc", "pgp", "sig"]},
+    {name: "ASN.1", mime: "text/x-ttcn-asn", mode: "asn.1", ext: ["asn", "asn1"]},
+    {name: "Asterisk", mime: "text/x-asterisk", mode: "asterisk", file: /^extensions\.conf$/i},
+    {name: "Brainfuck", mime: "text/x-brainfuck", mode: "brainfuck", ext: ["b", "bf"]},
+    {name: "C", mime: "text/x-csrc", mode: "clike", ext: ["c", "h"]},
+    {name: "C++", mime: "text/x-c++src", mode: "clike", ext: ["cpp", "c++", "cc", "cxx", "hpp", "h++", "hh", "hxx"], alias: ["cpp"]},
+    {name: "Cobol", mime: "text/x-cobol", mode: "cobol", ext: ["cob", "cpy"]},
+    {name: "C#", mime: "text/x-csharp", mode: "clike", ext: ["cs"], alias: ["csharp"]},
+    {name: "Clojure", mime: "text/x-clojure", mode: "clojure", ext: ["clj", "cljc", "cljx"]},
+    {name: "ClojureScript", mime: "text/x-clojurescript", mode: "clojure", ext: ["cljs"]},
+    {name: "Closure Stylesheets (GSS)", mime: "text/x-gss", mode: "css", ext: ["gss"]},
+    {name: "CMake", mime: "text/x-cmake", mode: "cmake", ext: ["cmake", "cmake.in"], file: /^CMakeLists.txt$/},
+    {name: "CoffeeScript", mimes: ["application/vnd.coffeescript", "text/coffeescript", "text/x-coffeescript"], mode: "coffeescript", ext: ["coffee"], alias: ["coffee", "coffee-script"]},
+    {name: "Common Lisp", mime: "text/x-common-lisp", mode: "commonlisp", ext: ["cl", "lisp", "el"], alias: ["lisp"]},
+    {name: "Cypher", mime: "application/x-cypher-query", mode: "cypher", ext: ["cyp", "cypher"]},
+    {name: "Cython", mime: "text/x-cython", mode: "python", ext: ["pyx", "pxd", "pxi"]},
+    {name: "Crystal", mime: "text/x-crystal", mode: "crystal", ext: ["cr"]},
+    {name: "CSS", mime: "text/css", mode: "css", ext: ["css"]},
+    {name: "CQL", mime: "text/x-cassandra", mode: "sql", ext: ["cql"]},
+    {name: "D", mime: "text/x-d", mode: "d", ext: ["d"]},
+    {name: "Dart", mimes: ["application/dart", "text/x-dart"], mode: "dart", ext: ["dart"]},
+    {name: "diff", mime: "text/x-diff", mode: "diff", ext: ["diff", "patch"]},
+    {name: "Django", mime: "text/x-django", mode: "django"},
+    {name: "Dockerfile", mime: "text/x-dockerfile", mode: "dockerfile", file: /^Dockerfile$/},
+    {name: "DTD", mime: "application/xml-dtd", mode: "dtd", ext: ["dtd"]},
+    {name: "Dylan", mime: "text/x-dylan", mode: "dylan", ext: ["dylan", "dyl", "intr"]},
+    {name: "EBNF", mime: "text/x-ebnf", mode: "ebnf"},
+    {name: "ECL", mime: "text/x-ecl", mode: "ecl", ext: ["ecl"]},
+    {name: "edn", mime: "application/edn", mode: "clojure", ext: ["edn"]},
+    {name: "Eiffel", mime: "text/x-eiffel", mode: "eiffel", ext: ["e"]},
+    {name: "Elm", mime: "text/x-elm", mode: "elm", ext: ["elm"]},
+    {name: "Embedded Javascript", mime: "application/x-ejs", mode: "htmlembedded", ext: ["ejs"]},
+    {name: "Embedded Ruby", mime: "application/x-erb", mode: "htmlembedded", ext: ["erb"]},
+    {name: "Erlang", mime: "text/x-erlang", mode: "erlang", ext: ["erl"]},
+    {name: "Factor", mime: "text/x-factor", mode: "factor", ext: ["factor"]},
+    {name: "FCL", mime: "text/x-fcl", mode: "fcl"},
+    {name: "Forth", mime: "text/x-forth", mode: "forth", ext: ["forth", "fth", "4th"]},
+    {name: "Fortran", mime: "text/x-fortran", mode: "fortran", ext: ["f", "for", "f77", "f90"]},
+    {name: "F#", mime: "text/x-fsharp", mode: "mllike", ext: ["fs"], alias: ["fsharp"]},
+    {name: "Gas", mime: "text/x-gas", mode: "gas", ext: ["s"]},
+    {name: "Gherkin", mime: "text/x-feature", mode: "gherkin", ext: ["feature"]},
+    {name: "GitHub Flavored Markdown", mime: "text/x-gfm", mode: "gfm", file: /^(readme|contributing|history).md$/i},
+    {name: "Go", mime: "text/x-go", mode: "go", ext: ["go"]},
+    {name: "Groovy", mime: "text/x-groovy", mode: "groovy", ext: ["groovy", "gradle"], file: /^Jenkinsfile$/},
+    {name: "HAML", mime: "text/x-haml", mode: "haml", ext: ["haml"]},
+    {name: "Haskell", mime: "text/x-haskell", mode: "haskell", ext: ["hs"]},
+    {name: "Haskell (Literate)", mime: "text/x-literate-haskell", mode: "haskell-literate", ext: ["lhs"]},
+    {name: "Haxe", mime: "text/x-haxe", mode: "haxe", ext: ["hx"]},
+    {name: "HXML", mime: "text/x-hxml", mode: "haxe", ext: ["hxml"]},
+    {name: "ASP.NET", mime: "application/x-aspx", mode: "htmlembedded", ext: ["aspx"], alias: ["asp", "aspx"]},
+    {name: "HTML", mime: "text/html", mode: "htmlmixed", ext: ["html", "htm"], alias: ["xhtml"]},
+    {name: "HTTP", mime: "message/http", mode: "http"},
+    {name: "IDL", mime: "text/x-idl", mode: "idl", ext: ["pro"]},
+    {name: "Pug", mime: "text/x-pug", mode: "pug", ext: ["jade", "pug"], alias: ["jade"]},
+    {name: "Java", mime: "text/x-java", mode: "clike", ext: ["java"]},
+    {name: "Java Server Pages", mime: "application/x-jsp", mode: "htmlembedded", ext: ["jsp"], alias: ["jsp"]},
+    {name: "JavaScript", mimes: ["text/javascript", "text/ecmascript", "application/javascript", "application/x-javascript", "application/ecmascript"],
+     mode: "javascript", ext: ["js"], alias: ["ecmascript", "js", "node"]},
+    {name: "JSON", mimes: ["application/json", "application/x-json"], mode: "javascript", ext: ["json", "map"], alias: ["json5"]},
+    {name: "JSON-LD", mime: "application/ld+json", mode: "javascript", ext: ["jsonld"], alias: ["jsonld"]},
+    {name: "JSX", mime: "text/jsx", mode: "jsx", ext: ["jsx"]},
+    {name: "Jinja2", mime: "null", mode: "jinja2"},
+    {name: "Julia", mime: "text/x-julia", mode: "julia", ext: ["jl"]},
+    {name: "Kotlin", mime: "text/x-kotlin", mode: "clike", ext: ["kt"]},
+    {name: "LESS", mime: "text/x-less", mode: "css", ext: ["less"]},
+    {name: "LiveScript", mime: "text/x-livescript", mode: "livescript", ext: ["ls"], alias: ["ls"]},
+    {name: "Lua", mime: "text/x-lua", mode: "lua", ext: ["lua"]},
+    {name: "Markdown", mime: "text/x-markdown", mode: "markdown", ext: ["markdown", "md", "mkd"]},
+    {name: "mIRC", mime: "text/mirc", mode: "mirc"},
+    {name: "MariaDB SQL", mime: "text/x-mariadb", mode: "sql"},
+    {name: "Mathematica", mime: "text/x-mathematica", mode: "mathematica", ext: ["m", "nb"]},
+    {name: "Modelica", mime: "text/x-modelica", mode: "modelica", ext: ["mo"]},
+    {name: "MUMPS", mime: "text/x-mumps", mode: "mumps", ext: ["mps"]},
+    {name: "MS SQL", mime: "text/x-mssql", mode: "sql"},
+    {name: "mbox", mime: "application/mbox", mode: "mbox", ext: ["mbox"]},
+    {name: "MySQL", mime: "text/x-mysql", mode: "sql"},
+    {name: "Nginx", mime: "text/x-nginx-conf", mode: "nginx", file: /nginx.*\.conf$/i},
+    {name: "NSIS", mime: "text/x-nsis", mode: "nsis", ext: ["nsh", "nsi"]},
+    {name: "NTriples", mimes: ["application/n-triples", "application/n-quads", "text/n-triples"],
+     mode: "ntriples", ext: ["nt", "nq"]},
+    {name: "Objective C", mime: "text/x-objectivec", mode: "clike", ext: ["m", "mm"], alias: ["objective-c", "objc"]},
+    {name: "OCaml", mime: "text/x-ocaml", mode: "mllike", ext: ["ml", "mli", "mll", "mly"]},
+    {name: "Octave", mime: "text/x-octave", mode: "octave", ext: ["m"]},
+    {name: "Oz", mime: "text/x-oz", mode: "oz", ext: ["oz"]},
+    {name: "Pascal", mime: "text/x-pascal", mode: "pascal", ext: ["p", "pas"]},
+    {name: "PEG.js", mime: "null", mode: "pegjs", ext: ["jsonld"]},
+    {name: "Perl", mime: "text/x-perl", mode: "perl", ext: ["pl", "pm"]},
+    {name: "PHP", mime: "application/x-httpd-php", mode: "php", ext: ["php", "php3", "php4", "php5", "php7", "phtml"]},
+    {name: "Pig", mime: "text/x-pig", mode: "pig", ext: ["pig"]},
+    {name: "Plain Text", mime: "text/plain", mode: "null", ext: ["txt", "text", "conf", "def", "list", "log"]},
+    {name: "PLSQL", mime: "text/x-plsql", mode: "sql", ext: ["pls"]},
+    {name: "PowerShell", mime: "application/x-powershell", mode: "powershell", ext: ["ps1", "psd1", "psm1"]},
+    {name: "Properties files", mime: "text/x-properties", mode: "properties", ext: ["properties", "ini", "in"], alias: ["ini", "properties"]},
+    {name: "ProtoBuf", mime: "text/x-protobuf", mode: "protobuf", ext: ["proto"]},
+    {name: "Python", mime: "text/x-python", mode: "python", ext: ["BUILD", "bzl", "py", "pyw"], file: /^(BUCK|BUILD)$/},
+    {name: "Puppet", mime: "text/x-puppet", mode: "puppet", ext: ["pp"]},
+    {name: "Q", mime: "text/x-q", mode: "q", ext: ["q"]},
+    {name: "R", mime: "text/x-rsrc", mode: "r", ext: ["r", "R"], alias: ["rscript"]},
+    {name: "reStructuredText", mime: "text/x-rst", mode: "rst", ext: ["rst"], alias: ["rst"]},
+    {name: "RPM Changes", mime: "text/x-rpm-changes", mode: "rpm"},
+    {name: "RPM Spec", mime: "text/x-rpm-spec", mode: "rpm", ext: ["spec"]},
+    {name: "Ruby", mime: "text/x-ruby", mode: "ruby", ext: ["rb"], alias: ["jruby", "macruby", "rake", "rb", "rbx"]},
+    {name: "Rust", mime: "text/x-rustsrc", mode: "rust", ext: ["rs"]},
+    {name: "SAS", mime: "text/x-sas", mode: "sas", ext: ["sas"]},
+    {name: "Sass", mime: "text/x-sass", mode: "sass", ext: ["sass"]},
+    {name: "Scala", mime: "text/x-scala", mode: "clike", ext: ["scala"]},
+    {name: "Scheme", mime: "text/x-scheme", mode: "scheme", ext: ["scm", "ss"]},
+    {name: "SCSS", mime: "text/x-scss", mode: "css", ext: ["scss"]},
+    {name: "Shell", mimes: ["text/x-sh", "application/x-sh"], mode: "shell", ext: ["sh", "ksh", "bash"], alias: ["bash", "sh", "zsh"], file: /^PKGBUILD$/},
+    {name: "Sieve", mime: "application/sieve", mode: "sieve", ext: ["siv", "sieve"]},
+    {name: "Slim", mimes: ["text/x-slim", "application/x-slim"], mode: "slim", ext: ["slim"]},
+    {name: "Smalltalk", mime: "text/x-stsrc", mode: "smalltalk", ext: ["st"]},
+    {name: "Smarty", mime: "text/x-smarty", mode: "smarty", ext: ["tpl"]},
+    {name: "Solr", mime: "text/x-solr", mode: "solr"},
+    {name: "Soy", mime: "text/x-soy", mode: "soy", ext: ["soy"], alias: ["closure template"]},
+    {name: "SPARQL", mime: "application/sparql-query", mode: "sparql", ext: ["rq", "sparql"], alias: ["sparul"]},
+    {name: "Spreadsheet", mime: "text/x-spreadsheet", mode: "spreadsheet", alias: ["excel", "formula"]},
+    {name: "SQL", mime: "text/x-sql", mode: "sql", ext: ["sql"]},
+    {name: "SQLite", mime: "text/x-sqlite", mode: "sql"},
+    {name: "Squirrel", mime: "text/x-squirrel", mode: "clike", ext: ["nut"]},
+    {name: "Stylus", mime: "text/x-styl", mode: "stylus", ext: ["styl"]},
+    {name: "Swift", mime: "text/x-swift", mode: "swift", ext: ["swift"]},
+    {name: "sTeX", mime: "text/x-stex", mode: "stex"},
+    {name: "LaTeX", mime: "text/x-latex", mode: "stex", ext: ["text", "ltx"], alias: ["tex"]},
+    {name: "SystemVerilog", mime: "text/x-systemverilog", mode: "verilog", ext: ["v", "sv", "svh"]},
+    {name: "Tcl", mime: "text/x-tcl", mode: "tcl", ext: ["tcl"]},
+    {name: "Textile", mime: "text/x-textile", mode: "textile", ext: ["textile"]},
+    {name: "TiddlyWiki ", mime: "text/x-tiddlywiki", mode: "tiddlywiki"},
+    {name: "Tiki wiki", mime: "text/tiki", mode: "tiki"},
+    {name: "TOML", mime: "text/x-toml", mode: "toml", ext: ["toml"]},
+    {name: "Tornado", mime: "text/x-tornado", mode: "tornado"},
+    {name: "troff", mime: "text/troff", mode: "troff", ext: ["1", "2", "3", "4", "5", "6", "7", "8", "9"]},
+    {name: "TTCN", mime: "text/x-ttcn", mode: "ttcn", ext: ["ttcn", "ttcn3", "ttcnpp"]},
+    {name: "TTCN_CFG", mime: "text/x-ttcn-cfg", mode: "ttcn-cfg", ext: ["cfg"]},
+    {name: "Turtle", mime: "text/turtle", mode: "turtle", ext: ["ttl"]},
+    {name: "TypeScript", mime: "application/typescript", mode: "javascript", ext: ["ts"], alias: ["ts"]},
+    {name: "TypeScript-JSX", mime: "text/typescript-jsx", mode: "jsx", ext: ["tsx"], alias: ["tsx"]},
+    {name: "Twig", mime: "text/x-twig", mode: "twig"},
+    {name: "Web IDL", mime: "text/x-webidl", mode: "webidl", ext: ["webidl"]},
+    {name: "VB.NET", mime: "text/x-vb", mode: "vb", ext: ["vb"]},
+    {name: "VBScript", mime: "text/vbscript", mode: "vbscript", ext: ["vbs"]},
+    {name: "Velocity", mime: "text/velocity", mode: "velocity", ext: ["vtl"]},
+    {name: "Verilog", mime: "text/x-verilog", mode: "verilog", ext: ["v"]},
+    {name: "VHDL", mime: "text/x-vhdl", mode: "vhdl", ext: ["vhd", "vhdl"]},
+    {name: "Vue.js Component", mimes: ["script/x-vue", "text/x-vue"], mode: "vue", ext: ["vue"]},
+    {name: "XML", mimes: ["application/xml", "text/xml"], mode: "xml", ext: ["xml", "xsl", "xsd", "svg"], alias: ["rss", "wsdl", "xsd"]},
+    {name: "XQuery", mime: "application/xquery", mode: "xquery", ext: ["xy", "xquery"]},
+    {name: "Yacas", mime: "text/x-yacas", mode: "yacas", ext: ["ys"]},
+    {name: "YAML", mimes: ["text/x-yaml", "text/yaml"], mode: "yaml", ext: ["yaml", "yml"], alias: ["yml"]},
+    {name: "Z80", mime: "text/x-z80", mode: "z80", ext: ["z80"]},
+    {name: "mscgen", mime: "text/x-mscgen", mode: "mscgen", ext: ["mscgen", "mscin", "msc"]},
+    {name: "xu", mime: "text/x-xu", mode: "mscgen", ext: ["xu"]},
+    {name: "msgenny", mime: "text/x-msgenny", mode: "mscgen", ext: ["msgenny"]}
+  ];
+  // Ensure all modes have a mime property for backwards compatibility
+  for (var i = 0; i < CodeMirror.modeInfo.length; i++) {
+    var info = CodeMirror.modeInfo[i];
+    if (info.mimes) info.mime = info.mimes[0];
+  }
+
+  CodeMirror.findModeByMIME = function(mime) {
+    mime = mime.toLowerCase();
+    for (var i = 0; i < CodeMirror.modeInfo.length; i++) {
+      var info = CodeMirror.modeInfo[i];
+      if (info.mime == mime) return info;
+      if (info.mimes) for (var j = 0; j < info.mimes.length; j++)
+        if (info.mimes[j] == mime) return info;
+    }
+    if (/\+xml$/.test(mime)) return CodeMirror.findModeByMIME("application/xml")
+    if (/\+json$/.test(mime)) return CodeMirror.findModeByMIME("application/json")
+  };
+
+  CodeMirror.findModeByExtension = function(ext) {
+    for (var i = 0; i < CodeMirror.modeInfo.length; i++) {
+      var info = CodeMirror.modeInfo[i];
+      if (info.ext) for (var j = 0; j < info.ext.length; j++)
+        if (info.ext[j] == ext) return info;
+    }
+  };
+
+  CodeMirror.findModeByFileName = function(filename) {
+    for (var i = 0; i < CodeMirror.modeInfo.length; i++) {
+      var info = CodeMirror.modeInfo[i];
+      if (info.file && info.file.test(filename)) return info;
+    }
+    var dot = filename.lastIndexOf(".");
+    var ext = dot > -1 && filename.substring(dot + 1, filename.length);
+    if (ext) return CodeMirror.findModeByExtension(ext);
+  };
+
+  CodeMirror.findModeByName = function(name) {
+    name = name.toLowerCase();
+    for (var i = 0; i < CodeMirror.modeInfo.length; i++) {
+      var info = CodeMirror.modeInfo[i];
+      if (info.name.toLowerCase() == name) return info;
+      if (info.alias) for (var j = 0; j < info.alias.length; j++)
+        if (info.alias[j].toLowerCase() == name) return info;
+    }
+  };
+});
+
+
+/***/ }),
+/* 534 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// CodeMirror, copyright (c) by Marijn Haverbeke and others
+// Distributed under an MIT license: http://codemirror.net/LICENSE
+
+(function(mod) {
+  if (true) // CommonJS
+    mod(__webpack_require__(521));
+  else if (typeof define == "function" && define.amd) // AMD
+    define(["../../lib/codemirror"], mod);
+  else // Plain browser env
+    mod(CodeMirror);
+})(function(CodeMirror) {
+  "use strict";
+
+  var listRE = /^(\s*)(>[> ]*|[*+-] \[[x ]\]\s|[*+-]\s|(\d+)([.)]))(\s*)/,
+      emptyListRE = /^(\s*)(>[> ]*|[*+-] \[[x ]\]|[*+-]|(\d+)[.)])(\s*)$/,
+      unorderedListRE = /[*+-]\s/;
+
+  CodeMirror.commands.newlineAndIndentContinueMarkdownList = function(cm) {
+    if (cm.getOption("disableInput")) return CodeMirror.Pass;
+    var ranges = cm.listSelections(), replacements = [];
+    for (var i = 0; i < ranges.length; i++) {
+      var pos = ranges[i].head;
+      var eolState = cm.getStateAfter(pos.line);
+      var inList = eolState.list !== false;
+      var inQuote = eolState.quote !== 0;
+
+      var line = cm.getLine(pos.line), match = listRE.exec(line);
+      if (!ranges[i].empty() || (!inList && !inQuote) || !match) {
+        cm.execCommand("newlineAndIndent");
+        return;
+      }
+      if (emptyListRE.test(line)) {
+        if (!/>\s*$/.test(line)) cm.replaceRange("", {
+          line: pos.line, ch: 0
+        }, {
+          line: pos.line, ch: pos.ch + 1
+        });
+        replacements[i] = "\n";
+      } else {
+        var indent = match[1], after = match[5];
+        var bullet = unorderedListRE.test(match[2]) || match[2].indexOf(">") >= 0
+          ? match[2].replace("x", " ")
+          : (parseInt(match[3], 10) + 1) + match[4];
+
+        replacements[i] = "\n" + indent + bullet + after;
+      }
+    }
+
+    cm.replaceSelections(replacements);
+  };
+});
+
+
+/***/ }),
+/* 535 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(536);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(512)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js!./markdown.css", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js!./markdown.css");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 536 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(511)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".MDEditor_editor {\r\n  border: 1px solid #ccc;\r\n  border-radius: 4px;\r\n  overflow: hidden;\r\n  position: relative;\r\n}\r\n.MDEditor_toolbar {\r\n  margin-bottom: 4px;\r\n  margin-top: 4px;\r\n}\r\n.MDEditor_toolbarButton {\r\n  background: #eee;\r\n  border: 1px solid transparent;\r\n  border-radius: 4px;\r\n  cursor: pointer;\r\n  display: inline-block;\r\n  margin-right: 4px;\r\n  padding: 10px 0;\r\n  text-align: center;\r\n  vertical-align: middle;\r\n  width: 40px;\r\n  transition: all 180ms;\r\n  -webkit-transition: all 180ms;\r\n}\r\n.MDEditor_toolbarButton:hover,\r\n.MDEditor_toolbarButton:focus {\r\n  background-color: white;\r\n  border-color: rgba(0, 0, 0, 0.1);\r\n  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);\r\n  outline: none;\r\n  transition: none;\r\n  -webkit-transition: none;\r\n}\r\n.MDEditor_toolbarButton:active,\r\n.MDEditor_toolbarButton--pressed {\r\n  background-color: rgba(0, 0, 0, 0.15);\r\n  border-color: rgba(0, 0, 0, 0.1);\r\n  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);\r\n}\r\n.MDEditor_toolbarButton:active:hover,\r\n.MDEditor_toolbarButton--pressed:hover {\r\n  background: rgba(0, 0, 0, 0.2);\r\n}\r\n.MDEditor_toolbarButton_icon {\r\n  display: inline-block;\r\n  height: 16px;\r\n  width: 16px;\r\n}\r\n.MDEditor_toolbarButton_icon > svg {\r\n  height: 16px;\r\n  width: 16px;\r\n}\r\n.MDEditor_toolbarButton_label {\r\n  display: none;\r\n}\r\n.MDEditor_toolbarButton_label-icon {\r\n  display: inline-block;\r\n  font-size: 16px;\r\n  font-weight: bold;\r\n  line-height: .9;\r\n  height: 16px;\r\n  text-transform: uppercase;\r\n}\r\n/* BASICS */\r\n\r\n.CodeMirror {\r\n  /* Set height, width, borders, and global font properties here */\r\n  font-family: monospace;\r\n  height: 300px;\r\n  color: black;\r\n}\r\n\r\n/* PADDING */\r\n\r\n.CodeMirror-lines {\r\n  padding: 4px 0; /* Vertical padding around content */\r\n}\r\n.CodeMirror pre {\r\n  padding: 0 4px; /* Horizontal padding of content */\r\n}\r\n\r\n.CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {\r\n  background-color: white; /* The little square between H and V scrollbars */\r\n}\r\n\r\n/* GUTTER */\r\n\r\n.CodeMirror-gutters {\r\n  border-right: 1px solid #ddd;\r\n  background-color: #f7f7f7;\r\n  white-space: nowrap;\r\n}\r\n.CodeMirror-linenumbers {}\r\n.CodeMirror-linenumber {\r\n  padding: 0 3px 0 5px;\r\n  min-width: 20px;\r\n  text-align: right;\r\n  color: #999;\r\n  white-space: nowrap;\r\n}\r\n\r\n.CodeMirror-guttermarker { color: black; }\r\n.CodeMirror-guttermarker-subtle { color: #999; }\r\n\r\n/* CURSOR */\r\n\r\n.CodeMirror-cursor {\r\n  border-left: 1px solid black;\r\n  border-right: none;\r\n  width: 0;\r\n}\r\n/* Shown when moving in bi-directional text */\r\n.CodeMirror div.CodeMirror-secondarycursor {\r\n  border-left: 1px solid silver;\r\n}\r\n.cm-fat-cursor .CodeMirror-cursor {\r\n  width: auto;\r\n  border: 0 !important;\r\n  background: #7e7;\r\n}\r\n.cm-fat-cursor div.CodeMirror-cursors {\r\n  z-index: 1;\r\n}\r\n\r\n.cm-animate-fat-cursor {\r\n  width: auto;\r\n  border: 0;\r\n  -webkit-animation: blink 1.06s steps(1) infinite;\r\n  -moz-animation: blink 1.06s steps(1) infinite;\r\n  animation: blink 1.06s steps(1) infinite;\r\n  background-color: #7e7;\r\n}\r\n@-moz-keyframes blink {\r\n  0% {}\r\n  50% { background-color: transparent; }\r\n  100% {}\r\n}\r\n@-webkit-keyframes blink {\r\n  0% {}\r\n  50% { background-color: transparent; }\r\n  100% {}\r\n}\r\n@keyframes blink {\r\n  0% {}\r\n  50% { background-color: transparent; }\r\n  100% {}\r\n}\r\n\r\n/* Can style cursor different in overwrite (non-insert) mode */\r\n.CodeMirror-overwrite .CodeMirror-cursor {}\r\n\r\n.cm-tab { display: inline-block; text-decoration: inherit; }\r\n\r\n.CodeMirror-rulers {\r\n  position: absolute;\r\n  left: 0; right: 0; top: -50px; bottom: -20px;\r\n  overflow: hidden;\r\n}\r\n.CodeMirror-ruler {\r\n  border-left: 1px solid #ccc;\r\n  top: 0; bottom: 0;\r\n  position: absolute;\r\n}\r\n\r\n/* DEFAULT THEME */\r\n\r\n.cm-s-default .cm-header {color: blue;}\r\n.cm-s-default .cm-quote {color: #090;}\r\n.cm-negative {color: #d44;}\r\n.cm-positive {color: #292;}\r\n.cm-header, .cm-strong {font-weight: bold;}\r\n.cm-em {font-style: italic;}\r\n.cm-link {text-decoration: underline;}\r\n.cm-strikethrough {text-decoration: line-through;}\r\n\r\n.cm-s-default .cm-keyword {color: #708;}\r\n.cm-s-default .cm-atom {color: #219;}\r\n.cm-s-default .cm-number {color: #164;}\r\n.cm-s-default .cm-def {color: #00f;}\r\n.cm-s-default .cm-variable,\r\n.cm-s-default .cm-punctuation,\r\n.cm-s-default .cm-property,\r\n.cm-s-default .cm-operator {}\r\n.cm-s-default .cm-variable-2 {color: #05a;}\r\n.cm-s-default .cm-variable-3 {color: #085;}\r\n.cm-s-default .cm-comment {color: #a50;}\r\n.cm-s-default .cm-string {color: #a11;}\r\n.cm-s-default .cm-string-2 {color: #f50;}\r\n.cm-s-default .cm-meta {color: #555;}\r\n.cm-s-default .cm-qualifier {color: #555;}\r\n.cm-s-default .cm-builtin {color: #30a;}\r\n.cm-s-default .cm-bracket {color: #997;}\r\n.cm-s-default .cm-tag {color: #170;}\r\n.cm-s-default .cm-attribute {color: #00c;}\r\n.cm-s-default .cm-hr {color: #999;}\r\n.cm-s-default .cm-link {color: #00c;}\r\n\r\n.cm-s-default .cm-error {color: #f00;}\r\n.cm-invalidchar {color: #f00;}\r\n\r\n.CodeMirror-composing { border-bottom: 2px solid; }\r\n\r\n/* Default styles for common addons */\r\n\r\ndiv.CodeMirror span.CodeMirror-matchingbracket {color: #0f0;}\r\ndiv.CodeMirror span.CodeMirror-nonmatchingbracket {color: #f22;}\r\n.CodeMirror-matchingtag { background: rgba(255, 150, 0, .3); }\r\n.CodeMirror-activeline-background {background: #e8f2ff;}\r\n\r\n/* STOP */\r\n\r\n/* The rest of this file contains styles related to the mechanics of\r\n   the editor. You probably shouldn't touch them. */\r\n\r\n.CodeMirror {\r\n  position: relative;\r\n  overflow: hidden;\r\n  background: white;\r\n}\r\n\r\n.CodeMirror-scroll {\r\n  overflow: scroll !important; /* Things will break if this is overridden */\r\n  /* 30px is the magic margin used to hide the element's real scrollbars */\r\n  /* See overflow: hidden in .CodeMirror */\r\n  margin-bottom: -30px; margin-right: -30px;\r\n  padding-bottom: 30px;\r\n  height: 100%;\r\n  outline: none; /* Prevent dragging from highlighting the element */\r\n  position: relative;\r\n}\r\n.CodeMirror-sizer {\r\n  position: relative;\r\n  border-right: 30px solid transparent;\r\n}\r\n\r\n/* The fake, visible scrollbars. Used to force redraw during scrolling\r\n   before actual scrolling happens, thus preventing shaking and\r\n   flickering artifacts. */\r\n.CodeMirror-vscrollbar, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler {\r\n  position: absolute;\r\n  z-index: 6;\r\n  display: none;\r\n}\r\n.CodeMirror-vscrollbar {\r\n  right: 0; top: 0;\r\n  overflow-x: hidden;\r\n  overflow-y: scroll;\r\n}\r\n.CodeMirror-hscrollbar {\r\n  bottom: 0; left: 0;\r\n  overflow-y: hidden;\r\n  overflow-x: scroll;\r\n}\r\n.CodeMirror-scrollbar-filler {\r\n  right: 0; bottom: 0;\r\n}\r\n.CodeMirror-gutter-filler {\r\n  left: 0; bottom: 0;\r\n}\r\n\r\n.CodeMirror-gutters {\r\n  position: absolute; left: 0; top: 0;\r\n  min-height: 100%;\r\n  z-index: 3;\r\n}\r\n.CodeMirror-gutter {\r\n  white-space: normal;\r\n  height: 100%;\r\n  display: inline-block;\r\n  vertical-align: top;\r\n  margin-bottom: -30px;\r\n  /* Hack to make IE7 behave */\r\n  *zoom:1;\r\n  *display:inline;\r\n}\r\n.CodeMirror-gutter-wrapper {\r\n  position: absolute;\r\n  z-index: 4;\r\n  background: none !important;\r\n  border: none !important;\r\n}\r\n.CodeMirror-gutter-background {\r\n  position: absolute;\r\n  top: 0; bottom: 0;\r\n  z-index: 4;\r\n}\r\n.CodeMirror-gutter-elt {\r\n  position: absolute;\r\n  cursor: default;\r\n  z-index: 4;\r\n}\r\n.CodeMirror-gutter-wrapper {\r\n  -webkit-user-select: none;\r\n  -moz-user-select: none;\r\n  user-select: none;\r\n}\r\n\r\n.CodeMirror-lines {\r\n  cursor: text;\r\n  min-height: 1px; /* prevents collapsing before first draw */\r\n}\r\n.CodeMirror pre {\r\n  /* Reset some styles that the rest of the page might have set */\r\n  -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;\r\n  border-width: 0;\r\n  background: transparent;\r\n  font-family: inherit;\r\n  font-size: inherit;\r\n  margin: 0;\r\n  white-space: pre;\r\n  word-wrap: normal;\r\n  line-height: inherit;\r\n  color: inherit;\r\n  z-index: 2;\r\n  position: relative;\r\n  overflow: visible;\r\n  -webkit-tap-highlight-color: transparent;\r\n  -webkit-font-variant-ligatures: none;\r\n  font-variant-ligatures: none;\r\n}\r\n.CodeMirror-wrap pre {\r\n  word-wrap: break-word;\r\n  white-space: pre-wrap;\r\n  word-break: normal;\r\n}\r\n\r\n.CodeMirror-linebackground {\r\n  position: absolute;\r\n  left: 0; right: 0; top: 0; bottom: 0;\r\n  z-index: 0;\r\n}\r\n\r\n.CodeMirror-linewidget {\r\n  position: relative;\r\n  z-index: 2;\r\n  overflow: auto;\r\n}\r\n\r\n.CodeMirror-widget {}\r\n\r\n.CodeMirror-code {\r\n  outline: none;\r\n}\r\n\r\n/* Force content-box sizing for the elements where we expect it */\r\n.CodeMirror-scroll,\r\n.CodeMirror-sizer,\r\n.CodeMirror-gutter,\r\n.CodeMirror-gutters,\r\n.CodeMirror-linenumber {\r\n  -moz-box-sizing: content-box;\r\n  box-sizing: content-box;\r\n}\r\n\r\n.CodeMirror-measure {\r\n  position: absolute;\r\n  width: 100%;\r\n  height: 0;\r\n  overflow: hidden;\r\n  visibility: hidden;\r\n}\r\n\r\n.CodeMirror-cursor {\r\n  position: absolute;\r\n  pointer-events: none;\r\n}\r\n.CodeMirror-measure pre { position: static; }\r\n\r\ndiv.CodeMirror-cursors {\r\n  visibility: hidden;\r\n  position: relative;\r\n  z-index: 3;\r\n}\r\ndiv.CodeMirror-dragcursors {\r\n  visibility: visible;\r\n}\r\n\r\n.CodeMirror-focused div.CodeMirror-cursors {\r\n  visibility: visible;\r\n}\r\n\r\n.CodeMirror-selected { background: #d9d9d9; }\r\n.CodeMirror-focused .CodeMirror-selected { background: #d7d4f0; }\r\n.CodeMirror-crosshair { cursor: crosshair; }\r\n.CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection { background: #d7d4f0; }\r\n.CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection { background: #d7d4f0; }\r\n\r\n.cm-searching {\r\n  background: #ffa;\r\n  background: rgba(255, 255, 0, .4);\r\n}\r\n\r\n/* IE7 hack to prevent it from returning funny offsetTops on the spans */\r\n.CodeMirror span { *vertical-align: text-bottom; }\r\n\r\n/* Used to force a border model for a node */\r\n.cm-force-border { padding-right: .1px; }\r\n\r\n@media print {\r\n  /* Hide the cursor when printing */\r\n  .CodeMirror div.CodeMirror-cursors {\r\n    visibility: hidden;\r\n  }\r\n}\r\n\r\n/* See issue #2901 */\r\n.cm-tab-wrap-hack:after { content: ''; }\r\n\r\n/* Help users use markselection to safely style text background */\r\nspan.CodeMirror-selectedtext { background: none; }\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 537 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {/**
+ * marked - a markdown parser
+ * Copyright (c) 2011-2014, Christopher Jeffrey. (MIT Licensed)
+ * https://github.com/chjj/marked
+ */
+
+;(function() {
+
+/**
+ * Block-Level Grammar
+ */
+
+var block = {
+  newline: /^\n+/,
+  code: /^( {4}[^\n]+\n*)+/,
+  fences: noop,
+  hr: /^( *[-*_]){3,} *(?:\n+|$)/,
+  heading: /^ *(#{1,6}) *([^\n]+?) *#* *(?:\n+|$)/,
+  nptable: noop,
+  lheading: /^([^\n]+)\n *(=|-){2,} *(?:\n+|$)/,
+  blockquote: /^( *>[^\n]+(\n(?!def)[^\n]+)*\n*)+/,
+  list: /^( *)(bull) [\s\S]+?(?:hr|def|\n{2,}(?! )(?!\1bull )\n*|\s*$)/,
+  html: /^ *(?:comment *(?:\n|\s*$)|closed *(?:\n{2,}|\s*$)|closing *(?:\n{2,}|\s*$))/,
+  def: /^ *\[([^\]]+)\]: *<?([^\s>]+)>?(?: +["(]([^\n]+)[")])? *(?:\n+|$)/,
+  table: noop,
+  paragraph: /^((?:[^\n]+\n?(?!hr|heading|lheading|blockquote|tag|def))+)\n*/,
+  text: /^[^\n]+/
+};
+
+block.bullet = /(?:[*+-]|\d+\.)/;
+block.item = /^( *)(bull) [^\n]*(?:\n(?!\1bull )[^\n]*)*/;
+block.item = replace(block.item, 'gm')
+  (/bull/g, block.bullet)
+  ();
+
+block.list = replace(block.list)
+  (/bull/g, block.bullet)
+  ('hr', '\\n+(?=\\1?(?:[-*_] *){3,}(?:\\n+|$))')
+  ('def', '\\n+(?=' + block.def.source + ')')
+  ();
+
+block.blockquote = replace(block.blockquote)
+  ('def', block.def)
+  ();
+
+block._tag = '(?!(?:'
+  + 'a|em|strong|small|s|cite|q|dfn|abbr|data|time|code'
+  + '|var|samp|kbd|sub|sup|i|b|u|mark|ruby|rt|rp|bdi|bdo'
+  + '|span|br|wbr|ins|del|img)\\b)\\w+(?!:/|[^\\w\\s@]*@)\\b';
+
+block.html = replace(block.html)
+  ('comment', /<!--[\s\S]*?-->/)
+  ('closed', /<(tag)[\s\S]+?<\/\1>/)
+  ('closing', /<tag(?:"[^"]*"|'[^']*'|[^'">])*?>/)
+  (/tag/g, block._tag)
+  ();
+
+block.paragraph = replace(block.paragraph)
+  ('hr', block.hr)
+  ('heading', block.heading)
+  ('lheading', block.lheading)
+  ('blockquote', block.blockquote)
+  ('tag', '<' + block._tag)
+  ('def', block.def)
+  ();
+
+/**
+ * Normal Block Grammar
+ */
+
+block.normal = merge({}, block);
+
+/**
+ * GFM Block Grammar
+ */
+
+block.gfm = merge({}, block.normal, {
+  fences: /^ *(`{3,}|~{3,})[ \.]*(\S+)? *\n([\s\S]*?)\s*\1 *(?:\n+|$)/,
+  paragraph: /^/,
+  heading: /^ *(#{1,6}) +([^\n]+?) *#* *(?:\n+|$)/
+});
+
+block.gfm.paragraph = replace(block.paragraph)
+  ('(?!', '(?!'
+    + block.gfm.fences.source.replace('\\1', '\\2') + '|'
+    + block.list.source.replace('\\1', '\\3') + '|')
+  ();
+
+/**
+ * GFM + Tables Block Grammar
+ */
+
+block.tables = merge({}, block.gfm, {
+  nptable: /^ *(\S.*\|.*)\n *([-:]+ *\|[-| :]*)\n((?:.*\|.*(?:\n|$))*)\n*/,
+  table: /^ *\|(.+)\n *\|( *[-:]+[-| :]*)\n((?: *\|.*(?:\n|$))*)\n*/
+});
+
+/**
+ * Block Lexer
+ */
+
+function Lexer(options) {
+  this.tokens = [];
+  this.tokens.links = {};
+  this.options = options || marked.defaults;
+  this.rules = block.normal;
+
+  if (this.options.gfm) {
+    if (this.options.tables) {
+      this.rules = block.tables;
+    } else {
+      this.rules = block.gfm;
+    }
+  }
+}
+
+/**
+ * Expose Block Rules
+ */
+
+Lexer.rules = block;
+
+/**
+ * Static Lex Method
+ */
+
+Lexer.lex = function(src, options) {
+  var lexer = new Lexer(options);
+  return lexer.lex(src);
+};
+
+/**
+ * Preprocessing
+ */
+
+Lexer.prototype.lex = function(src) {
+  src = src
+    .replace(/\r\n|\r/g, '\n')
+    .replace(/\t/g, '    ')
+    .replace(/\u00a0/g, ' ')
+    .replace(/\u2424/g, '\n');
+
+  return this.token(src, true);
+};
+
+/**
+ * Lexing
+ */
+
+Lexer.prototype.token = function(src, top, bq) {
+  var src = src.replace(/^ +$/gm, '')
+    , next
+    , loose
+    , cap
+    , bull
+    , b
+    , item
+    , space
+    , i
+    , l;
+
+  while (src) {
+    // newline
+    if (cap = this.rules.newline.exec(src)) {
+      src = src.substring(cap[0].length);
+      if (cap[0].length > 1) {
+        this.tokens.push({
+          type: 'space'
+        });
+      }
+    }
+
+    // code
+    if (cap = this.rules.code.exec(src)) {
+      src = src.substring(cap[0].length);
+      cap = cap[0].replace(/^ {4}/gm, '');
+      this.tokens.push({
+        type: 'code',
+        text: !this.options.pedantic
+          ? cap.replace(/\n+$/, '')
+          : cap
+      });
+      continue;
+    }
+
+    // fences (gfm)
+    if (cap = this.rules.fences.exec(src)) {
+      src = src.substring(cap[0].length);
+      this.tokens.push({
+        type: 'code',
+        lang: cap[2],
+        text: cap[3] || ''
+      });
+      continue;
+    }
+
+    // heading
+    if (cap = this.rules.heading.exec(src)) {
+      src = src.substring(cap[0].length);
+      this.tokens.push({
+        type: 'heading',
+        depth: cap[1].length,
+        text: cap[2]
+      });
+      continue;
+    }
+
+    // table no leading pipe (gfm)
+    if (top && (cap = this.rules.nptable.exec(src))) {
+      src = src.substring(cap[0].length);
+
+      item = {
+        type: 'table',
+        header: cap[1].replace(/^ *| *\| *$/g, '').split(/ *\| */),
+        align: cap[2].replace(/^ *|\| *$/g, '').split(/ *\| */),
+        cells: cap[3].replace(/\n$/, '').split('\n')
+      };
+
+      for (i = 0; i < item.align.length; i++) {
+        if (/^ *-+: *$/.test(item.align[i])) {
+          item.align[i] = 'right';
+        } else if (/^ *:-+: *$/.test(item.align[i])) {
+          item.align[i] = 'center';
+        } else if (/^ *:-+ *$/.test(item.align[i])) {
+          item.align[i] = 'left';
+        } else {
+          item.align[i] = null;
+        }
+      }
+
+      for (i = 0; i < item.cells.length; i++) {
+        item.cells[i] = item.cells[i].split(/ *\| */);
+      }
+
+      this.tokens.push(item);
+
+      continue;
+    }
+
+    // lheading
+    if (cap = this.rules.lheading.exec(src)) {
+      src = src.substring(cap[0].length);
+      this.tokens.push({
+        type: 'heading',
+        depth: cap[2] === '=' ? 1 : 2,
+        text: cap[1]
+      });
+      continue;
+    }
+
+    // hr
+    if (cap = this.rules.hr.exec(src)) {
+      src = src.substring(cap[0].length);
+      this.tokens.push({
+        type: 'hr'
+      });
+      continue;
+    }
+
+    // blockquote
+    if (cap = this.rules.blockquote.exec(src)) {
+      src = src.substring(cap[0].length);
+
+      this.tokens.push({
+        type: 'blockquote_start'
+      });
+
+      cap = cap[0].replace(/^ *> ?/gm, '');
+
+      // Pass `top` to keep the current
+      // "toplevel" state. This is exactly
+      // how markdown.pl works.
+      this.token(cap, top, true);
+
+      this.tokens.push({
+        type: 'blockquote_end'
+      });
+
+      continue;
+    }
+
+    // list
+    if (cap = this.rules.list.exec(src)) {
+      src = src.substring(cap[0].length);
+      bull = cap[2];
+
+      this.tokens.push({
+        type: 'list_start',
+        ordered: bull.length > 1
+      });
+
+      // Get each top-level item.
+      cap = cap[0].match(this.rules.item);
+
+      next = false;
+      l = cap.length;
+      i = 0;
+
+      for (; i < l; i++) {
+        item = cap[i];
+
+        // Remove the list item's bullet
+        // so it is seen as the next token.
+        space = item.length;
+        item = item.replace(/^ *([*+-]|\d+\.) +/, '');
+
+        // Outdent whatever the
+        // list item contains. Hacky.
+        if (~item.indexOf('\n ')) {
+          space -= item.length;
+          item = !this.options.pedantic
+            ? item.replace(new RegExp('^ {1,' + space + '}', 'gm'), '')
+            : item.replace(/^ {1,4}/gm, '');
+        }
+
+        // Determine whether the next list item belongs here.
+        // Backpedal if it does not belong in this list.
+        if (this.options.smartLists && i !== l - 1) {
+          b = block.bullet.exec(cap[i + 1])[0];
+          if (bull !== b && !(bull.length > 1 && b.length > 1)) {
+            src = cap.slice(i + 1).join('\n') + src;
+            i = l - 1;
+          }
+        }
+
+        // Determine whether item is loose or not.
+        // Use: /(^|\n)(?! )[^\n]+\n\n(?!\s*$)/
+        // for discount behavior.
+        loose = next || /\n\n(?!\s*$)/.test(item);
+        if (i !== l - 1) {
+          next = item.charAt(item.length - 1) === '\n';
+          if (!loose) loose = next;
+        }
+
+        this.tokens.push({
+          type: loose
+            ? 'loose_item_start'
+            : 'list_item_start'
+        });
+
+        // Recurse.
+        this.token(item, false, bq);
+
+        this.tokens.push({
+          type: 'list_item_end'
+        });
+      }
+
+      this.tokens.push({
+        type: 'list_end'
+      });
+
+      continue;
+    }
+
+    // html
+    if (cap = this.rules.html.exec(src)) {
+      src = src.substring(cap[0].length);
+      this.tokens.push({
+        type: this.options.sanitize
+          ? 'paragraph'
+          : 'html',
+        pre: !this.options.sanitizer
+          && (cap[1] === 'pre' || cap[1] === 'script' || cap[1] === 'style'),
+        text: cap[0]
+      });
+      continue;
+    }
+
+    // def
+    if ((!bq && top) && (cap = this.rules.def.exec(src))) {
+      src = src.substring(cap[0].length);
+      this.tokens.links[cap[1].toLowerCase()] = {
+        href: cap[2],
+        title: cap[3]
+      };
+      continue;
+    }
+
+    // table (gfm)
+    if (top && (cap = this.rules.table.exec(src))) {
+      src = src.substring(cap[0].length);
+
+      item = {
+        type: 'table',
+        header: cap[1].replace(/^ *| *\| *$/g, '').split(/ *\| */),
+        align: cap[2].replace(/^ *|\| *$/g, '').split(/ *\| */),
+        cells: cap[3].replace(/(?: *\| *)?\n$/, '').split('\n')
+      };
+
+      for (i = 0; i < item.align.length; i++) {
+        if (/^ *-+: *$/.test(item.align[i])) {
+          item.align[i] = 'right';
+        } else if (/^ *:-+: *$/.test(item.align[i])) {
+          item.align[i] = 'center';
+        } else if (/^ *:-+ *$/.test(item.align[i])) {
+          item.align[i] = 'left';
+        } else {
+          item.align[i] = null;
+        }
+      }
+
+      for (i = 0; i < item.cells.length; i++) {
+        item.cells[i] = item.cells[i]
+          .replace(/^ *\| *| *\| *$/g, '')
+          .split(/ *\| */);
+      }
+
+      this.tokens.push(item);
+
+      continue;
+    }
+
+    // top-level paragraph
+    if (top && (cap = this.rules.paragraph.exec(src))) {
+      src = src.substring(cap[0].length);
+      this.tokens.push({
+        type: 'paragraph',
+        text: cap[1].charAt(cap[1].length - 1) === '\n'
+          ? cap[1].slice(0, -1)
+          : cap[1]
+      });
+      continue;
+    }
+
+    // text
+    if (cap = this.rules.text.exec(src)) {
+      // Top-level should never reach here.
+      src = src.substring(cap[0].length);
+      this.tokens.push({
+        type: 'text',
+        text: cap[0]
+      });
+      continue;
+    }
+
+    if (src) {
+      throw new
+        Error('Infinite loop on byte: ' + src.charCodeAt(0));
+    }
+  }
+
+  return this.tokens;
+};
+
+/**
+ * Inline-Level Grammar
+ */
+
+var inline = {
+  escape: /^\\([\\`*{}\[\]()#+\-.!_>])/,
+  autolink: /^<([^ >]+(@|:\/)[^ >]+)>/,
+  url: noop,
+  tag: /^<!--[\s\S]*?-->|^<\/?\w+(?:"[^"]*"|'[^']*'|[^'">])*?>/,
+  link: /^!?\[(inside)\]\(href\)/,
+  reflink: /^!?\[(inside)\]\s*\[([^\]]*)\]/,
+  nolink: /^!?\[((?:\[[^\]]*\]|[^\[\]])*)\]/,
+  strong: /^__([\s\S]+?)__(?!_)|^\*\*([\s\S]+?)\*\*(?!\*)/,
+  em: /^\b_((?:[^_]|__)+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,
+  code: /^(`+)\s*([\s\S]*?[^`])\s*\1(?!`)/,
+  br: /^ {2,}\n(?!\s*$)/,
+  del: noop,
+  text: /^[\s\S]+?(?=[\\<!\[_*`]| {2,}\n|$)/
+};
+
+inline._inside = /(?:\[[^\]]*\]|[^\[\]]|\](?=[^\[]*\]))*/;
+inline._href = /\s*<?([\s\S]*?)>?(?:\s+['"]([\s\S]*?)['"])?\s*/;
+
+inline.link = replace(inline.link)
+  ('inside', inline._inside)
+  ('href', inline._href)
+  ();
+
+inline.reflink = replace(inline.reflink)
+  ('inside', inline._inside)
+  ();
+
+/**
+ * Normal Inline Grammar
+ */
+
+inline.normal = merge({}, inline);
+
+/**
+ * Pedantic Inline Grammar
+ */
+
+inline.pedantic = merge({}, inline.normal, {
+  strong: /^__(?=\S)([\s\S]*?\S)__(?!_)|^\*\*(?=\S)([\s\S]*?\S)\*\*(?!\*)/,
+  em: /^_(?=\S)([\s\S]*?\S)_(?!_)|^\*(?=\S)([\s\S]*?\S)\*(?!\*)/
+});
+
+/**
+ * GFM Inline Grammar
+ */
+
+inline.gfm = merge({}, inline.normal, {
+  escape: replace(inline.escape)('])', '~|])')(),
+  url: /^(https?:\/\/[^\s<]+[^<.,:;"')\]\s])/,
+  del: /^~~(?=\S)([\s\S]*?\S)~~/,
+  text: replace(inline.text)
+    (']|', '~]|')
+    ('|', '|https?://|')
+    ()
+});
+
+/**
+ * GFM + Line Breaks Inline Grammar
+ */
+
+inline.breaks = merge({}, inline.gfm, {
+  br: replace(inline.br)('{2,}', '*')(),
+  text: replace(inline.gfm.text)('{2,}', '*')()
+});
+
+/**
+ * Inline Lexer & Compiler
+ */
+
+function InlineLexer(links, options) {
+  this.options = options || marked.defaults;
+  this.links = links;
+  this.rules = inline.normal;
+  this.renderer = this.options.renderer || new Renderer;
+  this.renderer.options = this.options;
+
+  if (!this.links) {
+    throw new
+      Error('Tokens array requires a `links` property.');
+  }
+
+  if (this.options.gfm) {
+    if (this.options.breaks) {
+      this.rules = inline.breaks;
+    } else {
+      this.rules = inline.gfm;
+    }
+  } else if (this.options.pedantic) {
+    this.rules = inline.pedantic;
+  }
+}
+
+/**
+ * Expose Inline Rules
+ */
+
+InlineLexer.rules = inline;
+
+/**
+ * Static Lexing/Compiling Method
+ */
+
+InlineLexer.output = function(src, links, options) {
+  var inline = new InlineLexer(links, options);
+  return inline.output(src);
+};
+
+/**
+ * Lexing/Compiling
+ */
+
+InlineLexer.prototype.output = function(src) {
+  var out = ''
+    , link
+    , text
+    , href
+    , cap;
+
+  while (src) {
+    // escape
+    if (cap = this.rules.escape.exec(src)) {
+      src = src.substring(cap[0].length);
+      out += cap[1];
+      continue;
+    }
+
+    // autolink
+    if (cap = this.rules.autolink.exec(src)) {
+      src = src.substring(cap[0].length);
+      if (cap[2] === '@') {
+        text = cap[1].charAt(6) === ':'
+          ? this.mangle(cap[1].substring(7))
+          : this.mangle(cap[1]);
+        href = this.mangle('mailto:') + text;
+      } else {
+        text = escape(cap[1]);
+        href = text;
+      }
+      out += this.renderer.link(href, null, text);
+      continue;
+    }
+
+    // url (gfm)
+    if (!this.inLink && (cap = this.rules.url.exec(src))) {
+      src = src.substring(cap[0].length);
+      text = escape(cap[1]);
+      href = text;
+      out += this.renderer.link(href, null, text);
+      continue;
+    }
+
+    // tag
+    if (cap = this.rules.tag.exec(src)) {
+      if (!this.inLink && /^<a /i.test(cap[0])) {
+        this.inLink = true;
+      } else if (this.inLink && /^<\/a>/i.test(cap[0])) {
+        this.inLink = false;
+      }
+      src = src.substring(cap[0].length);
+      out += this.options.sanitize
+        ? this.options.sanitizer
+          ? this.options.sanitizer(cap[0])
+          : escape(cap[0])
+        : cap[0]
+      continue;
+    }
+
+    // link
+    if (cap = this.rules.link.exec(src)) {
+      src = src.substring(cap[0].length);
+      this.inLink = true;
+      out += this.outputLink(cap, {
+        href: cap[2],
+        title: cap[3]
+      });
+      this.inLink = false;
+      continue;
+    }
+
+    // reflink, nolink
+    if ((cap = this.rules.reflink.exec(src))
+        || (cap = this.rules.nolink.exec(src))) {
+      src = src.substring(cap[0].length);
+      link = (cap[2] || cap[1]).replace(/\s+/g, ' ');
+      link = this.links[link.toLowerCase()];
+      if (!link || !link.href) {
+        out += cap[0].charAt(0);
+        src = cap[0].substring(1) + src;
+        continue;
+      }
+      this.inLink = true;
+      out += this.outputLink(cap, link);
+      this.inLink = false;
+      continue;
+    }
+
+    // strong
+    if (cap = this.rules.strong.exec(src)) {
+      src = src.substring(cap[0].length);
+      out += this.renderer.strong(this.output(cap[2] || cap[1]));
+      continue;
+    }
+
+    // em
+    if (cap = this.rules.em.exec(src)) {
+      src = src.substring(cap[0].length);
+      out += this.renderer.em(this.output(cap[2] || cap[1]));
+      continue;
+    }
+
+    // code
+    if (cap = this.rules.code.exec(src)) {
+      src = src.substring(cap[0].length);
+      out += this.renderer.codespan(escape(cap[2], true));
+      continue;
+    }
+
+    // br
+    if (cap = this.rules.br.exec(src)) {
+      src = src.substring(cap[0].length);
+      out += this.renderer.br();
+      continue;
+    }
+
+    // del (gfm)
+    if (cap = this.rules.del.exec(src)) {
+      src = src.substring(cap[0].length);
+      out += this.renderer.del(this.output(cap[1]));
+      continue;
+    }
+
+    // text
+    if (cap = this.rules.text.exec(src)) {
+      src = src.substring(cap[0].length);
+      out += this.renderer.text(escape(this.smartypants(cap[0])));
+      continue;
+    }
+
+    if (src) {
+      throw new
+        Error('Infinite loop on byte: ' + src.charCodeAt(0));
+    }
+  }
+
+  return out;
+};
+
+/**
+ * Compile Link
+ */
+
+InlineLexer.prototype.outputLink = function(cap, link) {
+  var href = escape(link.href)
+    , title = link.title ? escape(link.title) : null;
+
+  return cap[0].charAt(0) !== '!'
+    ? this.renderer.link(href, title, this.output(cap[1]))
+    : this.renderer.image(href, title, escape(cap[1]));
+};
+
+/**
+ * Smartypants Transformations
+ */
+
+InlineLexer.prototype.smartypants = function(text) {
+  if (!this.options.smartypants) return text;
+  return text
+    // em-dashes
+    .replace(/---/g, '\u2014')
+    // en-dashes
+    .replace(/--/g, '\u2013')
+    // opening singles
+    .replace(/(^|[-\u2014/(\[{"\s])'/g, '$1\u2018')
+    // closing singles & apostrophes
+    .replace(/'/g, '\u2019')
+    // opening doubles
+    .replace(/(^|[-\u2014/(\[{\u2018\s])"/g, '$1\u201c')
+    // closing doubles
+    .replace(/"/g, '\u201d')
+    // ellipses
+    .replace(/\.{3}/g, '\u2026');
+};
+
+/**
+ * Mangle Links
+ */
+
+InlineLexer.prototype.mangle = function(text) {
+  if (!this.options.mangle) return text;
+  var out = ''
+    , l = text.length
+    , i = 0
+    , ch;
+
+  for (; i < l; i++) {
+    ch = text.charCodeAt(i);
+    if (Math.random() > 0.5) {
+      ch = 'x' + ch.toString(16);
+    }
+    out += '&#' + ch + ';';
+  }
+
+  return out;
+};
+
+/**
+ * Renderer
+ */
+
+function Renderer(options) {
+  this.options = options || {};
+}
+
+Renderer.prototype.code = function(code, lang, escaped) {
+  if (this.options.highlight) {
+    var out = this.options.highlight(code, lang);
+    if (out != null && out !== code) {
+      escaped = true;
+      code = out;
+    }
+  }
+
+  if (!lang) {
+    return '<pre><code>'
+      + (escaped ? code : escape(code, true))
+      + '\n</code></pre>';
+  }
+
+  return '<pre><code class="'
+    + this.options.langPrefix
+    + escape(lang, true)
+    + '">'
+    + (escaped ? code : escape(code, true))
+    + '\n</code></pre>\n';
+};
+
+Renderer.prototype.blockquote = function(quote) {
+  return '<blockquote>\n' + quote + '</blockquote>\n';
+};
+
+Renderer.prototype.html = function(html) {
+  return html;
+};
+
+Renderer.prototype.heading = function(text, level, raw) {
+  return '<h'
+    + level
+    + ' id="'
+    + this.options.headerPrefix
+    + raw.toLowerCase().replace(/[^\w]+/g, '-')
+    + '">'
+    + text
+    + '</h'
+    + level
+    + '>\n';
+};
+
+Renderer.prototype.hr = function() {
+  return this.options.xhtml ? '<hr/>\n' : '<hr>\n';
+};
+
+Renderer.prototype.list = function(body, ordered) {
+  var type = ordered ? 'ol' : 'ul';
+  return '<' + type + '>\n' + body + '</' + type + '>\n';
+};
+
+Renderer.prototype.listitem = function(text) {
+  return '<li>' + text + '</li>\n';
+};
+
+Renderer.prototype.paragraph = function(text) {
+  return '<p>' + text + '</p>\n';
+};
+
+Renderer.prototype.table = function(header, body) {
+  return '<table>\n'
+    + '<thead>\n'
+    + header
+    + '</thead>\n'
+    + '<tbody>\n'
+    + body
+    + '</tbody>\n'
+    + '</table>\n';
+};
+
+Renderer.prototype.tablerow = function(content) {
+  return '<tr>\n' + content + '</tr>\n';
+};
+
+Renderer.prototype.tablecell = function(content, flags) {
+  var type = flags.header ? 'th' : 'td';
+  var tag = flags.align
+    ? '<' + type + ' style="text-align:' + flags.align + '">'
+    : '<' + type + '>';
+  return tag + content + '</' + type + '>\n';
+};
+
+// span level renderer
+Renderer.prototype.strong = function(text) {
+  return '<strong>' + text + '</strong>';
+};
+
+Renderer.prototype.em = function(text) {
+  return '<em>' + text + '</em>';
+};
+
+Renderer.prototype.codespan = function(text) {
+  return '<code>' + text + '</code>';
+};
+
+Renderer.prototype.br = function() {
+  return this.options.xhtml ? '<br/>' : '<br>';
+};
+
+Renderer.prototype.del = function(text) {
+  return '<del>' + text + '</del>';
+};
+
+Renderer.prototype.link = function(href, title, text) {
+  if (this.options.sanitize) {
+    try {
+      var prot = decodeURIComponent(unescape(href))
+        .replace(/[^\w:]/g, '')
+        .toLowerCase();
+    } catch (e) {
+      return '';
+    }
+    if (prot.indexOf('javascript:') === 0 || prot.indexOf('vbscript:') === 0) {
+      return '';
+    }
+  }
+  var out = '<a href="' + href + '"';
+  if (title) {
+    out += ' title="' + title + '"';
+  }
+  out += '>' + text + '</a>';
+  return out;
+};
+
+Renderer.prototype.image = function(href, title, text) {
+  var out = '<img src="' + href + '" alt="' + text + '"';
+  if (title) {
+    out += ' title="' + title + '"';
+  }
+  out += this.options.xhtml ? '/>' : '>';
+  return out;
+};
+
+Renderer.prototype.text = function(text) {
+  return text;
+};
+
+/**
+ * Parsing & Compiling
+ */
+
+function Parser(options) {
+  this.tokens = [];
+  this.token = null;
+  this.options = options || marked.defaults;
+  this.options.renderer = this.options.renderer || new Renderer;
+  this.renderer = this.options.renderer;
+  this.renderer.options = this.options;
+}
+
+/**
+ * Static Parse Method
+ */
+
+Parser.parse = function(src, options, renderer) {
+  var parser = new Parser(options, renderer);
+  return parser.parse(src);
+};
+
+/**
+ * Parse Loop
+ */
+
+Parser.prototype.parse = function(src) {
+  this.inline = new InlineLexer(src.links, this.options, this.renderer);
+  this.tokens = src.reverse();
+
+  var out = '';
+  while (this.next()) {
+    out += this.tok();
+  }
+
+  return out;
+};
+
+/**
+ * Next Token
+ */
+
+Parser.prototype.next = function() {
+  return this.token = this.tokens.pop();
+};
+
+/**
+ * Preview Next Token
+ */
+
+Parser.prototype.peek = function() {
+  return this.tokens[this.tokens.length - 1] || 0;
+};
+
+/**
+ * Parse Text Tokens
+ */
+
+Parser.prototype.parseText = function() {
+  var body = this.token.text;
+
+  while (this.peek().type === 'text') {
+    body += '\n' + this.next().text;
+  }
+
+  return this.inline.output(body);
+};
+
+/**
+ * Parse Current Token
+ */
+
+Parser.prototype.tok = function() {
+  switch (this.token.type) {
+    case 'space': {
+      return '';
+    }
+    case 'hr': {
+      return this.renderer.hr();
+    }
+    case 'heading': {
+      return this.renderer.heading(
+        this.inline.output(this.token.text),
+        this.token.depth,
+        this.token.text);
+    }
+    case 'code': {
+      return this.renderer.code(this.token.text,
+        this.token.lang,
+        this.token.escaped);
+    }
+    case 'table': {
+      var header = ''
+        , body = ''
+        , i
+        , row
+        , cell
+        , flags
+        , j;
+
+      // header
+      cell = '';
+      for (i = 0; i < this.token.header.length; i++) {
+        flags = { header: true, align: this.token.align[i] };
+        cell += this.renderer.tablecell(
+          this.inline.output(this.token.header[i]),
+          { header: true, align: this.token.align[i] }
+        );
+      }
+      header += this.renderer.tablerow(cell);
+
+      for (i = 0; i < this.token.cells.length; i++) {
+        row = this.token.cells[i];
+
+        cell = '';
+        for (j = 0; j < row.length; j++) {
+          cell += this.renderer.tablecell(
+            this.inline.output(row[j]),
+            { header: false, align: this.token.align[j] }
+          );
+        }
+
+        body += this.renderer.tablerow(cell);
+      }
+      return this.renderer.table(header, body);
+    }
+    case 'blockquote_start': {
+      var body = '';
+
+      while (this.next().type !== 'blockquote_end') {
+        body += this.tok();
+      }
+
+      return this.renderer.blockquote(body);
+    }
+    case 'list_start': {
+      var body = ''
+        , ordered = this.token.ordered;
+
+      while (this.next().type !== 'list_end') {
+        body += this.tok();
+      }
+
+      return this.renderer.list(body, ordered);
+    }
+    case 'list_item_start': {
+      var body = '';
+
+      while (this.next().type !== 'list_item_end') {
+        body += this.token.type === 'text'
+          ? this.parseText()
+          : this.tok();
+      }
+
+      return this.renderer.listitem(body);
+    }
+    case 'loose_item_start': {
+      var body = '';
+
+      while (this.next().type !== 'list_item_end') {
+        body += this.tok();
+      }
+
+      return this.renderer.listitem(body);
+    }
+    case 'html': {
+      var html = !this.token.pre && !this.options.pedantic
+        ? this.inline.output(this.token.text)
+        : this.token.text;
+      return this.renderer.html(html);
+    }
+    case 'paragraph': {
+      return this.renderer.paragraph(this.inline.output(this.token.text));
+    }
+    case 'text': {
+      return this.renderer.paragraph(this.parseText());
+    }
+  }
+};
+
+/**
+ * Helpers
+ */
+
+function escape(html, encode) {
+  return html
+    .replace(!encode ? /&(?!#?\w+;)/g : /&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function unescape(html) {
+	// explicitly match decimal, hex, and named HTML entities 
+  return html.replace(/&(#(?:\d+)|(?:#x[0-9A-Fa-f]+)|(?:\w+));?/g, function(_, n) {
+    n = n.toLowerCase();
+    if (n === 'colon') return ':';
+    if (n.charAt(0) === '#') {
+      return n.charAt(1) === 'x'
+        ? String.fromCharCode(parseInt(n.substring(2), 16))
+        : String.fromCharCode(+n.substring(1));
+    }
+    return '';
+  });
+}
+
+function replace(regex, opt) {
+  regex = regex.source;
+  opt = opt || '';
+  return function self(name, val) {
+    if (!name) return new RegExp(regex, opt);
+    val = val.source || val;
+    val = val.replace(/(^|[^\[])\^/g, '$1');
+    regex = regex.replace(name, val);
+    return self;
+  };
+}
+
+function noop() {}
+noop.exec = noop;
+
+function merge(obj) {
+  var i = 1
+    , target
+    , key;
+
+  for (; i < arguments.length; i++) {
+    target = arguments[i];
+    for (key in target) {
+      if (Object.prototype.hasOwnProperty.call(target, key)) {
+        obj[key] = target[key];
+      }
+    }
+  }
+
+  return obj;
+}
+
+
+/**
+ * Marked
+ */
+
+function marked(src, opt, callback) {
+  if (callback || typeof opt === 'function') {
+    if (!callback) {
+      callback = opt;
+      opt = null;
+    }
+
+    opt = merge({}, marked.defaults, opt || {});
+
+    var highlight = opt.highlight
+      , tokens
+      , pending
+      , i = 0;
+
+    try {
+      tokens = Lexer.lex(src, opt)
+    } catch (e) {
+      return callback(e);
+    }
+
+    pending = tokens.length;
+
+    var done = function(err) {
+      if (err) {
+        opt.highlight = highlight;
+        return callback(err);
+      }
+
+      var out;
+
+      try {
+        out = Parser.parse(tokens, opt);
+      } catch (e) {
+        err = e;
+      }
+
+      opt.highlight = highlight;
+
+      return err
+        ? callback(err)
+        : callback(null, out);
+    };
+
+    if (!highlight || highlight.length < 3) {
+      return done();
+    }
+
+    delete opt.highlight;
+
+    if (!pending) return done();
+
+    for (; i < tokens.length; i++) {
+      (function(token) {
+        if (token.type !== 'code') {
+          return --pending || done();
+        }
+        return highlight(token.text, token.lang, function(err, code) {
+          if (err) return done(err);
+          if (code == null || code === token.text) {
+            return --pending || done();
+          }
+          token.text = code;
+          token.escaped = true;
+          --pending || done();
+        });
+      })(tokens[i]);
+    }
+
+    return;
+  }
+  try {
+    if (opt) opt = merge({}, marked.defaults, opt);
+    return Parser.parse(Lexer.lex(src, opt), opt);
+  } catch (e) {
+    e.message += '\nPlease report this to https://github.com/chjj/marked.';
+    if ((opt || marked.defaults).silent) {
+      return '<p>An error occured:</p><pre>'
+        + escape(e.message + '', true)
+        + '</pre>';
+    }
+    throw e;
+  }
+}
+
+/**
+ * Options
+ */
+
+marked.options =
+marked.setOptions = function(opt) {
+  merge(marked.defaults, opt);
+  return marked;
+};
+
+marked.defaults = {
+  gfm: true,
+  tables: true,
+  breaks: false,
+  pedantic: false,
+  sanitize: false,
+  sanitizer: null,
+  mangle: true,
+  smartLists: false,
+  silent: false,
+  highlight: null,
+  langPrefix: 'lang-',
+  smartypants: false,
+  headerPrefix: '',
+  renderer: new Renderer,
+  xhtml: false
+};
+
+/**
+ * Expose
+ */
+
+marked.Parser = Parser;
+marked.parser = Parser.parse;
+
+marked.Renderer = Renderer;
+
+marked.Lexer = Lexer;
+marked.lexer = Lexer.lex;
+
+marked.InlineLexer = InlineLexer;
+marked.inlineLexer = InlineLexer.output;
+
+marked.parse = marked;
+
+if (true) {
+  module.exports = marked;
+} else if (typeof define === 'function' && define.amd) {
+  define(function() { return marked; });
+} else {
+  this.marked = marked;
+}
+
+}).call(function() {
+  return this || (typeof window !== 'undefined' ? window : global);
+}());
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(538)))
+
+/***/ }),
+/* 538 */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1,eval)("this");
+} catch(e) {
+	// This works if the window reference is available
+	if(typeof window === "object")
+		g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
 
 /***/ })
 /******/ ]);

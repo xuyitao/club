@@ -4,6 +4,8 @@ import UserAction from'../actions/UserAction'
 import UserStore from'../stores/UserStore'
 import {Route, Link} from 'react-router-dom'
 import Config from '../../../../config'
+import SiginInNav from './nav/SiginInNav'
+import TopicEditNav from './nav/TopicEditNav'
 
 export default class RightNav extends React.Component{
   constructor(props) {
@@ -38,28 +40,15 @@ export default class RightNav extends React.Component{
     // );
     return (
         <div>
-            <Route exact path="/" component={SiginIn}/>
-            <Route path="/home" component={SiginIn}/>
-            <Route path="/about" component={SiginIn}/>
-            <Route path="/siginin" component={SiginIn}/>
+            <Route exact path="/" component={TopicEditNav}/>
+            <Route path="/home" component={SiginInNav}/>
+            <Route path="/about" component={SiginInNav}/>
+            <Route path="/siginin" component={SiginInNav}/>
+            <Route path="/topicedit" component={TopicEditNav}/>
         </div>
     )
   }
 }
-
-const SiginIn = () => (
-    <Panel header="关于" style={{marginTop:20}}>
-        <p>{Config.description}</p>
-
-        <p>在这里你可以：</p>
-        <ul>
-            <li>向别人提出你遇到的问题</li>
-            <li>帮助遇到问题的人</li>
-            <li>分享自己的知识</li>
-            <li>和其它人一起进步</li>
-        </ul>
-    </Panel>
-)
 
 const About = () => (
   <div>

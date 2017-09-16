@@ -42,31 +42,6 @@ var UserActions = {
     });
   },
 
-  loginin:function (name, password) {
-    if (name && password) {
-        this.ajaxPost("/user/login",JSON.stringify({username:name, password:password}),
-          function(itemData,status,xhr){
-            AppDispatcher.dispatch({
-              actionType: UserConstants.LOGIN_IN,
-              isSus: true,
-              name:itemData['name'],
-              role:itemData['role'],
-              tkacc:itemData['tkacc'],
-              tkpid:itemData['tkpid']
-            });
-          }, function(xhr, status,err){
-             AppDispatcher.dispatch({
-               actionType: UserConstants.LOGIN_IN,
-               isSus: false,
-               errmsg:'login in fail err='+err.message
-             });
-          });
-    }
-    else {
-        this.notify('params cannot empty.');
-    }
-  },
-
   loginInvaild: function() {
     AppDispatcher.dispatch({
       actionType: UserConstants.LOGIN_INVAILD
@@ -104,21 +79,20 @@ var UserActions = {
       contentType: "application/json; charset=utf-8",
       dataType: "json",
       success: function(itemData,status,xhr) {
-        if (itemData['result'] == 0) {
-          if(funcSus) funcSus(itemData,status,xhr);
+        if (itemData.error) {
+           if(funcError) funcError(xhr, status, itemData.error);
         } else {
-          if(funcError) funcError(xhr, status,new Error(itemData['message']));
+           if(funcSus) funcSus(itemData.result,status,xhr);
         }
       }.bind(this),
       error: function(xhr, status,err){
         if(xhr.status == 401) {
           this.loginInvaild();
         } else {
-          if(funcError) {
-            funcError(xhr, status,err);
-          } else {
-            // this.notify('Error Message='+err.message);
-          }
+            this.notify('Error status ='+status);
+            if(funcError) {
+                funcError(xhr, status,err);
+            }
         }
       }.bind(this)
     });
@@ -134,7 +108,7 @@ var UserActions = {
         if (itemData['result'] == 0) {
           if(funcSus) funcSus(itemData,status,xhr);
         } else {
-          if(funcError) funcError(xhr, status,new Error(itemData['message']));
+          if(funcError) funcError(xhr, status, itemData['message']);
         }
       }.bind(this),
       error: function(xhr, status,err){
