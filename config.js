@@ -11,10 +11,10 @@ module.exports = {
 	create_user_per_ip: 10,
 	visit_per_day: 10, // 每个 ip 每天能访问的次数
 
-	// redis: {
-	// 	host: '127.0.0.1',
-	// 	port: 6379,
-	// 	// db: '',
-	// 	// password: '',
-	// }
+	redis: {
+		host: '127.0.0.1',
+		port: 6379,
+		// db: '',
+		// password: '',
+	}
 }
