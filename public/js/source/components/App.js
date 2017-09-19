@@ -16,7 +16,9 @@ export default class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = UserStore.getUser();
+    this.state = {
+        user:UserStore.getUser()
+    }
   }
 
   _onChange() {
@@ -37,8 +39,8 @@ export default class App extends React.Component {
   }
   componentDidMount () {
     this._notificationSystem = this.refs.notificationSystem;
-    if(UserStore.isRem()) {
-      UserAction.isVerify();
+    if(this.state.user) {
+        UserAction.isVerify();
     }
   }
   _addNotification() {
@@ -76,7 +78,7 @@ export default class App extends React.Component {
                             <NavItem eventKey={3.0}>API</NavItem>
                         </LinkContainer>
                         <LinkContainer to="/siginin">
-                            <NavItem eventKey={3.0}>注册</NavItem>
+                            <NavItem eventKey={3.0}>登陆</NavItem>
                         </LinkContainer>
 
                     </Nav>

@@ -6,20 +6,20 @@ import App from './components/App';
 
 
 function requireAuth(nextState, replace) {
-  // console.log('user_u.loggedIn()='+user_u.loggedIn());
-  // if (!UserStore.isLogin()) {
-  //   replace({
-  //     pathname: '/login',
-  //     state: { nextPathname: nextState.location.pathname }
-  //   })
-  // }
+  console.log('user_u.loggedIn()='+user_u.loggedIn());
+  if (!UserStore.isLogin()) {
+    replace({
+      pathname: '/login',
+      state: { nextPathname: nextState.location.pathname }
+    })
+  }
 }
 
 function routerChanged(e, d){
-    // if ( (e['location']['action'] == 'PUSH' || e['location']['action'] == 'REPALCE' )&& e['location']['pathname'] == '/createItem'){
-    //     var myCustomEvent = new Event('createItemActivated');
-    //     document.dispatchEvent(myCustomEvent);
-    // }
+    if ( (e['location']['action'] == 'PUSH' || e['location']['action'] == 'REPALCE' )&& e['location']['pathname'] == '/createItem'){
+        var myCustomEvent = new Event('createItemActivated');
+        document.dispatchEvent(myCustomEvent);
+    }
 }
 
 const Home = () => (

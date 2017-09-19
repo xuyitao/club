@@ -26,10 +26,10 @@ var UserActions = {
   },
 
   isVerify: function() {
-    this.ajaxPost("/tkacc/verify",null, function(itemData,status,xhr){
+    this.ajaxPost("/verify",null, function(result,status,xhr){
       AppDispatcher.dispatch({
         actionType: UserConstants.LOGIN_VERIFY,
-        isSus:true
+        isVerify:result
       });
     });
   },
@@ -41,13 +41,22 @@ var UserActions = {
       isSus:true
     });
   },
+  login:function (name, pass, msgCb) {
+      this.ajaxPost("/signin",JSON.stringify({username:name, password:pass}),
+        function(result,status,xhr){
+            if(result.error) {
+                if(msgCb) msgCb(error);
+            } else {
+                AppDispatcher.dispatch({
+                  actionType: UserConstants.LOGIN_IN,
+                  user:result
+                });
+            }
 
-  loginInvaild: function() {
-    AppDispatcher.dispatch({
-      actionType: UserConstants.LOGIN_INVAILD
-    });
+        }.bind(this), function(xhr, status,err){
+            if(msgCb) msgCb(err.toString());
+      }.bind(this));
   },
-
   changePwd: function(prepwd, curpwd){
       if (prepwd && curpwd) {
           this.ajaxPost("/user/changepwd",JSON.stringify({pre:prepwd, cur:curpwd}),

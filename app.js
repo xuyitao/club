@@ -31,12 +31,19 @@ app.enable('trust proxy');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(AV.Cloud.CookieSession({ secret: 'taokemsg-secret', maxAge: 3600000*24*30, fetchUser: true }));
+
 
 app.get('/', function(req, res) {
   res.render('index', { currentTime: new Date() });
 });
 
 app.use('/', require('./web_router'));
+
+
+app.get('*', function (req, res){
+  res.render('index', { currentTime: new Date() });
+})
 
 
 app.use(function(req, res, next) {

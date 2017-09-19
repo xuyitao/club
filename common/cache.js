@@ -16,6 +16,3 @@ exports.set = function (key, value, time) {
 	if(value) value = JSON.stringify(value)
 	return redis.set(key, value,time);
 }
-
-this.set('testkey', 100);
-this.get('testkey').then(console.log);

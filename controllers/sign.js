@@ -1,6 +1,7 @@
 
 var AV = require('leanengine'),
 	comFunc = require('../common'),
+	debug = require('debug')('controller:sign'),
 	validator = require('validator');
 
 /**
@@ -13,13 +14,19 @@ var AV = require('leanengine'),
 exports.login = function (req, res, next) {
 	var username = validator.trim(req.body.username)
 	var password = validator.trim(req.body.password)
-	
+	debug(`login username =${username} password=${password}`)
 	AV.User.logIn(username, req.body.password).then(function(user) {
-
 		res.saveCurrentUser(user); // 保存当前用户到 Cookie.
-		res.status(200).send(comFunc.respSuccess(user ,req.body.id));
-
-	 }, function(error) {
-		res.status(200).send(comFunc.respFail(error, req.body.id));
+		res.status(200).send(comFunc.respSuccess(user, req));
+	}).catch(function(error) {
+		res.status(200).send(comFunc.respFail(error, req));
 	});
+}
+
+exports.verify = function(req, res, next) {
+  	if (req.currentUser) {
+		res.status(200).send(comFunc.respSuccess(true, req));
+  	} else {
+	  	res.status(200).send(comFunc.respSuccess(false, req));
+  	}
 }

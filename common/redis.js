@@ -46,6 +46,7 @@ exports.get = function(key){
 exports.set = function(key, value, time){
 	 debug('redis set');
     if(redisClient) {
+        console.log(time);
         if(time) {
             return redisClient.setAsync(key, value, 'EX', time);
         } else {

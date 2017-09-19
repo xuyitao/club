@@ -1,18 +1,19 @@
+var debug = require('debug')('common:utils');
 
 
-
-exports.respSuccess = function (data, id) {
+exports.respSuccess = function (data, req) {
 	return {
 		result:data,
 		error:null,
-		id:id
+		id:req.body.id
 	}
 }
 
-exports.respFail = function (err, id) {
+exports.respFail = function (err, req) {
+	console.log(err);
 	return {
 		result:null,
-		error:err,
-		id:id
+		error:err.message,
+		id:req.body.id
 	}
 }

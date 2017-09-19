@@ -9,6 +9,7 @@ var express = require('express'),
 
 
 router.post('/signin', sign.login);  // 登录校验
+router.post('/verify', sign.verify);  // 登录校验
 router.post('/topic/create', auth.userRequired, limit.peruserperday('create_topic', config.create_post_per_day, {showJson: false}), topic.put);
 
 

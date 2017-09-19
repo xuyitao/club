@@ -4,6 +4,7 @@ import { ButtonToolbar, ToggleButtonGroup, ToggleButton, Panel, Form,
 import UserAction from'../actions/UserAction'
 import UserStore from'../stores/UserStore'
 import {Route, Link} from 'react-router-dom'
+import AppDispatcher from'../dispatcher/AppDispatcher'
 
 export default class SignIn extends React.Component{
   	constructor(props) {
@@ -14,11 +15,23 @@ export default class SignIn extends React.Component{
 			errMsg:null
 		};
   	}
-  	componentDidMount() {
-    	// Decode entities in the URL
-
-  	}
-
+	_onLoginin(){
+	    this.setState({ error: UserStore.isLogin(), errMsg:UserStore.getMsg().msg});
+	    if(UserStore.isLogin()) {
+			const { location} = this.props
+			if (location.state && location.state.nextPathname) {
+				this.props.history.replace(location.state.nextPathname)
+			} else {
+				this.props.history.replace('/')
+			}
+	    }
+	}
+	componentWillUnmount() {
+		UserStore.removeLoginListener(this._onLoginin.bind(this));
+	}
+	componentWillMount() {
+		UserStore.addLoginListener(this._onLoginin.bind(this));
+	}
   	getHeaders() {
   		return  <Breadcrumb>
 			        <Breadcrumb.Item href='/'>主页</Breadcrumb.Item>
@@ -28,8 +41,8 @@ export default class SignIn extends React.Component{
 
   	onSubmit(e) {
 	  	e.preventDefault();
-		const name = this.state.name
-		const pass = this.state.password
+		let name = this.state.name
+		let pass = this.state.password
 		if(name.length == 0) {
 			return UserAction.notify('用户名不能为空');
 		}
@@ -37,26 +50,11 @@ export default class SignIn extends React.Component{
 			return UserAction.notify('密码不能为空');
 		}
 
-		UserAction.ajaxPost("/signin",JSON.stringify({username:name, password:pass}),
-          function(result,status,xhr){
-            // AppDispatcher.dispatch({
-            //   actionType: UserConstants.LOGIN_IN,
-            //   isSus: true,
-            //   name:itemData['name'],
-            //   role:itemData['role'],
-            // });
-
-          }.bind(this), function(xhr, status,err){
-            //  AppDispatcher.dispatch({
-            //    actionType: UserConstants.LOGIN_IN,
-            //    isSus: false,
-            //    errmsg:'login in fail err='+err.message
-            //  });
-			JSON.stringify(err)
+		UserAction.login(name, pass, function (msg) {
 			this.setState({
-				errMsg:err.toString()
+				errMsg:msg
 			})
-		}.bind(this));
+		}.bind(this))
   	}
   	render()  {
     	return (

@@ -21,7 +21,8 @@ export default class TopicEdit extends React.Component{
 				{key:'job',value:'招聘'},{key:'dev',value:'客户端测试'}],
 			selectTab:'share',
 			code:'',
-			codeModel:1 //1 编辑  2预览
+			codeModel:1, //1 编辑  2预览
+			title:'',
 		};
 		// console.log(this.props.match);
 
@@ -42,36 +43,26 @@ export default class TopicEdit extends React.Component{
 
   	onSubmit(e) {
 	  	e.preventDefault();
-		const tab = this.state.selectTab
-		console.log(tab);
-		// const pass = this.state.password
-		// if(name.length == 0) {
-		// 	return UserAction.notify('用户名不能为空');
-		// }
-		// if(pass.length == 0) {
-		// 	return UserAction.notify('密码不能为空');
-		// }
-		//
-		// UserAction.ajaxPost("/signin",JSON.stringify({username:name, password:pass}),
-        //   function(result,status,xhr){
-        //     // AppDispatcher.dispatch({
-        //     //   actionType: UserConstants.LOGIN_IN,
-        //     //   isSus: true,
-        //     //   name:itemData['name'],
-        //     //   role:itemData['role'],
-        //     // });
-		//
-        //   }.bind(this), function(xhr, status,err){
-        //     //  AppDispatcher.dispatch({
-        //     //    actionType: UserConstants.LOGIN_IN,
-        //     //    isSus: false,
-        //     //    errmsg:'login in fail err='+err.message
-        //     //  });
-		// 	JSON.stringify(err)
-		// 	this.setState({
-		// 		errMsg:err.toString()
-		// 	})
-		// }.bind(this));
+		let tab = this.state.selectTab
+		let title = this.state.title
+		let code = this.state.code
+		let topicId = this.state.topicId
+		if(title.length == 0) {
+			return UserAction.notify('标题不能为空');
+		}
+		if(tab.length == 0) {
+			return UserAction.notify('未选择分类');
+		}
+
+		UserAction.ajaxPost("/topic/create",
+		 	JSON.stringify({tab:tab, title:title, t_content:code,topicId:topicId}),
+          	function(result,status,xhr){
+            	UserAction.notify('发布成功');
+          	}.bind(this), function(xhr, status,err){
+			this.setState({
+				errMsg:err.toString()
+			})
+		}.bind(this));
   	}
 
   	render()  {
@@ -103,7 +94,7 @@ export default class TopicEdit extends React.Component{
 
 			    <FormGroup controlId="formHorizontalPassword">
 					<Col sm={12}>
-			        <FormControl type="text" placeholder="标题字数 10个字以上" onChange={(e)=>this.setState({ password: e.target.value })}/>
+			        <FormControl type="text" placeholder="标题字数 10个字以上" onChange={(e)=>this.setState({ title: e.target.value })}/>
 					</Col>
 			    </FormGroup>
 

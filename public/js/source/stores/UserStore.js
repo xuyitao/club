@@ -19,14 +19,10 @@ var NOTIFY_EVENT = 'notify';
 var LOGIN_EVENT = 'login';
 var CONFIG_EVENT = 'config';
 
-var _User = {
-  isLogin: localStorage.isLogin,
-  isRem: (localStorage.isRem == undefined ? true : localStorage.isRem),
-  name:localStorage.name,
-  role:localStorage.role,
-  tkacc: localStorage.tkacc,
-  tkpid: localStorage.tkpid,
-};
+var _User = null;
+if(localStorage.user) {
+    _User = JSON.parse(localStorage.user);
+}
 
 var _notify= {
   level:'info',
@@ -42,8 +38,8 @@ var _UsrConfig = {
  * @param {object} updates An object literal containing only the data to be
  *     updated.
  */
-function updateLogin(updates) {
-  _User = assign({}, _User, updates);
+function updateLogin(user) {
+  _User = user;
 }
 
 function updateNotify(updates) {
@@ -51,19 +47,8 @@ function updateNotify(updates) {
 }
 
 function logout(msg) {
-  localStorage.isLogin = false;
-  localStorage.isRem = false;
-  localStorage.name = null;
-  localStorage.role = null;
-  localStorage.tkacc = null;
-  localStorage.tkpid = null;
-  updateLogin({
-    isLogin:false,
-    isRem:false,
-    name:null,
-    tkacc: null,
-    tkpid:null
-  });
+  localStorage.user = null;
+  updateLogin(null);
   updateNotify({
     msg:msg
   });
@@ -82,19 +67,7 @@ var UserStore = assign({}, EventEmitter.prototype, {
    * @return {object}
    */
   isLogin: function() {
-    return _User.isLogin;
-  },
-
-  isRem: function() {
-    return _User.isRem;
-  },
-
-  getTkAcc: function() {
-    return _User.tkacc;
-  },
-
-  getTkPid: function() {
-    return _User.tkpid;
+    return _User?true:false;
   },
 
   getUser: function() {
@@ -174,50 +147,24 @@ var UserStore = assign({}, EventEmitter.prototype, {
 AppDispatcher.register(function(action) {
   switch(action.actionType) {
     case UserConstants.LOGIN_VERIFY:
-      updateLogin({
-        isLogin:true
-      });
-      UserStore.emitChange();
-      break;
-    case UserConstants.LOGIN_VERIFY:
-      updateLogin({
-        isLogin:true
-      });
-      UserStore.emitChange();
-      break;
+        if(!action.isVerify) {
+            updateLogin(null);
+            UserStore.emitChange();
+        }
+        break;
     case UserConstants.NOTIFY:
-      updateNotify({
-        'msg':action.msg
-      });
-      UserStore.emitNotify();
-      break;
-    case UserConstants.LOGIN_IN:
-      var isRem = true;//action.isRem;
-      localStorage.isLogin = action.isSus;
-      if(action.isSus) {
-        localStorage.isRem = isRem;
-        localStorage.name=action.name;
-        localStorage.role=action.role;
-        localStorage.tkacc=action.tkacc;
-        localStorage.tkpid=action.tkpid;
-        updateLogin({
-          isLogin:action.isSus,
-          name:action.name,
-          role:action.role,
-          tkacc:action.tkacc,
-          tkpid:action.tkpid
-        });
-        UserStore.emitChange();
-        UserStore.emitLogin();
-      } else {
         updateNotify({
-          isLogin:action.isSus,
-          msg:action.errmsg
+            msg:action.msg
         });
-        UserStore.emitLogin();
         UserStore.emitNotify();
-      }
-      break;
+        break;
+    case UserConstants.LOGIN_IN:
+        if(action.user) {
+            updateLogin(action.user);
+            UserStore.emitChange();
+            UserStore.emitLogin();
+        }
+        break;
     case UserConstants.LOGIN_OUT:
       logout('登出成功');
       UserStore.emitChange();
