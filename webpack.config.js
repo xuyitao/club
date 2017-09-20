@@ -33,9 +33,18 @@ var config = {
               }
            },
            { test: /\.css$/, loader: 'style-loader!css-loader' },
+           { test: /\.less$/, loader: 'style-loader!css-loader!less-loader'},
            { test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/, loader: 'file-loader' },
            { test: /\.woff(\?t=\d+)?$/, loader: 'file-loader' },
            { test: /\.ttf(\?t=\d+)?$/, loader: 'file-loader' },
+           {
+				test: /\.(gif|jpe?g|png)$/,
+				loader: 'url-loader?limit=25000',
+				query: {
+					limit: 10000,
+					name: 'static/media/images/[name].[hash:8].[ext]'
+				}
+			},
         ]
     },
     //其它解决方案配置

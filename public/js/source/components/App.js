@@ -11,6 +11,10 @@ import Topics from '../page/Topics'
 import SignIn from '../page/SignIn'
 import Signup from '../page/Signup'
 import TopicEdit from '../page/TopicEdit'
+import Home from '../page/Home'
+import ShowTopic from '../page/ShowTopic'
+import '../../../stylesheets/app.less'
+import '../../../stylesheets/common.css'
 
 export default class App extends React.Component {
 
@@ -94,6 +98,7 @@ export default class App extends React.Component {
                         <Route path="/topics" component={Topics}/>
                         <Route path="/siginin" component={SignIn}/>
                         <Route path="/topicedit" component={TopicEdit}/>
+                        <Route path="/topicshow/:topicId" component={ShowTopic}/>
 
                     </div>
                 </Col>
@@ -121,12 +126,6 @@ const backtotop = {
   backgroundColor: 'white',
   borderRadius: '12px 0px 0px 12px'
 }
-
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
-)
 
 const About = () => (
   <div>

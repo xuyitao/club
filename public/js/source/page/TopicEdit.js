@@ -17,8 +17,7 @@ export default class TopicEdit extends React.Component{
 		this.state ={
 			topicId:this.props.match.topicId,
 			errMsg:null,
-			tabs:[{key:'share',value:'分享'},{key:'ask',value:'问答'},
-				{key:'job',value:'招聘'},{key:'dev',value:'客户端测试'}],
+			tabs:config.tabs,
 			selectTab:'share',
 			code:'',
 			codeModel:1, //1 编辑  2预览

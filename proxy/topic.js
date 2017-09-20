@@ -1,5 +1,5 @@
 var AV = require('leanengine'),
-	debug = require('debug');
+	debug = require('debug')('proxy:topic');
 
 var className = 'topic';
 var adClass = AV.Object.extend(className);
@@ -27,7 +27,7 @@ var TopicSchema = new Schema({
 **/
 
 /**
- * 从文本中提取出@username 标记的用户名数组
+ * 创建和更新文章
  * @param {String} title 标题
  * @param {String} content 文本内容
  * @param {String} tab 分类
@@ -60,5 +60,54 @@ var newAndSave = exports.newAndSave = function (title, content, tab, authorId, t
 			return item.save().then(resolve);
 		}
 	});
+
+}
+/**
+ * 根据类别取分页数据
+ * @param {String} tab 标题
+ * @param {Number} page 文本内容
+ * @param {Number} size 分类
+ * @return {Object} 用户名数组
+ */
+exports.getByPage = function (tab, page, size) {
+	debug(`getByPage tab=${tab} page=${page}`)
+	return new AV.Promise(function(resolve,reject) {
+		let resObj={};
+		var query = new AV.Query(className);
+		if(tab == 'all') {
+			// let ignoretab = ['job', 'dev'];
+			// query.notContainedIn('tab', ignoretab)
+		} else if (tab == 'good'){
+			query.equalTo('good', true)
+		} else {
+			query.equalTo('tab', tab)
+		}
+		query.count().then(function (count) {
+			console.log('count='+count);
+			resObj['count']=count;
+			query.limit(size);
+		    query.skip(size * page);
+			query.include('author_id');
+			return query.find()
+		}).then(function (itemq) {
+			resObj['data'] = itemq;
+			resolve(resObj)
+		}).catch(reject)
+
+	});
+
+}
+
+
+/**
+ * 根据类别取分页数据
+ * @param {String} id 标题
+ * @return {Object} 用户名数组
+ */
+exports.getById = function (id) {
+	debug(`getById id=${id}`)
+	var query = new AV.Query(className);
+	query.equalTo('objectId',id)
+	return query.first()
 
 }

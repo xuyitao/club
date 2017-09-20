@@ -1,7 +1,6 @@
-var User       = require('../proxy').User;
-var Message    = require('./message');
-var EventProxy = require('eventproxy');
-var _          = require('underscore');
+var Message     = require('./message'),
+    _           = require('underscore')
+    User        = require('../proxy/user');
 
 /**
  * 从文本中提取出@username 标记的用户名数组

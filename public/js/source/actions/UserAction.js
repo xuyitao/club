@@ -89,6 +89,7 @@ var UserActions = {
       dataType: "json",
       success: function(itemData,status,xhr) {
         if (itemData.error) {
+            this.notify(itemData.error);
            if(funcError) funcError(xhr, status, itemData.error);
         } else {
            if(funcSus) funcSus(itemData.result,status,xhr);
