@@ -6,16 +6,20 @@ import { ButtonToolbar, ToggleButtonGroup, ToggleButton, Panel, Form,
 import _ from 'underscore'
 import comFunc from '../../../../common/utils'
 import marked from 'marked'
+import {Link} from 'react-router-dom'
+import Editor from 'react-md-editor'
 
 export default class ShowTopic extends React.Component{
   constructor(props) {
     super(props);
-    let topicId = this.props.match.topicId;
+    let topicId = this.props.match.params.topicId;
 	this.state = {
 		user:UserStore.getUser(),
 		topicId:topicId,
 		topic:null,
-  	  	replys:[]
+  	  	replys:[],
+		code:'',
+		codeModel:1, //1 编辑  2预览
 	}
   }
     componentDidMount () {
@@ -23,12 +27,13 @@ export default class ShowTopic extends React.Component{
     }
     getTopics() {
         let topicId =this.state.topicId;
-        UserAction.ajaxPost("/topic/show",
+        UserAction.ajaxPost("/topic/getDetail",
           JSON.stringify({topicId:topicId}),
           function(itemData,status,xhr){
                 this.setState({
                   topic:itemData.topic,
-                  replys:itemData.replys
+                  replys:itemData.replys,
+				  linkContent:itemData.linkContent
                 })
           }.bind(this));
     }
@@ -43,7 +48,27 @@ export default class ShowTopic extends React.Component{
 		  <span className="topiclist-tab">{topic.tabName}</span>
 	  }
   }
+	onSubmit(reply_id) {
+		let code = this.state.code
+		let topicId = this.state.topicId
+		if(topicId.length == 0) {
+			return UserAction.notify('话题不存在，不能回复');
+		}
 
+		if(code.length == 0) {
+			return UserAction.notify('回复内容不能为空');
+		}
+
+		UserAction.ajaxPost("/reply/create",
+		 	JSON.stringify({t_content:code,topicId:topicId}),
+          	function(result,status,xhr){
+            	UserAction.notify('发布成功');
+          	}.bind(this), function(xhr, status,err){
+			this.setState({
+				errMsg:err.toString()
+			})
+		}.bind(this));
+	}
   getHeaders(topic) {
       return <div className='header topic_header'>
       <span className="topic_full_title">
@@ -55,10 +80,10 @@ export default class ShowTopic extends React.Component{
           发布于 {comFunc.formatDate(topic.createdAt, true)}
         </span>
         <span>
-          作者 <a href="/user/<%= topic.author.loginname %>">{topic.author.loginname}</a>
+          作者 <Link to={`/user/${topic.author_id.username}`}>{topic.author_id.username}</Link>
         </span>
         <span>
-          	{topic.visit_count}次浏览
+          	{topic.visit_count} 次浏览
         </span>
         { topic.createdAt != topic.updatedAt &&
           <span>
@@ -126,6 +151,7 @@ export default class ShowTopic extends React.Component{
   }
   render()  {
 	  let topic = this.state.topic
+	  let preview = marked(this.state.code);
     return (
 		<div>
 	      <Panel>
@@ -133,7 +159,7 @@ export default class ShowTopic extends React.Component{
 		  	<div className='inner topic'>
 				{this.getHeaders(topic)}
 				<div className='topic_content'>
-				  <div className="preview" dangerouslySetInnerHTML={{__html: marked(this.state.topic.content)}} />
+				  <div className="preview" dangerouslySetInnerHTML={{__html: marked(this.state.linkContent)}} />
 				</div>
 			</div>
 			}
@@ -144,7 +170,23 @@ export default class ShowTopic extends React.Component{
 		  </Panel>
 		  }
 		  <Panel header={"添加回复"}>
+			  <Form horizontal >
+				  <ButtonToolbar>
+					<ToggleButtonGroup type="radio" name="options" defaultValue={this.state.codeModel}
+					  onChange={(value)=>this.setState({codeModel:value})}>
+						<ToggleButton value={1}>编辑</ToggleButton>
+						<ToggleButton value={2}>预览</ToggleButton>
+					</ToggleButtonGroup>
+				  </ButtonToolbar>
+				  {
+					  this.state.codeModel == 1?<Editor value={this.state.code} onChange={(newCode)=>this.setState({code:newCode})} />:
+									  <div className="preview" dangerouslySetInnerHTML={{__html: preview}} />
+				  }
 
+				  <Button bsStyle="primary" onClick={(e)=>this.onSubmit()}>
+					提交
+				  </Button>
+			  </Form>
 	      </Panel>
 	  	</div>
     );

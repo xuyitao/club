@@ -75,8 +75,8 @@ exports.getByPage = function (tab, page, size) {
 		let resObj={};
 		var query = new AV.Query(className);
 		if(tab == 'all') {
-			// let ignoretab = ['job', 'dev'];
-			// query.notContainedIn('tab', ignoretab)
+			let ignoretab = ['job', 'dev'];
+			query.notContainedIn('tab', ignoretab)
 		} else if (tab == 'good'){
 			query.equalTo('good', true)
 		} else {
@@ -108,6 +108,32 @@ exports.getById = function (id) {
 	debug(`getById id=${id}`)
 	var query = new AV.Query(className);
 	query.equalTo('objectId',id)
+	query.notEqualTo('deleted', true)
+	query.include('author_id');
 	return query.first()
 
 }
+
+/**
+ * 更新主题的最后回复信息
+ * @param {String} topicId 主题ID
+ * @param {String} replyId 回复ID
+ * @param {Function} callback 回调函数
+ */
+exports.updateLastReply = function (topicId, replyId) {
+	var query = new AV.Query(className);
+	query.equalTo('objectId',topicId)
+	query.notEqualTo('deleted', true)
+	return query.first().then(function (item) {
+		if(!item) {
+			return AV.Promise.reject(`找不到topicId=${topicId}的话题`)
+		}else {
+			item.set('last_reply', replyId);
+			item.set('last_reply_at', new Date());
+			let reply_count = item.get('reply_count')+1;
+			item.set('reply_count', reply_count);
+			return item.save()
+		}
+	})
+
+};

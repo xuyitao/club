@@ -172,6 +172,7 @@ AppDispatcher.register(function(action) {
       break;
     case UserConstants.LOGIN_INVAILD:
       logout('请重新登陆');
+      updateLogin(null);
       UserStore.emitChange();
       UserStore.emitNotify();
       break;

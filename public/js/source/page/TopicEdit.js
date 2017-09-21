@@ -15,7 +15,7 @@ export default class TopicEdit extends React.Component{
   	constructor(props) {
     	super(props);
 		this.state ={
-			topicId:this.props.match.topicId,
+			topicId:this.props.match.params.topicId,
 			errMsg:null,
 			tabs:config.tabs,
 			selectTab:'share',

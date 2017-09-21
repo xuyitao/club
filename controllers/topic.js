@@ -2,7 +2,8 @@
 var AV 			= require('leanengine'),
 	comFunc 	= require('../common'),
 	topic 		= require('../proxy/topic'),
-	at          = require('../common/at');
+	at          = require('../common/at'),
+	reply 		= require('../proxy/reply'),
 	validator 	= require('validator');
 
 /**
@@ -46,12 +47,31 @@ exports.getByPage = function (req, res, next) {
 	})
 }
 
-exports.show = function (req, res, next) {
-	
+exports.getDetail = function (req, res, next) {
+
 	let topicId = req.body.topicId;
+	
+	if(!topicId) {
+		return res.status(200).send(comFunc.respFail(new Error('此话题不存在'),req));
+	}
 	topic.getById(topicId).then(function (topic) {
-		res.status(200).send(comFunc.respSuccess(obj,req));
-	}).catch(function () {
+		if(topic) {
+			let visit_count = topic.get('visit_count')+1;
+			topic.set('visit_count',visit_count);
+			topic.save();
+			let linkContent = at.linkUsers(topic.get('content'))
+			return reply.getByTopicId(topicId).then(function (replies) {
+				res.status(200).send(comFunc.respSuccess({
+					topic:topic,
+					replies:replies,
+					linkContent:linkContent
+				},req));
+			})
+		} else {
+			return AV.Promise.reject('此话题不存在或已被删除。')
+		}
+
+	}).catch(function (err) {
 		res.status(200).send(comFunc.respFail(err,req));
 	})
 }

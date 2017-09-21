@@ -1,3 +1,6 @@
+
+
+
 exports.adminRequired = function (req, res, next) {
   if (!req.session.user) {
     return res.render('notify/notify', { error: '你还没有登录。' });
@@ -15,7 +18,7 @@ exports.adminRequired = function (req, res, next) {
  */
 exports.userRequired = function (req, res, next) {
   if (!req.currentUser) {
-    return res.status(403).send('forbidden!');
+    return res.status(401).send('需要登陆');
   }
   next();
 };

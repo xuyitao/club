@@ -99,7 +99,7 @@ var UserActions = {
         if(xhr.status == 401) {
           this.loginInvaild();
         } else {
-            this.notify('Error status ='+status);
+            this.notify('Error err='+err);
             if(funcError) {
                 funcError(xhr, status,err);
             }
@@ -211,7 +211,12 @@ var UserActions = {
           config : itemData['data']
         });
       }.bind(this));
-  }
+  },
+  loginInvaild: function() {
+      AppDispatcher.dispatch({
+        actionType: UserConstants.LOGIN_INVAILD
+      });
+  },
 };
 
 module.exports = UserActions;

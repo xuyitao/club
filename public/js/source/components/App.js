@@ -2,7 +2,7 @@ import React from 'react';
 import NotificationSystem from 'react-notification-system'
 import UserStore from'../stores/UserStore'
 import UserAction from'../actions/UserAction'
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Link, withRouter} from 'react-router-dom'
 import { Navbar, Nav, NavItem, Row, Col,Grid  } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap';
 import RightNav from './RightNav'
@@ -16,7 +16,7 @@ import ShowTopic from '../page/ShowTopic'
 import '../../../stylesheets/app.less'
 import '../../../stylesheets/common.css'
 
-export default class App extends React.Component {
+class App extends React.Component {
 
   constructor(props) {
     super(props);
@@ -26,10 +26,9 @@ export default class App extends React.Component {
   }
 
   _onChange() {
-    this.setState(UserStore.getUser());
-    // console.log('_onChange= getUserState()='+UserStore.getUser().name);
+    this.setState({user:UserStore.getUser()});
     if(!UserStore.isLogin()) {
-      this.props.router.replace('/login')
+        this.props.history.replace('/siginin')
     }
   }
   componentWillUnmount() {
@@ -58,7 +57,6 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <Router>
       <div>
         <NotificationSystem ref="notificationSystem" />
             <Navbar inverse collapseOnSelect>
@@ -110,7 +108,6 @@ export default class App extends React.Component {
             <div id='backtotop' style={backtotop}>回到顶部</div>
             <ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
         </div>
-      </Router>
     );
   }
 }
@@ -141,3 +138,5 @@ const Topic = ({ match }) => (
 App.propTypes = {
   children: React.PropTypes.node
 };
+
+export default withRouter(App);
