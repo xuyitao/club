@@ -1,52 +1,44 @@
-# Node.js Getting started
-在 LeanCloud 云引擎上使用 Express 的 Node.js 实例项目。
+# Club
 
-## 一键部署
-[![Deploy to LeanEngine](http://ac-32vx10b9.clouddn.com/109bd02ee9f5875a.png)](https://leancloud.cn/1.1/engine/deploy-button)
+## 介绍
+  Club是一个仿[CNodejs](https://cnodejs.org/)项目，通过对Nodejs源代码的通读、实现，达到学习的目的。
+  
+## 区别
+  Club的逻辑和项目结构基本参照CNodejs，还是有区别：
+  
+1、因为服务器的问题，数据库的CNodejs采用[MongoDB](https://www.mongodb.org)，而本项目使用LeanCloud试用版，可免费使用。
+2、同样的原因，CNodejs采用[Redis](http://redis.io)，而本项目线上使用数据库替代，也实现redis的支持。
+3、页面，CNodejs使用ejs渲染，而本项目使用reactjs
 
-## 本地运行
+>目前了解CNodejs的主要技术
+Nodejs+Express+MongoDB+Redis+Ejs+eventproxy
 
-首先确认本机已经安装 [Node.js](http://nodejs.org/) 运行环境和 [LeanCloud 命令行工具](https://leancloud.cn/docs/leanengine_cli.html)，然后执行下列指令：
+>本项目主要技术
+Nodejs+Express+LeanCloud+Reactjs+React-bootstrap
 
-```
-$ git clone https://github.com/leancloud/node-js-getting-started.git
-$ cd node-js-getting-started
-```
+## 测试
 
-安装依赖：
-
-```
-npm install
-```
-
-登录并关联应用：
-
-```
-lean login
-lean switch
+```bash
+$ make test
 ```
 
-启动项目：
+## 本地启动
+
+线上跑的是 [Node.js](https://nodejs.org) v6.9.1，[Redis](http://redis.io) 是 v3.0.3。
 
 ```
-lean up
+1. 安装 `Node.js[必须]` `Redis[必须]`
+2. 启动 Redis
+3. `$ make install` 
+4. `$ make test` 确保各项服务都正常
+5. `$ node app.js`
+6. visit `http://localhost:3000`
+7. done!
 ```
 
-之后你就可以在 [localhost:3000](http://localhost:3000) 访问到你的应用了。
+## 安装部署
 
-## 部署到 LeanEngine
+在LeanCloud注册并创建项目，配置项目地址和SSH、点击部署即可。
 
-部署到预备环境（若无预备环境则直接部署到生产环境）：
-```
-lean deploy
-```
 
-## 相关文档
-
-* [云函数开发指南](https://leancloud.cn/docs/leanengine_cloudfunction_guide-node.html)
-* [网站托管开发指南](https://leancloud.cn/docs/leanengine_webhosting_guide-node.html)
-* [JavaScript 开发指南](https://leancloud.cn/docs/leanstorage_guide-js.html)
-* [JavaScript SDK API](https://leancloud.github.io/javascript-sdk/docs/)
-* [Node.js SDK API](https://github.com/leancloud/leanengine-node-sdk/blob/master/API.md)
-* [命令行工具使用指南](https://leancloud.cn/docs/leanengine_cli.html)
-* [云引擎常见问题和解答](https://leancloud.cn/docs/leanengine_faq.html)
+有任何意见或建议都欢迎提 issue，或者直接提给 [@xuyitao](https://github.com/xuyitao)
