@@ -7,7 +7,9 @@
   Club的逻辑和项目结构基本参照CNodejs，还是有区别：
   
 1、因为服务器的问题。CNodejs的数据库采用[MongoDB](https://www.mongodb.org)，而本项目使用[LeanCloud](http://leancloud.cn/)，体量小时可免费使用。
+
 2、同样的原因，CNodejs采用[Redis](http://redis.io)，而本项目线上使用数据库替代，也实现redis的支持。
+
 3、页面，CNodejs使用ejs渲染，而本项目使用reactjs
 
 >目前了解CNodejs的主要技术
