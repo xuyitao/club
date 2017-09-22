@@ -10,6 +10,10 @@ exports.respSuccess = function (data, req) {
 	}
 }
 
+exports.respSuccessEx = function (data, req, res) {
+	res.status(200).send(this.respSuccess(data,req));
+}
+
 exports.respFail = function (err, req) {
 	console.log(err);
 	return {

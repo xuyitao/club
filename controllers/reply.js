@@ -3,6 +3,8 @@ var AV 			= require('leanengine'),
 	comFunc 	= require('../common'),
 	Reply 		= require('../proxy/reply'),
 	Topic 		= require('../proxy/topic'),
+	Message		= require('../common/message'),
+	at          = require('../common/at'),
 	debug 		= require('debug')('controller:sign'),
 	validator 	= require('validator');
 
@@ -18,27 +20,28 @@ exports.create = function (req, res, next) {
 	let topicId = req.body.topicId;
 	let reply_id = req.body.reply_id;
 	let user = req.currentUser;
-	console.log(11111111);
 	debug(`reply create topicId =${topicId}`)
-	topic.getById(topicId).then(function (topic) {
+	Topic.getById(topicId).then(function (topic) {
 		//得到文章
-		console.log(topic);
 		if(!topic) {
 			return AV.Promise.reject('此话题不存在或已被删除。')
 		}
 		user.set('score', (user.get('score') + 5));
 		user.set('reply_count', (user.get('reply_count') + 1));
 		user.save();
-
-		return Reply.newAndSave(content, topicId, user, reply_id).then(function (reply) {
-			return Topic.updateLastReply(topic, reply);
-		}).then(function () {
-			var newContent = content.replace('@' + topicAuthor.loginname + ' ', '');
-        	return at.sendMessageToMentionUsers(newContent, topic_id, req.session.user._id, reply._id);
-		}).then(function () {
-			if (topic.author_id.toString() !== user.getObjectId()) {
-		        message.sendReplyMessage(topic.author_id, user, topic._id, reply._id);
-		    }
+		return Reply.newAndSave(content, topic, user, reply_id).then(function (reply) {
+			topic.set('last_reply', Reply.createPoint(reply.getObjectId()));
+			topic.set('last_reply_at', new Date());
+			topic.set('reply_count',(topic.get('reply_count')+1));
+			return topic.save().then(function () {
+				comFunc.respSuccessEx(true, req, res);
+				var newContent = content.replace('@' + user.username + ' ', '');
+				let authorObj = topic.get('author_id');
+				at.sendMessageToMentionUsers(newContent, topic, user, reply);
+				if (authorObj.getObjectId() !== 'user.getObjectId()') {
+					return Message.sendReplyMessage(authorObj, user, topic, reply);
+				}
+			});
 		})
 
 	}).catch(function (err) {

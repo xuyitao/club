@@ -40,6 +40,9 @@ var _UsrConfig = {
  */
 function updateLogin(user) {
   _User = user;
+  if(_User) {
+    localStorage.user = JSON.stringify(_User)
+  }
 }
 
 function updateNotify(updates) {

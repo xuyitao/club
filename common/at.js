@@ -44,12 +44,12 @@ var fetchUsers = exports.fetchUsers= function (text) {
  * Callback:
  * - err, 数据库异常
  * @param {String} text 文本内容
- * @param {String} topicId 主题ID
- * @param {String} authorId 作者ID
- * @param {String} reply_id 回复ID
- * @param {Function} callback 回调函数
+ * @param {POINT} author_id 作者ID
+ * @param {POINT} topicId 主题ID
+ * @param {POINT} reply_id 回复ID
+ * 
  */
- exports.sendMessageToMentionUsers = function (text, topicId, authorId, reply_id) {
+ exports.sendMessageToMentionUsers = function (text, author_id, topic_id, reply_id) {
 
     return User.getUsersByNames(fetchUsers(text)).then(function (users) {
    		if(users.length == 0) {
@@ -58,7 +58,7 @@ var fetchUsers = exports.fetchUsers= function (text) {
 			users = users.filter(function (user) {
 			  	return !user.getObjectId().equals(authorId);
 			});
-			return Message.sendAtMessage(user._id, authorId, topicId, reply_id);
+			return Message.sendAtMessage(user, author_id, topic_id, reply_id);
 		}
     })
  };

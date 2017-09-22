@@ -48,7 +48,17 @@ exports.newAndSave = function (content, topicId, authorId, replyId) {
 	let reply = new adClass();
 	reply.set('content', content)
 	reply.set('topic_id', topicId)
-	reply.set('author_id', author_id)
+	reply.set('author_id', authorId)
 	if(replyId) reply.set('replyId', replyId)
 	return reply.save();
+};
+
+
+/**
+ * 创建并保存一条回复信息
+ * @param {String} replyId 回复内容
+ * @return {Porint} 存储文章 回调函数
+ */
+exports.createPoint = function (replyId) {
+	return AV.Object.createWithoutData(className, replyId)
 };

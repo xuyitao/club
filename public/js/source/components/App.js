@@ -13,6 +13,7 @@ import Signup from '../page/Signup'
 import TopicEdit from '../page/TopicEdit'
 import Home from '../page/Home'
 import ShowTopic from '../page/ShowTopic'
+import GetStart from '../page/GetStart'
 import '../../../stylesheets/app.less'
 import '../../../stylesheets/common.css'
 
@@ -38,7 +39,6 @@ class App extends React.Component {
   componentWillMount() {
     UserStore.addChangeListener(this._onChange.bind(this));
     UserStore.addNotifyListener(this._addNotification.bind(this));
-
   }
   componentDidMount () {
     this._notificationSystem = this.refs.notificationSystem;
@@ -56,6 +56,7 @@ class App extends React.Component {
   }
 
   render() {
+    let user = this.state.user;
     return (
       <div>
         <NotificationSystem ref="notificationSystem" />
@@ -69,40 +70,53 @@ class App extends React.Component {
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
-                    <Nav pullRight>
-                        <LinkContainer to="/home">
-                            <NavItem eventKey={1.0}>首页</NavItem>
-                        </LinkContainer>
-                        <LinkContainer to="/about">
-                            <NavItem eventKey={2.0}>新手入门</NavItem>
-                        </LinkContainer>
-                        <LinkContainer to="/topics">
-                            <NavItem eventKey={3.0}>API</NavItem>
-                        </LinkContainer>
-                        <LinkContainer to="/siginin">
-                            <NavItem eventKey={3.0}>登陆</NavItem>
-                        </LinkContainer>
+                  <Nav pullRight>
+                    <LinkContainer to="/home">
+                        <NavItem eventKey={1.0}>首页</NavItem>
+                    </LinkContainer>
+                    { user &&
+                      <LinkContainer to="/mymessages">
+                          <NavItem eventKey={1.1}>未读消息</NavItem>
+                      </LinkContainer>
+                    }
+                    <LinkContainer to="/getstart">
+                        <NavItem eventKey={2.0}>新手入门</NavItem>
+                    </LinkContainer>
+                    <LinkContainer to="/topics">
+                        <NavItem eventKey={3.0}>API</NavItem>
+                    </LinkContainer>
+                    { user &&
+                      <LinkContainer to="/signin">
+                          <NavItem eventKey={4.0}>登陆</NavItem>
+                      </LinkContainer>
+                    }
+                    { !user &&
+                      <LinkContainer>
+                          <NavItem eventKey={5.0} onClick={(e)=> UserAction.logout()}>登出</NavItem>
+                      </LinkContainer>
+                    }
 
-                    </Nav>
+                  </Nav>
                 </Navbar.Collapse>
             </Navbar>
             <Grid>
             <Row className="show-grid">
-                <Col sm={9} md={9}>
-                    <div style={{background:'red'}} style={{marginTop:20}}>
-                        <Route exact path="/" component={TopicEdit}/>
-                        <Route path="/home" component={Home}/>
-                        <Route path="/about" component={About}/>
-                        <Route path="/topics" component={Topics}/>
-                        <Route path="/siginin" component={SignIn}/>
-                        <Route path="/topicedit" component={TopicEdit}/>
-                        <Route path="/topicshow/:topicId" component={ShowTopic}/>
-
-                    </div>
-                </Col>
-                <Col sm={3} md={3}>
-                    <RightNav />
-                </Col>
+              <Col sm={9} md={9}>
+                <div style={{background:'red'}} style={{marginTop:20}}>
+                    <Route exact path="/" component={Home}/>
+                    <Route path="/home" component={Home}/>
+                    <Route path="/about" component={About}/>
+                    <Route path="/topics" component={Topics}/>
+                    <Route path="/signin" component={SignIn}/>
+                    <Route path="/topicedit" component={TopicEdit}/>
+                    <Route path="/topicshow/:topicId" component={ShowTopic}/>
+                    <Route path="/getstart" component={GetStart}/>
+                    <Route path="/mymessages" component={GetStart}/>
+                </div>
+              </Col>
+              <Col sm={3} md={3}>
+                <RightNav />
+              </Col>
             </Row>
             </Grid>
             <div id='backtotop' style={backtotop}>回到顶部</div>

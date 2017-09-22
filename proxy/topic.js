@@ -83,8 +83,7 @@ exports.getByPage = function (tab, page, size) {
 			query.equalTo('tab', tab)
 		}
 		query.count().then(function (count) {
-			console.log('count='+count);
-			resObj['count']=count;
+			resObj['total']=count;
 			query.limit(size);
 		    query.skip(size * page);
 			query.include('author_id');

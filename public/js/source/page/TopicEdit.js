@@ -30,16 +30,6 @@ export default class TopicEdit extends React.Component{
 
   	}
 
-  	getHeaders() {
-  		return  <Breadcrumb>
-			        <Breadcrumb.Item href='/'>主页</Breadcrumb.Item>
-					{
-						this.state.topicId ? <Breadcrumb.Item active>编辑话题</Breadcrumb.Item> : <Breadcrumb.Item active>发布话题</Breadcrumb.Item>
-					}
-
-      			</Breadcrumb>
-  	}
-
   	onSubmit(e) {
 	  	e.preventDefault();
 		let tab = this.state.selectTab
@@ -68,53 +58,53 @@ export default class TopicEdit extends React.Component{
 		let preview = marked(this.state.code);
     	return (
       	<div>
-            <Panel header={this.getHeaders()}>
-			{
-				this.state.errMsg && <Alert bsStyle="warning">{this.state.errMsg}</Alert>
-			}
+          <Panel header={'编辑话题'}>
+					{
+						this.state.errMsg && <Alert bsStyle="warning">{this.state.errMsg}</Alert>
+					}
 
-			<Form horizontal onSubmit={this.onSubmit.bind(this)}>
-			    <FormGroup controlId="formControlsSelect">
-					<Col componentClass={ControlLabel} sm={2}>
-			      	选择板块:
-					</Col>
-					<Col sm={10}>
-				      <FormControl componentClass="select" placeholder="请选择"
-					  	onChange={(e)=>this.setState({ selectTab: e.target.value })}
-						value={this.state.selectTab}>
+					<Form horizontal onSubmit={this.onSubmit.bind(this)}>
+					    <FormGroup controlId="formControlsSelect">
+							<Col componentClass={ControlLabel} sm={2}>
+					      	选择板块:
+							</Col>
+							<Col sm={10}>
+						      <FormControl componentClass="select" placeholder="请选择"
+							  	onChange={(e)=>this.setState({ selectTab: e.target.value })}
+								value={this.state.selectTab}>
+								{
+									_.map(this.state.tabs, function (tab,index) {
+										return <option key={index} value={tab.key}>{tab.value}</option>
+									})
+								}
+						      </FormControl>
+							</Col>
+					    </FormGroup>
+
+					    <FormGroup controlId="formHorizontalPassword">
+							<Col sm={12}>
+					        <FormControl type="text" placeholder="标题字数 10个字以上" onChange={(e)=>this.setState({ title: e.target.value })}/>
+							</Col>
+					    </FormGroup>
+
+						<ButtonToolbar>
+		  				  <ToggleButtonGroup type="radio" name="options" defaultValue={this.state.codeModel}
+		  				  	onChange={(value)=>this.setState({codeModel:value})}>
+		  					  <ToggleButton value={1}>编辑</ToggleButton>
+		  					  <ToggleButton value={2}>预览</ToggleButton>
+		  				  </ToggleButtonGroup>
+		  			  	</ButtonToolbar>
 						{
-							_.map(this.state.tabs, function (tab,index) {
-								return <option key={index} value={tab.key}>{tab.value}</option>
-							})
+							this.state.codeModel == 1?<Editor value={this.state.code} onChange={(newCode)=>this.setState({code:newCode})} />:
+											<div className="preview" dangerouslySetInnerHTML={{__html: preview}} />
 						}
-				      </FormControl>
-					</Col>
-			    </FormGroup>
 
-			    <FormGroup controlId="formHorizontalPassword">
-					<Col sm={12}>
-			        <FormControl type="text" placeholder="标题字数 10个字以上" onChange={(e)=>this.setState({ title: e.target.value })}/>
-					</Col>
-			    </FormGroup>
-
-				<ButtonToolbar>
-  				  <ToggleButtonGroup type="radio" name="options" defaultValue={this.state.codeModel}
-  				  	onChange={(value)=>this.setState({codeModel:value})}>
-  					  <ToggleButton value={1}>编辑</ToggleButton>
-  					  <ToggleButton value={2}>预览</ToggleButton>
-  				  </ToggleButtonGroup>
-  			  	</ButtonToolbar>
-				{
-					this.state.codeModel == 1?<Editor value={this.state.code} onChange={(newCode)=>this.setState({code:newCode})} />:
-									<div className="preview" dangerouslySetInnerHTML={{__html: preview}} />
-				}
-
-				<Button type="submit" bsStyle="primary">
-				  提交
-				</Button>
-			</Form>
-            </Panel>
-      	</div>
+						<Button type="submit" bsStyle="primary">
+						  提交
+						</Button>
+					</Form>
+        </Panel>
+      </div>
     );
   }
 
