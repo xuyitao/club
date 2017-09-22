@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - '6.9.1'
+script:
+  - npm run test
+
+notifications:
+  email:
+    recipients:
+      - 171721553@qq.com
+    on_success: never # default: change
+    on_failure: always # default: always
