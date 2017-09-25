@@ -147,7 +147,7 @@ exports.getUnReplyTopic = function () {
 	var query = new AV.Query(className);
 	query.equalTo('last_reply', null)
 	query.limit(5);
-	query.equalTo('delete', false)
+	query.notEqualTo('delete', true)
 	query.descending('updatedAt')
 	return query.find()
 
