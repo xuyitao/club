@@ -27,3 +27,11 @@ exports.saveMessage = function (type, master_id, author_id, topic_id, reply_id) 
 	return item.save();
 
 }
+
+
+exports.getMsgCount = function (master_id) {
+	var query = new AV.Query(className);
+	query.equalTo('master_id', master_id)
+	query.equalTo('has_read', false)
+	return query.count();
+}

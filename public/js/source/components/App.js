@@ -3,7 +3,7 @@ import NotificationSystem from 'react-notification-system'
 import UserStore from'../stores/UserStore'
 import UserAction from'../actions/UserAction'
 import {BrowserRouter as Router, Route, Link, withRouter} from 'react-router-dom'
-import { Navbar, Nav, NavItem, Row, Col,Grid  } from 'react-bootstrap'
+import { Navbar, Nav, NavItem, Row, Col,Grid,Badge  } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap';
 import RightNav from './RightNav'
 import ScrollButton from './ScrollButton'
@@ -22,7 +22,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        user:UserStore.getUser()
+        user:UserStore.getUser(),
+        unReadMsg:0
     }
   }
 
@@ -31,6 +32,7 @@ class App extends React.Component {
     if(!UserStore.isLogin()) {
         this.props.history.replace('/siginin')
     }
+    this.onGetUnReadMsg();
   }
   componentWillUnmount() {
     UserStore.removeChangeListener(this._onChange.bind(this));
@@ -45,6 +47,7 @@ class App extends React.Component {
     if(this.state.user) {
         UserAction.isVerify();
     }
+    this.onGetUnReadMsg();
   }
   _addNotification() {
     var _notify=UserStore.getMsg();
@@ -54,6 +57,14 @@ class App extends React.Component {
       autoDismiss:2
     });
   }
+  onGetUnReadMsg() {
+    if(this.state.user) {
+  		UserAction.ajaxGet("/message/unReadMsg",
+  			function(result,status,xhr){
+  				this.setState({unReadMsg:result})
+  			}.bind(this));
+    }
+	}
 
   render() {
     let user = this.state.user;
@@ -76,7 +87,7 @@ class App extends React.Component {
                     </LinkContainer>
                     { user &&
                       <LinkContainer to="/mymessages">
-                          <NavItem eventKey={1.1}>未读消息</NavItem>
+                          <NavItem eventKey={1.1}>未读消息<Badge>{this.state.unReadMsg}</Badge></NavItem>
                       </LinkContainer>
                     }
                     <LinkContainer to="/getstart">
@@ -85,15 +96,13 @@ class App extends React.Component {
                     <LinkContainer to="/topics">
                         <NavItem eventKey={3.0}>API</NavItem>
                     </LinkContainer>
-                    { user &&
+                    { !user &&
                       <LinkContainer to="/signin">
                           <NavItem eventKey={4.0}>登陆</NavItem>
                       </LinkContainer>
                     }
-                    { !user &&
-                      <LinkContainer>
-                          <NavItem eventKey={5.0} onClick={(e)=> UserAction.logout()}>登出</NavItem>
-                      </LinkContainer>
+                    { user &&
+                        <NavItem eventKey={5.0} onClick={(e)=> UserAction.logout()}>登出</NavItem>
                     }
 
                   </Nav>
@@ -108,7 +117,7 @@ class App extends React.Component {
                     <Route path="/about" component={About}/>
                     <Route path="/topics" component={Topics}/>
                     <Route path="/signin" component={SignIn}/>
-                    <Route path="/topicedit" component={TopicEdit}/>
+                    <Route path="/topicedit/:topicId" component={TopicEdit}/>
                     <Route path="/topicshow/:topicId" component={ShowTopic}/>
                     <Route path="/getstart" component={GetStart}/>
                     <Route path="/mymessages" component={GetStart}/>

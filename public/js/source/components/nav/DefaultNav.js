@@ -1,16 +1,30 @@
 import React from 'react'
 import { Panel, Image, Button, Label } from 'react-bootstrap';
 import UserStore from'../../stores/UserStore'
+import UserAction from'../../actions/UserAction'
 import Config from '../../../../../config'
 import {Route, Link, withRouter} from 'react-router-dom'
+import _ from 'underscore'
+
 
 export default class DefaultNav extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
-        user:UserStore.getUser()
+        user:UserStore.getUser(),
+        unreplyTopics:[]
     }
   }
+
+  componentDidMount() {
+		UserAction.ajaxGet("/topic/getUnReplyTopic",
+    	function(itemData,status,xhr){
+        this.setState({
+          unreplyTopics:itemData
+        })
+    	}.bind(this));
+	}
+
   _getUserInfo(user) {
     if(user) {
       return <div>
@@ -63,7 +77,9 @@ export default class DefaultNav extends React.Component{
 
         <Panel header="无人回复的话题" style={{marginTop:20}}>
         {
-          '我是广告'
+          _.map(this.state.unreplyTopics, function (topic, index) {
+            return <Link key={index} to={`/topicshow/${topic.objectId}`}><p>{topic.title}</p></Link>
+          })
         }
   	    </Panel>
 

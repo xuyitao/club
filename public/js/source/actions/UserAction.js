@@ -115,20 +115,20 @@ var UserActions = {
       contentType: "application/json; charset=utf-8",
       dataType: "json",
       success: function(itemData,status,xhr) {
-        if (itemData['result'] == 0) {
-          if(funcSus) funcSus(itemData,status,xhr);
+        if (itemData.error) {
+            this.notify(itemData.error);
+           if(funcError) funcError(xhr, status, itemData.error);
         } else {
-          if(funcError) funcError(xhr, status, itemData['message']);
+           if(funcSus) funcSus(itemData.result,status,xhr);
         }
       }.bind(this),
       error: function(xhr, status,err){
         if(xhr.status == 401) {
           this.loginInvaild();
         } else {
+          this.notify('Error err='+err);
           if(funcError) {
-            funcError(xhr, status,err);
-          } else {
-            // this.notify('Error Message='+err.message);
+              funcError(xhr, status,err);
           }
         }
       }.bind(this)

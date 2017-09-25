@@ -82,17 +82,17 @@ exports.getByPage = function (tab, page, size) {
 		} else {
 			query.equalTo('tab', tab)
 		}
+		query.notEqualTo('deleted', true)
 		query.count().then(function (count) {
 			resObj['total']=count;
 			query.limit(size);
 		    query.skip(size * page);
-			query.include('author_id');
+			query.include('author_id', 'last_reply', 'last_reply.author_id');
 			return query.find()
 		}).then(function (itemq) {
 			resObj['data'] = itemq;
 			resolve(resObj)
 		}).catch(reject)
-
 	});
 
 }
@@ -135,4 +135,31 @@ exports.updateLastReply = function (topicId, replyId) {
 		}
 	})
 
+};
+
+/**
+ * 更新主题的最后回复信息
+ * @param {String} topicId 主题ID
+ * @param {String} replyId 回复ID
+ * @param {Function} callback 回调函数
+ */
+exports.getUnReplyTopic = function () {
+	var query = new AV.Query(className);
+	query.equalTo('last_reply', null)
+	query.limit(5);
+	query.equalTo('delete', false)
+	query.descending('updatedAt')
+	return query.find()
+
+};
+
+/**
+ * 逻辑删除文章
+ * @param {String} topicId 主题ID
+ * @param {Function} callback 回调函数
+ */
+exports.delete = function (topicId) {
+	var query = AV.Object.createWithoutData(className, topicId);
+	query.set('deleted', true)
+	return query.save()
 };

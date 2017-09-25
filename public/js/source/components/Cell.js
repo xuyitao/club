@@ -42,7 +42,7 @@ export default class Cell extends React.Component{
 			    </span>
 			</span>
 			{
-				topic.last_reply && topic.last_reply.author &&
+				topic.last_reply && topic.last_reply.author_id &&
 				<a className='last_time pull-right' href={`/topicshow/${topic.id}`}>
 				    <img className="user_small_avatar" src={topic.last_reply.author_id.avatar_url} />
 				    <span className="last_active_time">{comFunc.formatDate(topic.last_reply.createdAt, true)}</span>
