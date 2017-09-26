@@ -38,6 +38,12 @@ app.use(cookieParser());
 app.use(AV.Cloud.CookieSession({ secret: 'taokemsg-secret', maxAge: 3600000*24*30, fetchUser: true }));
 app.use(passport.initialize());
 app.use(passport.session());
+passport.serializeUser(function (user, done) {
+  done(null, user);
+});
+passport.deserializeUser(function (user, done) {
+  done(null, user);
+});
 passport.use(new GitHubStrategy(config.GITHUB_OAUTH, Github.githubMiddle));
 
 app.get('/', function(req, res) {
