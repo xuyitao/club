@@ -28,3 +28,24 @@ exports.getUsersByNames = function (names) {
 		}).catch(reject);
 	});
 };
+
+
+/**
+ * 根据用户名列表查找用户列表
+ * Callback:
+ * - err, 数据库异常
+ * - users, 用户列表
+ * @param {Array} names 用户名列表
+ * @param {Function} callback 回调函数
+ */
+exports.getUsersByGitId = function (githubId) {
+	debug(`getUsersByGitId githubId=${githubId}`)
+	let userQuery = new AV.Query(className);
+	userQuery.equalTo('githubId', githubId);
+	return userQuery.first().then(function (user) {
+		if(!user) {
+			user = new adClass();
+		}
+		return user;
+	});
+};

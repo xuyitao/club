@@ -17,4 +17,11 @@ module.exports = {
 	// 	// db: '',
 	// 	// password: '',
 	// }
+
+	// github 登陆的配置
+	GITHUB_OAUTH: {
+		clientID: '490d02d2f03f9cc522cf',
+		clientSecret: 'a80d9e3da80262ab5f33fa4550e9694b99ee8c72',
+		callbackURL: 'http://fcnode.leanapp.cn/auth/github/callback'
+	},
 }

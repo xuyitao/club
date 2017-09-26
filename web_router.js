@@ -1,12 +1,14 @@
 var express = require('express'),
-	router 	= express.Router(),
-	sign 		= require('./controllers/sign'),
-	topic 	= require('./controllers/topic'),
-	reply 	= require('./controllers/reply'),
-	message	= require('./controllers/message'),
-	config 	= require('./config'),
-	limit 	= require('./middlewares/limit'),
-	auth 		= require('./middlewares/auth');
+	router 		= express.Router(),
+	sign 			= require('./controllers/sign'),
+	topic 		= require('./controllers/topic'),
+	reply 		= require('./controllers/reply'),
+	message		= require('./controllers/message'),
+	config 		= require('./config'),
+	limit 		= require('./middlewares/limit'),
+	passport 	= require('passport'),
+	github 		= require('./controllers/github'),
+	auth 			= require('./middlewares/auth');
 
 
 
@@ -23,6 +25,12 @@ router.post('/topic/decollect', auth.userRequired, topic.decollect);
 router.post('/reply/create', auth.userRequired,limit.peruserperday('create_reply', config.create_reply_per_day), reply.create);
 
 router.get('/message/unReadMsg', auth.userRequired, message.unReadMsg);
+
+
+router.get('/auth/github', /*auth.github,*/ passport.authenticate('github'));
+router.get('/auth/github/callback',
+  passport.authenticate('github', { failureRedirect: '/signin' }),
+  github.callback);
 
 
 module.exports = router;

@@ -30,7 +30,7 @@ class App extends React.Component {
   _onChange() {
     this.setState({user:UserStore.getUser()});
     if(!UserStore.isLogin()) {
-        this.props.history.replace('/siginin')
+        this.props.history.replace('/signin')
     }
     this.onGetUnReadMsg();
   }

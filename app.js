@@ -6,6 +6,10 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var AV = require('leanengine');
+var passport        = require('passport');
+var GitHubStrategy  = require('passport-github').Strategy;
+var Github          = require('./controllers/github');
+var config          = require('./config');
 
 // 加载云函数定义，你可以将云函数拆分到多个文件方便管理，但需要在主文件中加载它们
 require('./cloud');
@@ -45,6 +49,7 @@ app.get('*', function (req, res){
   res.render('index', { currentTime: new Date() });
 })
 
+passport.use(new GitHubStrategy(config.GITHUB_OAUTH, Github.githubMiddle));
 
 app.use(function(req, res, next) {
   // 如果任何一个路由都没有返回响应，则抛出一个 404 异常给后续的异常处理器

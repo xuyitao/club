@@ -80,10 +80,10 @@ export default class SignIn extends React.Component{
 				        <Button type="submit" bsStyle="primary">
 				          登陆
 				        </Button>
-						<Button bsStyle="warning" style={{marginLeft:10}}>
+							<Button bsStyle="warning" style={{marginLeft:10}} onClick={(e)=> window.location = "/auth/github"}>
 							通过github登陆
 					    </Button>
-						<Button bsStyle="link" style={{marginLeft:20}}>
+								<Button bsStyle="link" style={{marginLeft:20}}>
 				          忘记密码了
 				        </Button>
 				      </Col>
