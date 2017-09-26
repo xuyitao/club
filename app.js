@@ -36,7 +36,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(AV.Cloud.CookieSession({ secret: 'taokemsg-secret', maxAge: 3600000*24*30, fetchUser: true }));
-
+app.use(passport.initialize());
+app.use(passport.session());
+passport.use(new GitHubStrategy(config.GITHUB_OAUTH, Github.githubMiddle));
 
 app.get('/', function(req, res) {
   res.render('index', { currentTime: new Date() });
@@ -48,9 +50,7 @@ app.use('/', require('./web_router'));
 app.get('*', function (req, res){
   res.render('index', { currentTime: new Date() });
 })
-app.use(passport.initialize());
-app.use(passport.session());
-passport.use(new GitHubStrategy(config.GITHUB_OAUTH, Github.githubMiddle));
+
 
 app.use(function(req, res, next) {
   // 如果任何一个路由都没有返回响应，则抛出一个 404 异常给后续的异常处理器
