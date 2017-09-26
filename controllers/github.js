@@ -5,7 +5,7 @@ exports.callback = function (req, res, next) {
 
 	var profile = req.user;
 	var email = profile.emails && profile.emails[0] && profile.emails[0].value;
-	console.log('callback='+profile);
+	console.log('callback='+JSON.stringify(profile));
 	User.getUsersByGitId(profile.id).then(function (user) {
 		if(user) {
 			user.set('githubUsername', profile.username);
@@ -26,7 +26,7 @@ exports.callback = function (req, res, next) {
 
 
 exports.githubMiddle = function (accessToken, refreshToken, profile, cb) {
-	console.log('githubMiddle='+profile);
+	console.log('githubMiddle='+JSON.stringify(profile));
   var email = profile.emails && profile.emails[0] && profile.emails[0].value;
   User.getUsersByGitId(profile.id).then(function (user) {
 		user.set('githubUsername', profile.username);
