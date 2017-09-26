@@ -49,6 +49,7 @@ app.get('*', function (req, res){
   res.render('index', { currentTime: new Date() });
 })
 app.use(passport.initialize());
+app.use(passport.session());
 passport.use(new GitHubStrategy(config.GITHUB_OAUTH, Github.githubMiddle));
 
 app.use(function(req, res, next) {
