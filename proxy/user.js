@@ -42,10 +42,5 @@ exports.getUsersByGitId = function (githubId) {
 	debug(`getUsersByGitId githubId=${githubId}`)
 	let userQuery = new AV.Query(className);
 	userQuery.equalTo('githubId', githubId);
-	return userQuery.first().then(function (user) {
-		if(!user) {
-			user = new adClass();
-		}
-		return user;
-	});
+	return userQuery.first();
 };
