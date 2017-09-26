@@ -26,7 +26,7 @@ exports.callback = function (req, res, next) {
 
 
 exports.githubMiddle = function (accessToken, refreshToken, profile, cb) {
-	console.log('githubMiddle='+githubMiddle);
+	console.log('githubMiddle='+profile);
   var email = profile.emails && profile.emails[0] && profile.emails[0].value;
   User.getUsersByGitId(profile.id).then(function (user) {
 		user.set('githubUsername', profile.username);
