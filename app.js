@@ -48,7 +48,7 @@ app.use('/', require('./web_router'));
 app.get('*', function (req, res){
   res.render('index', { currentTime: new Date() });
 })
-passport.initialize()
+app.use(passport.initialize());
 passport.use(new GitHubStrategy(config.GITHUB_OAUTH, Github.githubMiddle));
 
 app.use(function(req, res, next) {
