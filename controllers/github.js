@@ -1,4 +1,5 @@
-var validator     = require('validator'),
+var AV 						= require('leanengine'),
+		validator     = require('validator'),
 		User					= require('../proxy/user');
 
 exports.callback = function (req, res, next) {
@@ -13,13 +14,17 @@ exports.callback = function (req, res, next) {
 		user.set('avatar', profile._json.avatar_url);
 		user.set('email', email || user.email);
 		user.save();
+		return AV.User.signUpOrlogInWithAuthData({
+			uid:          profile.id,
+    	access_token: profile.accessToken
+		},'github');
+	}).then(function (user) {
 		res.saveCurrentUser(user);
 		res.redirect('/');
 	}).catch(function (err) {
 		next(err);
 	})
 }
-
 
 exports.githubMiddle = function (accessToken, refreshToken, profile, cb) {
 	profile.accessToken = accessToken;
