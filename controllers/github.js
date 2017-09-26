@@ -39,5 +39,4 @@ exports.githubMiddle = function (accessToken, refreshToken, profile, cb) {
 	}).catch(function (err) {
 		cb(err)
 	})
-  done(null, profile);
 };
