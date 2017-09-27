@@ -15,6 +15,15 @@ export default class DefaultNav extends React.Component{
         unreplyTopics:[]
     }
   }
+  _onChange() {
+    this.setState({user:UserStore.getUser()});
+  }
+  componentWillUnmount() {
+    UserStore.removeChangeListener(this._onChange.bind(this));
+  }
+  componentWillMount() {
+    UserStore.addChangeListener(this._onChange.bind(this));
+  }
 
   componentDidMount() {
 		UserAction.ajaxGet("/topic/getUnReplyTopic",

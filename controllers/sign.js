@@ -25,7 +25,7 @@ exports.login = function (req, res, next) {
 
 exports.verify = function(req, res, next) {
   	if (req.currentUser) {
-		res.status(200).send(comFunc.respSuccess(true, req));
+			res.status(200).send(comFunc.respSuccess(req.currentUser, req));
   	} else {
 	  	res.status(200).send(comFunc.respSuccess(false, req));
   	}

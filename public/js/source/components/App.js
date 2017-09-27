@@ -44,9 +44,7 @@ class App extends React.Component {
   }
   componentDidMount () {
     this._notificationSystem = this.refs.notificationSystem;
-    if(this.state.user) {
-        UserAction.isVerify();
-    }
+    UserAction.isVerify();
     this.onGetUnReadMsg();
   }
   _addNotification() {
@@ -121,6 +119,7 @@ class App extends React.Component {
                     <Route path="/topicshow/:topicId" component={ShowTopic}/>
                     <Route path="/getstart" component={GetStart}/>
                     <Route path="/mymessages" component={GetStart}/>
+                    <Route path="/github" component={() => (<Home login={true}/>)}/>
                 </div>
               </Col>
               <Col sm={3} md={3}>

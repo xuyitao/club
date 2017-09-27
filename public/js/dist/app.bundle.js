@@ -64755,9 +64755,7 @@ var App = function (_React$Component) {
     key: 'componentDidMount',
     value: function componentDidMount() {
       this._notificationSystem = this.refs.notificationSystem;
-      if (this.state.user) {
-        _UserAction2.default.isVerify();
-      }
+      _UserAction2.default.isVerify();
       this.onGetUnReadMsg();
     }
   }, {
@@ -64890,7 +64888,10 @@ var App = function (_React$Component) {
                 _react2.default.createElement(_reactRouterDom.Route, { path: '/topicedit/:topicId', component: _TopicEdit2.default }),
                 _react2.default.createElement(_reactRouterDom.Route, { path: '/topicshow/:topicId', component: _ShowTopic2.default }),
                 _react2.default.createElement(_reactRouterDom.Route, { path: '/getstart', component: _GetStart2.default }),
-                _react2.default.createElement(_reactRouterDom.Route, { path: '/mymessages', component: _GetStart2.default })
+                _react2.default.createElement(_reactRouterDom.Route, { path: '/mymessages', component: _GetStart2.default }),
+                _react2.default.createElement(_reactRouterDom.Route, { path: '/github', component: function component() {
+                    return _react2.default.createElement(_Home2.default, { login: true });
+                  } })
               )
             ),
             _react2.default.createElement(
@@ -88130,6 +88131,21 @@ var DefaultNav = function (_React$Component) {
   }
 
   _createClass(DefaultNav, [{
+    key: '_onChange',
+    value: function _onChange() {
+      this.setState({ user: _UserStore2.default.getUser() });
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      _UserStore2.default.removeChangeListener(this._onChange.bind(this));
+    }
+  }, {
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      _UserStore2.default.addChangeListener(this._onChange.bind(this));
+    }
+  }, {
     key: 'componentDidMount',
     value: function componentDidMount() {
       _UserAction2.default.ajaxGet("/topic/getUnReplyTopic", function (itemData, status, xhr) {
@@ -90640,6 +90656,10 @@ var Home = function (_React$Component) {
         key: 'componentDidMount',
         value: function componentDidMount() {
             this.getTopics();
+            console.log(this.props.login);
+            if (this.props.login) {
+                _UserAction2.default.isVerify();
+            }
         }
     }, {
         key: 'getTopics',

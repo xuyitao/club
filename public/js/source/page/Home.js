@@ -21,36 +21,40 @@ export default class Home extends React.Component{
         currentPageSize:10
     }
   }
-    componentDidMount () {
-        this.getTopics();
-    }
-    getTopics() {
-        let selectTab =this.state.selectTab;
-        let page = this.state.currentPage - 1;
-        UserAction.ajaxPost("/topic/getByPage",
-          JSON.stringify({tab:selectTab, page:page, size:this.state.currentPageSize}),
-          function(itemData,status,xhr){
-                this.setState({
-                  products:itemData.data,
-                  total:parseInt(itemData.total)
-                })
-          }.bind(this));
-    }
-    onPageChange(page) {
-        this.setState({
-            currentPage: page,
-            products:[]
-        }, function () {
-            this.getTopics();
-        });
-    }
-    _SelectTab(tabType) {
-        this.setState({
-            selectTab:tabType,
-            page:0
-        }, function () {
-            this.getTopics();
-        })
+  componentDidMount () {
+    this.getTopics();
+		console.log(this.props.login);
+		if(this.props.login) {
+			UserAction.isVerify();
+		}
+  }
+  getTopics() {
+      let selectTab =this.state.selectTab;
+      let page = this.state.currentPage - 1;
+      UserAction.ajaxPost("/topic/getByPage",
+        JSON.stringify({tab:selectTab, page:page, size:this.state.currentPageSize}),
+        function(itemData,status,xhr){
+              this.setState({
+                products:itemData.data,
+                total:parseInt(itemData.total)
+              })
+        }.bind(this));
+  }
+  onPageChange(page) {
+      this.setState({
+          currentPage: page,
+          products:[]
+      }, function () {
+          this.getTopics();
+      });
+  }
+  _SelectTab(tabType) {
+      this.setState({
+          selectTab:tabType,
+          page:0
+      }, function () {
+          this.getTopics();
+      })
   }
   getHeaders() {
       let that = this;

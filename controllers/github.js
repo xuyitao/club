@@ -25,7 +25,7 @@ exports.callback = function (req, res, next) {
 			return AV.User.logIn(username, password)
 		}).then(function (user) {
 			res.saveCurrentUser(user);
-			res.redirect('/');
+			res.redirect('/github');
 		});
 
 	}).catch(function (err) {
@@ -38,9 +38,3 @@ exports.githubMiddle = function (accessToken, refreshToken, profile, cb) {
 	profile.accessToken = accessToken;
   cb(null, profile);
 };
-
-
-this.callback({
-	user:{"id":"6227046","username":"xuyitao","accessToken":"c8cae97d0c753a2c125af19f1e501df2b5ea4a57",
-				emails:'171721553@qq.com'}
-})
