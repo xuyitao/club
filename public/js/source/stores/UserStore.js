@@ -150,9 +150,9 @@ var UserStore = assign({}, EventEmitter.prototype, {
 AppDispatcher.register(function(action) {
   switch(action.actionType) {
     case UserConstants.LOGIN_VERIFY:
-        if(!action.isVerify) {
-            updateLogin(null);
-            UserStore.emitChange();
+        if(!UserStore.isLogin()) {
+          updateLogin(action.user);
+          UserStore.emitChange();
         }
         break;
     case UserConstants.NOTIFY:

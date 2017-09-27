@@ -7288,7 +7288,7 @@ var UserActions = {
     this.ajaxPost("/verify", null, function (result, status, xhr) {
       _AppDispatcher2.default.dispatch({
         actionType: _UserConstants2.default.LOGIN_VERIFY,
-        isVerify: result
+        user: result
       });
     });
   },
@@ -8060,8 +8060,8 @@ var UserStore = assign({}, EventEmitter.prototype, {
 AppDispatcher.register(function (action) {
   switch (action.actionType) {
     case UserConstants.LOGIN_VERIFY:
-      if (!action.isVerify) {
-        updateLogin(null);
+      if (!UserStore.isLogin()) {
+        updateLogin(action.user);
         UserStore.emitChange();
       }
       break;

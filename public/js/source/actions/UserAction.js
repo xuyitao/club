@@ -29,7 +29,7 @@ var UserActions = {
     this.ajaxPost("/verify",null, function(result,status,xhr){
       AppDispatcher.dispatch({
         actionType: UserConstants.LOGIN_VERIFY,
-        isVerify:result
+        user:result
       });
     });
   },
