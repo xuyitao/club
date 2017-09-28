@@ -34,6 +34,7 @@ app.listen(PORT, function (err) {
     console.error('Unhandled Rejection at: Promise ', p, ' reason: ', reason.stack);
   });
 });
+
 var SSLPORT = 443;
 httpsServer.listen(SSLPORT, function() {
     console.log('HTTPS Server is running on: https://localhost:%s', SSLPORT);
