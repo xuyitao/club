@@ -1,7 +1,8 @@
 'use strict';
 
 var AV = require('leanengine');
-
+var https = require('https');
+var fs = require('fs');
 AV.init({
   appId: process.env.LEANCLOUD_APP_ID,
   appKey: process.env.LEANCLOUD_APP_KEY,
@@ -17,6 +18,11 @@ var app = require('./app');
 // LeanEngine 运行时会分配端口并赋值到该变量。
 var PORT = parseInt(process.env.LEANCLOUD_APP_PORT || process.env.PORT || 3000);
 
+var httpsServer = https.createServer({
+    key: fs.readFileSync('./cert/privatekey.pem', 'utf8'),
+    cert: fs.readFileSync('./cert/certificate.crt', 'utf8')
+}, app);
+
 app.listen(PORT, function (err) {
   console.log('Node app is running on port:', PORT);
 
@@ -27,4 +33,8 @@ app.listen(PORT, function (err) {
   process.on('unhandledRejection', function(reason, p) {
     console.error('Unhandled Rejection at: Promise ', p, ' reason: ', reason.stack);
   });
+});
+var SSLPORT = 443;
+httpsServer.listen(SSLPORT, function() {
+    console.log('HTTPS Server is running on: https://localhost:%s', SSLPORT);
 });
